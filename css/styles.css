@@ -110,9 +110,8 @@ img{ max-width:100%; height:auto; }
   display:flex; align-items:center; justify-content:space-between;
   padding:0 24px; max-width:var(--max-width); margin:0 auto; height:78px;
 }
-.navbar-logo { display:flex; flex-direction:column; align-items:flex-start; gap:3px; text-decoration:none; }
-.navbar-logo-img { height:46px; width:auto; display:block; }
-.navbar-logo-name { font-family:'Montserrat',sans-serif; font-size:.58rem; font-weight:700; color:rgba(255,255,255,.72); letter-spacing:.1em; text-transform:uppercase; line-height:1; }
+.navbar-logo { display:flex; align-items:center; text-decoration:none; line-height:1; }
+.navbar-logo-img { height:62px; width:auto; display:block; mix-blend-mode:screen; }
 
 .navbar-nav { display:flex; align-items:center; gap:4px; list-style:none; }
 .navbar-nav a {
