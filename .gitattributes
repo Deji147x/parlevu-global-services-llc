@@ -1,0 +1,3 @@
+# Files to exclude from git archive (deployment ZIPs)
+.gitignore export-ignore
+.gitattributes export-ignore
