@@ -108,11 +108,11 @@ img{ max-width:100%; height:auto; }
 }
 .navbar-inner {
   display:flex; align-items:center; justify-content:space-between;
-  padding:0 24px; max-width:var(--max-width); margin:0 auto; height:70px;
+  padding:0 24px; max-width:var(--max-width); margin:0 auto; height:78px;
 }
-.navbar-logo { display:flex; flex-direction:column; line-height:1.1; }
-.navbar-logo .logo-main { font-family:'Montserrat',sans-serif; font-size:1.25rem; font-weight:900; color:var(--gold); letter-spacing:.02em; }
-.navbar-logo .logo-sub  { font-family:'Montserrat',sans-serif; font-size:.58rem; font-weight:500; color:rgba(255,255,255,.5); letter-spacing:.18em; text-transform:uppercase; }
+.navbar-logo { display:flex; flex-direction:column; align-items:flex-start; gap:3px; text-decoration:none; }
+.navbar-logo-img { height:46px; width:auto; display:block; }
+.navbar-logo-name { font-family:'Montserrat',sans-serif; font-size:.58rem; font-weight:700; color:rgba(255,255,255,.72); letter-spacing:.1em; text-transform:uppercase; line-height:1; }
 
 .navbar-nav { display:flex; align-items:center; gap:4px; list-style:none; }
 .navbar-nav a {
