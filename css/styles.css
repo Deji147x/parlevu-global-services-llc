@@ -451,9 +451,24 @@ img{ max-width:100%; height:auto; }
 .meet-highlight h3 { color:var(--navy); margin-bottom:8px; }
 .meet-highlight p { font-size:.88rem; color:var(--text-muted); margin-bottom:16px; }
 
+/* ── Homes Gallery Section ───────────────────────────────── */
+.homes-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:24px; }
+.home-card { position:relative; border-radius:16px; overflow:hidden; height:430px; cursor:pointer; box-shadow:0 8px 32px rgba(10,22,40,.18); }
+.home-card-img { width:100%; height:100%; object-fit:cover; transition:transform .55s ease; display:block; }
+.home-card:hover .home-card-img { transform:scale(1.06); }
+.home-card-overlay { position:absolute; inset:0; background:linear-gradient(to top, rgba(10,22,40,.94) 42%, rgba(10,22,40,.22) 100%); display:flex; flex-direction:column; justify-content:flex-end; padding:30px; }
+.home-card-badge { display:inline-block; background:var(--gold); color:var(--navy); font-family:'Montserrat',sans-serif; font-size:.62rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; padding:5px 13px; border-radius:20px; margin-bottom:12px; width:fit-content; }
+.home-card-title { font-family:'Montserrat',sans-serif; font-size:1.3rem; font-weight:800; color:#fff; margin-bottom:9px; line-height:1.25; }
+.home-card-desc { font-size:.84rem; color:rgba(255,255,255,.75); margin-bottom:20px; line-height:1.65; }
+.home-card-cta { display:inline-flex; align-items:center; gap:8px; background:var(--gold); color:var(--navy); font-family:'Montserrat',sans-serif; font-size:.78rem; font-weight:700; padding:10px 20px; border-radius:8px; text-decoration:none; transition:var(--transition); width:fit-content; }
+.home-card-cta:hover { background:#e8c05a; transform:translateY(-2px); box-shadow:0 6px 20px rgba(201,168,76,.4); color:var(--navy); }
+@media(max-width:900px){ .homes-grid{ grid-template-columns:1fr; gap:18px; } .home-card{ height:330px; } }
+@media(min-width:901px) and (max-width:1100px){ .homes-grid{ grid-template-columns:repeat(3,1fr); gap:14px; } .home-card{ height:370px; } }
+
 /* ── Footer ──────────────────────────────────────────────── */
 .footer { background:var(--navy); color:rgba(255,255,255,.68); padding:60px 0 0; }
 .footer-grid { display:grid; grid-template-columns:2fr 1fr 1fr 1.5fr; gap:44px; margin-bottom:44px; }
+.footer-logo-img { height:68px; max-width:210px; width:auto; object-fit:contain; display:block; margin-bottom:16px; }
 .footer-logo-main { font-family:'Montserrat',sans-serif; font-size:1.4rem; font-weight:900; color:var(--gold); display:block; margin-bottom:3px; }
 .footer-logo-sub  { font-family:'Montserrat',sans-serif; font-size:.58rem; font-weight:500; color:rgba(255,255,255,.35); letter-spacing:.18em; text-transform:uppercase; display:block; margin-bottom:14px; }
 .footer-brand p { font-size:.84rem; line-height:1.75; margin-bottom:18px; }
