@@ -110,14 +110,15 @@ img{ max-width:100%; height:auto; }
   display:flex; align-items:center; justify-content:space-between;
   padding:0 24px; max-width:var(--max-width); margin:0 auto; height:78px;
 }
-/* ── Social Topbar ──────────────────────────────────────── */
-.social-topbar { background:#060e1c; border-bottom:1px solid rgba(201,168,76,.15); padding:6px 0; position:relative; z-index:1001; }
-.social-topbar-inner { display:flex; align-items:center; justify-content:flex-end; gap:6px; max-width:var(--max-width); margin:0 auto; padding:0 24px; }
-.social-topbar-label { font-family:'Montserrat',sans-serif; font-size:.65rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase; color:rgba(255,255,255,.38); margin-right:6px; }
-.social-topbar-icons { display:flex; align-items:center; gap:5px; }
-.social-topbar-icons a { display:flex; align-items:center; justify-content:center; width:26px; height:26px; border-radius:50%; background:rgba(255,255,255,.07); color:rgba(255,255,255,.6); font-size:.72rem; transition:var(--transition); border:1px solid rgba(255,255,255,.1); }
-.social-topbar-icons a:hover { background:var(--gold); color:var(--navy); border-color:var(--gold); transform:translateY(-1px); }
-@media(max-width:480px){ .social-topbar-label{display:none} .social-topbar-inner{justify-content:center} }
+/* ── Navbar Social Icons (right of Book a Meeting) ───────── */
+.navbar-social { display:flex; align-items:center; gap:6px; margin-left:12px; padding-left:12px; border-left:1px solid rgba(255,255,255,.15); }
+.navbar-social a { display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:50%; background:rgba(255,255,255,.07); color:rgba(255,255,255,.68); font-size:.68rem; transition:var(--transition); border:1px solid rgba(255,255,255,.1); text-decoration:none; flex-shrink:0; }
+.navbar-social a:hover { background:var(--gold); color:var(--navy); border-color:var(--gold); transform:translateY(-2px); box-shadow:0 4px 12px rgba(201,168,76,.3); }
+/* Mobile social strip inside hamburger menu */
+.mobile-social { display:flex; justify-content:center; gap:10px; padding:16px 0 4px; border-top:1px solid rgba(255,255,255,.1); margin-top:10px; }
+.mobile-social a { display:flex; align-items:center; justify-content:center; width:38px; height:38px; border-radius:50%; background:rgba(255,255,255,.08); color:rgba(255,255,255,.72); font-size:.78rem; transition:var(--transition); border:1px solid rgba(255,255,255,.1); text-decoration:none; }
+.mobile-social a:hover { background:var(--gold); color:var(--navy); border-color:var(--gold); }
+@media(max-width:1024px){ .navbar-social{display:none} }
 
 .navbar-logo { display:flex; align-items:center; text-decoration:none; line-height:1; }
 .navbar-logo-img { height:54px; max-width:165px; width:auto; display:block; object-fit:contain; border-radius:5px; }
