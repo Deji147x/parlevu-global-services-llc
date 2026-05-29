@@ -110,14 +110,14 @@ img{ max-width:100%; height:auto; }
   display:flex; align-items:center; justify-content:space-between;
   padding:0 24px; max-width:var(--max-width); margin:0 auto; height:78px;
 }
-/* ── Navbar Social Icons (right of Book a Meeting) ───────── */
+/* ── Navbar + Mobile Social Icons — matches footer .social-link style ── */
 .navbar-social { display:flex; align-items:center; gap:6px; margin-left:12px; padding-left:12px; border-left:1px solid rgba(255,255,255,.15); }
-.navbar-social a { display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:var(--radius); background:rgba(255,255,255,.07); color:rgba(255,255,255,.68); font-size:.68rem; transition:var(--transition); border:1px solid rgba(255,255,255,.1); text-decoration:none; flex-shrink:0; }
+.navbar-social a { display:flex; align-items:center; justify-content:center; width:36px; height:36px; border-radius:var(--radius); background:rgba(255,255,255,.07); color:rgba(255,255,255,.68); font-size:.82rem; transition:var(--transition); border:1px solid rgba(255,255,255,.1); text-decoration:none; flex-shrink:0; }
 .navbar-social a:hover { background:var(--gold); color:var(--navy); border-color:var(--gold); transform:translateY(-2px); box-shadow:0 4px 12px rgba(201,168,76,.3); }
-/* Mobile social strip inside hamburger menu */
+/* Mobile social strip — same rounded-square style */
 .mobile-social { display:flex; justify-content:center; gap:10px; padding:16px 0 4px; border-top:1px solid rgba(255,255,255,.1); margin-top:10px; }
-.mobile-social a { display:flex; align-items:center; justify-content:center; width:38px; height:38px; border-radius:50%; background:rgba(255,255,255,.08); color:rgba(255,255,255,.72); font-size:.78rem; transition:var(--transition); border:1px solid rgba(255,255,255,.1); text-decoration:none; }
-.mobile-social a:hover { background:var(--gold); color:var(--navy); border-color:var(--gold); }
+.mobile-social a { display:flex; align-items:center; justify-content:center; width:42px; height:42px; border-radius:var(--radius); background:rgba(255,255,255,.08); color:rgba(255,255,255,.72); font-size:.9rem; transition:var(--transition); border:1px solid rgba(255,255,255,.1); text-decoration:none; }
+.mobile-social a:hover { background:var(--gold); color:var(--navy); border-color:var(--gold); transform:translateY(-2px); }
 @media(max-width:1024px){ .navbar-social{display:none} }
 
 .navbar-logo { display:flex; align-items:center; text-decoration:none; line-height:1; }
