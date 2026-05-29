@@ -635,6 +635,7 @@ body { overflow-x:hidden; }
 img { max-width:100%; height:auto; }
 .reveal { will-change:transform; }
 .section { contain:layout style; }
+.section:not(:first-of-type) { content-visibility:auto; contain-intrinsic-size:0 500px; }
 .comparison-table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
 
 /* ── Mobile navbar fix ───────────────────────────────────── */

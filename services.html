@@ -11,13 +11,15 @@
   <meta name="description" content="Parlevu Global offers cash home buying, as-is property sales, FSBO consultation, and property investment services in Baltimore and the DMV area. Get your cash offer today."/>
   <link rel="canonical" href="https://www.parlevugloballlc.com/services.html"/>
   <!-- Performance: Preconnect to external origins -->
+  <link rel="preload" href="logo.png" as="image" type="image/png"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link rel="preconnect" href="https://cdnjs.cloudflare.com"/>
   <link rel="preconnect" href="https://images.unsplash.com"/>
   <link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Google Fonts (non-blocking) -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap"/></noscript>
   <!-- Font Awesome (non-blocking) -->
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
   <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/></noscript>
@@ -30,7 +32,7 @@
 <nav class="navbar">
   <div class="navbar-inner">
     <a href="index.html" class="navbar-logo">
-      <img decoding="async" src="logo.png" alt="Parlevu Global Services LLC" class="navbar-logo-img" fetchpriority="high"/>
+      <img decoding="async" src="logo.png" alt="Parlevu Global Services LLC" class="navbar-logo-img" fetchpriority="high" width="200" height="54"/>
     </a>
     <ul class="navbar-nav">
       <li><a href="index.html">Home</a></li>
@@ -284,7 +286,7 @@
   <div class="container">
     <div class="footer-grid">
       <div class="footer-brand">
-        <img src="logo.png" alt="Parlevu Global Services LLC" class="footer-logo-img" decoding="async" loading="lazy"/>
+        <img src="logo.png" alt="Parlevu Global Services LLC" class="footer-logo-img" decoding="async" loading="lazy" width="220" height="72"/>
         <p>Baltimore's trusted Black-owned and indigenous-owned real estate investment firm.</p>
         <div class="footer-social">
           <a href="https://www.facebook.com/ParlevuGlobalServices/" target="_blank" rel="noopener" class="social-link"><i class="fab fa-facebook-f"></i></a>

@@ -163,9 +163,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  /* ── Open Google Meet link ──────────────────────────────── */
-  document.querySelectorAll('[data-meet]').forEach(el => {
-    el.addEventListener('click', () => window.open('https://meet.google.com/wie-ooqs-jcm', '_blank', 'noopener'));
+  /* ── Book a Call (data-book-call) ───────────────────────── */
+  document.querySelectorAll('[data-meet], [data-book-call]').forEach(el => {
+    el.addEventListener('click', () => window.open('https://calendar.app.google/hfm91n5jiLxXJHiu6', '_blank', 'noopener'));
   });
 
 });
