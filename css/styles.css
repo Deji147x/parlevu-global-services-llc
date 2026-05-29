@@ -112,7 +112,7 @@ img{ max-width:100%; height:auto; }
 }
 /* ── Navbar Social Icons (right of Book a Meeting) ───────── */
 .navbar-social { display:flex; align-items:center; gap:6px; margin-left:12px; padding-left:12px; border-left:1px solid rgba(255,255,255,.15); }
-.navbar-social a { display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:50%; background:rgba(255,255,255,.07); color:rgba(255,255,255,.68); font-size:.68rem; transition:var(--transition); border:1px solid rgba(255,255,255,.1); text-decoration:none; flex-shrink:0; }
+.navbar-social a { display:flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:var(--radius); background:rgba(255,255,255,.07); color:rgba(255,255,255,.68); font-size:.68rem; transition:var(--transition); border:1px solid rgba(255,255,255,.1); text-decoration:none; flex-shrink:0; }
 .navbar-social a:hover { background:var(--gold); color:var(--navy); border-color:var(--gold); transform:translateY(-2px); box-shadow:0 4px 12px rgba(201,168,76,.3); }
 /* Mobile social strip inside hamburger menu */
 .mobile-social { display:flex; justify-content:center; gap:10px; padding:16px 0 4px; border-top:1px solid rgba(255,255,255,.1); margin-top:10px; }
@@ -121,7 +121,7 @@ img{ max-width:100%; height:auto; }
 @media(max-width:1024px){ .navbar-social{display:none} }
 
 .navbar-logo { display:flex; align-items:center; text-decoration:none; line-height:1; }
-.navbar-logo-img { height:54px; max-width:165px; width:auto; display:block; object-fit:contain; border-radius:5px; }
+.navbar-logo-img { height:54px; max-width:165px; width:auto; display:block; object-fit:contain; border-radius:5px; mix-blend-mode:screen; }
 
 .navbar-nav { display:flex; align-items:center; gap:4px; list-style:none; }
 .navbar-nav a {
@@ -410,7 +410,9 @@ img{ max-width:100%; height:auto; }
 .blog-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:28px; }
 .blog-card { background:var(--white); border:1px solid var(--border); border-radius:var(--radius-lg); overflow:hidden; transition:var(--transition); }
 .blog-card:hover { transform:translateY(-5px); box-shadow:var(--shadow-lg); }
-.blog-card-image { height:185px; display:flex; align-items:center; justify-content:center; font-size:3rem; position:relative; overflow:hidden; }
+.blog-card-image { height:185px; position:relative; overflow:hidden; }
+.blog-card-image img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .4s ease; }
+.blog-card:hover .blog-card-image img { transform:scale(1.05); }
 .blog-card-body { padding:22px; }
 .blog-meta { display:flex; align-items:center; gap:10px; margin-bottom:10px; flex-wrap:wrap; }
 .blog-cat { font-family:'Montserrat',sans-serif; font-size:.68rem; font-weight:800; text-transform:uppercase; letter-spacing:.1em; color:var(--gold); background:rgba(201,168,76,.1); padding:3px 10px; border-radius:100px; }
