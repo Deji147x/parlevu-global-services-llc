@@ -10,7 +10,17 @@
   <title>17 Questions Every First-Time Home Buyer Forgets to Ask | Parlevu Global Services LLC</title>
   <meta name="description" content="Buying your first home? Don't skip these 17 critical questions. From hidden fees to inspection red flags — our guide helps Maryland buyers avoid costly mistakes."/>
   <link rel="canonical" href="https://www.parlevugloballlc.com/blog-17-questions.html"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <!-- Performance: Preconnect to external origins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com"/>
+  <link rel="preconnect" href="https://images.unsplash.com"/>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome (non-blocking) -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/></noscript>
   <link rel="stylesheet" href="css/styles.css"/>
   <link rel="icon" type="image/png" href="images/logo.png"/>
 
@@ -98,7 +108,7 @@
 <nav class="navbar">
   <div class="navbar-inner">
     <a href="index.html" class="navbar-logo">
-      <img src="images/logo.png" alt="Parlevu Global Services LLC" class="navbar-logo-img"/>
+      <img decoding="async" src="images/logo.png" alt="Parlevu Global Services LLC" class="navbar-logo-img" fetchpriority="high"/>
     </a>
     <ul class="navbar-nav">
       <li><a href="index.html">Home</a></li>
@@ -616,6 +626,6 @@
 <a href="https://calendar.app.google/hfm91n5jiLxXJHiu6" target="_blank" rel="noopener" class="float-meet">📅 Book a Call</a>
 <!-- HubSpot Tracking Code | Portal 246316495 -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/246316495.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>

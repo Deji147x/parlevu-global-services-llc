@@ -17,7 +17,17 @@
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://www.parlevugloballlc.com/"/>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <!-- Performance: Preconnect to external origins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com"/>
+  <link rel="preconnect" href="https://images.unsplash.com"/>
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome (non-blocking) -->
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/></noscript>
   <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css"/>
   <link rel="icon" type="image/png" href="images/logo.png"/>
@@ -46,7 +56,7 @@
 <nav class="navbar">
   <div class="navbar-inner">
     <a href="index.html" class="navbar-logo">
-      <img src="images/logo.png" alt="Parlevu Global Services LLC" class="navbar-logo-img"/>
+      <img decoding="async" src="images/logo.png" alt="Parlevu Global Services LLC" class="navbar-logo-img" fetchpriority="high"/>
     </a>
     <ul class="navbar-nav">
       <li><a href="index.html" class="active">Home</a></li>
@@ -168,7 +178,7 @@
 
       <!-- Card 1: Move-In Ready -->
       <div class="home-card reveal">
-        <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=80" alt="Move-in ready Baltimore home" class="home-card-img" loading="lazy"/>
+        <img decoding="async" src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=800&q=72" alt="Move-in ready Baltimore home" class="home-card-img" loading="lazy"/>
         <div class="home-card-overlay">
           <span class="home-card-badge">✅ Move-In Ready</span>
           <h3 class="home-card-title">Want Top Dollar, Fast?</h3>
@@ -179,7 +189,7 @@
 
       <!-- Card 2: Needs Repairs -->
       <div class="home-card reveal" style="transition-delay:.15s">
-        <img src="https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=80" alt="Distressed home Baltimore as-is sale" class="home-card-img" loading="lazy"/>
+        <img decoding="async" src="https://images.unsplash.com/photo-1449844908441-8829872d2607?auto=format&fit=crop&w=800&q=72" alt="Distressed home Baltimore as-is sale" class="home-card-img" loading="lazy"/>
         <div class="home-card-overlay">
           <span class="home-card-badge">🔨 Needs Repairs</span>
           <h3 class="home-card-title">Don't Fix a Thing.</h3>
@@ -190,7 +200,7 @@
 
       <!-- Card 3: Any Situation -->
       <div class="home-card reveal" style="transition-delay:.3s">
-        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=80" alt="Baltimore family home any situation" class="home-card-img" loading="lazy"/>
+        <img decoding="async" src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=800&q=72" alt="Baltimore family home any situation" class="home-card-img" loading="lazy"/>
         <div class="home-card-overlay">
           <span class="home-card-badge">🏡 Any Situation</span>
           <h3 class="home-card-title">Life Happens. We Help.</h3>
@@ -432,6 +442,6 @@
 
 <!-- HubSpot Tracking Code | Portal 246316495 -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/246316495.js"></script>
-<script src="js/main.js"></script>
+<script src="js/main.js" defer></script>
 </body>
 </html>

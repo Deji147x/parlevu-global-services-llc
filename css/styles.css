@@ -2,7 +2,7 @@
    PARLEVU GLOBAL SERVICES LLC — Main Stylesheet
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600&display=swap');
+/* Google Fonts loaded via <link> in HTML for better performance */
 
 :root {
   --navy:          #0A1628;
@@ -620,4 +620,26 @@ img{ max-width:100%; height:auto; }
   .hero-ctas .btn { width:100%; }
   .cta-buttons .btn { width:100%; max-width:340px; }
   .comparison-table td, .comparison-table th { padding:11px 14px; font-size:.82rem; }
+  .hero h1 { font-size:1.75rem; }
+  .section-header h2 { font-size:1.5rem; }
+  .featured-post { padding:28px 20px; }
+  .homes-grid { grid-template-columns:1fr; }
+  .home-card { height:260px; }
+  .float-meet { font-size:.68rem; padding:10px 14px; }
+  .navbar-logo-img { height:44px; }
+  .footer-logo-main { font-size:1.3rem; }
+}
+
+/* ── Performance ─────────────────────────────────────────── */
+body { overflow-x:hidden; }
+img { max-width:100%; height:auto; }
+.reveal { will-change:transform; }
+.section { contain:layout style; }
+.comparison-table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+
+/* ── Mobile navbar fix ───────────────────────────────────── */
+@media (max-width:360px) {
+  .navbar-inner { padding:0 14px; }
+  .container { padding:0 14px; }
+  h1 { font-size:1.6rem; }
 }
