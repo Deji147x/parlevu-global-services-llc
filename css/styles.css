@@ -121,7 +121,7 @@ img{ max-width:100%; height:auto; }
 @media(max-width:1024px){ .navbar-social{display:none} }
 
 .navbar-logo { display:flex; align-items:center; text-decoration:none; line-height:1; }
-.navbar-logo-img { height:54px; max-width:165px; width:auto; display:block; object-fit:contain; border-radius:5px; mix-blend-mode:screen; }
+.navbar-logo-img { height:54px; max-width:185px; width:auto; display:block; object-fit:contain; }
 
 .navbar-nav { display:flex; align-items:center; gap:4px; list-style:none; }
 .navbar-nav a {
