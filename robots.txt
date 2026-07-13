@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /upload-queue/
+Disallow: /tools/
+Disallow: /research/
+
+Sitemap: https://www.parlevugloballlc.com/sitemap.xml
