@@ -1,6 +1,11 @@
 # Claude Code local settings
 .claude/
 
+# Environment variables (API keys, secrets)
+.env
+.env.local
+.env.*.local
+
 # OS artifacts
 .DS_Store
 Thumbs.db
