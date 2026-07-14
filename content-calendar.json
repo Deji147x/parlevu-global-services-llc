@@ -39,8 +39,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Facing Foreclosure in Virginia? Your Options to Sell Fast and Protect Your Credit, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-07-14"
+      "status": "published",
+      "publish_date": "2026-07-14",
+      "published_on": "2026-07-14"
     },
     {
       "slug": "foreclosure-dc",
