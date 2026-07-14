@@ -1,7 +1,7 @@
 {
   "site": "https://www.parlevugloballlc.com",
   "cadence": "1 post/day",
-  "generated": "2026-07-12",
+  "generated": "2026-07-14",
   "posts": [
     {
       "slug": "foreclosure-md",
@@ -37,10 +37,10 @@
       "category": "Foreclosure Help",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Facing Foreclosure in Virginia? Your Options to Sell Fast and Protect Your Credit, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Facing Foreclosure in Virginia? Your Options to Sell Fast and Protect Your Credit, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-07-15"
+      "publish_date": "2026-07-14"
     },
     {
       "slug": "foreclosure-dc",
@@ -57,9 +57,9 @@
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Facing Foreclosure in Washington DC? Your Options to Sell Fast and Protect Your Credit, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "consult",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-07-16"
+      "publish_date": "2026-07-15"
     },
     {
       "slug": "inherited-probate-md",
@@ -75,10 +75,10 @@
       "category": "Inherited Properties",
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Selling an Inherited House in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Selling an Inherited House in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-07-17"
+      "publish_date": "2026-07-16"
     },
     {
       "slug": "inherited-probate-va",
@@ -94,10 +94,10 @@
       "category": "Inherited Properties",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Selling an Inherited House in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "Selling an Inherited House in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-07-18"
+      "publish_date": "2026-07-17"
     },
     {
       "slug": "inherited-probate-dc",
@@ -114,9 +114,9 @@
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Selling an Inherited House in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-07-19"
+      "publish_date": "2026-07-18"
     },
     {
       "slug": "divorce-md",
@@ -132,10 +132,10 @@
       "category": "Life Transitions",
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Selling a House During Divorce in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "Selling a House During Divorce in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-07-20"
+      "publish_date": "2026-07-19"
     },
     {
       "slug": "divorce-va",
@@ -151,10 +151,10 @@
       "category": "Life Transitions",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Selling a House During Divorce in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Selling a House During Divorce in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-07-21"
+      "publish_date": "2026-07-20"
     },
     {
       "slug": "divorce-dc",
@@ -170,10 +170,10 @@
       "category": "Life Transitions",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Selling a House During Divorce in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Selling a House During Divorce in Washington DC, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-07-22"
+      "publish_date": "2026-07-21"
     },
     {
       "slug": "liens-violations-md",
@@ -190,9 +190,9 @@
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Can You Sell a House With Liens or Code Violations in Maryland? Yes \u2014 Here's How, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-07-23"
+      "publish_date": "2026-07-22"
     },
     {
       "slug": "liens-violations-va",
@@ -208,10 +208,10 @@
       "category": "Legal Issues",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Can You Sell a House With Liens or Code Violations in Virginia? Yes \u2014 Here's How, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "image_prompt": "Can You Sell a House With Liens or Code Violations in Virginia? Yes \u2014 Here's How, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-07-24"
+      "publish_date": "2026-07-23"
     },
     {
       "slug": "liens-violations-dc",
@@ -227,10 +227,10 @@
       "category": "Legal Issues",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Can You Sell a House With Liens or Code Violations in Washington DC? Yes \u2014 Here's How, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Can You Sell a House With Liens or Code Violations in Washington DC? Yes \u2014 Here's How, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-07-25"
+      "publish_date": "2026-07-24"
     },
     {
       "slug": "fire-damage-md",
@@ -247,9 +247,9 @@
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling a Fire-Damaged House in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "consult",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-07-26"
+      "publish_date": "2026-07-25"
     },
     {
       "slug": "fire-damage-va",
@@ -265,10 +265,10 @@
       "category": "Distressed Property",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Selling a Fire-Damaged House in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "Selling a Fire-Damaged House in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-07-27"
+      "publish_date": "2026-07-26"
     },
     {
       "slug": "fire-damage-dc",
@@ -284,10 +284,10 @@
       "category": "Distressed Property",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Selling a Fire-Damaged House in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Selling a Fire-Damaged House in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-07-28"
+      "publish_date": "2026-07-27"
     },
     {
       "slug": "water-mold-md",
@@ -303,10 +303,10 @@
       "category": "Distressed Property",
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Selling a House With Water Damage or Mold in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Selling a House With Water Damage or Mold in Maryland, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-07-29"
+      "publish_date": "2026-07-28"
     },
     {
       "slug": "water-mold-va",
@@ -322,10 +322,10 @@
       "category": "Distressed Property",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Selling a House With Water Damage or Mold in Virginia, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Selling a House With Water Damage or Mold in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-07-30"
+      "publish_date": "2026-07-29"
     },
     {
       "slug": "water-mold-dc",
@@ -341,10 +341,10 @@
       "category": "Distressed Property",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Selling a House With Water Damage or Mold in Washington DC, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "image_prompt": "Selling a House With Water Damage or Mold in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-07-31"
+      "publish_date": "2026-07-30"
     },
     {
       "slug": "foundation-md",
@@ -360,10 +360,10 @@
       "category": "Distressed Property",
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How to Sell a House With Foundation Problems in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "How to Sell a House With Foundation Problems in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-01"
+      "publish_date": "2026-07-31"
     },
     {
       "slug": "foundation-va",
@@ -379,10 +379,10 @@
       "category": "Distressed Property",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How to Sell a House With Foundation Problems in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "How to Sell a House With Foundation Problems in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-02"
+      "publish_date": "2026-08-01"
     },
     {
       "slug": "foundation-dc",
@@ -398,10 +398,10 @@
       "category": "Distressed Property",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "How to Sell a House With Foundation Problems in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "How to Sell a House With Foundation Problems in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-03"
+      "publish_date": "2026-08-02"
     },
     {
       "slug": "hoarder-house-md",
@@ -418,9 +418,9 @@
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling a Hoarder House in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-08-04"
+      "publish_date": "2026-08-03"
     },
     {
       "slug": "hoarder-house-va",
@@ -436,10 +436,10 @@
       "category": "Distressed Property",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Selling a Hoarder House in Virginia, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Selling a Hoarder House in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-05"
+      "publish_date": "2026-08-04"
     },
     {
       "slug": "hoarder-house-dc",
@@ -455,10 +455,10 @@
       "category": "Distressed Property",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Selling a Hoarder House in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Selling a Hoarder House in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-08-06"
+      "publish_date": "2026-08-05"
     },
     {
       "slug": "bad-tenants-md",
@@ -477,7 +477,7 @@
       "image_prompt": "Selling a Rental Property With Tenants in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-07"
+      "publish_date": "2026-08-06"
     },
     {
       "slug": "bad-tenants-va",
@@ -493,10 +493,10 @@
       "category": "Landlord Exit",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Selling a Rental Property With Tenants in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Selling a Rental Property With Tenants in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-08"
+      "publish_date": "2026-08-07"
     },
     {
       "slug": "bad-tenants-dc",
@@ -512,10 +512,10 @@
       "category": "Landlord Exit",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Selling a Rental Property With Tenants in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Selling a Rental Property With Tenants in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-08-09"
+      "publish_date": "2026-08-08"
     },
     {
       "slug": "vacant-house-md",
@@ -531,10 +531,10 @@
       "category": "Landlord Exit",
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Selling a Vacant or Abandoned House in Maryland Before It Costs You More, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Selling a Vacant or Abandoned House in Maryland Before It Costs You More, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-10"
+      "publish_date": "2026-08-09"
     },
     {
       "slug": "vacant-house-va",
@@ -550,10 +550,10 @@
       "category": "Landlord Exit",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Selling a Vacant or Abandoned House in Virginia Before It Costs You More, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "Selling a Vacant or Abandoned House in Virginia Before It Costs You More, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-08-11"
+      "publish_date": "2026-08-10"
     },
     {
       "slug": "vacant-house-dc",
@@ -569,10 +569,10 @@
       "category": "Landlord Exit",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Selling a Vacant or Abandoned House in Washington DC Before It Costs You More, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "Selling a Vacant or Abandoned House in Washington DC Before It Costs You More, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-08-12"
+      "publish_date": "2026-08-11"
     },
     {
       "slug": "underwater-mortgage-md",
@@ -588,10 +588,10 @@
       "category": "Financial Hardship",
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Owe More Than Your Maryland Home Is Worth? How to Sell an Underwater House, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Owe More Than Your Maryland Home Is Worth? How to Sell an Underwater House, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-13"
+      "publish_date": "2026-08-12"
     },
     {
       "slug": "underwater-mortgage-va",
@@ -607,10 +607,10 @@
       "category": "Financial Hardship",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Owe More Than Your Virginia Home Is Worth? How to Sell an Underwater House, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Owe More Than Your Virginia Home Is Worth? How to Sell an Underwater House, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-14"
+      "publish_date": "2026-08-13"
     },
     {
       "slug": "underwater-mortgage-dc",
@@ -626,10 +626,10 @@
       "category": "Financial Hardship",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Owe More Than Your Washington DC Home Is Worth? How to Sell an Underwater House, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Owe More Than Your Washington DC Home Is Worth? How to Sell an Underwater House, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-15"
+      "publish_date": "2026-08-14"
     },
     {
       "slug": "relocation-md",
@@ -648,7 +648,7 @@
       "image_prompt": "Relocating From Maryland? How to Sell Your House Fast Before the Move, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-16"
+      "publish_date": "2026-08-15"
     },
     {
       "slug": "relocation-va",
@@ -664,10 +664,10 @@
       "category": "Life Transitions",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Relocating From Virginia? How to Sell Your House Fast Before the Move, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Relocating From Virginia? How to Sell Your House Fast Before the Move, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-17"
+      "publish_date": "2026-08-16"
     },
     {
       "slug": "relocation-dc",
@@ -683,10 +683,10 @@
       "category": "Life Transitions",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Relocating From Washington DC? How to Sell Your House Fast Before the Move, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Relocating From Washington DC? How to Sell Your House Fast Before the Move, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-18"
+      "publish_date": "2026-08-17"
     },
     {
       "slug": "downsizing-md",
@@ -702,10 +702,10 @@
       "category": "Life Transitions",
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Downsizing in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Downsizing in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-19"
+      "publish_date": "2026-08-18"
     },
     {
       "slug": "downsizing-va",
@@ -722,9 +722,9 @@
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Downsizing in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-20"
+      "publish_date": "2026-08-19"
     },
     {
       "slug": "downsizing-dc",
@@ -740,10 +740,10 @@
       "category": "Life Transitions",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Downsizing in Washington DC, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Downsizing in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-21"
+      "publish_date": "2026-08-20"
     },
     {
       "slug": "sell-my-house-fast-baltimore",
@@ -759,10 +759,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Baltimore, Baltimore, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Baltimore, Baltimore, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-08-22"
+      "publish_date": "2026-08-21"
     },
     {
       "slug": "sell-my-house-fast-alexandria",
@@ -778,10 +778,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Sell My House Fast in Alexandria, Alexandria, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Alexandria, Alexandria, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-23"
+      "publish_date": "2026-08-22"
     },
     {
       "slug": "sell-my-house-fast-anacostia",
@@ -797,10 +797,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Anacostia, Anacostia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Sell My House Fast in Anacostia, Anacostia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-24"
+      "publish_date": "2026-08-23"
     },
     {
       "slug": "sell-my-house-fast-columbia",
@@ -816,10 +816,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Columbia, Columbia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Columbia, Columbia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-08-25"
+      "publish_date": "2026-08-24"
     },
     {
       "slug": "sell-my-house-fast-arlington",
@@ -835,10 +835,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Sell My House Fast in Arlington, Arlington, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Arlington, Arlington, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-26"
+      "publish_date": "2026-08-25"
     },
     {
       "slug": "sell-my-house-fast-petworth",
@@ -854,10 +854,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Petworth, Petworth, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Sell My House Fast in Petworth, Petworth, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-27"
+      "publish_date": "2026-08-26"
     },
     {
       "slug": "sell-my-house-fast-silver-spring",
@@ -873,10 +873,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Silver Spring, Silver Spring, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Silver Spring, Silver Spring, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-28"
+      "publish_date": "2026-08-27"
     },
     {
       "slug": "sell-my-house-fast-fairfax",
@@ -892,10 +892,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Sell My House Fast in Fairfax, Fairfax, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Sell My House Fast in Fairfax, Fairfax, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-08-29"
+      "publish_date": "2026-08-28"
     },
     {
       "slug": "sell-my-house-fast-brookland",
@@ -911,10 +911,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Brookland, Brookland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Sell My House Fast in Brookland, Brookland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-30"
+      "publish_date": "2026-08-29"
     },
     {
       "slug": "sell-my-house-fast-rockville",
@@ -930,10 +930,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Rockville, Rockville, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Rockville, Rockville, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-08-31"
+      "publish_date": "2026-08-30"
     },
     {
       "slug": "sell-my-house-fast-woodbridge",
@@ -950,9 +950,9 @@
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Woodbridge, Woodbridge, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-01"
+      "publish_date": "2026-08-31"
     },
     {
       "slug": "sell-my-house-fast-columbia-heights",
@@ -968,10 +968,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Columbia Heights, Columbia Heights, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Sell My House Fast in Columbia Heights, Columbia Heights, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-02"
+      "publish_date": "2026-09-01"
     },
     {
       "slug": "sell-my-house-fast-frederick",
@@ -987,10 +987,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Frederick, Frederick, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Sell My House Fast in Frederick, Frederick, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-09-03"
+      "publish_date": "2026-09-02"
     },
     {
       "slug": "sell-my-house-fast-manassas",
@@ -1009,7 +1009,7 @@
       "image_prompt": "Sell My House Fast in Manassas, Manassas, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-09-04"
+      "publish_date": "2026-09-03"
     },
     {
       "slug": "sell-my-house-fast-deanwood",
@@ -1025,10 +1025,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Deanwood, Deanwood, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Sell My House Fast in Deanwood, Deanwood, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-05"
+      "publish_date": "2026-09-04"
     },
     {
       "slug": "sell-my-house-fast-annapolis",
@@ -1044,10 +1044,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Annapolis, Annapolis, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Annapolis, Annapolis, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-09-06"
+      "publish_date": "2026-09-05"
     },
     {
       "slug": "sell-my-house-fast-fredericksburg",
@@ -1063,10 +1063,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Sell My House Fast in Fredericksburg, Fredericksburg, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Fredericksburg, Fredericksburg, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-09-07"
+      "publish_date": "2026-09-06"
     },
     {
       "slug": "sell-my-house-fast-congress-heights",
@@ -1082,10 +1082,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Congress Heights, Congress Heights, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Sell My House Fast in Congress Heights, Congress Heights, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-08"
+      "publish_date": "2026-09-07"
     },
     {
       "slug": "sell-my-house-fast-bowie",
@@ -1101,10 +1101,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Bowie, Bowie, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Sell My House Fast in Bowie, Bowie, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-09-09"
+      "publish_date": "2026-09-08"
     },
     {
       "slug": "sell-my-house-fast-richmond",
@@ -1120,10 +1120,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Sell My House Fast in Richmond, Richmond, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Sell My House Fast in Richmond, Richmond, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-10"
+      "publish_date": "2026-09-09"
     },
     {
       "slug": "sell-my-house-fast-fort-totten",
@@ -1139,10 +1139,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Fort Totten, Fort Totten, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Sell My House Fast in Fort Totten, Fort Totten, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-09-11"
+      "publish_date": "2026-09-10"
     },
     {
       "slug": "sell-my-house-fast-glen-burnie",
@@ -1158,10 +1158,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Glen Burnie, Glen Burnie, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Sell My House Fast in Glen Burnie, Glen Burnie, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-09-12"
+      "publish_date": "2026-09-11"
     },
     {
       "slug": "sell-my-house-fast-norfolk",
@@ -1177,10 +1177,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Sell My House Fast in Norfolk, Norfolk, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Sell My House Fast in Norfolk, Norfolk, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-09-13"
+      "publish_date": "2026-09-12"
     },
     {
       "slug": "sell-my-house-fast-shaw",
@@ -1197,9 +1197,9 @@
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Shaw, Shaw, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-09-14"
+      "publish_date": "2026-09-13"
     },
     {
       "slug": "sell-my-house-fast-dundalk",
@@ -1216,9 +1216,9 @@
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Dundalk, Dundalk, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-15"
+      "publish_date": "2026-09-14"
     },
     {
       "slug": "sell-my-house-fast-virginia-beach",
@@ -1235,9 +1235,9 @@
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Virginia Beach, Virginia Beach, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-16"
+      "publish_date": "2026-09-15"
     },
     {
       "slug": "sell-my-house-fast-trinidad",
@@ -1254,9 +1254,9 @@
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Trinidad, Trinidad, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-09-17"
+      "publish_date": "2026-09-16"
     },
     {
       "slug": "sell-my-house-fast-towson",
@@ -1272,10 +1272,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Towson, Towson, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Sell My House Fast in Towson, Towson, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-18"
+      "publish_date": "2026-09-17"
     },
     {
       "slug": "sell-my-house-fast-chesapeake",
@@ -1292,9 +1292,9 @@
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Chesapeake, Chesapeake, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-19"
+      "publish_date": "2026-09-18"
     },
     {
       "slug": "sell-my-house-fast-capitol-hill",
@@ -1310,10 +1310,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Capitol Hill, Capitol Hill, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Sell My House Fast in Capitol Hill, Capitol Hill, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-09-20"
+      "publish_date": "2026-09-19"
     },
     {
       "slug": "sell-my-house-fast-upper-marlboro",
@@ -1329,10 +1329,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Upper Marlboro, Upper Marlboro, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Sell My House Fast in Upper Marlboro, Upper Marlboro, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-09-21"
+      "publish_date": "2026-09-20"
     },
     {
       "slug": "sell-my-house-fast-hampton",
@@ -1348,10 +1348,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Sell My House Fast in Hampton, Hampton, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Sell My House Fast in Hampton, Hampton, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-22"
+      "publish_date": "2026-09-21"
     },
     {
       "slug": "sell-my-house-fast-ivy-city",
@@ -1367,10 +1367,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Ivy City, Ivy City, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Ivy City, Ivy City, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-09-23"
+      "publish_date": "2026-09-22"
     },
     {
       "slug": "sell-my-house-fast-waldorf",
@@ -1386,10 +1386,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Sell My House Fast in Waldorf, Waldorf, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Sell My House Fast in Waldorf, Waldorf, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-24"
+      "publish_date": "2026-09-23"
     },
     {
       "slug": "sell-my-house-fast-newport-news",
@@ -1405,10 +1405,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Sell My House Fast in Newport News, Newport News, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Newport News, Newport News, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-09-25"
+      "publish_date": "2026-09-24"
     },
     {
       "slug": "sell-my-house-fast-woodridge",
@@ -1424,10 +1424,10 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Woodridge, Woodridge, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Sell My House Fast in Woodridge, Woodridge, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-26"
+      "publish_date": "2026-09-25"
     },
     {
       "slug": "how-cash-buyers-work-md",
@@ -1443,10 +1443,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How Cash Home Buyers Work in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "image_prompt": "How Cash Home Buyers Work in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-09-27"
+      "publish_date": "2026-09-26"
     },
     {
       "slug": "how-cash-buyers-work-va",
@@ -1462,10 +1462,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How Cash Home Buyers Work in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "How Cash Home Buyers Work in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-09-28"
+      "publish_date": "2026-09-27"
     },
     {
       "slug": "how-cash-buyers-work-dc",
@@ -1481,10 +1481,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "How Cash Home Buyers Work in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "How Cash Home Buyers Work in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-09-29"
+      "publish_date": "2026-09-28"
     },
     {
       "slug": "how-offers-calculated-md",
@@ -1500,10 +1500,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How Cash Offers Are Calculated on Maryland Homes (Real Numbers), Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "How Cash Offers Are Calculated on Maryland Homes (Real Numbers), Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-09-30"
+      "publish_date": "2026-09-29"
     },
     {
       "slug": "how-offers-calculated-va",
@@ -1519,10 +1519,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How Cash Offers Are Calculated on Virginia Homes (Real Numbers), Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "image_prompt": "How Cash Offers Are Calculated on Virginia Homes (Real Numbers), Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-01"
+      "publish_date": "2026-09-30"
     },
     {
       "slug": "how-offers-calculated-dc",
@@ -1538,10 +1538,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "How Cash Offers Are Calculated on Washington DC Homes (Real Numbers), Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "How Cash Offers Are Calculated on Washington DC Homes (Real Numbers), Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-02"
+      "publish_date": "2026-10-01"
     },
     {
       "slug": "closing-costs-md",
@@ -1557,10 +1557,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Who Pays Closing Costs When Selling a House in Maryland?, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Who Pays Closing Costs When Selling a House in Maryland?, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-03"
+      "publish_date": "2026-10-02"
     },
     {
       "slug": "closing-costs-va",
@@ -1576,10 +1576,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Who Pays Closing Costs When Selling a House in Virginia?, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "Who Pays Closing Costs When Selling a House in Virginia?, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-04"
+      "publish_date": "2026-10-03"
     },
     {
       "slug": "closing-costs-dc",
@@ -1598,7 +1598,7 @@
       "image_prompt": "Who Pays Closing Costs When Selling a House in Washington DC?, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-05"
+      "publish_date": "2026-10-04"
     },
     {
       "slug": "paperwork-checklist-md",
@@ -1614,10 +1614,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Paperwork You Need to Sell Your House in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "Paperwork You Need to Sell Your House in Maryland, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-06"
+      "publish_date": "2026-10-05"
     },
     {
       "slug": "paperwork-checklist-va",
@@ -1633,10 +1633,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Paperwork You Need to Sell Your House in Virginia, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Paperwork You Need to Sell Your House in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-07"
+      "publish_date": "2026-10-06"
     },
     {
       "slug": "paperwork-checklist-dc",
@@ -1652,10 +1652,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Paperwork You Need to Sell Your House in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "Paperwork You Need to Sell Your House in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-08"
+      "publish_date": "2026-10-07"
     },
     {
       "slug": "sell-without-realtor-md",
@@ -1671,10 +1671,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How to Sell Your House Without a Realtor in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "How to Sell Your House Without a Realtor in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-09"
+      "publish_date": "2026-10-08"
     },
     {
       "slug": "sell-without-realtor-va",
@@ -1690,10 +1690,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How to Sell Your House Without a Realtor in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "How to Sell Your House Without a Realtor in Virginia, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-10"
+      "publish_date": "2026-10-09"
     },
     {
       "slug": "sell-without-realtor-dc",
@@ -1709,10 +1709,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "How to Sell Your House Without a Realtor in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "How to Sell Your House Without a Realtor in Washington DC, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-11"
+      "publish_date": "2026-10-10"
     },
     {
       "slug": "as-is-cost-md",
@@ -1728,10 +1728,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Maryland?, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Maryland?, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-12"
+      "publish_date": "2026-10-11"
     },
     {
       "slug": "as-is-cost-va",
@@ -1747,10 +1747,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Virginia?, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Virginia?, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-13"
+      "publish_date": "2026-10-12"
     },
     {
       "slug": "as-is-cost-dc",
@@ -1767,9 +1767,9 @@
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Washington DC?, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-14"
+      "publish_date": "2026-10-13"
     },
     {
       "slug": "timeline-md",
@@ -1785,10 +1785,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How Fast Can You Really Sell a House for Cash in Maryland? The Honest Timeline, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "How Fast Can You Really Sell a House for Cash in Maryland? The Honest Timeline, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-15"
+      "publish_date": "2026-10-14"
     },
     {
       "slug": "timeline-va",
@@ -1805,9 +1805,9 @@
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "How Fast Can You Really Sell a House for Cash in Virginia? The Honest Timeline, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "consult",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-16"
+      "publish_date": "2026-10-15"
     },
     {
       "slug": "timeline-dc",
@@ -1826,7 +1826,7 @@
       "image_prompt": "How Fast Can You Really Sell a House for Cash in Washington DC? The Honest Timeline, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-17"
+      "publish_date": "2026-10-16"
     },
     {
       "slug": "avoid-scams-md",
@@ -1842,10 +1842,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How to Spot a Legitimate Cash Home Buyer in Maryland (and Avoid Scams), Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "How to Spot a Legitimate Cash Home Buyer in Maryland (and Avoid Scams), Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-18"
+      "publish_date": "2026-10-17"
     },
     {
       "slug": "avoid-scams-va",
@@ -1861,10 +1861,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How to Spot a Legitimate Cash Home Buyer in Virginia (and Avoid Scams), Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "How to Spot a Legitimate Cash Home Buyer in Virginia (and Avoid Scams), Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-19"
+      "publish_date": "2026-10-18"
     },
     {
       "slug": "avoid-scams-dc",
@@ -1880,10 +1880,10 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "How to Spot a Legitimate Cash Home Buyer in Washington DC (and Avoid Scams), Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "How to Spot a Legitimate Cash Home Buyer in Washington DC (and Avoid Scams), Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-20"
+      "publish_date": "2026-10-19"
     },
     {
       "slug": "cash-vs-listing-md",
@@ -1900,9 +1900,9 @@
       "kind": "comparison",
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling for Cash vs. Listing With an Agent in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-21"
+      "publish_date": "2026-10-20"
     },
     {
       "slug": "cash-vs-listing-va",
@@ -1918,10 +1918,10 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Selling for Cash vs. Listing With an Agent in Virginia, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "Selling for Cash vs. Listing With an Agent in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-22"
+      "publish_date": "2026-10-21"
     },
     {
       "slug": "cash-vs-listing-dc",
@@ -1937,10 +1937,10 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Selling for Cash vs. Listing With an Agent in Washington DC, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Selling for Cash vs. Listing With an Agent in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-23"
+      "publish_date": "2026-10-22"
     },
     {
       "slug": "ibuyer-vs-local-md",
@@ -1956,10 +1956,10 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "iBuyers vs. Local Cash Buyers in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "iBuyers vs. Local Cash Buyers in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-24"
+      "publish_date": "2026-10-23"
     },
     {
       "slug": "ibuyer-vs-local-va",
@@ -1975,10 +1975,10 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "iBuyers vs. Local Cash Buyers in Virginia, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "iBuyers vs. Local Cash Buyers in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-25"
+      "publish_date": "2026-10-24"
     },
     {
       "slug": "ibuyer-vs-local-dc",
@@ -1994,10 +1994,10 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "iBuyers vs. Local Cash Buyers in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "iBuyers vs. Local Cash Buyers in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-26"
+      "publish_date": "2026-10-25"
     },
     {
       "slug": "fsbo-vs-cash-md",
@@ -2013,10 +2013,10 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "FSBO vs. Cash Sale in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "FSBO vs. Cash Sale in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-27"
+      "publish_date": "2026-10-26"
     },
     {
       "slug": "fsbo-vs-cash-va",
@@ -2033,9 +2033,9 @@
       "kind": "comparison",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "FSBO vs. Cash Sale in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-28"
+      "publish_date": "2026-10-27"
     },
     {
       "slug": "fsbo-vs-cash-dc",
@@ -2051,10 +2051,10 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "FSBO vs. Cash Sale in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "FSBO vs. Cash Sale in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-29"
+      "publish_date": "2026-10-28"
     },
     {
       "slug": "best-time-to-sell-md",
@@ -2070,10 +2070,10 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Best (and Worst) Time to Sell a House in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Best (and Worst) Time to Sell a House in Maryland, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-30"
+      "publish_date": "2026-10-29"
     },
     {
       "slug": "best-time-to-sell-va",
@@ -2089,10 +2089,10 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Best (and Worst) Time to Sell a House in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Best (and Worst) Time to Sell a House in Virginia, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-31"
+      "publish_date": "2026-10-30"
     },
     {
       "slug": "best-time-to-sell-dc",
@@ -2108,10 +2108,10 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Best (and Worst) Time to Sell a House in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Best (and Worst) Time to Sell a House in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-01"
+      "publish_date": "2026-10-31"
     },
     {
       "slug": "market-update-md",
@@ -2127,10 +2127,10 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Maryland Housing Market Update, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Maryland Housing Market Update, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-02"
+      "publish_date": "2026-11-01"
     },
     {
       "slug": "market-update-va",
@@ -2146,10 +2146,10 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Virginia Housing Market Update, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Virginia Housing Market Update, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-03"
+      "publish_date": "2026-11-02"
     },
     {
       "slug": "market-update-dc",
@@ -2165,10 +2165,10 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Washington DC Housing Market Update, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Washington DC Housing Market Update, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-11-04"
+      "publish_date": "2026-11-03"
     },
     {
       "slug": "home-values-md",
@@ -2184,10 +2184,10 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "What's My House Worth? Understanding Maryland Home Values, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "What's My House Worth? Understanding Maryland Home Values, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-05"
+      "publish_date": "2026-11-04"
     },
     {
       "slug": "home-values-va",
@@ -2204,9 +2204,9 @@
       "kind": "market",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "What's My House Worth? Understanding Virginia Home Values, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-06"
+      "publish_date": "2026-11-05"
     },
     {
       "slug": "home-values-dc",
@@ -2222,10 +2222,10 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "What's My House Worth? Understanding Washington DC Home Values, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "What's My House Worth? Understanding Washington DC Home Values, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-07"
+      "publish_date": "2026-11-06"
     },
     {
       "slug": "winter-selling-md",
@@ -2241,10 +2241,10 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Selling Your Maryland House in the Off-Season, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Selling Your Maryland House in the Off-Season, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-08"
+      "publish_date": "2026-11-07"
     },
     {
       "slug": "winter-selling-va",
@@ -2260,10 +2260,10 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Selling Your Virginia House in the Off-Season, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Selling Your Virginia House in the Off-Season, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-09"
+      "publish_date": "2026-11-08"
     },
     {
       "slug": "winter-selling-dc",
@@ -2279,10 +2279,10 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Selling Your Washington DC House in the Off-Season, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Selling Your Washington DC House in the Off-Season, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-10"
+      "publish_date": "2026-11-09"
     }
   ]
 }
