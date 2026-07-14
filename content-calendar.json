@@ -1009,8 +1009,8 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Manassas, Manassas, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-09-03"
+      "status": "generated",
+      "publish_date": "2026-09-02"
     },
     {
       "slug": "sell-my-house-fast-deanwood",
@@ -1028,8 +1028,8 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Deanwood, Deanwood, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-09-04"
+      "status": "generated",
+      "publish_date": "2026-09-03"
     },
     {
       "slug": "sell-my-house-fast-annapolis",
@@ -1047,8 +1047,8 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Annapolis, Annapolis, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-09-05"
+      "status": "generated",
+      "publish_date": "2026-09-04"
     },
     {
       "slug": "sell-my-house-fast-fredericksburg",
@@ -1066,8 +1066,8 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Fredericksburg, Fredericksburg, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-09-06"
+      "status": "generated",
+      "publish_date": "2026-09-05"
     },
     {
       "slug": "sell-my-house-fast-congress-heights",
@@ -1085,8 +1085,8 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Congress Heights, Congress Heights, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-09-07"
+      "status": "generated",
+      "publish_date": "2026-09-06"
     },
     {
       "slug": "sell-my-house-fast-bowie",
@@ -1104,8 +1104,8 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Bowie, Bowie, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-09-08"
+      "status": "generated",
+      "publish_date": "2026-09-07"
     },
     {
       "slug": "sell-my-house-fast-richmond",
@@ -1123,8 +1123,8 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Richmond, Richmond, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-09-09"
+      "status": "generated",
+      "publish_date": "2026-09-08"
     },
     {
       "slug": "sell-my-house-fast-fort-totten",
@@ -1142,8 +1142,8 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Fort Totten, Fort Totten, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-09-10"
+      "status": "generated",
+      "publish_date": "2026-09-09"
     },
     {
       "slug": "sell-my-house-fast-glen-burnie",
@@ -1161,8 +1161,8 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Glen Burnie, Glen Burnie, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-09-11"
+      "status": "generated",
+      "publish_date": "2026-09-10"
     },
     {
       "slug": "sell-my-house-fast-norfolk",
@@ -1180,8 +1180,8 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Norfolk, Norfolk, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-09-12"
+      "status": "generated",
+      "publish_date": "2026-09-11"
     },
     {
       "slug": "sell-my-house-fast-shaw",
@@ -1199,8 +1199,8 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Shaw, Shaw, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-09-13"
+      "status": "generated",
+      "publish_date": "2026-09-12"
     },
     {
       "slug": "sell-my-house-fast-dundalk",
@@ -1218,8 +1218,8 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Dundalk, Dundalk, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-09-14"
+      "status": "generated",
+      "publish_date": "2026-09-13"
     },
     {
       "slug": "sell-my-house-fast-virginia-beach",
@@ -1237,8 +1237,8 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Virginia Beach, Virginia Beach, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-09-15"
+      "status": "generated",
+      "publish_date": "2026-09-14"
     },
     {
       "slug": "sell-my-house-fast-trinidad",
@@ -1256,8 +1256,8 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Trinidad, Trinidad, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-09-16"
+      "status": "generated",
+      "publish_date": "2026-09-15"
     },
     {
       "slug": "sell-my-house-fast-towson",
@@ -1275,8 +1275,8 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Towson, Towson, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-09-17"
+      "status": "generated",
+      "publish_date": "2026-09-16"
     },
     {
       "slug": "sell-my-house-fast-chesapeake",
@@ -1294,8 +1294,8 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Chesapeake, Chesapeake, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-09-18"
+      "status": "generated",
+      "publish_date": "2026-09-17"
     },
     {
       "slug": "sell-my-house-fast-capitol-hill",
@@ -1313,8 +1313,8 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Capitol Hill, Capitol Hill, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-09-19"
+      "status": "generated",
+      "publish_date": "2026-09-18"
     },
     {
       "slug": "sell-my-house-fast-upper-marlboro",
@@ -1332,8 +1332,8 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Upper Marlboro, Upper Marlboro, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-09-20"
+      "status": "generated",
+      "publish_date": "2026-09-19"
     },
     {
       "slug": "sell-my-house-fast-hampton",
@@ -1351,8 +1351,8 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Hampton, Hampton, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-09-21"
+      "status": "generated",
+      "publish_date": "2026-09-20"
     },
     {
       "slug": "sell-my-house-fast-ivy-city",
@@ -1370,8 +1370,8 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Ivy City, Ivy City, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-09-22"
+      "status": "generated",
+      "publish_date": "2026-09-21"
     },
     {
       "slug": "sell-my-house-fast-waldorf",
@@ -1389,8 +1389,8 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Waldorf, Waldorf, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-09-23"
+      "status": "generated",
+      "publish_date": "2026-09-22"
     },
     {
       "slug": "sell-my-house-fast-newport-news",
