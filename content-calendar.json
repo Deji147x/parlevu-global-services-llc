@@ -139,8 +139,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling a House During Divorce in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-07-18"
+      "status": "published",
+      "publish_date": "2026-07-18",
+      "published_on": "2026-07-24"
     },
     {
       "slug": "divorce-va",
