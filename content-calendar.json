@@ -159,8 +159,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Selling a House During Divorce in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-07-19"
+      "status": "published",
+      "publish_date": "2026-07-19",
+      "published_on": "2026-07-24"
     },
     {
       "slug": "divorce-dc",
