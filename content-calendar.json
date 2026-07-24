@@ -79,8 +79,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling an Inherited House in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-07-15"
+      "status": "published",
+      "publish_date": "2026-07-15",
+      "published_on": "2026-07-24"
     },
     {
       "slug": "inherited-probate-va",
