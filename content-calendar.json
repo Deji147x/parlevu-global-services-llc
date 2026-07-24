@@ -219,8 +219,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Can You Sell a House With Liens or Code Violations in Virginia? Yes \u2014 Here's How, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-07-22"
+      "status": "published",
+      "publish_date": "2026-07-22",
+      "published_on": "2026-07-24"
     },
     {
       "slug": "liens-violations-dc",
