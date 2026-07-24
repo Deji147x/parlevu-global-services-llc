@@ -239,8 +239,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Can You Sell a House With Liens or Code Violations in Washington DC? Yes \u2014 Here's How, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-07-23"
+      "status": "published",
+      "publish_date": "2026-07-23",
+      "published_on": "2026-07-24"
     },
     {
       "slug": "fire-damage-md",
