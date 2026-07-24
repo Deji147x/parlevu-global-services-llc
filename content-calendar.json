@@ -59,8 +59,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Facing Foreclosure in Washington DC? Your Options to Sell Fast and Protect Your Credit, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-07-14"
+      "status": "published",
+      "publish_date": "2026-07-14",
+      "published_on": "2026-07-24"
     },
     {
       "slug": "inherited-probate-md",
