@@ -99,8 +99,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Selling an Inherited House in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-07-16"
+      "status": "published",
+      "publish_date": "2026-07-16",
+      "published_on": "2026-07-24"
     },
     {
       "slug": "inherited-probate-dc",
