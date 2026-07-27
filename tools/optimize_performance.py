@@ -26,21 +26,9 @@ window.addEventListener('load', function() {
 </script>'''
         html = html.replace(old_hubspot, new_hubspot)
 
-    # 2. Add lazy-loading and optimize images in article content
-    # Replace: <img src="images/blog/..." with lazy-loading
-    pattern = r'<img([^>]*?)src="(images/blog/[^"]*)"([^>]*)>'
-    def replace_img(match):
-        attrs_before = match.group(1)
-        src = match.group(2)
-        attrs_after = match.group(3)
-
-        # Add loading="lazy" if not present
-        if 'loading=' not in attrs_before and 'loading=' not in attrs_after:
-            attrs_after = f' loading="lazy"{attrs_after}'
-
-        return f'<img{attrs_before}src="{src}"{attrs_after}>'
-
-    html = re.sub(pattern, replace_img, html)
+    # 2. Images: Keep eager loading on mobile (lazy-loading causes TBT spike)
+    # Will optimize images via compression instead in next phase
+    pass
 
     # 3. Defer Font Awesome if it's in the page
     if 'font-awesome' in html and 'onload=' in html:
