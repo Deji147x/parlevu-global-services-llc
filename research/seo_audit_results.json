@@ -1,0 +1,2382 @@
+{
+  "total_pages": 102,
+  "issue_counts": {
+    "MEDIUM": 116,
+    "LOW": 17,
+    "HIGH": 101
+  },
+  "duplicate_titles": {},
+  "pages_not_in_sitemap": [
+    "blog-how-to-sell-house-fast-maryland.html",
+    "thank-you.html"
+  ],
+  "sitemap_urls_missing_on_disk": [],
+  "broken_internal_links": [],
+  "broken_link_count": 0,
+  "pages": [
+    {
+      "file": "about.html",
+      "title": "About Us | Parlevu Global Services LLC | Black-Owned Baltimore Real Estate",
+      "title_len": 74,
+      "desc_len": 192,
+      "canonical": "https://www.parlevugloballlc.com/about.html",
+      "h1_count": 1,
+      "words": 576,
+      "article_schema": false,
+      "faq_schema": false,
+      "internal_blog_links": 0,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (74 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (192 chars)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-17-questions.html",
+      "title": "17 Questions Every First-Time Home Buyer Forgets to Ask | Parlevu Global Services LLC",
+      "title_len": 85,
+      "desc_len": 161,
+      "canonical": "https://www.parlevugloballlc.com/blog-17-questions.html",
+      "h1_count": 2,
+      "words": 3121,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 1,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (85 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-bad-tenants-dc.html",
+      "title": "Selling a Rental Property With Tenants in Washington DC: Rights, Rules, and Cash Options | Parlevu Global",
+      "title_len": 105,
+      "desc_len": 132,
+      "canonical": "https://www.parlevugloballlc.com/blog-bad-tenants-dc.html",
+      "h1_count": 2,
+      "words": 819,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (105 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-bad-tenants-md.html",
+      "title": "Selling a Rental Property With Tenants in Maryland: Rights, Rules, and Cash Options | Parlevu Global",
+      "title_len": 100,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-bad-tenants-md.html",
+      "h1_count": 2,
+      "words": 820,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (100 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-bad-tenants-va.html",
+      "title": "Selling a Rental Property With Tenants in Virginia: Rights, Rules, and Cash Options | Parlevu Global",
+      "title_len": 100,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-bad-tenants-va.html",
+      "h1_count": 2,
+      "words": 829,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (100 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-baltimore-house-buyers-we-buy-any-condition.html",
+      "title": "Baltimore House Buyers \u2014 We Buy Any Condition, Any Situation | Parlevu Global",
+      "title_len": 77,
+      "desc_len": 197,
+      "canonical": "https://www.parlevugloballlc.com/blog-baltimore-house-buyers-we-buy-any-condition.html",
+      "h1_count": 2,
+      "words": 715,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 5,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (77 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (197 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-cash-home-buyers-dc-washington.html",
+      "title": "Cash Home Buyers in Washington DC \u2014 Fair Offers, Fast Closing | Parlevu Global",
+      "title_len": 78,
+      "desc_len": 199,
+      "canonical": "https://www.parlevugloballlc.com/blog-cash-home-buyers-dc-washington.html",
+      "h1_count": 2,
+      "words": 719,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 5,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (78 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (199 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-cash-offer-baltimore-maryland.html",
+      "title": "Get a Real Cash Offer on Your Baltimore House in 24 Hours | Parlevu Global",
+      "title_len": 74,
+      "desc_len": 194,
+      "canonical": "https://www.parlevugloballlc.com/blog-cash-offer-baltimore-maryland.html",
+      "h1_count": 2,
+      "words": 725,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 5,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (74 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (194 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-divorce-dc.html",
+      "title": "Selling a House During Divorce in Washington DC: A Clear Path Forward | Parlevu Global",
+      "title_len": 86,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-divorce-dc.html",
+      "h1_count": 2,
+      "words": 808,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (86 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-divorce-md.html",
+      "title": "Selling a House During Divorce in Maryland: A Clear Path Forward | Parlevu Global",
+      "title_len": 81,
+      "desc_len": 136,
+      "canonical": "https://www.parlevugloballlc.com/blog-divorce-md.html",
+      "h1_count": 2,
+      "words": 784,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (81 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-divorce-va.html",
+      "title": "Selling a House During Divorce in Virginia: A Clear Path Forward | Parlevu Global",
+      "title_len": 81,
+      "desc_len": 151,
+      "canonical": "https://www.parlevugloballlc.com/blog-divorce-va.html",
+      "h1_count": 2,
+      "words": 789,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (81 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-downsizing-dc.html",
+      "title": "Downsizing in Washington DC: A Retiree's Guide to Selling Without the Stress | Parlevu Global",
+      "title_len": 93,
+      "desc_len": 98,
+      "canonical": "https://www.parlevugloballlc.com/blog-downsizing-dc.html",
+      "h1_count": 2,
+      "words": 862,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (93 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-downsizing-md.html",
+      "title": "Downsizing in Maryland: A Retiree's Guide to Selling Without the Stress | Parlevu Global",
+      "title_len": 88,
+      "desc_len": 156,
+      "canonical": "https://www.parlevugloballlc.com/blog-downsizing-md.html",
+      "h1_count": 2,
+      "words": 846,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (88 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-downsizing-va.html",
+      "title": "Downsizing in Virginia: A Retiree's Guide to Selling Without the Stress | Parlevu Global",
+      "title_len": 88,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-downsizing-va.html",
+      "h1_count": 2,
+      "words": 806,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (88 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fair-cash-offer-dc-distressed-property.html",
+      "title": "Get a Fair Cash Offer on Your DC Property \u2014 Even if It Needs Repairs | Parlevu Global",
+      "title_len": 85,
+      "desc_len": 209,
+      "canonical": "https://www.parlevugloballlc.com/blog-fair-cash-offer-dc-distressed-property.html",
+      "h1_count": 2,
+      "words": 740,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 5,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (85 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (209 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fire-damage-dc.html",
+      "title": "Selling a Fire-Damaged House in Washington DC: What Insurance Won't Tell You | Parlevu Global",
+      "title_len": 93,
+      "desc_len": 126,
+      "canonical": "https://www.parlevugloballlc.com/blog-fire-damage-dc.html",
+      "h1_count": 2,
+      "words": 810,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (93 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fire-damage-md.html",
+      "title": "Selling a Fire-Damaged House in Maryland: What Insurance Won't Tell You | Parlevu Global",
+      "title_len": 88,
+      "desc_len": 96,
+      "canonical": "https://www.parlevugloballlc.com/blog-fire-damage-md.html",
+      "h1_count": 2,
+      "words": 815,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (88 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fire-damage-va.html",
+      "title": "Selling a Fire-Damaged House in Virginia: What Insurance Won't Tell You | Parlevu Global",
+      "title_len": 88,
+      "desc_len": 130,
+      "canonical": "https://www.parlevugloballlc.com/blog-fire-damage-va.html",
+      "h1_count": 2,
+      "words": 791,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (88 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-foreclosure-dc.html",
+      "title": "Facing Foreclosure in Washington DC? Your Options to Sell Fast and Protect Your Credit | Parlevu Global",
+      "title_len": 103,
+      "desc_len": 131,
+      "canonical": "https://www.parlevugloballlc.com/blog-foreclosure-dc.html",
+      "h1_count": 2,
+      "words": 802,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (103 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-foreclosure-md.html",
+      "title": "Facing Foreclosure in Maryland? Your Options to Sell Fast and Protect Your Credit | Parlevu Global",
+      "title_len": 98,
+      "desc_len": 58,
+      "canonical": "https://www.parlevugloballlc.com/blog-foreclosure-md.html",
+      "h1_count": 2,
+      "words": 812,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 10,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (98 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too short (58 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-foreclosure-prevention.html",
+      "title": "Foreclosure Prevention in Baltimore: Your Complete Options Guide | Parlevu Global",
+      "title_len": 81,
+      "desc_len": 214,
+      "canonical": "https://www.parlevugloballlc.com/blog-foreclosure-prevention.html",
+      "h1_count": 2,
+      "words": 1382,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 12,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (81 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (214 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-foreclosure-va.html",
+      "title": "Facing Foreclosure in Virginia? Your Options to Sell Fast and Protect Your Credit | Parlevu Global",
+      "title_len": 98,
+      "desc_len": 96,
+      "canonical": "https://www.parlevugloballlc.com/blog-foreclosure-va.html",
+      "h1_count": 2,
+      "words": 798,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (98 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-foundation-dc.html",
+      "title": "How to Sell a House With Foundation Problems in Washington DC | Parlevu Global",
+      "title_len": 78,
+      "desc_len": 108,
+      "canonical": "https://www.parlevugloballlc.com/blog-foundation-dc.html",
+      "h1_count": 2,
+      "words": 800,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (78 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-foundation-md.html",
+      "title": "How to Sell a House With Foundation Problems in Maryland | Parlevu Global",
+      "title_len": 73,
+      "desc_len": 131,
+      "canonical": "https://www.parlevugloballlc.com/blog-foundation-md.html",
+      "h1_count": 2,
+      "words": 793,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (73 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-foundation-va.html",
+      "title": "How to Sell a House With Foundation Problems in Virginia | Parlevu Global",
+      "title_len": 73,
+      "desc_len": 133,
+      "canonical": "https://www.parlevugloballlc.com/blog-foundation-va.html",
+      "h1_count": 2,
+      "words": 757,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (73 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fsbo-frequently-asked-questions-baltimore.html",
+      "title": "FSBO Frequently Asked Questions: What Baltimore Sellers Need to Know | Parlevu Global",
+      "title_len": 85,
+      "desc_len": 158,
+      "canonical": null,
+      "h1_count": 2,
+      "words": 885,
+      "article_schema": true,
+      "faq_schema": false,
+      "internal_blog_links": 3,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (85 chars)"
+        ],
+        [
+          "HIGH",
+          "missing canonical"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fsbo-vs-agent.html",
+      "title": "FSBO vs. Traditional Agent: What Every Baltimore Seller Needs to Know in 2024 | Parlevu Global",
+      "title_len": 94,
+      "desc_len": 185,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-vs-agent.html",
+      "h1_count": 2,
+      "words": 1110,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 8,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (94 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (185 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-hoarder-house-dc.html",
+      "title": "Selling a Hoarder House in Washington DC: No Cleanout Required | Parlevu Global",
+      "title_len": 79,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-hoarder-house-dc.html",
+      "h1_count": 2,
+      "words": 803,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (79 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-hoarder-house-md.html",
+      "title": "Selling a Hoarder House in Maryland: No Cleanout Required | Parlevu Global",
+      "title_len": 74,
+      "desc_len": 118,
+      "canonical": "https://www.parlevugloballlc.com/blog-hoarder-house-md.html",
+      "h1_count": 2,
+      "words": 815,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (74 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-hoarder-house-va.html",
+      "title": "Selling a Hoarder House in Virginia: No Cleanout Required | Parlevu Global",
+      "title_len": 74,
+      "desc_len": 111,
+      "canonical": "https://www.parlevugloballlc.com/blog-hoarder-house-va.html",
+      "h1_count": 2,
+      "words": 776,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (74 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-how-to-sell-house-fast-maryland.html",
+      "title": "How to Sell Your House Fast in Maryland | Parlevu Global",
+      "title_len": 56,
+      "desc_len": 167,
+      "canonical": "https://www.parlevugloballlc.com/blog-how-to-sell-house-fast-maryland.html",
+      "h1_count": 2,
+      "words": 1287,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 8,
+      "issues": [
+        [
+          "MEDIUM",
+          "meta desc too long (167 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "HIGH",
+          "hero image file missing: images/blog/blog-how-to-sell-house-fast-maryland.jpg"
+        ]
+      ]
+    },
+    {
+      "file": "blog-inherited-probate-dc.html",
+      "title": "Selling an Inherited House in Washington DC: Probate Rules, Taxes, and Your Fastest Options | Parlevu Global",
+      "title_len": 108,
+      "desc_len": 114,
+      "canonical": "https://www.parlevugloballlc.com/blog-inherited-probate-dc.html",
+      "h1_count": 2,
+      "words": 819,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (108 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-inherited-probate-md.html",
+      "title": "Selling an Inherited House in Maryland: Probate Rules, Taxes, and Your Fastest Options | Parlevu Global",
+      "title_len": 103,
+      "desc_len": 131,
+      "canonical": "https://www.parlevugloballlc.com/blog-inherited-probate-md.html",
+      "h1_count": 2,
+      "words": 822,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (103 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-inherited-probate-va.html",
+      "title": "Selling an Inherited House in Virginia: Probate Rules, Taxes, and Your Fastest Options | Parlevu Global",
+      "title_len": 103,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-inherited-probate-va.html",
+      "h1_count": 2,
+      "words": 805,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (103 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-inherited-property.html",
+      "title": "How to Sell an Inherited Property in Baltimore: A Step-by-Step Guide | Parlevu Global",
+      "title_len": 85,
+      "desc_len": 187,
+      "canonical": "https://www.parlevugloballlc.com/blog-inherited-property.html",
+      "h1_count": 2,
+      "words": 1678,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 8,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (85 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (187 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-liens-violations-dc.html",
+      "title": "Can You Sell a House With Liens or Code Violations in Washington DC? Yes \u2014 Here's How | Parlevu Global",
+      "title_len": 102,
+      "desc_len": 157,
+      "canonical": "https://www.parlevugloballlc.com/blog-liens-violations-dc.html",
+      "h1_count": 2,
+      "words": 856,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (102 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-liens-violations-md.html",
+      "title": "Can You Sell a House With Liens or Code Violations in Maryland? Yes \u2014 Here's How | Parlevu Global",
+      "title_len": 97,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-liens-violations-md.html",
+      "h1_count": 2,
+      "words": 821,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (97 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-liens-violations-va.html",
+      "title": "Can You Sell a House With Liens or Code Violations in Virginia? Yes \u2014 Here's How | Parlevu Global",
+      "title_len": 97,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-liens-violations-va.html",
+      "h1_count": 2,
+      "words": 813,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (97 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-market-update.html",
+      "title": "Baltimore Real Estate Market Update: What Sellers Need to Know for Q4 2024 | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 186,
+      "canonical": "https://www.parlevugloballlc.com/blog-market-update.html",
+      "h1_count": 2,
+      "words": 1138,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 8,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (186 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-relocation-dc.html",
+      "title": "Relocating From Washington DC? How to Sell Your House Fast Before the Move | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 131,
+      "canonical": "https://www.parlevugloballlc.com/blog-relocation-dc.html",
+      "h1_count": 2,
+      "words": 773,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-relocation-md.html",
+      "title": "Relocating From Maryland? How to Sell Your House Fast Before the Move | Parlevu Global",
+      "title_len": 86,
+      "desc_len": 128,
+      "canonical": "https://www.parlevugloballlc.com/blog-relocation-md.html",
+      "h1_count": 2,
+      "words": 859,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (86 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-relocation-va.html",
+      "title": "Relocating From Virginia? How to Sell Your House Fast Before the Move | Parlevu Global",
+      "title_len": 86,
+      "desc_len": 78,
+      "canonical": "https://www.parlevugloballlc.com/blog-relocation-va.html",
+      "h1_count": 2,
+      "words": 778,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (86 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-house-arlington-virginia.html",
+      "title": "Sell Your House in Arlington Virginia for Cash \u2014 No Fees, No Delays | Parlevu Global",
+      "title_len": 84,
+      "desc_len": 204,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-house-arlington-virginia.html",
+      "h1_count": 2,
+      "words": 722,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 5,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (84 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (204 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-house-fast-alexandria-virginia.html",
+      "title": "Sell Your House Fast in Alexandria Virginia \u2014 Local Cash Buyers | Parlevu Global",
+      "title_len": 80,
+      "desc_len": 201,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-house-fast-alexandria-virginia.html",
+      "h1_count": 2,
+      "words": 720,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 5,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (80 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (201 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-inherited-house-maryland-fast.html",
+      "title": "Sell Your Inherited House in Maryland Fast \u2014 Probate or No Probate | Parlevu Global",
+      "title_len": 83,
+      "desc_len": 202,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-inherited-house-maryland-fast.html",
+      "h1_count": 2,
+      "words": 721,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 5,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (83 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (202 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-alexandria.html",
+      "title": "Sell My House Fast in Alexandria: How Cash Buyers Help Alexandria Homeowners | Parlevu Global",
+      "title_len": 93,
+      "desc_len": 125,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-alexandria.html",
+      "h1_count": 2,
+      "words": 800,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (93 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-anacostia.html",
+      "title": "Sell My House Fast in Anacostia: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 84,
+      "desc_len": 141,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-anacostia.html",
+      "h1_count": 2,
+      "words": 803,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (84 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-annapolis.html",
+      "title": "Sell My House Fast in Annapolis: How Cash Buyers Help Annapolis Homeowners | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 123,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-annapolis.html",
+      "h1_count": 2,
+      "words": 753,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-arlington.html",
+      "title": "Sell My House Fast in Arlington: How Cash Buyers Help Arlington Homeowners | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 117,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-arlington.html",
+      "h1_count": 2,
+      "words": 808,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-baltimore.html",
+      "title": "Sell My House Fast in Baltimore: How Cash Buyers Help Baltimore Homeowners | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 133,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-baltimore.html",
+      "h1_count": 2,
+      "words": 765,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-bowie.html",
+      "title": "Sell My House Fast in Bowie: How Cash Buyers Help Bowie Homeowners | Parlevu Global",
+      "title_len": 83,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-bowie.html",
+      "h1_count": 2,
+      "words": 823,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (83 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-brookland.html",
+      "title": "Sell My House Fast in Brookland: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 84,
+      "desc_len": 87,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-brookland.html",
+      "h1_count": 2,
+      "words": 757,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (84 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-capitol-hill.html",
+      "title": "Sell My House Fast in Capitol Hill: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 87,
+      "desc_len": 129,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-capitol-hill.html",
+      "h1_count": 2,
+      "words": 806,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (87 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-chesapeake.html",
+      "title": "Sell My House Fast in Chesapeake: How Cash Buyers Help Chesapeake Homeowners | Parlevu Global",
+      "title_len": 93,
+      "desc_len": 157,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-chesapeake.html",
+      "h1_count": 2,
+      "words": 778,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (93 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-columbia-heights.html",
+      "title": "Sell My House Fast in Columbia Heights: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-columbia-heights.html",
+      "h1_count": 2,
+      "words": 810,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-columbia.html",
+      "title": "Sell My House Fast in Columbia: How Cash Buyers Help Columbia Homeowners | Parlevu Global",
+      "title_len": 89,
+      "desc_len": 128,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-columbia.html",
+      "h1_count": 2,
+      "words": 800,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (89 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-congress-heights.html",
+      "title": "Sell My House Fast in Congress Heights: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 96,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-congress-heights.html",
+      "h1_count": 2,
+      "words": 769,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-deanwood.html",
+      "title": "Sell My House Fast in Deanwood: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 83,
+      "desc_len": 105,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-deanwood.html",
+      "h1_count": 2,
+      "words": 756,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (83 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-dundalk.html",
+      "title": "Sell My House Fast in Dundalk: How Cash Buyers Help Dundalk Homeowners | Parlevu Global",
+      "title_len": 87,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-dundalk.html",
+      "h1_count": 2,
+      "words": 824,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (87 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-fairfax.html",
+      "title": "Sell My House Fast in Fairfax: How Cash Buyers Help Fairfax Homeowners | Parlevu Global",
+      "title_len": 87,
+      "desc_len": 78,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-fairfax.html",
+      "h1_count": 2,
+      "words": 734,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (87 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-fort-totten.html",
+      "title": "Sell My House Fast in Fort Totten: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 86,
+      "desc_len": 79,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-fort-totten.html",
+      "h1_count": 2,
+      "words": 754,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (86 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-frederick.html",
+      "title": "Sell My House Fast in Frederick: How Cash Buyers Help Frederick Homeowners | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 74,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-frederick.html",
+      "h1_count": 2,
+      "words": 816,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-fredericksburg.html",
+      "title": "Sell My House Fast in Fredericksburg: How Cash Buyers Help Fredericksburg Homeowners | Parlevu Global",
+      "title_len": 101,
+      "desc_len": 140,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-fredericksburg.html",
+      "h1_count": 2,
+      "words": 720,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (101 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-glen-burnie.html",
+      "title": "Sell My House Fast in Glen Burnie: How Cash Buyers Help Glen Burnie Homeowners | Parlevu Global",
+      "title_len": 95,
+      "desc_len": 107,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-glen-burnie.html",
+      "h1_count": 2,
+      "words": 827,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (95 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-hampton.html",
+      "title": "Sell My House Fast in Hampton: How Cash Buyers Help Hampton Homeowners | Parlevu Global",
+      "title_len": 87,
+      "desc_len": 77,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-hampton.html",
+      "h1_count": 2,
+      "words": 830,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (87 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-ivy-city.html",
+      "title": "Sell My House Fast in Ivy City: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 83,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-ivy-city.html",
+      "h1_count": 2,
+      "words": 761,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (83 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-manassas.html",
+      "title": "Sell My House Fast in Manassas: How Cash Buyers Help Manassas Homeowners | Parlevu Global",
+      "title_len": 89,
+      "desc_len": 86,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-manassas.html",
+      "h1_count": 2,
+      "words": 702,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (89 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-norfolk.html",
+      "title": "Sell My House Fast in Norfolk: How Cash Buyers Help Norfolk Homeowners | Parlevu Global",
+      "title_len": 87,
+      "desc_len": 90,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-norfolk.html",
+      "h1_count": 2,
+      "words": 817,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (87 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-petworth.html",
+      "title": "Sell My House Fast in Petworth: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 83,
+      "desc_len": 138,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-petworth.html",
+      "h1_count": 2,
+      "words": 799,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (83 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-richmond.html",
+      "title": "Sell My House Fast in Richmond: How Cash Buyers Help Richmond Homeowners | Parlevu Global",
+      "title_len": 89,
+      "desc_len": 82,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-richmond.html",
+      "h1_count": 2,
+      "words": 759,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (89 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-rockville.html",
+      "title": "Sell My House Fast in Rockville: How Cash Buyers Help Rockville Homeowners | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 143,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-rockville.html",
+      "h1_count": 2,
+      "words": 808,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-shaw.html",
+      "title": "Sell My House Fast in Shaw: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 79,
+      "desc_len": 105,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-shaw.html",
+      "h1_count": 2,
+      "words": 786,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (79 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-silver-spring.html",
+      "title": "Sell My House Fast in Silver Spring: How Cash Buyers Help Silver Spring Homeowners | Parlevu Global",
+      "title_len": 99,
+      "desc_len": 77,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-silver-spring.html",
+      "h1_count": 2,
+      "words": 820,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (99 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-towson.html",
+      "title": "Sell My House Fast in Towson: How Cash Buyers Help Towson Homeowners | Parlevu Global",
+      "title_len": 85,
+      "desc_len": 77,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-towson.html",
+      "h1_count": 2,
+      "words": 822,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (85 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-trinidad.html",
+      "title": "Sell My House Fast in Trinidad: How Cash Buyers Help DC Homeowners | Parlevu Global",
+      "title_len": 83,
+      "desc_len": 131,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-trinidad.html",
+      "h1_count": 2,
+      "words": 752,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (83 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-upper-marlboro.html",
+      "title": "Sell My House Fast in Upper Marlboro: How Cash Buyers Help Upper Marlboro Homeowners | Parlevu Global",
+      "title_len": 101,
+      "desc_len": 132,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-upper-marlboro.html",
+      "h1_count": 2,
+      "words": 837,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (101 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-virginia-beach.html",
+      "title": "Sell My House Fast in Virginia Beach: How Cash Buyers Help Virginia Beach Homeowners | Parlevu Global",
+      "title_len": 101,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-virginia-beach.html",
+      "h1_count": 2,
+      "words": 835,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (101 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-waldorf.html",
+      "title": "Sell My House Fast in Waldorf: How Cash Buyers Help Waldorf Homeowners | Parlevu Global",
+      "title_len": 87,
+      "desc_len": 73,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-waldorf.html",
+      "h1_count": 2,
+      "words": 831,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (87 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-sell-my-house-fast-woodbridge.html",
+      "title": "Sell My House Fast in Woodbridge: How Cash Buyers Help Woodbridge Homeowners | Parlevu Global",
+      "title_len": 93,
+      "desc_len": 115,
+      "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-woodbridge.html",
+      "h1_count": 2,
+      "words": 749,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (93 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-seller-pain-points-real-estate-baltimore.html",
+      "title": "The 7 Biggest Pain Points When Selling Your Home in Baltimore | Parlevu Global",
+      "title_len": 78,
+      "desc_len": 105,
+      "canonical": null,
+      "h1_count": 2,
+      "words": 689,
+      "article_schema": true,
+      "faq_schema": false,
+      "internal_blog_links": 3,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (78 chars)"
+        ],
+        [
+          "HIGH",
+          "missing canonical"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-selling-as-is.html",
+      "title": "Selling an As-Is Property in Baltimore: Everything You Need to Know | Parlevu Global",
+      "title_len": 84,
+      "desc_len": 165,
+      "canonical": "https://www.parlevugloballlc.com/blog-selling-as-is.html",
+      "h1_count": 2,
+      "words": 1198,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 8,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (84 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-underwater-mortgage-dc.html",
+      "title": "Owe More Than Your Washington DC Home Is Worth? How to Sell an Underwater House | Parlevu Global",
+      "title_len": 96,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-underwater-mortgage-dc.html",
+      "h1_count": 2,
+      "words": 813,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (96 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-underwater-mortgage-md.html",
+      "title": "Owe More Than Your Maryland Home Is Worth? How to Sell an Underwater House | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 138,
+      "canonical": "https://www.parlevugloballlc.com/blog-underwater-mortgage-md.html",
+      "h1_count": 2,
+      "words": 841,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-underwater-mortgage-va.html",
+      "title": "Owe More Than Your Virginia Home Is Worth? How to Sell an Underwater House | Parlevu Global",
+      "title_len": 91,
+      "desc_len": 97,
+      "canonical": "https://www.parlevugloballlc.com/blog-underwater-mortgage-va.html",
+      "h1_count": 2,
+      "words": 857,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (91 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-vacant-house-dc.html",
+      "title": "Selling a Vacant or Abandoned House in Washington DC Before It Costs You More | Parlevu Global",
+      "title_len": 94,
+      "desc_len": 134,
+      "canonical": "https://www.parlevugloballlc.com/blog-vacant-house-dc.html",
+      "h1_count": 2,
+      "words": 750,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (94 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-vacant-house-md.html",
+      "title": "Selling a Vacant or Abandoned House in Maryland Before It Costs You More | Parlevu Global",
+      "title_len": 89,
+      "desc_len": 106,
+      "canonical": "https://www.parlevugloballlc.com/blog-vacant-house-md.html",
+      "h1_count": 2,
+      "words": 752,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (89 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-vacant-house-va.html",
+      "title": "Selling a Vacant or Abandoned House in Virginia Before It Costs You More | Parlevu Global",
+      "title_len": 89,
+      "desc_len": 132,
+      "canonical": "https://www.parlevugloballlc.com/blog-vacant-house-va.html",
+      "h1_count": 2,
+      "words": 834,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (89 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-water-mold-dc.html",
+      "title": "Selling a House With Water Damage or Mold in Washington DC | Parlevu Global",
+      "title_len": 75,
+      "desc_len": 148,
+      "canonical": "https://www.parlevugloballlc.com/blog-water-mold-dc.html",
+      "h1_count": 2,
+      "words": 825,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (75 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-water-mold-md.html",
+      "title": "Selling a House With Water Damage or Mold in Maryland | Parlevu Global",
+      "title_len": 70,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-water-mold-md.html",
+      "h1_count": 2,
+      "words": 809,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (70 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-water-mold-va.html",
+      "title": "Selling a House With Water Damage or Mold in Virginia | Parlevu Global",
+      "title_len": 70,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-water-mold-va.html",
+      "h1_count": 2,
+      "words": 837,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (70 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-we-buy-houses-baltimore-fast.html",
+      "title": "We Buy Houses Baltimore Fast \u2014 No Realtor, No Wait, No Repairs | Parlevu Global",
+      "title_len": 79,
+      "desc_len": 199,
+      "canonical": "https://www.parlevugloballlc.com/blog-we-buy-houses-baltimore-fast.html",
+      "h1_count": 2,
+      "words": 746,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 8,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (79 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (199 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-we-buy-houses.html",
+      "title": "What Does \"We Buy Houses\" Really Mean? A Baltimore Homeowner's Guide | Parlevu Global",
+      "title_len": 85,
+      "desc_len": 157,
+      "canonical": "https://www.parlevugloballlc.com/blog-we-buy-houses.html",
+      "h1_count": 2,
+      "words": 1217,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 8,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (85 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-why-your-fsbo-listing-isnt-selling-baltimore.html",
+      "title": "Why Your FSBO Listing Isn't Selling (And What Actually Works) | Parlevu Global",
+      "title_len": 78,
+      "desc_len": 158,
+      "canonical": null,
+      "h1_count": 2,
+      "words": 495,
+      "article_schema": true,
+      "faq_schema": false,
+      "internal_blog_links": 0,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (78 chars)"
+        ],
+        [
+          "HIGH",
+          "missing canonical"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog.html",
+      "title": "Blog | Baltimore Real Estate Tips &amp; Guides | Parlevu Global Services LLC",
+      "title_len": 76,
+      "desc_len": 165,
+      "canonical": "https://www.parlevugloballlc.com/blog.html",
+      "h1_count": 1,
+      "words": 1225,
+      "article_schema": false,
+      "faq_schema": false,
+      "internal_blog_links": 21,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (76 chars)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact Us | Get Your Cash Offer | Parlevu Global Services LLC",
+      "title_len": 62,
+      "desc_len": 171,
+      "canonical": "https://www.parlevugloballlc.com/contact.html",
+      "h1_count": 1,
+      "words": 752,
+      "article_schema": false,
+      "faq_schema": false,
+      "internal_blog_links": 0,
+      "issues": [
+        [
+          "MEDIUM",
+          "meta desc too long (171 chars)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "index.html",
+      "title": "Parlevu Global Services LLC | We Buy Houses Baltimore | Cash Offers",
+      "title_len": 67,
+      "desc_len": 187,
+      "canonical": "https://www.parlevugloballlc.com/",
+      "h1_count": 1,
+      "words": 1087,
+      "article_schema": false,
+      "faq_schema": false,
+      "internal_blog_links": 0,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (67 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (187 chars)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "privacy-policy.html",
+      "title": "Privacy Policy | Parlevu Global Services LLC",
+      "title_len": 44,
+      "desc_len": 113,
+      "canonical": "https://www.parlevugloballlc.com/privacy-policy.html",
+      "h1_count": 1,
+      "words": 867,
+      "article_schema": false,
+      "faq_schema": false,
+      "internal_blog_links": 0,
+      "issues": [
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "sell-house-fast-maryland.html",
+      "title": "Sell Your House Fast in Maryland \u2014 Cash Offers in 24-48 Hours | Parlevu Global",
+      "title_len": 78,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/sell-house-fast-maryland.html",
+      "h1_count": 2,
+      "words": 578,
+      "article_schema": false,
+      "faq_schema": true,
+      "internal_blog_links": 5,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (78 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "sell-house-fast-virginia.html",
+      "title": "Sell Your House Fast in Virginia \u2014 Local Cash Home Buyers | Parlevu Global",
+      "title_len": 74,
+      "desc_len": 163,
+      "canonical": "https://www.parlevugloballlc.com/sell-house-fast-virginia.html",
+      "h1_count": 2,
+      "words": 576,
+      "article_schema": false,
+      "faq_schema": true,
+      "internal_blog_links": 5,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (74 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "sell-house-fast-washington-dc.html",
+      "title": "Sell Your House Fast in Washington DC \u2014 Fair Cash Offers | Parlevu Global",
+      "title_len": 73,
+      "desc_len": 157,
+      "canonical": "https://www.parlevugloballlc.com/sell-house-fast-washington-dc.html",
+      "h1_count": 2,
+      "words": 575,
+      "article_schema": false,
+      "faq_schema": true,
+      "internal_blog_links": 5,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (73 chars)"
+        ],
+        [
+          "HIGH",
+          "multiple H1s (2)"
+        ]
+      ]
+    },
+    {
+      "file": "services.html",
+      "title": "Services | Cash Home Buying, FSBO &amp; More | Parlevu Global Services LLC",
+      "title_len": 74,
+      "desc_len": 171,
+      "canonical": "https://www.parlevugloballlc.com/services.html",
+      "h1_count": 1,
+      "words": 692,
+      "article_schema": false,
+      "faq_schema": false,
+      "internal_blog_links": 0,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (74 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (171 chars)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "thank-you.html",
+      "title": "Thank You! | Parlevu Global Services LLC",
+      "title_len": 40,
+      "desc_len": 109,
+      "canonical": null,
+      "h1_count": 1,
+      "words": 258,
+      "article_schema": false,
+      "faq_schema": false,
+      "internal_blog_links": 0,
+      "issues": [
+        [
+          "HIGH",
+          "missing canonical"
+        ],
+        [
+          "HIGH",
+          "thin content (258 words)"
+        ],
+        [
+          "LOW",
+          "missing og:image"
+        ]
+      ]
+    }
+  ]
+}
