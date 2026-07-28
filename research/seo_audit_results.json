@@ -1,13 +1,12 @@
 {
-  "total_pages": 102,
+  "total_pages": 106,
   "issue_counts": {
-    "MEDIUM": 116,
+    "MEDIUM": 120,
     "LOW": 17,
-    "HIGH": 101
+    "HIGH": 2
   },
   "duplicate_titles": {},
   "pages_not_in_sitemap": [
-    "blog-how-to-sell-house-fast-maryland.html",
     "thank-you.html"
   ],
   "sitemap_urls_missing_on_disk": [],
@@ -46,7 +45,7 @@
       "title_len": 85,
       "desc_len": 161,
       "canonical": "https://www.parlevugloballlc.com/blog-17-questions.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 3121,
       "article_schema": true,
       "faq_schema": true,
@@ -55,10 +54,6 @@
         [
           "MEDIUM",
           "title too long (85 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ],
         [
           "LOW",
@@ -72,7 +67,7 @@
       "title_len": 105,
       "desc_len": 132,
       "canonical": "https://www.parlevugloballlc.com/blog-bad-tenants-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 819,
       "article_schema": true,
       "faq_schema": true,
@@ -81,10 +76,6 @@
         [
           "MEDIUM",
           "title too long (105 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -94,7 +85,7 @@
       "title_len": 100,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-bad-tenants-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 820,
       "article_schema": true,
       "faq_schema": true,
@@ -103,10 +94,6 @@
         [
           "MEDIUM",
           "title too long (100 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -116,7 +103,7 @@
       "title_len": 100,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-bad-tenants-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 829,
       "article_schema": true,
       "faq_schema": true,
@@ -125,10 +112,6 @@
         [
           "MEDIUM",
           "title too long (100 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -138,7 +121,7 @@
       "title_len": 77,
       "desc_len": 197,
       "canonical": "https://www.parlevugloballlc.com/blog-baltimore-house-buyers-we-buy-any-condition.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 715,
       "article_schema": true,
       "faq_schema": true,
@@ -151,10 +134,6 @@
         [
           "MEDIUM",
           "meta desc too long (197 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -164,7 +143,7 @@
       "title_len": 78,
       "desc_len": 199,
       "canonical": "https://www.parlevugloballlc.com/blog-cash-home-buyers-dc-washington.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 719,
       "article_schema": true,
       "faq_schema": true,
@@ -177,10 +156,6 @@
         [
           "MEDIUM",
           "meta desc too long (199 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -190,7 +165,7 @@
       "title_len": 74,
       "desc_len": 194,
       "canonical": "https://www.parlevugloballlc.com/blog-cash-offer-baltimore-maryland.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 725,
       "article_schema": true,
       "faq_schema": true,
@@ -203,10 +178,6 @@
         [
           "MEDIUM",
           "meta desc too long (194 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -216,7 +187,7 @@
       "title_len": 86,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-divorce-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 808,
       "article_schema": true,
       "faq_schema": true,
@@ -225,10 +196,6 @@
         [
           "MEDIUM",
           "title too long (86 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -238,7 +205,7 @@
       "title_len": 81,
       "desc_len": 136,
       "canonical": "https://www.parlevugloballlc.com/blog-divorce-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 784,
       "article_schema": true,
       "faq_schema": true,
@@ -247,10 +214,6 @@
         [
           "MEDIUM",
           "title too long (81 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -260,7 +223,7 @@
       "title_len": 81,
       "desc_len": 151,
       "canonical": "https://www.parlevugloballlc.com/blog-divorce-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 789,
       "article_schema": true,
       "faq_schema": true,
@@ -269,10 +232,6 @@
         [
           "MEDIUM",
           "title too long (81 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -282,7 +241,7 @@
       "title_len": 93,
       "desc_len": 98,
       "canonical": "https://www.parlevugloballlc.com/blog-downsizing-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 862,
       "article_schema": true,
       "faq_schema": true,
@@ -291,10 +250,6 @@
         [
           "MEDIUM",
           "title too long (93 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -304,7 +259,7 @@
       "title_len": 88,
       "desc_len": 156,
       "canonical": "https://www.parlevugloballlc.com/blog-downsizing-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 846,
       "article_schema": true,
       "faq_schema": true,
@@ -313,10 +268,6 @@
         [
           "MEDIUM",
           "title too long (88 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -326,7 +277,7 @@
       "title_len": 88,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-downsizing-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 806,
       "article_schema": true,
       "faq_schema": true,
@@ -335,10 +286,6 @@
         [
           "MEDIUM",
           "title too long (88 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -348,7 +295,7 @@
       "title_len": 85,
       "desc_len": 209,
       "canonical": "https://www.parlevugloballlc.com/blog-fair-cash-offer-dc-distressed-property.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 740,
       "article_schema": true,
       "faq_schema": true,
@@ -361,10 +308,6 @@
         [
           "MEDIUM",
           "meta desc too long (209 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -374,7 +317,7 @@
       "title_len": 93,
       "desc_len": 126,
       "canonical": "https://www.parlevugloballlc.com/blog-fire-damage-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 810,
       "article_schema": true,
       "faq_schema": true,
@@ -383,10 +326,6 @@
         [
           "MEDIUM",
           "title too long (93 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -396,7 +335,7 @@
       "title_len": 88,
       "desc_len": 96,
       "canonical": "https://www.parlevugloballlc.com/blog-fire-damage-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 815,
       "article_schema": true,
       "faq_schema": true,
@@ -405,10 +344,6 @@
         [
           "MEDIUM",
           "title too long (88 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -418,7 +353,7 @@
       "title_len": 88,
       "desc_len": 130,
       "canonical": "https://www.parlevugloballlc.com/blog-fire-damage-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 791,
       "article_schema": true,
       "faq_schema": true,
@@ -427,10 +362,6 @@
         [
           "MEDIUM",
           "title too long (88 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -440,7 +371,7 @@
       "title_len": 103,
       "desc_len": 131,
       "canonical": "https://www.parlevugloballlc.com/blog-foreclosure-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 802,
       "article_schema": true,
       "faq_schema": true,
@@ -449,10 +380,6 @@
         [
           "MEDIUM",
           "title too long (103 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -462,7 +389,7 @@
       "title_len": 98,
       "desc_len": 58,
       "canonical": "https://www.parlevugloballlc.com/blog-foreclosure-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 812,
       "article_schema": true,
       "faq_schema": true,
@@ -475,10 +402,6 @@
         [
           "MEDIUM",
           "meta desc too short (58 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -488,7 +411,7 @@
       "title_len": 81,
       "desc_len": 214,
       "canonical": "https://www.parlevugloballlc.com/blog-foreclosure-prevention.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 1382,
       "article_schema": true,
       "faq_schema": true,
@@ -503,10 +426,6 @@
           "meta desc too long (214 chars)"
         ],
         [
-          "HIGH",
-          "multiple H1s (2)"
-        ],
-        [
           "LOW",
           "missing og:image"
         ]
@@ -518,7 +437,7 @@
       "title_len": 98,
       "desc_len": 96,
       "canonical": "https://www.parlevugloballlc.com/blog-foreclosure-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 798,
       "article_schema": true,
       "faq_schema": true,
@@ -527,10 +446,6 @@
         [
           "MEDIUM",
           "title too long (98 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -540,7 +455,7 @@
       "title_len": 78,
       "desc_len": 108,
       "canonical": "https://www.parlevugloballlc.com/blog-foundation-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 800,
       "article_schema": true,
       "faq_schema": true,
@@ -549,10 +464,6 @@
         [
           "MEDIUM",
           "title too long (78 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -562,7 +473,7 @@
       "title_len": 73,
       "desc_len": 131,
       "canonical": "https://www.parlevugloballlc.com/blog-foundation-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 793,
       "article_schema": true,
       "faq_schema": true,
@@ -571,10 +482,6 @@
         [
           "MEDIUM",
           "title too long (73 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -584,7 +491,7 @@
       "title_len": 73,
       "desc_len": 133,
       "canonical": "https://www.parlevugloballlc.com/blog-foundation-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 757,
       "article_schema": true,
       "faq_schema": true,
@@ -593,10 +500,6 @@
         [
           "MEDIUM",
           "title too long (73 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -605,8 +508,8 @@
       "title": "FSBO Frequently Asked Questions: What Baltimore Sellers Need to Know | Parlevu Global",
       "title_len": 85,
       "desc_len": 158,
-      "canonical": null,
-      "h1_count": 2,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-frequently-asked-questions-baltimore.html",
+      "h1_count": 1,
       "words": 885,
       "article_schema": true,
       "faq_schema": false,
@@ -617,16 +520,57 @@
           "title too long (85 chars)"
         ],
         [
-          "HIGH",
-          "missing canonical"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
-        ],
-        [
           "LOW",
           "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fsbo-how-does-fsbo-work-maryland.html",
+      "title": "How Does For Sale By Owner Work in Maryland? | Parlevu Global",
+      "title_len": 61,
+      "desc_len": 157,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-how-does-fsbo-work-maryland.html",
+      "h1_count": 1,
+      "words": 793,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": []
+    },
+    {
+      "file": "blog-fsbo-maryland-complete-guide.html",
+      "title": "For Sale By Owner in Maryland: The Complete 2026 Guide | Parlevu Global",
+      "title_len": 71,
+      "desc_len": 153,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-maryland-complete-guide.html",
+      "h1_count": 1,
+      "words": 1484,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 9,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (71 chars)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fsbo-sell-as-is-no-repairs.html",
+      "title": "Can You Sell a House As-Is Without Making Repairs? | Parlevu Global",
+      "title_len": 67,
+      "desc_len": 133,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-sell-as-is-no-repairs.html",
+      "h1_count": 1,
+      "words": 747,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (67 chars)"
         ]
       ]
     },
@@ -636,7 +580,7 @@
       "title_len": 94,
       "desc_len": 185,
       "canonical": "https://www.parlevugloballlc.com/blog-fsbo-vs-agent.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 1110,
       "article_schema": true,
       "faq_schema": true,
@@ -651,10 +595,6 @@
           "meta desc too long (185 chars)"
         ],
         [
-          "HIGH",
-          "multiple H1s (2)"
-        ],
-        [
           "LOW",
           "missing og:image"
         ]
@@ -666,7 +606,7 @@
       "title_len": 79,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-hoarder-house-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 803,
       "article_schema": true,
       "faq_schema": true,
@@ -675,10 +615,6 @@
         [
           "MEDIUM",
           "title too long (79 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -688,7 +624,7 @@
       "title_len": 74,
       "desc_len": 118,
       "canonical": "https://www.parlevugloballlc.com/blog-hoarder-house-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 815,
       "article_schema": true,
       "faq_schema": true,
@@ -697,10 +633,6 @@
         [
           "MEDIUM",
           "title too long (74 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -710,7 +642,7 @@
       "title_len": 74,
       "desc_len": 111,
       "canonical": "https://www.parlevugloballlc.com/blog-hoarder-house-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 776,
       "article_schema": true,
       "faq_schema": true,
@@ -719,10 +651,6 @@
         [
           "MEDIUM",
           "title too long (74 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -732,7 +660,7 @@
       "title_len": 56,
       "desc_len": 167,
       "canonical": "https://www.parlevugloballlc.com/blog-how-to-sell-house-fast-maryland.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 1287,
       "article_schema": true,
       "faq_schema": true,
@@ -741,14 +669,6 @@
         [
           "MEDIUM",
           "meta desc too long (167 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
-        ],
-        [
-          "HIGH",
-          "hero image file missing: images/blog/blog-how-to-sell-house-fast-maryland.jpg"
         ]
       ]
     },
@@ -758,7 +678,7 @@
       "title_len": 108,
       "desc_len": 114,
       "canonical": "https://www.parlevugloballlc.com/blog-inherited-probate-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 819,
       "article_schema": true,
       "faq_schema": true,
@@ -767,10 +687,6 @@
         [
           "MEDIUM",
           "title too long (108 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -780,7 +696,7 @@
       "title_len": 103,
       "desc_len": 131,
       "canonical": "https://www.parlevugloballlc.com/blog-inherited-probate-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 822,
       "article_schema": true,
       "faq_schema": true,
@@ -789,10 +705,6 @@
         [
           "MEDIUM",
           "title too long (103 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -802,7 +714,7 @@
       "title_len": 103,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-inherited-probate-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 805,
       "article_schema": true,
       "faq_schema": true,
@@ -811,10 +723,6 @@
         [
           "MEDIUM",
           "title too long (103 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -824,7 +732,7 @@
       "title_len": 85,
       "desc_len": 187,
       "canonical": "https://www.parlevugloballlc.com/blog-inherited-property.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 1678,
       "article_schema": true,
       "faq_schema": true,
@@ -839,10 +747,6 @@
           "meta desc too long (187 chars)"
         ],
         [
-          "HIGH",
-          "multiple H1s (2)"
-        ],
-        [
           "LOW",
           "missing og:image"
         ]
@@ -854,7 +758,7 @@
       "title_len": 102,
       "desc_len": 157,
       "canonical": "https://www.parlevugloballlc.com/blog-liens-violations-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 856,
       "article_schema": true,
       "faq_schema": true,
@@ -863,10 +767,6 @@
         [
           "MEDIUM",
           "title too long (102 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -876,7 +776,7 @@
       "title_len": 97,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-liens-violations-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 821,
       "article_schema": true,
       "faq_schema": true,
@@ -885,10 +785,6 @@
         [
           "MEDIUM",
           "title too long (97 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -898,7 +794,7 @@
       "title_len": 97,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-liens-violations-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 813,
       "article_schema": true,
       "faq_schema": true,
@@ -907,10 +803,6 @@
         [
           "MEDIUM",
           "title too long (97 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -920,7 +812,7 @@
       "title_len": 91,
       "desc_len": 186,
       "canonical": "https://www.parlevugloballlc.com/blog-market-update.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 1138,
       "article_schema": true,
       "faq_schema": true,
@@ -935,10 +827,6 @@
           "meta desc too long (186 chars)"
         ],
         [
-          "HIGH",
-          "multiple H1s (2)"
-        ],
-        [
           "LOW",
           "missing og:image"
         ]
@@ -950,7 +838,7 @@
       "title_len": 91,
       "desc_len": 131,
       "canonical": "https://www.parlevugloballlc.com/blog-relocation-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 773,
       "article_schema": true,
       "faq_schema": true,
@@ -959,10 +847,6 @@
         [
           "MEDIUM",
           "title too long (91 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -972,7 +856,7 @@
       "title_len": 86,
       "desc_len": 128,
       "canonical": "https://www.parlevugloballlc.com/blog-relocation-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 859,
       "article_schema": true,
       "faq_schema": true,
@@ -981,10 +865,6 @@
         [
           "MEDIUM",
           "title too long (86 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -994,7 +874,7 @@
       "title_len": 86,
       "desc_len": 78,
       "canonical": "https://www.parlevugloballlc.com/blog-relocation-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 778,
       "article_schema": true,
       "faq_schema": true,
@@ -1003,10 +883,6 @@
         [
           "MEDIUM",
           "title too long (86 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1016,7 +892,7 @@
       "title_len": 84,
       "desc_len": 204,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-house-arlington-virginia.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 722,
       "article_schema": true,
       "faq_schema": true,
@@ -1029,10 +905,6 @@
         [
           "MEDIUM",
           "meta desc too long (204 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1042,7 +914,7 @@
       "title_len": 80,
       "desc_len": 201,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-house-fast-alexandria-virginia.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 720,
       "article_schema": true,
       "faq_schema": true,
@@ -1055,10 +927,6 @@
         [
           "MEDIUM",
           "meta desc too long (201 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1068,7 +936,7 @@
       "title_len": 83,
       "desc_len": 202,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-inherited-house-maryland-fast.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 721,
       "article_schema": true,
       "faq_schema": true,
@@ -1081,10 +949,6 @@
         [
           "MEDIUM",
           "meta desc too long (202 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1094,7 +958,7 @@
       "title_len": 93,
       "desc_len": 125,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-alexandria.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 800,
       "article_schema": true,
       "faq_schema": true,
@@ -1103,10 +967,6 @@
         [
           "MEDIUM",
           "title too long (93 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1116,7 +976,7 @@
       "title_len": 84,
       "desc_len": 141,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-anacostia.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 803,
       "article_schema": true,
       "faq_schema": true,
@@ -1125,10 +985,6 @@
         [
           "MEDIUM",
           "title too long (84 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1138,7 +994,7 @@
       "title_len": 91,
       "desc_len": 123,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-annapolis.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 753,
       "article_schema": true,
       "faq_schema": true,
@@ -1147,10 +1003,6 @@
         [
           "MEDIUM",
           "title too long (91 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1160,7 +1012,7 @@
       "title_len": 91,
       "desc_len": 117,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-arlington.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 808,
       "article_schema": true,
       "faq_schema": true,
@@ -1169,10 +1021,6 @@
         [
           "MEDIUM",
           "title too long (91 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1182,7 +1030,7 @@
       "title_len": 91,
       "desc_len": 133,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-baltimore.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 765,
       "article_schema": true,
       "faq_schema": true,
@@ -1191,10 +1039,6 @@
         [
           "MEDIUM",
           "title too long (91 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1204,7 +1048,7 @@
       "title_len": 83,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-bowie.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 823,
       "article_schema": true,
       "faq_schema": true,
@@ -1213,10 +1057,6 @@
         [
           "MEDIUM",
           "title too long (83 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1226,7 +1066,7 @@
       "title_len": 84,
       "desc_len": 87,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-brookland.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 757,
       "article_schema": true,
       "faq_schema": true,
@@ -1235,10 +1075,6 @@
         [
           "MEDIUM",
           "title too long (84 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1248,7 +1084,7 @@
       "title_len": 87,
       "desc_len": 129,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-capitol-hill.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 806,
       "article_schema": true,
       "faq_schema": true,
@@ -1257,10 +1093,6 @@
         [
           "MEDIUM",
           "title too long (87 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1270,7 +1102,7 @@
       "title_len": 93,
       "desc_len": 157,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-chesapeake.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 778,
       "article_schema": true,
       "faq_schema": true,
@@ -1279,10 +1111,6 @@
         [
           "MEDIUM",
           "title too long (93 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1292,7 +1120,7 @@
       "title_len": 91,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-columbia-heights.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 810,
       "article_schema": true,
       "faq_schema": true,
@@ -1301,10 +1129,6 @@
         [
           "MEDIUM",
           "title too long (91 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1314,7 +1138,7 @@
       "title_len": 89,
       "desc_len": 128,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-columbia.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 800,
       "article_schema": true,
       "faq_schema": true,
@@ -1323,10 +1147,6 @@
         [
           "MEDIUM",
           "title too long (89 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1336,7 +1156,7 @@
       "title_len": 91,
       "desc_len": 96,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-congress-heights.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 769,
       "article_schema": true,
       "faq_schema": true,
@@ -1345,10 +1165,6 @@
         [
           "MEDIUM",
           "title too long (91 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1358,7 +1174,7 @@
       "title_len": 83,
       "desc_len": 105,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-deanwood.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 756,
       "article_schema": true,
       "faq_schema": true,
@@ -1367,10 +1183,6 @@
         [
           "MEDIUM",
           "title too long (83 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1380,7 +1192,7 @@
       "title_len": 87,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-dundalk.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 824,
       "article_schema": true,
       "faq_schema": true,
@@ -1389,10 +1201,6 @@
         [
           "MEDIUM",
           "title too long (87 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1402,7 +1210,7 @@
       "title_len": 87,
       "desc_len": 78,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-fairfax.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 734,
       "article_schema": true,
       "faq_schema": true,
@@ -1411,10 +1219,6 @@
         [
           "MEDIUM",
           "title too long (87 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1424,7 +1228,7 @@
       "title_len": 86,
       "desc_len": 79,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-fort-totten.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 754,
       "article_schema": true,
       "faq_schema": true,
@@ -1433,10 +1237,6 @@
         [
           "MEDIUM",
           "title too long (86 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1446,7 +1246,7 @@
       "title_len": 91,
       "desc_len": 74,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-frederick.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 816,
       "article_schema": true,
       "faq_schema": true,
@@ -1455,10 +1255,6 @@
         [
           "MEDIUM",
           "title too long (91 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1468,7 +1264,7 @@
       "title_len": 101,
       "desc_len": 140,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-fredericksburg.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 720,
       "article_schema": true,
       "faq_schema": true,
@@ -1477,10 +1273,6 @@
         [
           "MEDIUM",
           "title too long (101 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1490,7 +1282,7 @@
       "title_len": 95,
       "desc_len": 107,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-glen-burnie.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 827,
       "article_schema": true,
       "faq_schema": true,
@@ -1499,10 +1291,6 @@
         [
           "MEDIUM",
           "title too long (95 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1512,7 +1300,7 @@
       "title_len": 87,
       "desc_len": 77,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-hampton.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 830,
       "article_schema": true,
       "faq_schema": true,
@@ -1521,10 +1309,6 @@
         [
           "MEDIUM",
           "title too long (87 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1534,7 +1318,7 @@
       "title_len": 83,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-ivy-city.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 761,
       "article_schema": true,
       "faq_schema": true,
@@ -1543,10 +1327,6 @@
         [
           "MEDIUM",
           "title too long (83 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1556,7 +1336,7 @@
       "title_len": 89,
       "desc_len": 86,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-manassas.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 702,
       "article_schema": true,
       "faq_schema": true,
@@ -1565,10 +1345,6 @@
         [
           "MEDIUM",
           "title too long (89 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1578,7 +1354,7 @@
       "title_len": 87,
       "desc_len": 90,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-norfolk.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 817,
       "article_schema": true,
       "faq_schema": true,
@@ -1587,10 +1363,6 @@
         [
           "MEDIUM",
           "title too long (87 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1600,7 +1372,7 @@
       "title_len": 83,
       "desc_len": 138,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-petworth.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 799,
       "article_schema": true,
       "faq_schema": true,
@@ -1609,10 +1381,6 @@
         [
           "MEDIUM",
           "title too long (83 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1622,7 +1390,7 @@
       "title_len": 89,
       "desc_len": 82,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-richmond.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 759,
       "article_schema": true,
       "faq_schema": true,
@@ -1631,10 +1399,6 @@
         [
           "MEDIUM",
           "title too long (89 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1644,7 +1408,7 @@
       "title_len": 91,
       "desc_len": 143,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-rockville.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 808,
       "article_schema": true,
       "faq_schema": true,
@@ -1653,10 +1417,6 @@
         [
           "MEDIUM",
           "title too long (91 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1666,7 +1426,7 @@
       "title_len": 79,
       "desc_len": 105,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-shaw.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 786,
       "article_schema": true,
       "faq_schema": true,
@@ -1675,10 +1435,6 @@
         [
           "MEDIUM",
           "title too long (79 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1688,7 +1444,7 @@
       "title_len": 99,
       "desc_len": 77,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-silver-spring.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 820,
       "article_schema": true,
       "faq_schema": true,
@@ -1697,10 +1453,6 @@
         [
           "MEDIUM",
           "title too long (99 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1710,7 +1462,7 @@
       "title_len": 85,
       "desc_len": 77,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-towson.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 822,
       "article_schema": true,
       "faq_schema": true,
@@ -1719,10 +1471,6 @@
         [
           "MEDIUM",
           "title too long (85 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1732,7 +1480,7 @@
       "title_len": 83,
       "desc_len": 131,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-trinidad.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 752,
       "article_schema": true,
       "faq_schema": true,
@@ -1741,10 +1489,6 @@
         [
           "MEDIUM",
           "title too long (83 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1754,7 +1498,7 @@
       "title_len": 101,
       "desc_len": 132,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-upper-marlboro.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 837,
       "article_schema": true,
       "faq_schema": true,
@@ -1763,10 +1507,6 @@
         [
           "MEDIUM",
           "title too long (101 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1776,7 +1516,7 @@
       "title_len": 101,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-virginia-beach.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 835,
       "article_schema": true,
       "faq_schema": true,
@@ -1785,10 +1525,6 @@
         [
           "MEDIUM",
           "title too long (101 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1798,7 +1534,7 @@
       "title_len": 87,
       "desc_len": 73,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-waldorf.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 831,
       "article_schema": true,
       "faq_schema": true,
@@ -1807,10 +1543,6 @@
         [
           "MEDIUM",
           "title too long (87 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1820,7 +1552,7 @@
       "title_len": 93,
       "desc_len": 115,
       "canonical": "https://www.parlevugloballlc.com/blog-sell-my-house-fast-woodbridge.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 749,
       "article_schema": true,
       "faq_schema": true,
@@ -1829,10 +1561,6 @@
         [
           "MEDIUM",
           "title too long (93 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1841,8 +1569,8 @@
       "title": "The 7 Biggest Pain Points When Selling Your Home in Baltimore | Parlevu Global",
       "title_len": 78,
       "desc_len": 105,
-      "canonical": null,
-      "h1_count": 2,
+      "canonical": "https://www.parlevugloballlc.com/blog-seller-pain-points-real-estate-baltimore.html",
+      "h1_count": 1,
       "words": 689,
       "article_schema": true,
       "faq_schema": false,
@@ -1851,14 +1579,6 @@
         [
           "MEDIUM",
           "title too long (78 chars)"
-        ],
-        [
-          "HIGH",
-          "missing canonical"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ],
         [
           "LOW",
@@ -1872,7 +1592,7 @@
       "title_len": 84,
       "desc_len": 165,
       "canonical": "https://www.parlevugloballlc.com/blog-selling-as-is.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 1198,
       "article_schema": true,
       "faq_schema": true,
@@ -1881,10 +1601,6 @@
         [
           "MEDIUM",
           "title too long (84 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ],
         [
           "LOW",
@@ -1898,7 +1614,7 @@
       "title_len": 96,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-underwater-mortgage-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 813,
       "article_schema": true,
       "faq_schema": true,
@@ -1907,10 +1623,6 @@
         [
           "MEDIUM",
           "title too long (96 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1920,7 +1632,7 @@
       "title_len": 91,
       "desc_len": 138,
       "canonical": "https://www.parlevugloballlc.com/blog-underwater-mortgage-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 841,
       "article_schema": true,
       "faq_schema": true,
@@ -1929,10 +1641,6 @@
         [
           "MEDIUM",
           "title too long (91 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1942,7 +1650,7 @@
       "title_len": 91,
       "desc_len": 97,
       "canonical": "https://www.parlevugloballlc.com/blog-underwater-mortgage-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 857,
       "article_schema": true,
       "faq_schema": true,
@@ -1951,10 +1659,6 @@
         [
           "MEDIUM",
           "title too long (91 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1964,7 +1668,7 @@
       "title_len": 94,
       "desc_len": 134,
       "canonical": "https://www.parlevugloballlc.com/blog-vacant-house-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 750,
       "article_schema": true,
       "faq_schema": true,
@@ -1973,10 +1677,6 @@
         [
           "MEDIUM",
           "title too long (94 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -1986,7 +1686,7 @@
       "title_len": 89,
       "desc_len": 106,
       "canonical": "https://www.parlevugloballlc.com/blog-vacant-house-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 752,
       "article_schema": true,
       "faq_schema": true,
@@ -1995,10 +1695,6 @@
         [
           "MEDIUM",
           "title too long (89 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -2008,7 +1704,7 @@
       "title_len": 89,
       "desc_len": 132,
       "canonical": "https://www.parlevugloballlc.com/blog-vacant-house-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 834,
       "article_schema": true,
       "faq_schema": true,
@@ -2017,10 +1713,6 @@
         [
           "MEDIUM",
           "title too long (89 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -2030,7 +1722,7 @@
       "title_len": 75,
       "desc_len": 148,
       "canonical": "https://www.parlevugloballlc.com/blog-water-mold-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 825,
       "article_schema": true,
       "faq_schema": true,
@@ -2039,10 +1731,6 @@
         [
           "MEDIUM",
           "title too long (75 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -2052,7 +1740,7 @@
       "title_len": 70,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-water-mold-md.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 809,
       "article_schema": true,
       "faq_schema": true,
@@ -2061,10 +1749,6 @@
         [
           "MEDIUM",
           "title too long (70 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -2074,7 +1758,7 @@
       "title_len": 70,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/blog-water-mold-va.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 837,
       "article_schema": true,
       "faq_schema": true,
@@ -2083,10 +1767,6 @@
         [
           "MEDIUM",
           "title too long (70 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -2096,7 +1776,7 @@
       "title_len": 79,
       "desc_len": 199,
       "canonical": "https://www.parlevugloballlc.com/blog-we-buy-houses-baltimore-fast.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 746,
       "article_schema": true,
       "faq_schema": true,
@@ -2109,10 +1789,6 @@
         [
           "MEDIUM",
           "meta desc too long (199 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -2122,7 +1798,7 @@
       "title_len": 85,
       "desc_len": 157,
       "canonical": "https://www.parlevugloballlc.com/blog-we-buy-houses.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 1217,
       "article_schema": true,
       "faq_schema": true,
@@ -2131,10 +1807,6 @@
         [
           "MEDIUM",
           "title too long (85 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ],
         [
           "LOW",
@@ -2147,8 +1819,8 @@
       "title": "Why Your FSBO Listing Isn't Selling (And What Actually Works) | Parlevu Global",
       "title_len": 78,
       "desc_len": 158,
-      "canonical": null,
-      "h1_count": 2,
+      "canonical": "https://www.parlevugloballlc.com/blog-why-your-fsbo-listing-isnt-selling-baltimore.html",
+      "h1_count": 1,
       "words": 495,
       "article_schema": true,
       "faq_schema": false,
@@ -2157,14 +1829,6 @@
         [
           "MEDIUM",
           "title too long (78 chars)"
-        ],
-        [
-          "HIGH",
-          "missing canonical"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ],
         [
           "LOW",
@@ -2213,6 +1877,28 @@
         [
           "LOW",
           "missing og:image"
+        ]
+      ]
+    },
+    {
+      "file": "fsbo-support-maryland-virginia-dc.html",
+      "title": "FSBO Support Center: Sell By Owner in Maryland, Virginia & DC | Parlevu Global",
+      "title_len": 78,
+      "desc_len": 183,
+      "canonical": "https://www.parlevugloballlc.com/fsbo-support-maryland-virginia-dc.html",
+      "h1_count": 1,
+      "words": 766,
+      "article_schema": false,
+      "faq_schema": true,
+      "internal_blog_links": 10,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (78 chars)"
+        ],
+        [
+          "MEDIUM",
+          "meta desc too long (183 chars)"
         ]
       ]
     },
@@ -2266,7 +1952,7 @@
       "title_len": 78,
       "desc_len": 158,
       "canonical": "https://www.parlevugloballlc.com/sell-house-fast-maryland.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 578,
       "article_schema": false,
       "faq_schema": true,
@@ -2275,10 +1961,6 @@
         [
           "MEDIUM",
           "title too long (78 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -2288,7 +1970,7 @@
       "title_len": 74,
       "desc_len": 163,
       "canonical": "https://www.parlevugloballlc.com/sell-house-fast-virginia.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 576,
       "article_schema": false,
       "faq_schema": true,
@@ -2297,10 +1979,6 @@
         [
           "MEDIUM",
           "title too long (74 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },
@@ -2310,7 +1988,7 @@
       "title_len": 73,
       "desc_len": 157,
       "canonical": "https://www.parlevugloballlc.com/sell-house-fast-washington-dc.html",
-      "h1_count": 2,
+      "h1_count": 1,
       "words": 575,
       "article_schema": false,
       "faq_schema": true,
@@ -2319,10 +1997,6 @@
         [
           "MEDIUM",
           "title too long (73 chars)"
-        ],
-        [
-          "HIGH",
-          "multiple H1s (2)"
         ]
       ]
     },

@@ -111,8 +111,16 @@ def main():
         return
 
     print(f"Publishing: {brief['slug']} — {brief['title']}")
-    hero = gen_img(brief["slug"], brief["image_prompt"])
-    out = gen_post(brief["slug"], hero_img=hero)
+    # Hand-written posts (e.g. FSBO pillars) are pre-rendered; publish them as-is.
+    existing = REPO / f"blog-{brief['slug']}.html"
+    existing_img = REPO / "images" / "blog" / f"{brief['slug']}.jpg"
+    hero = (f"images/blog/{brief['slug']}.jpg" if existing_img.exists()
+            else gen_img(brief["slug"], brief["image_prompt"]))
+    if existing.exists():
+        print(f"  pre-written file found — publishing as-is: {existing.name}")
+        out = existing
+    else:
+        out = gen_post(brief["slug"], hero_img=hero)
     insert_blog_card(brief, hero)
     regen_sitemap()
 
