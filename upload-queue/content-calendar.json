@@ -4090,8 +4090,9 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-07-29"
+      "status": "published",
+      "publish_date": "2026-07-29",
+      "published_on": "2026-07-29"
     },
     {
       "slug": "what-does-for-sale-by-owner-me-vs-realtor",
