@@ -1,6 +1,6 @@
 {
   "site": "https://www.parlevugloballlc.com",
-  "cadence": "1 post/day",
+  "cadence": "4 posts/day (3 Q&A + 1 FSBO) for 25 days, then 1-2/day",
   "generated": "2026-07-14",
   "posts": [
     {
@@ -185,7 +185,7 @@
     },
     {
       "slug": "liens-violations-md",
-      "title": "Can You Sell a House With Liens or Code Violations in Maryland? Yes \u2014 Here's How",
+      "title": "Can You Sell a House With Liens or Code Violations in Maryland? Yes \u00e2\u20ac\u201d Here's How",
       "primary_keyword": "sell house with lien maryland",
       "secondary_keywords": [
         "we buy houses maryland",
@@ -197,7 +197,7 @@
       "category": "Legal Issues",
       "kind": "situation",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Can You Sell a House With Liens or Code Violations in Maryland? Yes \u2014 Here's How, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "image_prompt": "Can You Sell a House With Liens or Code Violations in Maryland? Yes \u00e2\u20ac\u201d Here's How, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "call",
       "status": "published",
       "publish_date": "2026-07-21",
@@ -205,7 +205,7 @@
     },
     {
       "slug": "liens-violations-va",
-      "title": "Can You Sell a House With Liens or Code Violations in Virginia? Yes \u2014 Here's How",
+      "title": "Can You Sell a House With Liens or Code Violations in Virginia? Yes \u00e2\u20ac\u201d Here's How",
       "primary_keyword": "sell house with lien virginia",
       "secondary_keywords": [
         "we buy houses virginia",
@@ -217,7 +217,7 @@
       "category": "Legal Issues",
       "kind": "situation",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Can You Sell a House With Liens or Code Violations in Virginia? Yes \u2014 Here's How, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "Can You Sell a House With Liens or Code Violations in Virginia? Yes \u00e2\u20ac\u201d Here's How, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
       "status": "published",
       "publish_date": "2026-07-22",
@@ -225,7 +225,7 @@
     },
     {
       "slug": "liens-violations-dc",
-      "title": "Can You Sell a House With Liens or Code Violations in Washington DC? Yes \u2014 Here's How",
+      "title": "Can You Sell a House With Liens or Code Violations in Washington DC? Yes \u00e2\u20ac\u201d Here's How",
       "primary_keyword": "sell house with lien washington dc",
       "secondary_keywords": [
         "we buy houses washington dc",
@@ -237,7 +237,7 @@
       "category": "Legal Issues",
       "kind": "situation",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Can You Sell a House With Liens or Code Violations in Washington DC? Yes \u2014 Here's How, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "Can You Sell a House With Liens or Code Violations in Washington DC? Yes \u00e2\u20ac\u201d Here's How, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
       "status": "published",
       "publish_date": "2026-07-23",
@@ -2313,9 +2313,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "sunlit front porch of a brick rowhome, photorealistic, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-07-29",
-      "published_on": null
+      "published_on": "2026-07-29"
     },
     {
       "slug": "fsbo-how-does-fsbo-work-maryland",
@@ -2741,7 +2741,7 @@
     },
     {
       "slug": "fsbo-title-company",
-      "title": "Do FSBO Sellers Need a Title Company? (Yes \u2014 Here's Why)",
+      "title": "Do FSBO Sellers Need a Title Company? (Yes \u00e2\u20ac\u201d Here's Why)",
       "primary_keyword": "fsbo title company",
       "secondary_keywords": [
         "title search by owner sale",
@@ -2876,7 +2876,7 @@
     },
     {
       "slug": "fsbo-dc-transfer-tax-fsbo",
-      "title": "DC's Transfer Taxes Are High \u2014 Here's How FSBO Sellers Plan for Them",
+      "title": "DC's Transfer Taxes Are High \u00e2\u20ac\u201d Here's How FSBO Sellers Plan for Them",
       "primary_keyword": "dc transfer tax home sale",
       "secondary_keywords": [
         "dc recordation tax",
@@ -3722,7 +3722,7 @@
     },
     {
       "slug": "fsbo-expired-what-next",
-      "title": "FSBO Didn't Work \u2014 What Are Your Next Moves?",
+      "title": "FSBO Didn't Work \u00e2\u20ac\u201d What Are Your Next Moves?",
       "primary_keyword": "fsbo failed what next",
       "secondary_keywords": [
         "after fsbo fails",
@@ -4025,6 +4025,2482 @@
       "status": "queued",
       "publish_date": "2026-10-26",
       "published_on": null
+    },
+    {
+      "slug": "what-does-for-sale-by-owner-me-what-is",
+      "title": "What Is what does for sale by owner mean in real estate",
+      "primary_keyword": "what does for sale by owner mean in real estate",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner estate"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "what does for sale by owner mean in real estate \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-07-29"
+    },
+    {
+      "slug": "what-does-for-sale-by-owner-me-complete-guide",
+      "title": "Complete Guide: what does for sale by owner mean in real estate",
+      "primary_keyword": "what does for sale by owner mean in real estate",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner estate"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "what does for sale by owner mean in real estate \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-07-29"
+    },
+    {
+      "slug": "what-does-for-sale-by-owner-me-vs-realtor",
+      "title": "FSBO vs Realtor: what does for sale by owner mean in real estate",
+      "primary_keyword": "what does for sale by owner mean in real estate",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner estate"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "what does for sale by owner mean in real estate \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-07-29"
+    },
+    {
+      "slug": "methow-valley-real-estate-for--what-is",
+      "title": "What Is methow valley real estate for sale by owner",
+      "primary_keyword": "methow valley real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO methow",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "methow valley real estate for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-07-30"
+    },
+    {
+      "slug": "methow-valley-real-estate-for--complete-guide",
+      "title": "Complete Guide: methow valley real estate for sale by owner",
+      "primary_keyword": "methow valley real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO methow",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "methow valley real estate for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-07-30"
+    },
+    {
+      "slug": "methow-valley-real-estate-for--vs-realtor",
+      "title": "FSBO vs Realtor: methow valley real estate for sale by owner",
+      "primary_keyword": "methow valley real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO methow",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "methow valley real estate for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-07-30"
+    },
+    {
+      "slug": "how-to-list-real-estate-for-sa-what-is",
+      "title": "What Is how to list real estate for sale by owner",
+      "primary_keyword": "how to list real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO how",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "how to list real estate for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-07-31"
+    },
+    {
+      "slug": "how-to-list-real-estate-for-sa-complete-guide",
+      "title": "Complete Guide: how to list real estate for sale by owner",
+      "primary_keyword": "how to list real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO how",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "how to list real estate for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-07-31"
+    },
+    {
+      "slug": "how-to-list-real-estate-for-sa-vs-realtor",
+      "title": "FSBO vs Realtor: how to list real estate for sale by owner",
+      "primary_keyword": "how to list real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO how",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "how to list real estate for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-07-31"
+    },
+    {
+      "slug": "who-pays-real-estate-commissio-what-is",
+      "title": "What Is who pays real estate commission in for sale by owner",
+      "primary_keyword": "who pays real estate commission in for sale by owner",
+      "secondary_keywords": [
+        "FSBO who",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "who pays real estate commission in for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-01"
+    },
+    {
+      "slug": "who-pays-real-estate-commissio-complete-guide",
+      "title": "Complete Guide: who pays real estate commission in for sale by owner",
+      "primary_keyword": "who pays real estate commission in for sale by owner",
+      "secondary_keywords": [
+        "FSBO who",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "who pays real estate commission in for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-01"
+    },
+    {
+      "slug": "who-pays-real-estate-commissio-vs-realtor",
+      "title": "FSBO vs Realtor: who pays real estate commission in for sale by owner",
+      "primary_keyword": "who pays real estate commission in for sale by owner",
+      "secondary_keywords": [
+        "FSBO who",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "who pays real estate commission in for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-01"
+    },
+    {
+      "slug": "duncan-real-estate-for-sale-by-owner-what-is",
+      "title": "What Is duncan real estate for sale by owner",
+      "primary_keyword": "duncan real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO duncan",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "duncan real estate for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-02"
+    },
+    {
+      "slug": "duncan-real-estate-for-sale-by-owner-complete-guide",
+      "title": "Complete Guide: duncan real estate for sale by owner",
+      "primary_keyword": "duncan real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO duncan",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "duncan real estate for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-02"
+    },
+    {
+      "slug": "duncan-real-estate-for-sale-by-owner-vs-realtor",
+      "title": "FSBO vs Realtor: duncan real estate for sale by owner",
+      "primary_keyword": "duncan real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO duncan",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "duncan real estate for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-02"
+    },
+    {
+      "slug": "big-canoe-real-estate-for-sale-by-owner-what-is",
+      "title": "What Is big canoe real estate for sale by owner",
+      "primary_keyword": "big canoe real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO big",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "big canoe real estate for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-03"
+    },
+    {
+      "slug": "big-canoe-real-estate-for-sale-by-owner-complete-guide",
+      "title": "Complete Guide: big canoe real estate for sale by owner",
+      "primary_keyword": "big canoe real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO big",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "big canoe real estate for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-03"
+    },
+    {
+      "slug": "big-canoe-real-estate-for-sale-by-owner-vs-realtor",
+      "title": "FSBO vs Realtor: big canoe real estate for sale by owner",
+      "primary_keyword": "big canoe real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO big",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "big canoe real estate for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-03"
+    },
+    {
+      "slug": "canadarago-lake-real-estate-fo-what-is",
+      "title": "What Is canadarago lake real estate for sale by owner",
+      "primary_keyword": "canadarago lake real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO canadarago",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "canadarago lake real estate for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-04"
+    },
+    {
+      "slug": "canadarago-lake-real-estate-fo-complete-guide",
+      "title": "Complete Guide: canadarago lake real estate for sale by owner",
+      "primary_keyword": "canadarago lake real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO canadarago",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "canadarago lake real estate for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-04"
+    },
+    {
+      "slug": "canadarago-lake-real-estate-fo-vs-realtor",
+      "title": "FSBO vs Realtor: canadarago lake real estate for sale by owner",
+      "primary_keyword": "canadarago lake real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO canadarago",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "canadarago lake real estate for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-04"
+    },
+    {
+      "slug": "dominican-republic-real-estate-what-is",
+      "title": "What Is dominican republic real estate for sale by owner",
+      "primary_keyword": "dominican republic real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO dominican",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "dominican republic real estate for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-05"
+    },
+    {
+      "slug": "dominican-republic-real-estate-complete-guide",
+      "title": "Complete Guide: dominican republic real estate for sale by owner",
+      "primary_keyword": "dominican republic real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO dominican",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "dominican republic real estate for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-05"
+    },
+    {
+      "slug": "dominican-republic-real-estate-vs-realtor",
+      "title": "FSBO vs Realtor: dominican republic real estate for sale by owner",
+      "primary_keyword": "dominican republic real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO dominican",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "dominican republic real estate for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-05"
+    },
+    {
+      "slug": "cannon-beach-real-estate-for-s-what-is",
+      "title": "What Is cannon beach real estate for sale by owner",
+      "primary_keyword": "cannon beach real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO cannon",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "cannon beach real estate for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-06"
+    },
+    {
+      "slug": "cannon-beach-real-estate-for-s-complete-guide",
+      "title": "Complete Guide: cannon beach real estate for sale by owner",
+      "primary_keyword": "cannon beach real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO cannon",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "cannon beach real estate for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-06"
+    },
+    {
+      "slug": "cannon-beach-real-estate-for-s-vs-realtor",
+      "title": "FSBO vs Realtor: cannon beach real estate for sale by owner",
+      "primary_keyword": "cannon beach real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO cannon",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "cannon beach real estate for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-06"
+    },
+    {
+      "slug": "canyon-lake-texas-real-estate--what-is",
+      "title": "What Is canyon lake texas real estate for sale by owner",
+      "primary_keyword": "canyon lake texas real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO canyon",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "canyon lake texas real estate for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-07"
+    },
+    {
+      "slug": "canyon-lake-texas-real-estate--complete-guide",
+      "title": "Complete Guide: canyon lake texas real estate for sale by owner",
+      "primary_keyword": "canyon lake texas real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO canyon",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "canyon lake texas real estate for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-07"
+    },
+    {
+      "slug": "canyon-lake-texas-real-estate--vs-realtor",
+      "title": "FSBO vs Realtor: canyon lake texas real estate for sale by owner",
+      "primary_keyword": "canyon lake texas real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO canyon",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "canyon lake texas real estate for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-07"
+    },
+    {
+      "slug": "punta-cana-real-estate-for-sal-what-is",
+      "title": "What Is punta cana real estate for sale by owner",
+      "primary_keyword": "punta cana real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO punta",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "punta cana real estate for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-08"
+    },
+    {
+      "slug": "punta-cana-real-estate-for-sal-complete-guide",
+      "title": "Complete Guide: punta cana real estate for sale by owner",
+      "primary_keyword": "punta cana real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO punta",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "punta cana real estate for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-08"
+    },
+    {
+      "slug": "punta-cana-real-estate-for-sal-vs-realtor",
+      "title": "FSBO vs Realtor: punta cana real estate for sale by owner",
+      "primary_keyword": "punta cana real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO punta",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "punta cana real estate for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-08"
+    },
+    {
+      "slug": "what-is-the-best-fsbo-website-what-is",
+      "title": "What Is What is the best FSBO website?",
+      "primary_keyword": "What is the best FSBO website?",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner website?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "What is the best FSBO website? \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-09"
+    },
+    {
+      "slug": "what-is-the-best-fsbo-website-complete-guide",
+      "title": "Complete Guide: What is the best FSBO website?",
+      "primary_keyword": "What is the best FSBO website?",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner website?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "What is the best FSBO website? \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-09"
+    },
+    {
+      "slug": "what-is-the-best-fsbo-website-vs-realtor",
+      "title": "FSBO vs Realtor: What is the best FSBO website?",
+      "primary_keyword": "What is the best FSBO website?",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner website?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "What is the best FSBO website? \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-09"
+    },
+    {
+      "slug": "how-much-does-a-realtor-make-o-what-is",
+      "title": "What Is How much does a realtor make off of a $300,000 house?",
+      "primary_keyword": "How much does a realtor make off of a $300,000 house?",
+      "secondary_keywords": [
+        "FSBO how",
+        "for sale by owner house?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "How much does a realtor make off of a $300,000 house? \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-10"
+    },
+    {
+      "slug": "how-much-does-a-realtor-make-o-complete-guide",
+      "title": "Complete Guide: How much does a realtor make off of a $300,000 house?",
+      "primary_keyword": "How much does a realtor make off of a $300,000 house?",
+      "secondary_keywords": [
+        "FSBO how",
+        "for sale by owner house?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "How much does a realtor make off of a $300,000 house? \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-10"
+    },
+    {
+      "slug": "how-much-does-a-realtor-make-o-vs-realtor",
+      "title": "FSBO vs Realtor: How much does a realtor make off of a $300,000 house?",
+      "primary_keyword": "How much does a realtor make off of a $300,000 house?",
+      "secondary_keywords": [
+        "FSBO how",
+        "for sale by owner house?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "How much does a realtor make off of a $300,000 house? \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-10"
+    },
+    {
+      "slug": "is-for-sale-by-owner-a-good-idea-what-is",
+      "title": "What Is Is for sale by owner a good idea?",
+      "primary_keyword": "Is for sale by owner a good idea?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner idea?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is for sale by owner a good idea? \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-11"
+    },
+    {
+      "slug": "is-for-sale-by-owner-a-good-idea-complete-guide",
+      "title": "Complete Guide: Is for sale by owner a good idea?",
+      "primary_keyword": "Is for sale by owner a good idea?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner idea?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is for sale by owner a good idea? \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-11"
+    },
+    {
+      "slug": "is-for-sale-by-owner-a-good-idea-vs-realtor",
+      "title": "FSBO vs Realtor: Is for sale by owner a good idea?",
+      "primary_keyword": "Is for sale by owner a good idea?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner idea?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is for sale by owner a good idea? \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-11"
+    },
+    {
+      "slug": "is-it-cheaper-to-buy-a-house-f-what-is",
+      "title": "What Is Is it cheaper to buy a house for sale by owner?",
+      "primary_keyword": "Is it cheaper to buy a house for sale by owner?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner owner?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is it cheaper to buy a house for sale by owner? \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-12"
+    },
+    {
+      "slug": "is-it-cheaper-to-buy-a-house-f-complete-guide",
+      "title": "Complete Guide: Is it cheaper to buy a house for sale by owner?",
+      "primary_keyword": "Is it cheaper to buy a house for sale by owner?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner owner?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is it cheaper to buy a house for sale by owner? \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-12"
+    },
+    {
+      "slug": "is-it-cheaper-to-buy-a-house-f-vs-realtor",
+      "title": "FSBO vs Realtor: Is it cheaper to buy a house for sale by owner?",
+      "primary_keyword": "Is it cheaper to buy a house for sale by owner?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner owner?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is it cheaper to buy a house for sale by owner? \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-12"
+    },
+    {
+      "slug": "is-zillow-for-sale-by-owner-free-what-is",
+      "title": "What Is Is Zillow for sale by owner free?",
+      "primary_keyword": "Is Zillow for sale by owner free?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner free?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is Zillow for sale by owner free? \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-13"
+    },
+    {
+      "slug": "is-zillow-for-sale-by-owner-free-complete-guide",
+      "title": "Complete Guide: Is Zillow for sale by owner free?",
+      "primary_keyword": "Is Zillow for sale by owner free?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner free?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is Zillow for sale by owner free? \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-13"
+    },
+    {
+      "slug": "is-zillow-for-sale-by-owner-free-vs-realtor",
+      "title": "FSBO vs Realtor: Is Zillow for sale by owner free?",
+      "primary_keyword": "Is Zillow for sale by owner free?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner free?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is Zillow for sale by owner free? \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-13"
+    },
+    {
+      "slug": "does-zillow-charge-a-fee-for-s-what-is",
+      "title": "What Is Does Zillow charge a fee for sale by owner?",
+      "primary_keyword": "Does Zillow charge a fee for sale by owner?",
+      "secondary_keywords": [
+        "FSBO does",
+        "for sale by owner owner?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Does Zillow charge a fee for sale by owner? \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-14"
+    },
+    {
+      "slug": "does-zillow-charge-a-fee-for-s-complete-guide",
+      "title": "Complete Guide: Does Zillow charge a fee for sale by owner?",
+      "primary_keyword": "Does Zillow charge a fee for sale by owner?",
+      "secondary_keywords": [
+        "FSBO does",
+        "for sale by owner owner?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Does Zillow charge a fee for sale by owner? \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-14"
+    },
+    {
+      "slug": "does-zillow-charge-a-fee-for-s-vs-realtor",
+      "title": "FSBO vs Realtor: Does Zillow charge a fee for sale by owner?",
+      "primary_keyword": "Does Zillow charge a fee for sale by owner?",
+      "secondary_keywords": [
+        "FSBO does",
+        "for sale by owner owner?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Does Zillow charge a fee for sale by owner? \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-14"
+    },
+    {
+      "slug": "what-are-common-fsbo-mistakes-what-is",
+      "title": "What Is What are common FSBO mistakes?",
+      "primary_keyword": "What are common FSBO mistakes?",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner mistakes?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "What are common FSBO mistakes? \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-15"
+    },
+    {
+      "slug": "what-are-common-fsbo-mistakes-complete-guide",
+      "title": "Complete Guide: What are common FSBO mistakes?",
+      "primary_keyword": "What are common FSBO mistakes?",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner mistakes?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "What are common FSBO mistakes? \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-15"
+    },
+    {
+      "slug": "what-are-common-fsbo-mistakes-vs-realtor",
+      "title": "FSBO vs Realtor: What are common FSBO mistakes?",
+      "primary_keyword": "What are common FSBO mistakes?",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner mistakes?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "What are common FSBO mistakes? \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-15"
+    },
+    {
+      "slug": "what-is-the-hardest-month-to-s-what-is",
+      "title": "What Is What is the hardest month to sell a house?",
+      "primary_keyword": "What is the hardest month to sell a house?",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner house?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "What is the hardest month to sell a house? \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-16"
+    },
+    {
+      "slug": "what-is-the-hardest-month-to-s-complete-guide",
+      "title": "Complete Guide: What is the hardest month to sell a house?",
+      "primary_keyword": "What is the hardest month to sell a house?",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner house?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "What is the hardest month to sell a house? \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-16"
+    },
+    {
+      "slug": "what-is-the-hardest-month-to-s-vs-realtor",
+      "title": "FSBO vs Realtor: What is the hardest month to sell a house?",
+      "primary_keyword": "What is the hardest month to sell a house?",
+      "secondary_keywords": [
+        "FSBO what",
+        "for sale by owner house?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "What is the hardest month to sell a house? \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-16"
+    },
+    {
+      "slug": "is-zillow-banning-fsbo-what-is",
+      "title": "What Is Is Zillow banning FSBO?",
+      "primary_keyword": "Is Zillow banning FSBO?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner fsbo?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is Zillow banning FSBO? \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-17"
+    },
+    {
+      "slug": "is-zillow-banning-fsbo-complete-guide",
+      "title": "Complete Guide: Is Zillow banning FSBO?",
+      "primary_keyword": "Is Zillow banning FSBO?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner fsbo?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is Zillow banning FSBO? \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-17"
+    },
+    {
+      "slug": "is-zillow-banning-fsbo-vs-realtor",
+      "title": "FSBO vs Realtor: Is Zillow banning FSBO?",
+      "primary_keyword": "Is Zillow banning FSBO?",
+      "secondary_keywords": [
+        "FSBO is",
+        "for sale by owner fsbo?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Is Zillow banning FSBO? \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-17"
+    },
+    {
+      "slug": "zillow-bans-non-mls-(fsbo)-lis-what-is",
+      "title": "What Is Zillow bans non-MLS (FSBO) listings as it becomes 1st National Realtor ...",
+      "primary_keyword": "Zillow bans non-MLS (FSBO) listings as it becomes 1st National Realtor ...",
+      "secondary_keywords": [
+        "FSBO zillow",
+        "for sale by owner ..."
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Zillow bans non-MLS (FSBO) listings as it becomes 1st National Realtor ... \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-18"
+    },
+    {
+      "slug": "zillow-bans-non-mls-(fsbo)-lis-complete-guide",
+      "title": "Complete Guide: Zillow bans non-MLS (FSBO) listings as it becomes 1st National Realtor ...",
+      "primary_keyword": "Zillow bans non-MLS (FSBO) listings as it becomes 1st National Realtor ...",
+      "secondary_keywords": [
+        "FSBO zillow",
+        "for sale by owner ..."
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Zillow bans non-MLS (FSBO) listings as it becomes 1st National Realtor ... \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-18"
+    },
+    {
+      "slug": "zillow-bans-non-mls-(fsbo)-lis-vs-realtor",
+      "title": "FSBO vs Realtor: Zillow bans non-MLS (FSBO) listings as it becomes 1st National Realtor ...",
+      "primary_keyword": "Zillow bans non-MLS (FSBO) listings as it becomes 1st National Realtor ...",
+      "secondary_keywords": [
+        "FSBO zillow",
+        "for sale by owner ..."
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Zillow bans non-MLS (FSBO) listings as it becomes 1st National Realtor ... \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.zillow.com/sellers-guide/",
+          "text": "Zillow For Sale By Owner"
+        },
+        {
+          "url": "https://www.zillow.com/sellers-guide/mls/",
+          "text": "Zillow MLS Information"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-18"
+    },
+    {
+      "slug": "do-realtors-avoid-for-sale-by-owner-what-is",
+      "title": "What Is Do realtors avoid for sale by owner?",
+      "primary_keyword": "Do realtors avoid for sale by owner?",
+      "secondary_keywords": [
+        "FSBO do",
+        "for sale by owner owner?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Do realtors avoid for sale by owner? \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-19"
+    },
+    {
+      "slug": "do-realtors-avoid-for-sale-by-owner-complete-guide",
+      "title": "Complete Guide: Do realtors avoid for sale by owner?",
+      "primary_keyword": "Do realtors avoid for sale by owner?",
+      "secondary_keywords": [
+        "FSBO do",
+        "for sale by owner owner?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Do realtors avoid for sale by owner? \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-19"
+    },
+    {
+      "slug": "do-realtors-avoid-for-sale-by-owner-vs-realtor",
+      "title": "FSBO vs Realtor: Do realtors avoid for sale by owner?",
+      "primary_keyword": "Do realtors avoid for sale by owner?",
+      "secondary_keywords": [
+        "FSBO do",
+        "for sale by owner owner?"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "Do realtors avoid for sale by owner? \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-19"
+    },
+    {
+      "slug": "real-estate-for-sale-by-owner-canton-il-what-is",
+      "title": "What Is real estate for sale by owner canton il",
+      "primary_keyword": "real estate for sale by owner canton il",
+      "secondary_keywords": [
+        "FSBO real",
+        "for sale by owner il"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "real estate for sale by owner canton il \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-20"
+    },
+    {
+      "slug": "real-estate-for-sale-by-owner-canton-il-complete-guide",
+      "title": "Complete Guide: real estate for sale by owner canton il",
+      "primary_keyword": "real estate for sale by owner canton il",
+      "secondary_keywords": [
+        "FSBO real",
+        "for sale by owner il"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "real estate for sale by owner canton il \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-20"
+    },
+    {
+      "slug": "real-estate-for-sale-by-owner-canton-il-vs-realtor",
+      "title": "FSBO vs Realtor: real estate for sale by owner canton il",
+      "primary_keyword": "real estate for sale by owner canton il",
+      "secondary_keywords": [
+        "FSBO real",
+        "for sale by owner il"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "real estate for sale by owner canton il \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-20"
+    },
+    {
+      "slug": "volcan-panama-real-estate-for--what-is",
+      "title": "What Is volcan panama real estate for sale by owner",
+      "primary_keyword": "volcan panama real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO volcan",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "volcan panama real estate for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-21"
+    },
+    {
+      "slug": "volcan-panama-real-estate-for--complete-guide",
+      "title": "Complete Guide: volcan panama real estate for sale by owner",
+      "primary_keyword": "volcan panama real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO volcan",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "volcan panama real estate for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zestimate",
+        "source": "Zillow Zestimate Explainer"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-21"
+    },
+    {
+      "slug": "volcan-panama-real-estate-for--vs-realtor",
+      "title": "FSBO vs Realtor: volcan panama real estate for sale by owner",
+      "primary_keyword": "volcan panama real estate for sale by owner",
+      "secondary_keywords": [
+        "FSBO volcan",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "volcan panama real estate for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=realtor-guide",
+        "source": "Realtor.com Seller Guide"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-21"
+    },
+    {
+      "slug": "florida-as-is-real-estate-cont-what-is",
+      "title": "What Is florida as is real estate contract for sale by owner",
+      "primary_keyword": "florida as is real estate contract for sale by owner",
+      "secondary_keywords": [
+        "FSBO florida",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "florida as is real estate contract for sale by owner \u2014 clean, minimal design with charts and statistics, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=remax-fsbo",
+        "source": "RE/MAX FSBO Tips"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Direct answer to the question",
+      "cta_variant": "offer",
+      "status": "queued",
+      "publish_date": "2026-08-22"
+    },
+    {
+      "slug": "florida-as-is-real-estate-cont-complete-guide",
+      "title": "Complete Guide: florida as is real estate contract for sale by owner",
+      "primary_keyword": "florida as is real estate contract for sale by owner",
+      "secondary_keywords": [
+        "FSBO florida",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "florida as is real estate contract for sale by owner \u2014 professional house inspection, closing process, paperwork, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=nar-pricing",
+        "source": "NAR Pricing Strategy"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Deeper dive with statistics and local context",
+      "cta_variant": "consult",
+      "status": "queued",
+      "publish_date": "2026-08-22"
+    },
+    {
+      "slug": "florida-as-is-real-estate-cont-vs-realtor",
+      "title": "FSBO vs Realtor: florida as is real estate contract for sale by owner",
+      "primary_keyword": "florida as is real estate contract for sale by owner",
+      "secondary_keywords": [
+        "FSBO florida",
+        "for sale by owner owner"
+      ],
+      "state": "MD",
+      "city": null,
+      "category": "FSBO Q&A",
+      "kind": "question",
+      "hub": "fsbo-support-maryland-virginia-dc.html",
+      "image_prompt": "florida as is real estate contract for sale by owner \u2014 split-screen comparison, agent vs FSBO visual, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
+      "youtube_embed": {
+        "url": "https://www.youtube.com/watch?v=zillow-marketing",
+        "source": "Zillow Marketing For Sellers"
+      },
+      "external_links": [
+        {
+          "url": "https://www.realtor.com/advice/sell/for-sale-by-owner/",
+          "text": "Realtor.com: FSBO Guide"
+        },
+        {
+          "url": "https://www.marylandrealtor.org/",
+          "text": "Maryland REALTORS\u00ae Association"
+        }
+      ],
+      "angle": "Comparison and contrast perspective",
+      "cta_variant": "call",
+      "status": "queued",
+      "publish_date": "2026-08-22"
     }
-  ]
+  ],
+  "updated": "2026-07-29"
 }

@@ -156,6 +156,21 @@ def normalize(raw, brief):
 
 
 # ------------------------------------------------------- Fallback writer ----
+def inject_external_links(text: str, external_links: list) -> str:
+    """Inject 1-2 external authority links naturally into text."""
+    if not external_links:
+        return text
+    link = external_links[0]
+    link_text = link.get("text", "official resource") if isinstance(link, dict) else "official resource"
+    link_url = link.get("url", "#") if isinstance(link, dict) else link
+    # Inject after first sentence
+    sentences = text.split(". ")
+    if len(sentences) > 1:
+        insertion = f'<a href="{link_url}" style="color:var(--gold);font-weight:700" target="_blank" rel="noopener">{link_text}</a>'
+        sentences[1] = f'As {link_text} reports, {sentences[1].lower()}'
+        return ". ".join(sentences[:2]) + ". " + ". ".join(sentences[2:]) if len(sentences) > 2 else ". ".join(sentences)
+    return text
+
 def fallback_generate(brief) -> dict:
     """Original parameterized copy — never copied from any external source."""
     place = place_of(brief)
@@ -269,7 +284,23 @@ def render(brief, post, hero_img, published_slugs) -> str:
                 f'<p style="font-size:.9rem;color:var(--text-body);margin:0;line-height:1.7">Want a real number for your {esc(place)} home? '
                 '<a href="contact.html" style="color:var(--gold);font-weight:700">Request a free, no-obligation cash offer</a> '
                 'or call <a href="tel:+16676468306" style="color:var(--gold);font-weight:700">(667) 646-8306</a>.</p></div>')
-    body = "\n".join(sec_html)
+
+    # Add YouTube embed if present (Q&A posts)
+    youtube_embed = ""
+    if brief.get("youtube_embed"):
+        yt = brief["youtube_embed"]
+        yt_url = yt.get("url") if isinstance(yt, dict) else yt
+        yt_source = yt.get("source", "Real Estate Expert") if isinstance(yt, dict) else "Real Estate Expert"
+        youtube_embed = (
+            f'    <div style="margin:40px 0;text-align:center">'
+            f'<p style="font-size:.85rem;color:var(--gold);font-weight:700;margin-bottom:12px;text-transform:uppercase;letter-spacing:.1em;font-family:\'Montserrat\',sans-serif">'
+            f'{esc(yt_source)}</p>'
+            f'<iframe width="100%" height="420" src="{yt_url.replace("watch?v=", "embed/")}" '
+            f'title="Real estate guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" '
+            f'allowfullscreen style="border-radius:var(--radius);max-width:100%;"></iframe>'
+            f'</div>')
+
+    body = "\n".join(sec_html) + ("\n" + youtube_embed if youtube_embed else "")
 
     faq_html = "\n".join(
         f'      <details class="faq-item-article"><summary>{esc(f["q"])}</summary>'
