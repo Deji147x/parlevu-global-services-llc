@@ -4056,8 +4056,9 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-07-29"
+      "status": "published",
+      "publish_date": "2026-07-29",
+      "published_on": "2026-07-29"
     },
     {
       "slug": "what-does-for-sale-by-owner-me-complete-guide",
