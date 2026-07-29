@@ -4124,8 +4124,9 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-07-29"
+      "status": "published",
+      "publish_date": "2026-07-29",
+      "published_on": "2026-07-29"
     },
     {
       "slug": "methow-valley-real-estate-for--what-is",
