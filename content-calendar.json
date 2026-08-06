@@ -2427,9 +2427,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "cozy living room with staging touches, bright airy real-estate photography, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-04",
-      "published_on": null
+      "published_on": "2026-08-06"
     },
     {
       "slug": "fsbo-inspection-maryland",
