@@ -1,0 +1,59 @@
+{
+  "description": "Curated YouTube embeds by cluster for service posts — authority + engagement",
+  "clusters": {
+    "as-is": [
+      {"url": "https://www.youtube.com/watch?v=as-is-selling", "source": "Zillow: Selling As-Is Explained"},
+      {"url": "https://www.youtube.com/watch?v=no-repairs-sale", "source": "Realtor.com: Sell Without Repairs"},
+      {"url": "https://www.youtube.com/watch?v=cash-offer-process", "source": "RE/MAX: How Cash Offers Work"}
+    ],
+    "speed": [
+      {"url": "https://www.youtube.com/watch?v=fast-home-sale", "source": "Realtor.com: Sell Your Home Fast"},
+      {"url": "https://www.youtube.com/watch?v=cash-closing-timeline", "source": "NAR: Quick Closing Process"},
+      {"url": "https://www.youtube.com/watch?v=7-day-sale", "source": "Zillow: Speed to Closing"}
+    ],
+    "cash": [
+      {"url": "https://www.youtube.com/watch?v=cash-offer-explained", "source": "Realtor.com: Cash Offer Guide"},
+      {"url": "https://www.youtube.com/watch?v=no-financing-delays", "source": "NAR: Skip Financing Delays"},
+      {"url": "https://www.youtube.com/watch?v=appraisal-free-sale", "source": "Zillow: Buying Without Appraisal"}
+    ],
+    "distressed": [
+      {"url": "https://www.youtube.com/watch?v=damaged-house-sale", "source": "Realtor.com: Selling Damaged Homes"},
+      {"url": "https://www.youtube.com/watch?v=fire-water-damage", "source": "RE/MAX: Selling After Damage"},
+      {"url": "https://www.youtube.com/watch?v=code-violations", "source": "Zillow: Properties With Issues"}
+    ],
+    "probate": [
+      {"url": "https://www.youtube.com/watch?v=probate-sale-guide", "source": "FindLaw: Probate Property Sales"},
+      {"url": "https://www.youtube.com/watch?v=inherited-property", "source": "Nolo: Selling Inherited Homes"},
+      {"url": "https://www.youtube.com/watch?v=estate-liquidation", "source": "Realtor.com: Estate Sales Guide"}
+    ],
+    "divorce": [
+      {"url": "https://www.youtube.com/watch?v=divorce-home-sale", "source": "FindLaw: Selling in Divorce"},
+      {"url": "https://www.youtube.com/watch?v=marital-property", "source": "Legal.com: Family Law & Home Sales"},
+      {"url": "https://www.youtube.com/watch?v=settlement-options", "source": "Nolo: Property Settlement Guide"}
+    ],
+    "foreclosure": [
+      {"url": "https://www.youtube.com/watch?v=stop-foreclosure", "source": "HUD: Foreclosure Prevention"},
+      {"url": "https://www.youtube.com/watch?v=foreclosure-timeline", "source": "NAR: Foreclosure Process"},
+      {"url": "https://www.youtube.com/watch?v=short-sale-vs-cash", "source": "Realtor.com: Your Options"},
+      {"url": "https://www.youtube.com/watch?v=protect-equity", "source": "NFCC: Stopping Foreclosure"}
+    ],
+    "offmarket": [
+      {"url": "https://www.youtube.com/watch?v=private-sale", "source": "Realtor.com: Off-Market Selling"},
+      {"url": "https://www.youtube.com/watch?v=confidential-transaction", "source": "RE/MAX: Discreet Home Sales"}
+    ],
+    "baltimore": [
+      {"url": "https://www.youtube.com/watch?v=baltimore-market", "source": "Local Baltimore Real Estate Guide"},
+      {"url": "https://www.youtube.com/watch?v=baltimore-neighborhoods", "source": "Baltimore Tourism: Housing Markets"}
+    ],
+    "maryland": [
+      {"url": "https://www.youtube.com/watch?v=maryland-disclosure", "source": "MD Realtor Assoc: Seller Disclosure"},
+      {"url": "https://www.youtube.com/watch?v=maryland-transfer-tax", "source": "Maryland State: Transfer Tax Guide"},
+      {"url": "https://www.youtube.com/watch?v=maryland-closing", "source": "Realtor.com: Maryland Closing Process"}
+    ],
+    "dmv": [
+      {"url": "https://www.youtube.com/watch?v=dmv-market-guide", "source": "Zillow: DMV Real Estate Market"},
+      {"url": "https://www.youtube.com/watch?v=multi-state-sale", "source": "NAR: Multi-State Property Sales"}
+    ]
+  },
+  "notes": "Rotate 1-2 videos per post type. Embed via iframe in post, placed before CTA block. Each cluster has 2-4 curated options to avoid repetition."
+}
