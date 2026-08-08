@@ -1,7 +1,7 @@
 {
-  "total_pages": 106,
+  "total_pages": 115,
   "issue_counts": {
-    "MEDIUM": 120,
+    "MEDIUM": 129,
     "LOW": 17,
     "HIGH": 2
   },
@@ -504,6 +504,60 @@
       ]
     },
     {
+      "file": "blog-fsbo-attorney-maryland.html",
+      "title": "Do You Need a Real Estate Attorney to Sell FSBO in Maryland? | Parlevu Global",
+      "title_len": 77,
+      "desc_len": 157,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-attorney-maryland.html",
+      "h1_count": 1,
+      "words": 803,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (77 chars)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fsbo-baltimore-guide.html",
+      "title": "Selling Your Baltimore Home By Owner: What's Different in the City | Parlevu Global",
+      "title_len": 83,
+      "desc_len": 157,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-baltimore-guide.html",
+      "h1_count": 1,
+      "words": 814,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (83 chars)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fsbo-disclosure-maryland.html",
+      "title": "What Must You Disclose When Selling By Owner in Maryland? | Parlevu Global",
+      "title_len": 74,
+      "desc_len": 157,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-disclosure-maryland.html",
+      "h1_count": 1,
+      "words": 807,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (74 chars)"
+        ]
+      ]
+    },
+    {
       "file": "blog-fsbo-frequently-asked-questions-baltimore.html",
       "title": "FSBO Frequently Asked Questions: What Baltimore Sellers Need to Know | Parlevu Global",
       "title_len": 85,
@@ -539,6 +593,42 @@
       "issues": []
     },
     {
+      "file": "blog-fsbo-inspection-maryland.html",
+      "title": "FSBO and the Home Inspection: What Maryland Sellers Should Expect | Parlevu Global",
+      "title_len": 82,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-inspection-maryland.html",
+      "h1_count": 1,
+      "words": 804,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (82 chars)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fsbo-is-fsbo-worth-it-maryland.html",
+      "title": "Is Selling FSBO Worth It in Maryland? The Honest Math | Parlevu Global",
+      "title_len": 70,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-is-fsbo-worth-it-maryland.html",
+      "h1_count": 1,
+      "words": 799,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (70 chars)"
+        ]
+      ]
+    },
+    {
       "file": "blog-fsbo-maryland-complete-guide.html",
       "title": "For Sale By Owner in Maryland: The Complete 2026 Guide | Parlevu Global",
       "title_len": 71,
@@ -553,6 +643,24 @@
         [
           "MEDIUM",
           "title too long (71 chars)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-fsbo-mistakes-maryland.html",
+      "title": "7 FSBO Mistakes Maryland Sellers Make (And How to Avoid Them) | Parlevu Global",
+      "title_len": 78,
+      "desc_len": 144,
+      "canonical": "https://www.parlevugloballlc.com/blog-fsbo-mistakes-maryland.html",
+      "h1_count": 1,
+      "words": 739,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (78 chars)"
         ]
       ]
     },
@@ -1815,6 +1923,60 @@
       ]
     },
     {
+      "file": "blog-what-does-for-sale-by-owner-me-complete-guide.html",
+      "title": "Complete Guide: what does for sale by owner mean in real estate | Parlevu Global",
+      "title_len": 80,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-what-does-for-sale-by-owner-me-complete-guide.html",
+      "h1_count": 1,
+      "words": 827,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (80 chars)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-what-does-for-sale-by-owner-me-vs-realtor.html",
+      "title": "FSBO vs Realtor: what does for sale by owner mean in real estate | Parlevu Global",
+      "title_len": 81,
+      "desc_len": 157,
+      "canonical": "https://www.parlevugloballlc.com/blog-what-does-for-sale-by-owner-me-vs-realtor.html",
+      "h1_count": 1,
+      "words": 825,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (81 chars)"
+        ]
+      ]
+    },
+    {
+      "file": "blog-what-does-for-sale-by-owner-me-what-is.html",
+      "title": "What Is what does for sale by owner mean in real estate | Parlevu Global",
+      "title_len": 72,
+      "desc_len": 158,
+      "canonical": "https://www.parlevugloballlc.com/blog-what-does-for-sale-by-owner-me-what-is.html",
+      "h1_count": 1,
+      "words": 822,
+      "article_schema": true,
+      "faq_schema": true,
+      "internal_blog_links": 7,
+      "issues": [
+        [
+          "MEDIUM",
+          "title too long (72 chars)"
+        ]
+      ]
+    },
+    {
       "file": "blog-why-your-fsbo-listing-isnt-selling-baltimore.html",
       "title": "Why Your FSBO Listing Isn't Selling (And What Actually Works) | Parlevu Global",
       "title_len": 78,
@@ -1843,10 +2005,10 @@
       "desc_len": 165,
       "canonical": "https://www.parlevugloballlc.com/blog.html",
       "h1_count": 1,
-      "words": 1225,
+      "words": 1699,
       "article_schema": false,
       "faq_schema": false,
-      "internal_blog_links": 21,
+      "internal_blog_links": 32,
       "issues": [
         [
           "MEDIUM",
