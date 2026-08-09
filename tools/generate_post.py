@@ -223,7 +223,7 @@ def fallback_generate(brief) -> dict:
                   "closing costs are covered, so the offer you accept is very close to the cash "
                   "you walk away with."},
             {"q": f"Is Parlevu Global Services a local {st['name']} buyer?",
-             "a": "Yes — we're a Baltimore-based, Black- and indigenous-owned real estate investment "
+             "a": "Yes — we're a Baltimore-based, Black-owned real estate investment "
                   "firm buying homes across Maryland, Virginia, and Washington DC. You deal directly "
                   "with us, not a lead-reseller."},
         ],

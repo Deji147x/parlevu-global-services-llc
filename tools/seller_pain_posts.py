@@ -244,7 +244,7 @@ def render_pain_point_post(brief) -> tuple:
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
-      <div class="footer-brand"><span class="footer-logo-main">Parlevu Global</span><span class="footer-logo-sub">Services LLC</span><p>Baltimore's trusted Black-owned and indigenous-owned real estate investment firm.</p></div>
+      <div class="footer-brand"><span class="footer-logo-main">Parlevu Global</span><span class="footer-logo-sub">Services LLC</span><p>Baltimore's trusted Black-owned real estate investment firm.</p></div>
       <div><p class="footer-heading">Contact</p><div class="footer-contact-item"><span class="ico">📍</span><span>3333 Windsor Ave, Baltimore, MD 21216</span></div><div class="footer-contact-item"><span class="ico">📞</span><a href="tel:+16676468306">(667) 646-8306</a></div></div>
     </div>
     <div class="footer-bottom"><p>© 2026 Parlevu Global Services LLC.</p></div>
