@@ -241,9 +241,9 @@ def main():
             if enhance_html_schema(file_path, calendar_data, dry_run):
                 success_count += 1
                 if not dry_run:
-                    print(f"✓ {file_path.name}")
+                    print(f"[OK] {file_path.name}")
         except Exception as e:
-            print(f"✗ {file_path.name}: {e}")
+            print(f"[ERROR] {file_path.name}: {e}")
 
     print(f"\nDone! Enhanced {success_count} files.")
     if dry_run:
