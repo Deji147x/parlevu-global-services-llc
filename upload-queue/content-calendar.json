@@ -2619,9 +2619,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "home office desk with laptop showing a listing, photorealistic, warm natural light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-14",
-      "published_on": null
+      "published_on": "2026-08-15"
     },
     {
       "slug": "fsbo-sell-without-realtor-risks",
