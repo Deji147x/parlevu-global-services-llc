@@ -2638,9 +2638,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "sunlit front porch of a brick rowhome, editorial photography, shallow depth of field, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-15",
-      "published_on": null
+      "published_on": "2026-08-15"
     },
     {
       "slug": "fsbo-paperwork-contracts-guide",
@@ -2659,9 +2659,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "yard sign on a green lawn, bright airy real-estate photography, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-16",
-      "published_on": null
+      "published_on": "2026-08-16"
     },
     {
       "slug": "fsbo-who-draws-up-contract-fsbo",
