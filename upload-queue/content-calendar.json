@@ -5841,8 +5841,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-16"
+      "status": "removed",
+      "publish_date": "2026-08-16",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of complete-guide variant"
     },
     {
       "slug": "what-is-the-hardest-month-to-s-complete-guide",
@@ -5874,8 +5876,9 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-16"
+      "status": "published",
+      "publish_date": "2026-08-16",
+      "published_on": "2026-08-16"
     },
     {
       "slug": "what-is-the-hardest-month-to-s-vs-realtor",
@@ -5907,8 +5910,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-16"
+      "status": "removed",
+      "publish_date": "2026-08-16",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of complete-guide variant"
     },
     {
       "slug": "is-zillow-banning-fsbo-what-is",
