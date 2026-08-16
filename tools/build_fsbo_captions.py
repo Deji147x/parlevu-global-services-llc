@@ -28,7 +28,7 @@ def main():
     with CSV.open("a", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         for i, p in enumerate(fsbo):
-            url = f"https://www.parlevugloballlc.com/blog-{p['slug']}.html"
+            url = f"https://parlevugloballlc.com/blog-{p['slug']}.html"
             hook = HOOKS[i % len(HOOKS)]
             kind = "📚 NEW GUIDE" if p["kind"] == "pillar" else "💡"
             caption = (f"{kind} {hook} {p['title']} — honest answers, real Maryland/Virginia/DC "

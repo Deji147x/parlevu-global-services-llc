@@ -175,7 +175,7 @@ def render_pain_point_post(brief) -> tuple:
         "author": {"@type": "Organization", "name": "Parlevu Global Services LLC"},
         "publisher": {"@type": "Organization", "name": "Parlevu Global Services LLC"},
         "datePublished": today.isoformat(),
-        "mainEntityOfPage": f"https://www.parlevugloballlc.com/{filename}"
+        "mainEntityOfPage": f"https://parlevugloballlc.com/{filename}"
     })
 
     # Full HTML structure

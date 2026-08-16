@@ -4,7 +4,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 CAL = REPO / "content-calendar.json"
-SITE_URL = "https://www.parlevugloballlc.com"
+SITE_URL = "https://parlevugloballlc.com"
 
 def generate_caption(post):
     """Create Buffer caption for a blog post."""

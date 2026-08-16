@@ -204,7 +204,7 @@ def main():
         d += timedelta(days=1)
 
     CAL.write_text(json.dumps({
-        "site": "https://www.parlevugloballlc.com",
+        "site": "https://parlevugloballlc.com",
         "cadence": "1 post/day",
         "generated": date.today().isoformat(),
         "posts": briefs,

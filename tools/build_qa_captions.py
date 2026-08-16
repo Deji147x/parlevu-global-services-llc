@@ -27,7 +27,7 @@ def main():
     with CSV.open("a", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         for i, p in enumerate(qa_posts):
-            url = f"https://www.parlevugloballlc.com/blog-{p['slug']}.html"
+            url = f"https://parlevugloballlc.com/blog-{p['slug']}.html"
             hook = HOOKS[i % len(HOOKS)]
             variant = p.get("angle", "answer").split()[0]
             caption = (f"{hook} {p['title'][:60]} — honest answers, real Maryland/Virginia/DC "

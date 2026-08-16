@@ -22,7 +22,7 @@ def fix_canonical(path, filename):
     html = path.read_text(encoding='utf-8')
     if '<link rel="canonical"' in html:
         return False
-    tag = f'  <link rel="canonical" href="https://www.parlevugloballlc.com/{filename}"/>\n'
+    tag = f'  <link rel="canonical" href="https://parlevugloballlc.com/{filename}"/>\n'
     new = html.replace('<meta name="twitter:card"', tag + '  <meta name="twitter:card"', 1)
     if new == html:  # fallback: insert before </head>
         new = html.replace('</head>', tag + '</head>', 1)
@@ -49,7 +49,7 @@ def rebuild_sitemap():
     for name in pages:
         pri = '1.0' if name == 'index.html' else ('0.9' if name.startswith('sell-house-fast') else ('0.7' if name.startswith('blog-') else '0.8'))
         freq = 'weekly' if name in ('index.html', 'blog.html') else 'monthly'
-        lines.append(f'  <url><loc>https://www.parlevugloballlc.com/{name}</loc><lastmod>{TODAY}</lastmod><changefreq>{freq}</changefreq><priority>{pri}</priority></url>')
+        lines.append(f'  <url><loc>https://parlevugloballlc.com/{name}</loc><lastmod>{TODAY}</lastmod><changefreq>{freq}</changefreq><priority>{pri}</priority></url>')
     lines.append('</urlset>')
     (REPO / 'sitemap.xml').write_text('\n'.join(lines) + '\n', encoding='utf-8')
     return len(pages)

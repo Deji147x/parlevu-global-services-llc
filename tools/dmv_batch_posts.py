@@ -201,18 +201,18 @@ def render_dmv_post(brief) -> str:
         "headline": brief["title"],
         "description": post["meta_desc"],
         "author": {"@type": "Organization", "name": "Parlevu Global Services LLC",
-                   "url": "https://www.parlevugloballlc.com"},
+                   "url": "https://parlevugloballlc.com"},
         "publisher": {"@type": "Organization", "name": "Parlevu Global Services LLC",
                       "logo": {"@type": "ImageObject",
-                               "url": "https://www.parlevugloballlc.com/logo.png"}},
+                               "url": "https://parlevugloballlc.com/logo.png"}},
         "datePublished": today.isoformat(), "dateModified": today.isoformat(),
-        "mainEntityOfPage": f"https://www.parlevugloballlc.com/{filename}",
+        "mainEntityOfPage": f"https://parlevugloballlc.com/{filename}",
         "keywords": brief["kw"]})
 
     localbiz_jsonld = json.dumps({
         "@context": "https://schema.org", "@type": "RealEstateAgent",
         "name": "Parlevu Global Services LLC",
-        "url": "https://www.parlevugloballlc.com",
+        "url": "https://parlevugloballlc.com",
         "telephone": "+1-667-646-8306",
         "email": "info@parlevugloballlc.com",
         "address": {"@type": "PostalAddress", "streetAddress": "3333 Windsor Ave",

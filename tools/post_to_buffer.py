@@ -13,7 +13,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 BUFFER_API_KEY = os.getenv("BUFFER_API_KEY")
 BUFFER_PROFILE_ID = os.getenv("BUFFER_PROFILE_ID")
-SITE_URL = os.getenv("SITE_URL", "https://www.parlevugloballlc.com")
+SITE_URL = os.getenv("SITE_URL", "https://parlevugloballlc.com")
 
 if not BUFFER_API_KEY:
     print("ERROR: BUFFER_API_KEY not set. Set it in .env file or environment.")

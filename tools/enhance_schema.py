@@ -64,14 +64,14 @@ def build_article_schema(slug, metadata, file_path, h1_text):
         "author": {
             "@type": "Organization",
             "name": "Parlevu Global Services LLC",
-            "url": "https://www.parlevugloballlc.com"
+            "url": "https://parlevugloballlc.com"
         },
         "publisher": {
             "@type": "Organization",
             "name": "Parlevu Global Services LLC",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://www.parlevugloballlc.com/logo.png",
+                "url": "https://parlevugloballlc.com/logo.png",
                 "width": 250,
                 "height": 60
             }
@@ -83,7 +83,7 @@ def build_article_schema(slug, metadata, file_path, h1_text):
         "keywords": metadata.get('secondary_keywords', []),
         "image": {
             "@type": "ImageObject",
-            "url": f"https://www.parlevugloballlc.com/images/blog/{slug}.jpg",
+            "url": f"https://parlevugloballlc.com/images/blog/{slug}.jpg",
             "width": 1200,
             "height": 630
         }

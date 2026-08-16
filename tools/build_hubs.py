@@ -81,10 +81,10 @@ def build(filename, h):
     article_jsonld = json.dumps({
         "@context": "https://schema.org", "@type": "WebPage",
         "name": h["title"], "description": h["meta"],
-        "url": f"https://www.parlevugloballlc.com/{filename}"})
+        "url": f"https://parlevugloballlc.com/{filename}"})
     localbiz = json.dumps({
         "@context": "https://schema.org", "@type": "RealEstateAgent",
-        "name": "Parlevu Global Services LLC", "url": "https://www.parlevugloballlc.com",
+        "name": "Parlevu Global Services LLC", "url": "https://parlevugloballlc.com",
         "telephone": "+1-667-646-8306", "email": "info@parlevugloballlc.com",
         "address": {"@type": "PostalAddress", "streetAddress": "3333 Windsor Ave",
                     "addressLocality": "Baltimore", "addressRegion": "MD",

@@ -25,7 +25,7 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 CAL = REPO / "content-calendar.json"
 BLOG = REPO / "blog.html"
-SITE = "https://www.parlevugloballlc.com"
+SITE = "https://parlevugloballlc.com"
 UPLOAD_QUEUE = REPO / "upload-queue"
 
 sys.path.insert(0, str(REPO / "tools"))

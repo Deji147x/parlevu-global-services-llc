@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+Disallow: /upload-queue/
+Disallow: /tools/
+Disallow: /research/
+
+# Explicit allow for AI crawlers (GEO optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://www.parlevugloballlc.com/sitemap.xml
+Sitemap: https://www.parlevugloballlc.com/llms.txt
