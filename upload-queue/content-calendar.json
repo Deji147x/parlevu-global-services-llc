@@ -2738,9 +2738,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "aerial view of a suburban neighborhood, documentary style, authentic feel, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-17",
-      "published_on": null
+      "published_on": "2026-08-17"
     },
     {
       "slug": "fsbo-contract-maryland",
