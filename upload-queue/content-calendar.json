@@ -5613,8 +5613,9 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-12"
+      "status": "published",
+      "publish_date": "2026-08-12",
+      "published_on": "2026-08-16"
     },
     {
       "slug": "is-it-cheaper-to-buy-a-house-f-vs-realtor",
