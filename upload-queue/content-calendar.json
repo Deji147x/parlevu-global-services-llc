@@ -5925,8 +5925,9 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-15"
+      "status": "published",
+      "publish_date": "2026-08-15",
+      "published_on": "2026-08-16"
     },
     {
       "slug": "what-are-common-fsbo-mistakes-vs-realtor",
