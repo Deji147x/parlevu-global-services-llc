@@ -5509,8 +5509,9 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-11"
+      "status": "published",
+      "publish_date": "2026-08-11",
+      "published_on": "2026-08-16"
     },
     {
       "slug": "is-for-sale-by-owner-a-good-idea-vs-realtor",
