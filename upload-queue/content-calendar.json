@@ -5717,8 +5717,9 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-13"
+      "status": "published",
+      "publish_date": "2026-08-13",
+      "published_on": "2026-08-16"
     },
     {
       "slug": "is-zillow-for-sale-by-owner-free-vs-realtor",
