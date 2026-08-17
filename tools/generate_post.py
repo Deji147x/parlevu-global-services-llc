@@ -13,6 +13,7 @@ Target length: 2000-3000 characters of body text (per site owner's spec).
 Usage:  python tools/generate_post.py <slug> [--out blog-<slug>.html]
 """
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -22,8 +23,9 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 CAL = REPO / "content-calendar.json"
 TEMPLATE = REPO / "tools" / "post_template.html"
-OLLAMA_URL = "http://localhost:11434/api/generate"
-OLLAMA_MODEL = "llama3.2"
+OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://localhost:11434/api/generate")
+# Override per-run without editing code:  OLLAMA_MODEL=qwen2.5:3b python tools/publish_next.py
+OLLAMA_MODEL = os.environ.get("OLLAMA_MODEL", "llama3.2")
 CHAR_MIN, CHAR_MAX = 2000, 3000
 
 STATE_FACTS = {
