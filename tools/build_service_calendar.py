@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 """Generate 40 service-focused post briefs into content-calendar.json."""
 import json
+import sys
 from pathlib import Path
 from datetime import datetime, timedelta
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from calendar_guard import (  # noqa: E402
+    merge_briefs, removed_slugs, in_service_area, status_counts,
+)
 
 REPO = Path(__file__).resolve().parent.parent
 CAL = REPO / "content-calendar.json"
@@ -72,6 +78,9 @@ SERVICE_POSTS = [
 def main():
     cal = json.loads(CAL.read_text(encoding="utf-8"))
     posts = cal["posts"]
+    before = status_counts(posts)
+    blocked = removed_slugs(posts)
+    new_briefs = []
 
     # Start date: Oct 27, 2026 (after FSBO series)
     current_date = datetime.fromisoformat("2026-10-27")
@@ -79,6 +88,8 @@ def main():
     cta_idx = 0
 
     for cluster, slug, title, keyword, cta in SERVICE_POSTS:
+        if slug in blocked or not in_service_area(f"{title} {keyword}"):
+            continue
         brief = {
             "slug": slug,
             "title": title,
@@ -102,20 +113,22 @@ def main():
             "cluster": cluster,
         }
 
-        posts.append(brief)
+        new_briefs.append(brief)
 
         # Increment date every 2 posts (2 posts per day)
-        if len([p for p in posts if p.get("cluster") == cluster]) % 2 == 0:
+        if len([p for p in new_briefs if p.get("cluster") == cluster]) % 2 == 0:
             current_date += timedelta(days=1)
 
-    cal["posts"] = posts
+    # Merge, don't append: this script had no slug dedup, so a second run
+    # duplicated every service post.
+    cal["posts"] = posts = merge_briefs(posts, new_briefs)
     cal["cadence"] = "1-2 posts/day (service posts) Oct 27 - Dec 31"
     cal["updated"] = datetime.now().isoformat().split("T")[0]
 
     CAL.write_text(json.dumps(cal, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"✅ Added {len(SERVICE_POSTS)} service posts")
-    print(f"   Calendar now has {len(posts)} total posts")
-    print(f"   Service series runs 2026-10-27 to 2026-12-31 (66 days, 2/day)")
+    print(f"Built {len(new_briefs)} service briefs")
+    print(f"   before: {before}")
+    print(f"   after : {status_counts(posts)}")
 
 if __name__ == "__main__":
     main()

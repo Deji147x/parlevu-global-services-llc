@@ -8,8 +8,14 @@
 Run:  python3 tools/build_fsbo_calendar.py
 """
 import json
+import sys
 from datetime import date, timedelta
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from calendar_guard import (  # noqa: E402
+    merge_briefs, removed_slugs, status_counts, PROTECTED_STATUSES,
+)
 
 REPO = Path(__file__).resolve().parent.parent
 CAL = REPO / "content-calendar.json"
@@ -188,20 +194,42 @@ def main():
             new_briefs.append(brief(qslug, qtitle, qkw, qsec, "question", ci, day, qdate))
             day += 1
 
-    new_briefs = [b for b in new_briefs if b["slug"] not in existing_slugs]
+    before = status_counts(posts)
+    blocked = removed_slugs(posts)
+    new_briefs = [b for b in new_briefs
+                  if b["slug"] not in existing_slugs and b["slug"] not in blocked]
 
-    # Re-date existing queued posts to resume after the FSBO series
+    # Re-date existing queued posts to make room for the FSBO series.
+    #
+    # Only runs when briefs were actually added. Re-dating unconditionally made
+    # the script non-idempotent: a second run with nothing new to insert still
+    # shoved the whole queue another ~3 months into the future, compounding
+    # every time it was invoked.
+    #
+    # Only status=queued is touched — published/generated posts are live and
+    # removed ones are deliberate, so their dates must never move.
     resume = START + timedelta(days=day)
-    queued_old = [p for p in posts if p.get("status") == "queued"]
-    for i, p in enumerate(sorted(queued_old, key=lambda p: p.get("publish_date") or "")):
-        p["publish_date"] = (resume + timedelta(days=i)).isoformat()
+    queued_old = []
+    if new_briefs:
+        queued_old = [p for p in posts
+                      if p.get("status") == "queued"
+                      and p.get("status") not in PROTECTED_STATUSES]
+        for i, p in enumerate(sorted(queued_old,
+                                     key=lambda p: p.get("publish_date") or "")):
+            p["publish_date"] = (resume + timedelta(days=i)).isoformat()
+    else:
+        print("  no new FSBO briefs — existing queue dates left untouched")
 
-    posts.extend(new_briefs)
+    posts = merge_briefs(posts, new_briefs)
     if isinstance(cal, list):
-        CAL.write_text(json.dumps(posts, indent=2), encoding="utf-8")
+        CAL.write_text(json.dumps(posts, indent=2, ensure_ascii=False),
+                       encoding="utf-8")
     else:
         cal["posts"] = posts
-        CAL.write_text(json.dumps(cal, indent=2), encoding="utf-8")
+        CAL.write_text(json.dumps(cal, indent=2, ensure_ascii=False),
+                       encoding="utf-8")
+    print(f"  before: {before}")
+    print(f"  after : {status_counts(posts)}")
 
     pillars = [b for b in new_briefs if b["kind"] == "pillar"]
     print(f"Added {len(new_briefs)} FSBO briefs ({len(pillars)} pillars, {len(new_briefs)-len(pillars)} questions)")

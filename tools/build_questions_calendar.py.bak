@@ -12,14 +12,8 @@ Each post includes:
 """
 import csv
 import json
-import sys
 from pathlib import Path
 from datetime import datetime, timedelta
-
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from calendar_guard import (  # noqa: E402
-    merge_briefs, removed_slugs, in_service_area, safe_slug, status_counts,
-)
 
 REPO = Path(__file__).resolve().parent.parent
 CSV = REPO / ".." / "Downloads" / "questionfinder-for-sale-by-owner-real-estate.csv"
@@ -66,12 +60,8 @@ CTAS = [
 ]
 
 def slugify(text):
-    """Convert text to URL-safe slug, truncating on a word boundary.
-
-    The old implementation sliced at [:50] mid-word, producing slugs like
-    'how-to-list-real-estate-for-sa'. Delegates to calendar_guard.safe_slug.
-    """
-    return safe_slug(text, maxlen=60)
+    """Convert text to URL-safe slug."""
+    return text.lower().replace(" ", "-").replace("?", "").replace("'", "").replace('"', '')[:50]
 
 def get_authority_links(keyword):
     """Get 2-3 relevant authority links based on keyword."""
@@ -89,45 +79,19 @@ def get_authority_links(keyword):
 
 def main():
     # Read CSV
-    if not CSV.exists():
-        print(f"ERROR: keyword source not found:\n  {CSV.resolve()}\n"
-              "Export it from questionfinder and place it there, or point CSV\n"
-              "at the current file. Nothing was written.")
-        return 1
-
     questions = []
-    skipped_geo = []
     with open(CSV, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            q = row.get("Question", "").strip()
-            if not q:
-                continue
-            # Reject keywords outside the MD/VA/DC service area — ranking for
-            # "punta cana real estate for sale by owner" wins traffic that
-            # cannot convert.
-            if not in_service_area(q):
-                skipped_geo.append(q)
-                continue
             questions.append({
-                "question": q,
-                "volume": int(row.get("Volume/mo", 0) or 0),
-                "signal": int(row.get("Google signal", 0) or 0),
+                "question": row.get("Question", ""),
+                "volume": int(row.get("Volume/mo", 0)),
+                "signal": int(row.get("Google signal", 0)),
             })
-
-    if skipped_geo:
-        print(f"  skipped {len(skipped_geo)} out-of-area keywords:")
-        for q in skipped_geo[:5]:
-            print(f"     - {q}")
-        if len(skipped_geo) > 5:
-            print(f"     ... and {len(skipped_geo) - 5} more")
 
     # Load existing calendar
     cal = json.loads(CAL.read_text(encoding="utf-8"))
     posts = cal["posts"]
-    before = status_counts(posts)
-    blocked = removed_slugs(posts)
-    new_briefs = []
 
     # Find highest published date to resume after
     max_date = datetime.fromisoformat("2026-07-29")
@@ -149,26 +113,29 @@ def main():
         question = q["question"]
         base_slug = slugify(question)
 
-        # ONE post per question, not three.
-        #
-        # The old 3-variant split (what-is / complete-guide / vs-realtor) put
-        # three near-identical pages against the same keyword, so they competed
-        # with each other in the SERP instead of one page ranking. 69 such
-        # duplicates were removed by hand on 2026-08-16. Complete Guide is kept
-        # because it is the format that survived that dedup.
         variants = [
+            {
+                "suffix": "what-is",
+                "title_prefix": "What Is ",
+                "angle": "Direct answer to the question",
+                "image_style": "clean, minimal design with charts and statistics",
+            },
             {
                 "suffix": "complete-guide",
                 "title_prefix": "Complete Guide: ",
                 "angle": "Deeper dive with statistics and local context",
                 "image_style": "professional house inspection, closing process, paperwork",
             },
+            {
+                "suffix": "vs-realtor",
+                "title_prefix": "FSBO vs Realtor: ",
+                "angle": "Comparison and contrast perspective",
+                "image_style": "split-screen comparison, agent vs FSBO visual",
+            },
         ]
 
         for variant in variants:
-            slug = safe_slug(f"{base_slug}-{variant['suffix']}", maxlen=70)
-            if slug in blocked:
-                continue
+            slug = f"{base_slug}-{variant['suffix']}" if len(base_slug) < 40 else f"{base_slug[:30]}-{variant['suffix']}"
 
             brief = {
                 "slug": slug,
@@ -192,27 +159,23 @@ def main():
                 "publish_date": current_date.isoformat().split("T")[0],
             }
 
-            new_briefs.append(brief)
+            posts.append(brief)
             post_count += 1
             cta_idx += 1
 
-            # One post per day. The old 3/day burst existed only because each
-            # question produced three variants.
-            current_date += timedelta(days=1)
+            # Increment date every 3 posts (3 posts per day)
+            if post_count % 3 == 0:
+                current_date += timedelta(days=1)
 
-    # Merge instead of append-and-overwrite: protects published/generated/
-    # removed entries and never deletes another builder's queued posts.
-    cal["posts"] = merge_briefs(posts, new_briefs)
-    posts = cal["posts"]
-    cal["cadence"] = "1 post/day"
+    # Write updated calendar
+    cal["posts"] = posts
+    cal["cadence"] = "4 posts/day (3 Q&A + 1 FSBO) for 25 days, then 1-2/day"
     cal["updated"] = datetime.now().isoformat().split("T")[0]
 
     CAL.write_text(json.dumps(cal, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Built {post_count} Q&A briefs from {len(questions)} in-area questions "
-          f"(1 per question)")
-    print(f"   before: {before}")
-    print(f"   after : {status_counts(posts)}")
-    return 0
+    print(f"✅ Added {post_count} Q&A posts (3 × {len(questions)} questions)")
+    print(f"   Calendar now has {len(posts)} total posts")
+    print(f"   Q&A series runs 2026-07-29 to 2026-08-22 (25 days, 3/day)")
 
 if __name__ == "__main__":
-    sys.exit(main() or 0)
+    main()

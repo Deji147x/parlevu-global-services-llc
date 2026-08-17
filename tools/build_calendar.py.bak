@@ -8,12 +8,8 @@ Usage:  python tools/build_calendar.py [--start YYYY-MM-DD]
 import argparse
 import json
 import re
-import sys
 from datetime import date, timedelta
 from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from calendar_guard import merge_briefs, removed_slugs, status_counts  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 CAL = REPO / "content-calendar.json"
@@ -192,42 +188,28 @@ def main():
     args = ap.parse_args()
     start = date.fromisoformat(args.start) if args.start else date.today() + timedelta(days=1)
 
-    cal = {}
-    existing = []
+    published = {}
     if CAL.exists():
-        cal = json.loads(CAL.read_text(encoding="utf-8"))
-        existing = cal.get("posts", [])
+        for e in json.loads(CAL.read_text(encoding="utf-8"))["posts"]:
+            if e.get("status") == "published":
+                published[e["slug"]] = e
 
-    before = status_counts(existing)
-
-    # Never regenerate a brief a human deliberately removed.
-    blocked = removed_slugs(existing)
-    briefs = [b for b in interleave_for_calendar(build_briefs())
-              if b["slug"] not in blocked]
-
-    # Date only the genuinely-new briefs; merge_briefs keeps existing dates so
-    # re-running never reshuffles an already-scheduled queue.
-    known = {p.get("slug") for p in existing}
+    briefs = interleave_for_calendar(build_briefs())
     d = start
     for b in briefs:
-        if b["slug"] in known:
+        if b["slug"] in published:
+            b.update(published[b["slug"]])
             continue
         b["publish_date"] = d.isoformat()
         d += timedelta(days=1)
 
-    posts = merge_briefs(existing, briefs)
-
-    cal.update({
+    CAL.write_text(json.dumps({
         "site": "https://parlevugloballlc.com",
         "cadence": "1 post/day",
         "generated": date.today().isoformat(),
-        "posts": posts,
-    })
-    CAL.write_text(json.dumps(cal, indent=2, ensure_ascii=False),
-                   encoding="utf-8")
-    print(f"Wrote {len(posts)} posts to {CAL} (new briefs start {start})")
-    print(f"  before: {before}")
-    print(f"  after : {status_counts(posts)}")
+        "posts": briefs,
+    }, indent=2), encoding="utf-8")
+    print(f"Wrote {len(briefs)} briefs to {CAL} (first publish {start})")
 
 
 if __name__ == "__main__":

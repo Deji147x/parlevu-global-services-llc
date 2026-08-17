@@ -1,7 +1,7 @@
 {
-  "site": "https://www.parlevugloballlc.com",
+  "site": "https://parlevugloballlc.com",
   "cadence": "1-2 posts/day (service posts) Oct 27 - Dec 31",
-  "generated": "2026-07-14",
+  "generated": "2026-08-16",
   "posts": [
     {
       "slug": "foreclosure-md",
@@ -279,8 +279,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Selling a Fire-Damaged House in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-07-25"
+      "status": "published",
+      "publish_date": "2026-07-25",
+      "published_on": "2026-07-25"
     },
     {
       "slug": "fire-damage-dc",
@@ -298,8 +299,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Selling a Fire-Damaged House in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-07-26"
+      "status": "published",
+      "publish_date": "2026-07-26",
+      "published_on": "2026-07-26"
     },
     {
       "slug": "water-mold-md",
@@ -317,8 +319,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling a House With Water Damage or Mold in Maryland, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-07-27"
+      "status": "published",
+      "publish_date": "2026-07-27",
+      "published_on": "2026-07-27"
     },
     {
       "slug": "water-mold-va",
@@ -336,8 +339,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Selling a House With Water Damage or Mold in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-07-28"
+      "status": "published",
+      "publish_date": "2026-07-28",
+      "published_on": "2026-07-28"
     },
     {
       "slug": "water-mold-dc",
@@ -355,8 +359,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Selling a House With Water Damage or Mold in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-07-29"
+      "status": "published",
+      "publish_date": "2026-07-29",
+      "published_on": "2026-07-29"
     },
     {
       "slug": "foundation-md",
@@ -374,8 +379,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "How to Sell a House With Foundation Problems in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-07-30"
+      "status": "published",
+      "publish_date": "2026-07-30",
+      "published_on": "2026-07-30"
     },
     {
       "slug": "foundation-va",
@@ -393,8 +399,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "How to Sell a House With Foundation Problems in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-07-31"
+      "status": "published",
+      "publish_date": "2026-07-31",
+      "published_on": "2026-07-31"
     },
     {
       "slug": "foundation-dc",
@@ -412,8 +419,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "How to Sell a House With Foundation Problems in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-01"
+      "status": "published",
+      "publish_date": "2026-08-01",
+      "published_on": "2026-08-01"
     },
     {
       "slug": "hoarder-house-md",
@@ -431,8 +439,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling a Hoarder House in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-08-02"
+      "status": "published",
+      "publish_date": "2026-08-02",
+      "published_on": "2026-08-02"
     },
     {
       "slug": "hoarder-house-va",
@@ -450,8 +459,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Selling a Hoarder House in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-03"
+      "status": "published",
+      "publish_date": "2026-08-03",
+      "published_on": "2026-08-03"
     },
     {
       "slug": "hoarder-house-dc",
@@ -469,8 +479,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Selling a Hoarder House in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-08-04"
+      "status": "published",
+      "publish_date": "2026-08-04",
+      "published_on": "2026-08-04"
     },
     {
       "slug": "bad-tenants-md",
@@ -488,8 +499,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling a Rental Property With Tenants in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-05"
+      "status": "published",
+      "publish_date": "2026-08-05",
+      "published_on": "2026-08-05"
     },
     {
       "slug": "bad-tenants-va",
@@ -507,8 +519,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Selling a Rental Property With Tenants in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-06"
+      "status": "published",
+      "publish_date": "2026-08-06",
+      "published_on": "2026-08-06"
     },
     {
       "slug": "bad-tenants-dc",
@@ -526,8 +539,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Selling a Rental Property With Tenants in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-08-07"
+      "status": "published",
+      "publish_date": "2026-08-07",
+      "published_on": "2026-08-07"
     },
     {
       "slug": "vacant-house-md",
@@ -545,8 +559,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling a Vacant or Abandoned House in Maryland Before It Costs You More, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-08"
+      "status": "published",
+      "publish_date": "2026-08-08",
+      "published_on": "2026-08-08"
     },
     {
       "slug": "vacant-house-va",
@@ -564,8 +579,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Selling a Vacant or Abandoned House in Virginia Before It Costs You More, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-08-09"
+      "status": "published",
+      "publish_date": "2026-08-09",
+      "published_on": "2026-08-09"
     },
     {
       "slug": "vacant-house-dc",
@@ -583,8 +599,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Selling a Vacant or Abandoned House in Washington DC Before It Costs You More, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-08-10"
+      "status": "published",
+      "publish_date": "2026-08-10",
+      "published_on": "2026-08-10"
     },
     {
       "slug": "underwater-mortgage-md",
@@ -602,8 +619,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Owe More Than Your Maryland Home Is Worth? How to Sell an Underwater House, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-11"
+      "status": "published",
+      "publish_date": "2026-08-11",
+      "published_on": "2026-08-11"
     },
     {
       "slug": "underwater-mortgage-va",
@@ -621,8 +639,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Owe More Than Your Virginia Home Is Worth? How to Sell an Underwater House, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-12"
+      "status": "published",
+      "publish_date": "2026-08-12",
+      "published_on": "2026-08-12"
     },
     {
       "slug": "underwater-mortgage-dc",
@@ -640,8 +659,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Owe More Than Your Washington DC Home Is Worth? How to Sell an Underwater House, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-13"
+      "status": "published",
+      "publish_date": "2026-08-13",
+      "published_on": "2026-08-13"
     },
     {
       "slug": "relocation-md",
@@ -659,8 +679,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Relocating From Maryland? How to Sell Your House Fast Before the Move, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-14"
+      "status": "published",
+      "publish_date": "2026-08-14",
+      "published_on": "2026-08-14"
     },
     {
       "slug": "relocation-va",
@@ -678,8 +699,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Relocating From Virginia? How to Sell Your House Fast Before the Move, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-15"
+      "status": "published",
+      "publish_date": "2026-08-15",
+      "published_on": "2026-08-15"
     },
     {
       "slug": "relocation-dc",
@@ -697,8 +719,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Relocating From Washington DC? How to Sell Your House Fast Before the Move, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-16"
+      "status": "published",
+      "publish_date": "2026-08-16",
+      "published_on": "2026-08-16"
     },
     {
       "slug": "downsizing-md",
@@ -716,8 +739,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Downsizing in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-17"
+      "status": "published",
+      "publish_date": "2026-08-17",
+      "published_on": "2026-08-17"
     },
     {
       "slug": "downsizing-va",
@@ -735,8 +759,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Downsizing in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-18"
+      "status": "published",
+      "publish_date": "2026-08-18",
+      "published_on": "2026-08-18"
     },
     {
       "slug": "downsizing-dc",
@@ -754,8 +779,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Downsizing in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-19"
+      "status": "published",
+      "publish_date": "2026-08-19",
+      "published_on": "2026-08-19"
     },
     {
       "slug": "sell-my-house-fast-baltimore",
@@ -773,8 +799,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Baltimore, Baltimore, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-08-20"
+      "status": "published",
+      "publish_date": "2026-08-20",
+      "published_on": "2026-08-20"
     },
     {
       "slug": "sell-my-house-fast-alexandria",
@@ -792,8 +819,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Alexandria, Alexandria, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-21"
+      "status": "published",
+      "publish_date": "2026-08-21",
+      "published_on": "2026-08-21"
     },
     {
       "slug": "sell-my-house-fast-anacostia",
@@ -811,8 +839,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Anacostia, Anacostia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-22"
+      "status": "published",
+      "publish_date": "2026-08-22",
+      "published_on": "2026-08-22"
     },
     {
       "slug": "sell-my-house-fast-columbia",
@@ -830,8 +859,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Columbia, Columbia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-08-23"
+      "status": "published",
+      "publish_date": "2026-08-23",
+      "published_on": "2026-08-23"
     },
     {
       "slug": "sell-my-house-fast-arlington",
@@ -849,8 +879,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Arlington, Arlington, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-24"
+      "status": "published",
+      "publish_date": "2026-08-24",
+      "published_on": "2026-08-24"
     },
     {
       "slug": "sell-my-house-fast-petworth",
@@ -868,8 +899,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Petworth, Petworth, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-25"
+      "status": "published",
+      "publish_date": "2026-08-25",
+      "published_on": "2026-08-25"
     },
     {
       "slug": "sell-my-house-fast-silver-spring",
@@ -887,8 +919,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Silver Spring, Silver Spring, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-26"
+      "status": "published",
+      "publish_date": "2026-08-26",
+      "published_on": "2026-08-26"
     },
     {
       "slug": "sell-my-house-fast-fairfax",
@@ -906,8 +939,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Fairfax, Fairfax, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-08-27"
+      "status": "published",
+      "publish_date": "2026-08-27",
+      "published_on": "2026-08-27"
     },
     {
       "slug": "sell-my-house-fast-brookland",
@@ -925,8 +959,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Brookland, Brookland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-28"
+      "status": "published",
+      "publish_date": "2026-08-28",
+      "published_on": "2026-08-28"
     },
     {
       "slug": "sell-my-house-fast-rockville",
@@ -944,8 +979,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Rockville, Rockville, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-29"
+      "status": "published",
+      "publish_date": "2026-08-29",
+      "published_on": "2026-08-29"
     },
     {
       "slug": "sell-my-house-fast-woodbridge",
@@ -963,8 +999,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Woodbridge, Woodbridge, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-30"
+      "status": "published",
+      "publish_date": "2026-08-30",
+      "published_on": "2026-08-30"
     },
     {
       "slug": "sell-my-house-fast-columbia-heights",
@@ -982,8 +1019,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Columbia Heights, Columbia Heights, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-08-31"
+      "status": "published",
+      "publish_date": "2026-08-31",
+      "published_on": "2026-08-31"
     },
     {
       "slug": "sell-my-house-fast-frederick",
@@ -1001,8 +1039,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Frederick, Frederick, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-09-01"
+      "status": "published",
+      "publish_date": "2026-09-01",
+      "published_on": "2026-09-01"
     },
     {
       "slug": "sell-my-house-fast-manassas",
@@ -1020,8 +1059,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Manassas, Manassas, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-09-02"
+      "status": "published",
+      "publish_date": "2026-09-02",
+      "published_on": "2026-09-02"
     },
     {
       "slug": "sell-my-house-fast-deanwood",
@@ -1039,8 +1079,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Deanwood, Deanwood, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-09-03"
+      "status": "published",
+      "publish_date": "2026-09-03",
+      "published_on": "2026-09-03"
     },
     {
       "slug": "sell-my-house-fast-annapolis",
@@ -1058,8 +1099,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Annapolis, Annapolis, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-09-04"
+      "status": "published",
+      "publish_date": "2026-09-04",
+      "published_on": "2026-09-04"
     },
     {
       "slug": "sell-my-house-fast-fredericksburg",
@@ -1077,8 +1119,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Fredericksburg, Fredericksburg, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-09-05"
+      "status": "published",
+      "publish_date": "2026-09-05",
+      "published_on": "2026-09-05"
     },
     {
       "slug": "sell-my-house-fast-congress-heights",
@@ -1096,8 +1139,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Congress Heights, Congress Heights, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-09-06"
+      "status": "published",
+      "publish_date": "2026-09-06",
+      "published_on": "2026-09-06"
     },
     {
       "slug": "sell-my-house-fast-bowie",
@@ -1115,8 +1159,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Bowie, Bowie, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-09-07"
+      "status": "published",
+      "publish_date": "2026-09-07",
+      "published_on": "2026-09-07"
     },
     {
       "slug": "sell-my-house-fast-richmond",
@@ -1134,8 +1179,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Richmond, Richmond, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-09-08"
+      "status": "published",
+      "publish_date": "2026-09-08",
+      "published_on": "2026-09-08"
     },
     {
       "slug": "sell-my-house-fast-fort-totten",
@@ -1153,8 +1199,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Fort Totten, Fort Totten, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-09-09"
+      "status": "published",
+      "publish_date": "2026-09-09",
+      "published_on": "2026-09-09"
     },
     {
       "slug": "sell-my-house-fast-glen-burnie",
@@ -1172,8 +1219,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Glen Burnie, Glen Burnie, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-09-10"
+      "status": "published",
+      "publish_date": "2026-09-10",
+      "published_on": "2026-09-10"
     },
     {
       "slug": "sell-my-house-fast-norfolk",
@@ -1191,8 +1239,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Norfolk, Norfolk, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-09-11"
+      "status": "published",
+      "publish_date": "2026-09-11",
+      "published_on": "2026-09-11"
     },
     {
       "slug": "sell-my-house-fast-shaw",
@@ -1210,8 +1259,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Shaw, Shaw, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-09-12"
+      "status": "published",
+      "publish_date": "2026-09-12",
+      "published_on": "2026-09-12"
     },
     {
       "slug": "sell-my-house-fast-dundalk",
@@ -1229,8 +1279,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Dundalk, Dundalk, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-09-13"
+      "status": "published",
+      "publish_date": "2026-09-13",
+      "published_on": "2026-09-13"
     },
     {
       "slug": "sell-my-house-fast-virginia-beach",
@@ -1248,8 +1299,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Virginia Beach, Virginia Beach, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-09-14"
+      "status": "published",
+      "publish_date": "2026-09-14",
+      "published_on": "2026-09-14"
     },
     {
       "slug": "sell-my-house-fast-trinidad",
@@ -1267,8 +1319,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Trinidad, Trinidad, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-09-15"
+      "status": "published",
+      "publish_date": "2026-09-15",
+      "published_on": "2026-09-15"
     },
     {
       "slug": "sell-my-house-fast-towson",
@@ -1286,8 +1339,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Towson, Towson, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-09-16"
+      "status": "published",
+      "publish_date": "2026-09-16",
+      "published_on": "2026-09-16"
     },
     {
       "slug": "sell-my-house-fast-chesapeake",
@@ -1305,8 +1359,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Chesapeake, Chesapeake, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-09-17"
+      "status": "published",
+      "publish_date": "2026-09-17",
+      "published_on": "2026-09-17"
     },
     {
       "slug": "sell-my-house-fast-capitol-hill",
@@ -1324,8 +1379,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Capitol Hill, Capitol Hill, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-09-18"
+      "status": "published",
+      "publish_date": "2026-09-18",
+      "published_on": "2026-09-18"
     },
     {
       "slug": "sell-my-house-fast-upper-marlboro",
@@ -1343,8 +1399,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Upper Marlboro, Upper Marlboro, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
-      "status": "generated",
-      "publish_date": "2026-09-19"
+      "status": "published",
+      "publish_date": "2026-09-19",
+      "published_on": "2026-09-19"
     },
     {
       "slug": "sell-my-house-fast-hampton",
@@ -1362,8 +1419,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Hampton, Hampton, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-09-20"
+      "status": "published",
+      "publish_date": "2026-09-20",
+      "published_on": "2026-09-20"
     },
     {
       "slug": "sell-my-house-fast-ivy-city",
@@ -1381,8 +1439,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Ivy City, Ivy City, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "call",
-      "status": "generated",
-      "publish_date": "2026-09-21"
+      "status": "published",
+      "publish_date": "2026-09-21",
+      "published_on": "2026-09-21"
     },
     {
       "slug": "sell-my-house-fast-waldorf",
@@ -1400,8 +1459,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Sell My House Fast in Waldorf, Waldorf, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "generated",
-      "publish_date": "2026-09-22"
+      "status": "published",
+      "publish_date": "2026-09-22",
+      "published_on": "2026-09-22"
     },
     {
       "slug": "sell-my-house-fast-newport-news",
@@ -1418,7 +1478,7 @@
       "kind": "city",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Newport News, Newport News, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "call",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-10-27"
     },
@@ -1436,7 +1496,7 @@
       "category": "Local Guides",
       "kind": "city",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Sell My House Fast in Woodridge, Woodridge, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "Sell My House Fast in Woodridge, Woodridge, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-10-28"
@@ -1455,7 +1515,7 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How Cash Home Buyers Work in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "How Cash Home Buyers Work in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
       "publish_date": "2026-10-29"
@@ -1474,7 +1534,7 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How Cash Home Buyers Work in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "How Cash Home Buyers Work in Virginia, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
       "publish_date": "2026-10-30"
@@ -1493,8 +1553,8 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "How Cash Home Buyers Work in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "How Cash Home Buyers Work in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-10-31"
     },
@@ -1531,7 +1591,7 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How Cash Offers Are Calculated on Virginia Homes (Real Numbers), Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "image_prompt": "How Cash Offers Are Calculated on Virginia Homes (Real Numbers), Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-02"
@@ -1550,7 +1610,7 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "How Cash Offers Are Calculated on Washington DC Homes (Real Numbers), Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "How Cash Offers Are Calculated on Washington DC Homes (Real Numbers), Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
       "publish_date": "2026-11-03"
@@ -1569,7 +1629,7 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Who Pays Closing Costs When Selling a House in Maryland?, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "Who Pays Closing Costs When Selling a House in Maryland?, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
       "publish_date": "2026-11-04"
@@ -1589,7 +1649,7 @@
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Who Pays Closing Costs When Selling a House in Virginia?, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "consult",
+      "cta_variant": "call",
       "status": "queued",
       "publish_date": "2026-11-05"
     },
@@ -1627,7 +1687,7 @@
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Paperwork You Need to Sell Your House in Maryland, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "consult",
       "status": "queued",
       "publish_date": "2026-11-07"
     },
@@ -1664,8 +1724,8 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Paperwork You Need to Sell Your House in Washington DC, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Paperwork You Need to Sell Your House in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-09"
     },
@@ -1683,8 +1743,8 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How to Sell Your House Without a Realtor in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "How to Sell Your House Without a Realtor in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-10"
     },
@@ -1702,8 +1762,8 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How to Sell Your House Without a Realtor in Virginia, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "How to Sell Your House Without a Realtor in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-11"
     },
@@ -1721,8 +1781,8 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "How to Sell Your House Without a Realtor in Washington DC, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "How to Sell Your House Without a Realtor in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
       "publish_date": "2026-11-12"
     },
@@ -1740,8 +1800,8 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Maryland?, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Maryland?, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-13"
     },
@@ -1759,7 +1819,7 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Virginia?, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Virginia?, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-14"
@@ -1778,7 +1838,7 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Washington DC?, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Washington DC?, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
       "publish_date": "2026-11-15"
@@ -1797,8 +1857,8 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How Fast Can You Really Sell a House for Cash in Maryland? The Honest Timeline, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "How Fast Can You Really Sell a House for Cash in Maryland? The Honest Timeline, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-16"
     },
@@ -1816,7 +1876,7 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "How Fast Can You Really Sell a House for Cash in Virginia? The Honest Timeline, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "image_prompt": "How Fast Can You Really Sell a House for Cash in Virginia? The Honest Timeline, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "call",
       "status": "queued",
       "publish_date": "2026-11-17"
@@ -1836,7 +1896,7 @@
       "kind": "process",
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "How Fast Can You Really Sell a House for Cash in Washington DC? The Honest Timeline, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-18"
     },
@@ -1854,8 +1914,8 @@
       "category": "Selling Guides",
       "kind": "process",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "How to Spot a Legitimate Cash Home Buyer in Maryland (and Avoid Scams), Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "How to Spot a Legitimate Cash Home Buyer in Maryland (and Avoid Scams), Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-19"
     },
@@ -1911,8 +1971,8 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "Selling for Cash vs. Listing With an Agent in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Selling for Cash vs. Listing With an Agent in Maryland, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
       "publish_date": "2026-11-22"
     },
@@ -1931,7 +1991,7 @@
       "kind": "comparison",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Selling for Cash vs. Listing With an Agent in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "consult",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-23"
     },
@@ -1949,8 +2009,8 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Selling for Cash vs. Listing With an Agent in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Selling for Cash vs. Listing With an Agent in Washington DC, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
       "publish_date": "2026-11-24"
     },
@@ -1968,7 +2028,7 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "iBuyers vs. Local Cash Buyers in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "image_prompt": "iBuyers vs. Local Cash Buyers in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
       "status": "queued",
       "publish_date": "2026-11-25"
@@ -1988,7 +2048,7 @@
       "kind": "comparison",
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "iBuyers vs. Local Cash Buyers in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "consult",
+      "cta_variant": "call",
       "status": "queued",
       "publish_date": "2026-11-26"
     },
@@ -2025,7 +2085,7 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-maryland.html",
-      "image_prompt": "FSBO vs. Cash Sale in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "image_prompt": "FSBO vs. Cash Sale in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-28"
@@ -2044,8 +2104,8 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "FSBO vs. Cash Sale in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "FSBO vs. Cash Sale in Virginia, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-29"
     },
@@ -2063,8 +2123,8 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "FSBO vs. Cash Sale in Washington DC, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "FSBO vs. Cash Sale in Washington DC, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-11-30"
     },
@@ -2101,8 +2161,8 @@
       "category": "Comparisons",
       "kind": "comparison",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Best (and Worst) Time to Sell a House in Virginia, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "offer",
+      "image_prompt": "Best (and Worst) Time to Sell a House in Virginia, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
       "publish_date": "2026-12-02"
     },
@@ -2121,7 +2181,7 @@
       "kind": "comparison",
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Best (and Worst) Time to Sell a House in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "consult",
+      "cta_variant": "call",
       "status": "queued",
       "publish_date": "2026-12-03"
     },
@@ -2158,8 +2218,8 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Virginia Housing Market Update, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Virginia Housing Market Update, Virginia, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-12-05"
     },
@@ -2178,7 +2238,7 @@
       "kind": "market",
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Washington DC Housing Market Update, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "offer",
+      "cta_variant": "consult",
       "status": "queued",
       "publish_date": "2026-12-06"
     },
@@ -2215,8 +2275,8 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "What's My House Worth? Understanding Virginia Home Values, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "What's My House Worth? Understanding Virginia Home Values, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "consult",
       "status": "queued",
       "publish_date": "2026-12-08"
     },
@@ -2234,8 +2294,8 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "What's My House Worth? Understanding Washington DC Home Values, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "What's My House Worth? Understanding Washington DC Home Values, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "call",
       "status": "queued",
       "publish_date": "2026-12-09"
     },
@@ -2254,7 +2314,7 @@
       "kind": "market",
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling Your Maryland House in the Off-Season, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
-      "cta_variant": "call",
+      "cta_variant": "consult",
       "status": "queued",
       "publish_date": "2026-12-10"
     },
@@ -2272,8 +2332,8 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-virginia.html",
-      "image_prompt": "Selling Your Virginia House in the Off-Season, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "call",
+      "image_prompt": "Selling Your Virginia House in the Off-Season, Virginia, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-12-11"
     },
@@ -2291,8 +2351,8 @@
       "category": "Market Updates",
       "kind": "market",
       "hub": "sell-house-fast-washington-dc.html",
-      "image_prompt": "Selling Your Washington DC House in the Off-Season, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
-      "cta_variant": "consult",
+      "image_prompt": "Selling Your Washington DC House in the Off-Season, Washington DC, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
+      "cta_variant": "offer",
       "status": "queued",
       "publish_date": "2026-12-12"
     },
@@ -4158,8 +4218,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-07-30"
+      "status": "removed",
+      "publish_date": "2026-07-30",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "methow-valley-real-estate-for--complete-guide",
@@ -4191,8 +4253,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-07-30"
+      "status": "removed",
+      "publish_date": "2026-07-30",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "methow-valley-real-estate-for--vs-realtor",
@@ -4224,8 +4288,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-07-30"
+      "status": "removed",
+      "publish_date": "2026-07-30",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "how-to-list-real-estate-for-sa-what-is",
@@ -4257,11 +4323,13 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-07-31"
+      "status": "removed",
+      "publish_date": "2026-07-31",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of how-to-list-real-estate-for-sa-complete-guide"
     },
     {
-      "slug": "how-to-list-real-estate-for-sa-complete-guide",
+      "slug": "how-to-list-real-estate-for-sale-by-owner",
       "title": "Complete Guide: how to list real estate for sale by owner",
       "primary_keyword": "how to list real estate for sale by owner",
       "secondary_keywords": [
@@ -4323,8 +4391,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-07-31"
+      "status": "removed",
+      "publish_date": "2026-07-31",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of how-to-list-real-estate-for-sa-complete-guide"
     },
     {
       "slug": "who-pays-real-estate-commissio-what-is",
@@ -4356,11 +4426,13 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-01"
+      "status": "removed",
+      "publish_date": "2026-08-01",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of who-pays-real-estate-commissio-complete-guide"
     },
     {
-      "slug": "who-pays-real-estate-commissio-complete-guide",
+      "slug": "who-pays-real-estate-commission-fsbo",
       "title": "Complete Guide: who pays real estate commission in for sale by owner",
       "primary_keyword": "who pays real estate commission in for sale by owner",
       "secondary_keywords": [
@@ -4389,8 +4461,9 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-01"
+      "status": "published",
+      "publish_date": "2026-08-01",
+      "published_on": "2026-08-16"
     },
     {
       "slug": "who-pays-real-estate-commissio-vs-realtor",
@@ -4422,8 +4495,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-01"
+      "status": "removed",
+      "publish_date": "2026-08-01",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of who-pays-real-estate-commissio-complete-guide"
     },
     {
       "slug": "duncan-real-estate-for-sale-by-owner-what-is",
@@ -4455,8 +4530,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-02"
+      "status": "removed",
+      "publish_date": "2026-08-02",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "duncan-real-estate-for-sale-by-owner-complete-guide",
@@ -4488,8 +4565,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-02"
+      "status": "removed",
+      "publish_date": "2026-08-02",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "duncan-real-estate-for-sale-by-owner-vs-realtor",
@@ -4521,8 +4600,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-02"
+      "status": "removed",
+      "publish_date": "2026-08-02",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "big-canoe-real-estate-for-sale-by-owner-what-is",
@@ -4554,8 +4635,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-03"
+      "status": "removed",
+      "publish_date": "2026-08-03",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "big-canoe-real-estate-for-sale-by-owner-complete-guide",
@@ -4587,8 +4670,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-03"
+      "status": "removed",
+      "publish_date": "2026-08-03",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "big-canoe-real-estate-for-sale-by-owner-vs-realtor",
@@ -4620,8 +4705,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-03"
+      "status": "removed",
+      "publish_date": "2026-08-03",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "canadarago-lake-real-estate-fo-what-is",
@@ -4653,8 +4740,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-04"
+      "status": "removed",
+      "publish_date": "2026-08-04",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "canadarago-lake-real-estate-fo-complete-guide",
@@ -4686,8 +4775,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-04"
+      "status": "removed",
+      "publish_date": "2026-08-04",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "canadarago-lake-real-estate-fo-vs-realtor",
@@ -4719,8 +4810,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-04"
+      "status": "removed",
+      "publish_date": "2026-08-04",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "dominican-republic-real-estate-what-is",
@@ -4752,8 +4845,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-05"
+      "status": "removed",
+      "publish_date": "2026-08-05",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "dominican-republic-real-estate-complete-guide",
@@ -4785,8 +4880,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-05"
+      "status": "removed",
+      "publish_date": "2026-08-05",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "dominican-republic-real-estate-vs-realtor",
@@ -4818,8 +4915,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-05"
+      "status": "removed",
+      "publish_date": "2026-08-05",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "cannon-beach-real-estate-for-s-what-is",
@@ -4851,8 +4950,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-06"
+      "status": "removed",
+      "publish_date": "2026-08-06",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "cannon-beach-real-estate-for-s-complete-guide",
@@ -4884,8 +4985,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-06"
+      "status": "removed",
+      "publish_date": "2026-08-06",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "cannon-beach-real-estate-for-s-vs-realtor",
@@ -4917,8 +5020,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-06"
+      "status": "removed",
+      "publish_date": "2026-08-06",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "canyon-lake-texas-real-estate--what-is",
@@ -4950,8 +5055,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-07"
+      "status": "removed",
+      "publish_date": "2026-08-07",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "canyon-lake-texas-real-estate--complete-guide",
@@ -4983,8 +5090,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-07"
+      "status": "removed",
+      "publish_date": "2026-08-07",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "canyon-lake-texas-real-estate--vs-realtor",
@@ -5016,8 +5125,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-07"
+      "status": "removed",
+      "publish_date": "2026-08-07",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "punta-cana-real-estate-for-sal-what-is",
@@ -5049,8 +5160,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-08"
+      "status": "removed",
+      "publish_date": "2026-08-08",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "punta-cana-real-estate-for-sal-complete-guide",
@@ -5082,8 +5195,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-08"
+      "status": "removed",
+      "publish_date": "2026-08-08",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "punta-cana-real-estate-for-sal-vs-realtor",
@@ -5115,8 +5230,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-08"
+      "status": "removed",
+      "publish_date": "2026-08-08",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "what-is-the-best-fsbo-website-what-is",
@@ -5148,8 +5265,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-09"
+      "status": "removed",
+      "publish_date": "2026-08-09",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of what-is-the-best-fsbo-website-complete-guide"
     },
     {
       "slug": "what-is-the-best-fsbo-website-complete-guide",
@@ -5214,8 +5333,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-09"
+      "status": "removed",
+      "publish_date": "2026-08-09",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of what-is-the-best-fsbo-website-complete-guide"
     },
     {
       "slug": "how-much-does-a-realtor-make-o-what-is",
@@ -5247,11 +5368,13 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-10"
+      "status": "removed",
+      "publish_date": "2026-08-10",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of how-much-does-a-realtor-make-o-complete-guide"
     },
     {
-      "slug": "how-much-does-a-realtor-make-o-complete-guide",
+      "slug": "how-much-does-a-realtor-make-on-300k-house",
       "title": "Complete Guide: How much does a realtor make off of a $300,000 house?",
       "primary_keyword": "How much does a realtor make off of a $300,000 house?",
       "secondary_keywords": [
@@ -5313,8 +5436,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-10"
+      "status": "removed",
+      "publish_date": "2026-08-10",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of how-much-does-a-realtor-make-o-complete-guide"
     },
     {
       "slug": "is-for-sale-by-owner-a-good-idea-what-is",
@@ -5346,8 +5471,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-11"
+      "status": "removed",
+      "publish_date": "2026-08-11",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of is-for-sale-by-owner-a-good-idea-complete-guide"
     },
     {
       "slug": "is-for-sale-by-owner-a-good-idea-complete-guide",
@@ -5412,8 +5539,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-11"
+      "status": "removed",
+      "publish_date": "2026-08-11",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of is-for-sale-by-owner-a-good-idea-complete-guide"
     },
     {
       "slug": "is-it-cheaper-to-buy-a-house-f-what-is",
@@ -5445,11 +5574,13 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-12"
+      "status": "removed",
+      "publish_date": "2026-08-12",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of is-it-cheaper-to-buy-a-house-f-complete-guide"
     },
     {
-      "slug": "is-it-cheaper-to-buy-a-house-f-complete-guide",
+      "slug": "is-it-cheaper-to-buy-a-house-fsbo",
       "title": "Complete Guide: Is it cheaper to buy a house for sale by owner?",
       "primary_keyword": "Is it cheaper to buy a house for sale by owner?",
       "secondary_keywords": [
@@ -5511,8 +5642,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-12"
+      "status": "removed",
+      "publish_date": "2026-08-12",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of is-it-cheaper-to-buy-a-house-f-complete-guide"
     },
     {
       "slug": "is-zillow-for-sale-by-owner-free-what-is",
@@ -5544,8 +5677,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-13"
+      "status": "removed",
+      "publish_date": "2026-08-13",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of is-zillow-for-sale-by-owner-free-complete-guide"
     },
     {
       "slug": "is-zillow-for-sale-by-owner-free-complete-guide",
@@ -5610,8 +5745,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-13"
+      "status": "removed",
+      "publish_date": "2026-08-13",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of is-zillow-for-sale-by-owner-free-complete-guide"
     },
     {
       "slug": "does-zillow-charge-a-fee-for-s-what-is",
@@ -5643,11 +5780,13 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-14"
+      "status": "removed",
+      "publish_date": "2026-08-14",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of does-zillow-charge-a-fee-for-s-complete-guide"
     },
     {
-      "slug": "does-zillow-charge-a-fee-for-s-complete-guide",
+      "slug": "does-zillow-charge-a-fee-for-fsbo",
       "title": "Complete Guide: Does Zillow charge a fee for sale by owner?",
       "primary_keyword": "Does Zillow charge a fee for sale by owner?",
       "secondary_keywords": [
@@ -5709,8 +5848,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-14"
+      "status": "removed",
+      "publish_date": "2026-08-14",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of does-zillow-charge-a-fee-for-s-complete-guide"
     },
     {
       "slug": "what-are-common-fsbo-mistakes-what-is",
@@ -5742,8 +5883,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-15"
+      "status": "removed",
+      "publish_date": "2026-08-15",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of what-are-common-fsbo-mistakes-complete-guide"
     },
     {
       "slug": "what-are-common-fsbo-mistakes-complete-guide",
@@ -5808,8 +5951,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-15"
+      "status": "removed",
+      "publish_date": "2026-08-15",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of what-are-common-fsbo-mistakes-complete-guide"
     },
     {
       "slug": "what-is-the-hardest-month-to-s-what-is",
@@ -5945,8 +6090,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-17"
+      "status": "removed",
+      "publish_date": "2026-08-17",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of is-zillow-banning-fsbo-complete-guide"
     },
     {
       "slug": "is-zillow-banning-fsbo-complete-guide",
@@ -6011,8 +6158,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-17"
+      "status": "removed",
+      "publish_date": "2026-08-17",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of is-zillow-banning-fsbo-complete-guide"
     },
     {
       "slug": "zillow-bans-non-mls-(fsbo)-lis-what-is",
@@ -6044,8 +6193,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-18"
+      "status": "removed",
+      "publish_date": "2026-08-18",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of zillow-bans-non-mls-(fsbo)-lis-complete-guide"
     },
     {
       "slug": "zillow-bans-non-mls-(fsbo)-lis-complete-guide",
@@ -6110,8 +6261,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-18"
+      "status": "removed",
+      "publish_date": "2026-08-18",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of zillow-bans-non-mls-(fsbo)-lis-complete-guide"
     },
     {
       "slug": "do-realtors-avoid-for-sale-by-owner-what-is",
@@ -6143,8 +6296,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-19"
+      "status": "removed",
+      "publish_date": "2026-08-19",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of do-realtors-avoid-for-sale-by-owner-complete-guide"
     },
     {
       "slug": "do-realtors-avoid-for-sale-by-owner-complete-guide",
@@ -6209,8 +6364,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-19"
+      "status": "removed",
+      "publish_date": "2026-08-19",
+      "removed_on": "2026-08-16",
+      "removed_reason": "keyword cannibalization - duplicate of do-realtors-avoid-for-sale-by-owner-complete-guide"
     },
     {
       "slug": "real-estate-for-sale-by-owner-canton-il-what-is",
@@ -6242,8 +6399,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-20"
+      "status": "removed",
+      "publish_date": "2026-08-20",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "real-estate-for-sale-by-owner-canton-il-complete-guide",
@@ -6275,8 +6434,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-20"
+      "status": "removed",
+      "publish_date": "2026-08-20",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "real-estate-for-sale-by-owner-canton-il-vs-realtor",
@@ -6308,8 +6469,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-20"
+      "status": "removed",
+      "publish_date": "2026-08-20",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "volcan-panama-real-estate-for--what-is",
@@ -6341,8 +6504,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-21"
+      "status": "removed",
+      "publish_date": "2026-08-21",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "volcan-panama-real-estate-for--complete-guide",
@@ -6374,8 +6539,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-21"
+      "status": "removed",
+      "publish_date": "2026-08-21",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "volcan-panama-real-estate-for--vs-realtor",
@@ -6407,8 +6574,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-21"
+      "status": "removed",
+      "publish_date": "2026-08-21",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "florida-as-is-real-estate-cont-what-is",
@@ -6440,8 +6609,10 @@
       ],
       "angle": "Direct answer to the question",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-08-22"
+      "status": "removed",
+      "publish_date": "2026-08-22",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "florida-as-is-real-estate-cont-complete-guide",
@@ -6473,8 +6644,10 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-22"
+      "status": "removed",
+      "publish_date": "2026-08-22",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "florida-as-is-real-estate-cont-vs-realtor",
@@ -6506,8 +6679,10 @@
       ],
       "angle": "Comparison and contrast perspective",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-08-22"
+      "status": "removed",
+      "publish_date": "2026-08-22",
+      "removed_on": "2026-08-16",
+      "removed_reason": "outside MD/VA/DC service area"
     },
     {
       "slug": "buy-houses-for-cash",
@@ -7324,5 +7499,5 @@
       "cluster": "dmv"
     }
   ],
-  "updated": "2026-08-08"
+  "updated": "2026-08-16"
 }
