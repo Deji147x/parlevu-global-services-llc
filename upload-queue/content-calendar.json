@@ -6133,8 +6133,9 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-17"
+      "status": "published",
+      "publish_date": "2026-08-17",
+      "published_on": "2026-08-17"
     },
     {
       "slug": "is-zillow-banning-fsbo-vs-realtor",
