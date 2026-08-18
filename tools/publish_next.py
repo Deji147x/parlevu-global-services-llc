@@ -21,8 +21,9 @@ import shutil
 import subprocess
 import sys
 import time
+import traceback
 from contextlib import contextmanager
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
@@ -31,6 +32,7 @@ BLOG = REPO / "blog.html"
 SITE = "https://parlevugloballlc.com"
 UPLOAD_QUEUE = REPO / "upload-queue"
 LOCK = REPO / ".publish.lock"
+LOGDIR = REPO / "logs"
 STALE_AFTER = 3600  # a lock older than this is presumed dead
 
 sys.path.insert(0, str(REPO / "tools"))
@@ -97,6 +99,38 @@ def git(*args, check=True):
                           capture_output=True, text=True, check=check)
 
 
+class _Tee:
+    """Write to the console and the log file at once."""
+
+    def __init__(self, *streams):
+        self.streams = streams
+
+    def write(self, s):
+        for st in self.streams:
+            st.write(s)
+            st.flush()
+        return len(s)
+
+    def flush(self):
+        for st in self.streams:
+            st.flush()
+
+
+def start_logging():
+    """Mirror stdout/stderr into logs/publish-YYYY-MM-DD.log.
+
+    Unattended runs previously wrote nowhere, so the task failing every
+    morning for weeks was invisible - the only evidence was the scheduler's
+    LastTaskResult hex code. Skipped for --dry-run so that stays side-effect free.
+    """
+    LOGDIR.mkdir(exist_ok=True)
+    fh = open(LOGDIR / f"publish-{date.today().isoformat()}.log", "a", encoding="utf-8")
+    sys.stdout = _Tee(sys.__stdout__, fh)
+    sys.stderr = _Tee(sys.__stderr__, fh)
+    print(f"=== run {datetime.now():%Y-%m-%d %H:%M:%S} pid={os.getpid()} ===")
+    return fh
+
+
 @contextmanager
 def publish_lock():
     """Serialise publishes so two runs cannot both mutate blog.html.
@@ -134,6 +168,8 @@ def main():
     ap.add_argument("--slug", help="publish a specific slug regardless of date")
     args = ap.parse_args()
 
+    logfh = None if args.dry_run else start_logging()
+
     cal = json.loads(CAL.read_text(encoding="utf-8"))
     brief = pick_next(cal, args.slug)
     if not brief:
@@ -145,8 +181,25 @@ def main():
               f"(due {brief['publish_date']})")
         return
 
-    with publish_lock():
-        do_publish(cal, brief, args)
+    try:
+        with publish_lock():
+            do_publish(cal, brief, args)
+    except SystemExit as e:
+        # publish_lock() aborts this way; record why before unwinding.
+        if e.code not in (0, None):
+            print(f"ABORTED: {e}")
+        raise
+    except Exception:
+        print("PUBLISH FAILED:")
+        traceback.print_exc()
+        raise
+    finally:
+        if logfh:
+            print(f"=== end {datetime.now():%Y-%m-%d %H:%M:%S} ===")
+            # restore before closing, or the _Tee flushes into a closed file
+            sys.stdout = sys.__stdout__
+            sys.stderr = sys.__stderr__
+            logfh.close()
 
 
 def do_publish(cal, brief, args):
