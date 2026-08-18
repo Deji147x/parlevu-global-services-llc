@@ -15,10 +15,13 @@ Usage:  python tools/publish_next.py [--dry-run] [--no-push] [--slug SLUG]
 """
 import argparse
 import json
+import os
 import re
 import shutil
 import subprocess
 import sys
+import time
+from contextlib import contextmanager
 from datetime import date
 from pathlib import Path
 
@@ -27,6 +30,8 @@ CAL = REPO / "content-calendar.json"
 BLOG = REPO / "blog.html"
 SITE = "https://parlevugloballlc.com"
 UPLOAD_QUEUE = REPO / "upload-queue"
+LOCK = REPO / ".publish.lock"
+STALE_AFTER = 3600  # a lock older than this is presumed dead
 
 sys.path.insert(0, str(REPO / "tools"))
 from gen_image import generate as gen_img          # noqa: E402
@@ -92,6 +97,36 @@ def git(*args, check=True):
                           capture_output=True, text=True, check=check)
 
 
+@contextmanager
+def publish_lock():
+    """Serialise publishes so two runs cannot both mutate blog.html.
+
+    On 2026-08-17 the 09:07 scheduled task and a manual run overlapped; each
+    inserted a card for the same post, duplicating it on the blog index
+    (commits 0aea79f / 95bdf5b). Fail fast rather than corrupt the page.
+    """
+    if LOCK.exists():
+        age = time.time() - LOCK.stat().st_mtime
+        if age < STALE_AFTER:
+            holder = LOCK.read_text(encoding='utf-8').strip()
+            raise SystemExit(
+                f"Another publish is already running (lock held {int(age)}s: "
+                f"{holder}). Aborting - nothing was changed."
+            )
+        print(f"  stale lock ({int(age)}s old) - taking over")
+        LOCK.unlink(missing_ok=True)
+    try:
+        fd = os.open(str(LOCK), os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+    except FileExistsError:
+        raise SystemExit("Another publish just started. Aborting - nothing was changed.")
+    try:
+        os.write(fd, f"pid={os.getpid()} epoch={int(time.time())}".encode())
+        os.close(fd)
+        yield
+    finally:
+        LOCK.unlink(missing_ok=True)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="report what would publish, change nothing")
@@ -110,6 +145,11 @@ def main():
               f"(due {brief['publish_date']})")
         return
 
+    with publish_lock():
+        do_publish(cal, brief, args)
+
+
+def do_publish(cal, brief, args):
     print(f"Publishing: {brief['slug']} — {brief['title']}")
     # Hand-written posts (e.g. FSBO pillars) are pre-rendered; publish them as-is.
     existing = REPO / f"blog-{brief['slug']}.html"

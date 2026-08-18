@@ -20,3 +20,6 @@ desktop.ini
 # Python build artifacts
 __pycache__/
 *.py[cod]
+
+# publish lock (runtime)
+.publish.lock
