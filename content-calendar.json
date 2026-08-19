@@ -2776,9 +2776,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "keys and contract on a wooden table, editorial photography, shallow depth of field, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-19",
-      "published_on": null
+      "published_on": "2026-08-19"
     },
     {
       "slug": "fsbo-escrow-explained",
