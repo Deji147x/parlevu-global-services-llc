@@ -6978,9 +6978,10 @@
       "youtube_embed": null,
       "external_links": [],
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-11-02",
-      "cluster": "distressed"
+      "cluster": "distressed",
+      "published_on": "2026-08-19"
     },
     {
       "slug": "fire-damaged-house",
