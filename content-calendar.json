@@ -6802,9 +6802,10 @@
       "youtube_embed": null,
       "external_links": [],
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-10-29",
-      "cluster": "speed"
+      "cluster": "speed",
+      "published_on": "2026-08-19"
     },
     {
       "slug": "quick-home-sale",
