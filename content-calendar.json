@@ -6713,9 +6713,10 @@
       "youtube_embed": null,
       "external_links": [],
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-10-27",
-      "cluster": "as-is"
+      "cluster": "as-is",
+      "published_on": "2026-08-19"
     },
     {
       "slug": "as-is-home-sales",
