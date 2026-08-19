@@ -6341,8 +6341,9 @@
       ],
       "angle": "Deeper dive with statistics and local context",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-08-19"
+      "status": "published",
+      "publish_date": "2026-08-19",
+      "published_on": "2026-08-19"
     },
     {
       "slug": "do-realtors-avoid-for-sale-by-owner-vs-realtor",
