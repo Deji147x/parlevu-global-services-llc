@@ -2795,9 +2795,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "row of charming townhouses at golden hour, bright airy real-estate photography, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-20",
-      "published_on": null
+      "published_on": "2026-08-20"
     },
     {
       "slug": "fsbo-title-company",
