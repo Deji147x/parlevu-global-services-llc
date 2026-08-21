@@ -2814,9 +2814,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "home office desk with laptop showing a listing, documentary style, authentic feel, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-21",
-      "published_on": null
+      "published_on": "2026-08-21"
     },
     {
       "slug": "fsbo-lead-paint-disclosure",
