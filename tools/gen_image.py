@@ -43,7 +43,10 @@ def generate(slug: str, prompt: str, retries: int = 3) -> str:
     if out.exists() and out.stat().st_size > 10_000:
         return f"images/blog/{slug}.jpg"
 
-    seed = int(hashlib.sha1(slug.encode()).hexdigest()[:8], 16)
+    # Pollinations 500s on any seed above INT32_MAX (verified 2026-08-24:
+    # 2147483647 -> 200, 2147483648 -> 500), and sha1[:8] spans the full
+    # unsigned 32-bit range, so ~half of all slugs could never succeed.
+    seed = int(hashlib.sha1(slug.encode()).hexdigest()[:8], 16) & 0x7FFFFFFF
     url = ("https://image.pollinations.ai/prompt/"
            + urllib.parse.quote(prompt)
            + f"?width=1200&height=630&seed={seed}&nologo=true&model=flux")
