@@ -2892,9 +2892,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "cozy living room with staging touches, documentary style, authentic feel, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-25",
-      "published_on": null
+      "published_on": "2026-08-25"
     },
     {
       "slug": "fsbo-who-pays-closing-costs-fsbo",
