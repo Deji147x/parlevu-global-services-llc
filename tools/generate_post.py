@@ -90,7 +90,27 @@ Secondary keywords (use each once): {', '.join(brief['secondary_keywords'])}
 Location focus: {place}
 Local fact to weave in: {facts['disclosure']} {facts['foreclosure']}
 Tone: helpful, direct, empathetic, expert. Audience: homeowner who needs to sell.
-Total body length across intro+sections: 1800 to 2600 characters. Short punchy paragraphs.
+Total body length across intro+sections: 1800 to 2600 characters.
+
+VERIFIED FIGURES - you may cite these and ONLY these. Never invent statistics,
+percentages, survey results, or third-party research, and never cite a study:
+  - Parlevu closes in 7 to 21 days; a conventional listing takes 30 to 90 days
+  - A traditional agent commission is 5-6% of the sale price; Parlevu charges 0%
+  - On a $300,000 sale, a 6% commission is about $18,000
+  - Parlevu pays all closing costs and buys as-is, so the seller spends $0 on repairs
+  - A cash offer is presented within two business days
+  - The current year is 2026
+
+WRITING REQUIREMENTS (these drive how AI search engines quote the page):
+  - Each section must contain at least one figure from the verified list above,
+    and at least one of those figures across the post must be a percentage and
+    one a dollar amount.
+  - Each section must include one grounded scenario opening with "For example,"
+    or "In practice," - a plausible seller situation, never a fabricated client.
+  - Write flowing paragraphs of roughly 130-160 words, not short fragments.
+    Keep average sentence length between 10 and 20 words.
+  - Name "Parlevu Global Services" and the location at least once per section so
+    each passage stands alone when quoted out of context.
 
 Respond with ONLY valid JSON in exactly this shape:
 {{"meta_desc": "150-char meta description containing the primary keyword",
