@@ -2911,9 +2911,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "keys and contract on a wooden table, photorealistic, warm natural light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-26",
-      "published_on": null
+      "published_on": "2026-08-26"
     },
     {
       "slug": "fsbo-maryland-transfer-tax-fsbo",
