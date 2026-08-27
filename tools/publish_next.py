@@ -83,8 +83,14 @@ def regen_sitemap():
     skip = {"404.html", "thank-you.html"}
     urls = sorted(p.name for p in REPO.glob("*.html") if p.name not in skip)
     today = date.today().isoformat()
+    # index.html is served at the bare domain and canonicalises to "/",
+    # so listing it by filename creates a duplicate that crawlers flag
+    # as "indexable page not in sitemap".
+    def loc(u):
+        return f"{SITE}/" if u == "index.html" else f"{SITE}/{u}"
+
     entries = "\n".join(
-        f"  <url><loc>{SITE}/{u}</loc><lastmod>{today}</lastmod>"
+        f"  <url><loc>{loc(u)}</loc><lastmod>{today}</lastmod>"
         f"<changefreq>{'daily' if u == 'blog.html' else 'monthly'}</changefreq>"
         f"<priority>{'1.0' if u == 'index.html' else '0.7'}</priority></url>"
         for u in urls)
