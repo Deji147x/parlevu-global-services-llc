@@ -2930,9 +2930,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "row of charming townhouses at golden hour, editorial photography, shallow depth of field, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-27",
-      "published_on": null
+      "published_on": "2026-08-27"
     },
     {
       "slug": "fsbo-dc-transfer-tax-fsbo",
