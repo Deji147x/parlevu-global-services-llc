@@ -2949,9 +2949,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "home office desk with laptop showing a listing, bright airy real-estate photography, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-08-28",
-      "published_on": null
+      "published_on": "2026-08-28"
     },
     {
       "slug": "fsbo-buyer-agent-commission",
