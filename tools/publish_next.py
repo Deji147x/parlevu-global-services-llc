@@ -40,6 +40,28 @@ from gen_image import generate as gen_img          # noqa: E402
 from generate_post import generate as gen_post, place_of  # noqa: E402
 
 
+# Double-encoded UTF-8 (text encoded once, then read as cp1252 and re-encoded)
+# reached content-calendar.json titles and shipped to live pages as "â€”".
+# Repair at publish time so bad calendar data cannot reach a page again.
+MOJIBAKE = {
+    "â€”": "—",  # em dash
+    "â€“": "–",  # en dash
+    "â€™": "’",  # right single quote
+    "â€˜": "‘",  # left single quote
+    "â€œ": "“",  # left double quote
+    "â€": "”",  # right double quote
+    "â€¦": "…",  # ellipsis
+}
+
+
+def demojibake(value):
+    """Repair double-encoded text in a brief's string fields."""
+    if isinstance(value, str):
+        for bad, good in MOJIBAKE.items():
+            value = value.replace(bad, good)
+    return value
+
+
 def pick_next(cal, slug=None):
     today = date.today().isoformat()
     for p in cal["posts"]:
@@ -209,6 +231,8 @@ def main():
 
 
 def do_publish(cal, brief, args):
+    for _k, _v in list(brief.items()):
+        brief[_k] = demojibake(_v)
     print(f"Publishing: {brief['slug']} — {brief['title']}")
     # Hand-written posts (e.g. FSBO pillars) are pre-rendered; publish them as-is.
     existing = REPO / f"blog-{brief['slug']}.html"
