@@ -3025,9 +3025,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "family packing moving boxes, bright airy real-estate photography, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-09-01",
-      "published_on": null
+      "published_on": "2026-09-01"
     },
     {
       "slug": "fsbo-closing-day",
@@ -7465,7 +7465,7 @@
       "external_links": [],
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-11",
+      "publish_date": "2026-09-13",
       "cluster": "dmv"
     },
     {
