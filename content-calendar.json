@@ -3065,9 +3065,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "row of charming townhouses at golden hour, photorealistic, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-09-03",
-      "published_on": null
+      "published_on": "2026-09-03"
     },
     {
       "slug": "fsbo-do-fsbo-homes-go-on-mls",
