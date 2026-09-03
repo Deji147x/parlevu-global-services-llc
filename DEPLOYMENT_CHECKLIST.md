@@ -40,7 +40,7 @@
 
 ### 1. Verify Buffer API Key
 ```bash
-curl "https://api.bufferapp.com/1/user.json?access_token=LVHd9bX_fyxVq3vK5VOy6ilpd_LEVWxl6ud9zzmniw8"
+curl "https://api.bufferapp.com/1/user.json?access_token=REDACTED_ROTATE_THIS_KEY"
 ```
 - Should return JSON with `"profiles": [...]`
 - If 401 error: regenerate key in Buffer.com settings
@@ -56,7 +56,7 @@ Once Buffer API works, you'll get profile IDs like: `507f1f77bcf86cd799439011`
 ### 3. Update `.env` File
 Copy template and fill in actual values:
 ```
-BUFFER_API_KEY=LVHd9bX_fyxVq3vK5VOy6ilpd_LEVWxl6ud9zzmniw8
+BUFFER_API_KEY=REDACTED_ROTATE_THIS_KEY
 BUFFER_PROFILE_FACEBOOK=507f1f77bcf86cd799439011
 BUFFER_PROFILE_INSTAGRAM=507f1f77bcf86cd799439012
 BUFFER_PROFILE_LINKEDIN=507f1f77bcf86cd799439013

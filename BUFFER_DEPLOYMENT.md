@@ -33,7 +33,7 @@ Example output from Buffer API:
 Edit `.env` in the repo root:
 
 ```
-BUFFER_API_KEY=u8F9bepCRT_69QaJInUOSzvA2oMQDkvQWw7JxPLZS8_
+BUFFER_API_KEY=REDACTED_ROTATE_THIS_KEYLZS8_
 BUFFER_PROFILE_ID=5e1b2c3d4e5f6g7h8i9j0k1l
 SITE_URL=https://www.parlevugloballlc.com
 ```

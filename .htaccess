@@ -73,10 +73,13 @@ DirectoryIndex index.html
 RedirectMatch 301 "^/blog-zillow-bans-non-mls-\(fsbo\)-lis-complete-guide\.html$" "/blog-zillow-bans-non-mls-fsbo-listings.html"
 
 # --- Block access to sensitive files ---
-<FilesMatch "\.(htaccess|htpasswd|env|log|sh|json)$">
+<FilesMatch "\.(htaccess|htpasswd|env|log|sh|json|md|py|csv|md5|bak|yml|yaml|ini|sql)$">
   Order allow,deny
   Deny from all
 </FilesMatch>
+
+# --- Internal tooling directories must not be served ---
+RedirectMatch 404 "^/(tools|upload-queue|research|_BACKUP|logs)(/|$)"
 
 # --- Block directory listing ---
 Options -Indexes
