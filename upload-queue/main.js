@@ -8,6 +8,75 @@ document.addEventListener('DOMContentLoaded', function () {
   /* ── HubSpot CRM Integration ────────────────────────────── */
   const HS_PORTAL_ID = '246316495';
 
+
+  /* -- Lead durability -------------------------------------
+     The HubSpot tracking script is async+defer. A form submitted before it
+     finishes loading only queues into a plain array, so redirecting on a
+     fixed timer could discard the lead silently. These helpers keep a local
+     copy until HubSpot has demonstrably taken over the queue. */
+  const LEAD_STORE  = 'parlevu_pending_leads';
+  const HS_MAX_WAIT = 4000;   // ms before redirecting regardless
+  const HS_POLL     = 100;
+
+  function readLeads() {
+    try { return JSON.parse(localStorage.getItem(LEAD_STORE) || '[]'); }
+    catch (e) { return []; }
+  }
+
+  function stashLead(data) {
+    const ticket = 'lead_' + Date.now();
+    try {
+      const all = readLeads();
+      all.push({ ticket: ticket, at: new Date().toISOString(), page: location.pathname, data: data });
+      localStorage.setItem(LEAD_STORE, JSON.stringify(all.slice(-20)));
+    } catch (e) { /* private mode or quota - submission still proceeds */ }
+    return ticket;
+  }
+
+  function clearLead(ticket) {
+    try {
+      localStorage.setItem(LEAD_STORE,
+        JSON.stringify(readLeads().filter(function (l) { return l.ticket !== ticket; })));
+    } catch (e) { /* nothing to clean up */ }
+  }
+
+  // HubSpot swaps the plain _hsq array for its own object once loaded, so a
+  // push that is no longer Array.prototype.push means it is live.
+  function hubSpotReady() {
+    const q = window._hsq;
+    return !!(q && q.push && q.push !== Array.prototype.push);
+  }
+
+  function whenHubSpotReady(done) {
+    if (hubSpotReady()) { done(true); return; }
+    let waited = 0;
+    const timer = setInterval(function () {
+      waited += HS_POLL;
+      if (hubSpotReady()) { clearInterval(timer); done(true); }
+      else if (waited >= HS_MAX_WAIT) { clearInterval(timer); done(false); }
+    }, HS_POLL);
+  }
+
+  // Anything a previous visit left behind gets one more attempt.
+  function retryPendingLeads() {
+    const pending = readLeads();
+    if (!pending.length) return;
+    whenHubSpotReady(function (ready) {
+      if (!ready) return;
+      pending.forEach(function (l) { pushToHubSpot(l.data); clearLead(l.ticket); });
+    });
+  }
+
+  function submitLead(data, formId) {
+    track('generate_lead', { form_id: formId, page: location.pathname.split('/').pop() || 'index.html' });
+    const ticket = stashLead(data);
+    pushToHubSpot(data);
+    whenHubSpotReady(function (delivered) {
+      if (delivered) clearLead(ticket);
+      window.location.href = 'thank-you.html';
+    });
+  }
+
   function pushToHubSpot(data) {
     try {
       const _hsq = window._hsq = window._hsq || [];
@@ -133,10 +202,7 @@ document.addEventListener('DOMContentLoaded', function () {
       btn.disabled = true;
 
       const data = Object.fromEntries(new FormData(this).entries());
-      track('generate_lead', { form_id: 'heroForm', page: location.pathname.split('/').pop() || 'index.html' });
-      pushToHubSpot(data);                       // → HubSpot CRM contact created
-
-      setTimeout(() => { window.location.href = 'thank-you.html'; }, 900);
+      submitLead(data, 'heroForm');
     });
   }
 
@@ -150,9 +216,7 @@ document.addEventListener('DOMContentLoaded', function () {
       btn.disabled = true;
 
       const data = Object.fromEntries(new FormData(this).entries());
-      pushToHubSpot(data);                       // → HubSpot CRM contact created
-
-      setTimeout(() => { window.location.href = 'thank-you.html'; }, 1000);
+      submitLead(data, 'contactForm');
     });
   }
 
@@ -191,6 +255,8 @@ document.addEventListener('DOMContentLoaded', function () {
       track('schedule_click', { link_url: href, link_text: label, page: where });
     }
   }, true);
+
+window.addEventListener('load', retryPendingLeads);
 
   /* ── Book a Call (data-book-call) ───────────────────────── */
   document.querySelectorAll('[data-meet], [data-book-call]').forEach(el => {
