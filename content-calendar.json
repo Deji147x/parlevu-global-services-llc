@@ -3122,9 +3122,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "kitchen table with paperwork and coffee, documentary style, authentic feel, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-09-06",
-      "published_on": null
+      "published_on": "2026-09-06"
     },
     {
       "slug": "fsbo-where-list-fsbo-free",
