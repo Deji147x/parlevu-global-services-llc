@@ -3179,9 +3179,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "yard sign on a green lawn, bright airy real-estate photography, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-09-09",
-      "published_on": null
+      "published_on": "2026-09-10"
     },
     {
       "slug": "fsbo-listing-description",
