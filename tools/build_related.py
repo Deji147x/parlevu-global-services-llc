@@ -81,6 +81,19 @@ def score(a, b):
     return n
 
 
+# Posts related in meaning but sharing no slug vocabulary. Scoring cannot see
+# these, so they are paired by hand, in both directions. A slug is fixed once a
+# URL is indexed, which is why a post rewritten under an old URL needs this.
+RELATED_OVERRIDES = {
+    "market-update": [
+        "how-we-calculate-your-cash-offer",
+        "fsbo-mls-vs-cash-offer",
+        "why-your-fsbo-listing-isnt-selling-baltimore",
+        "how-to-sell-house-fast-maryland",
+    ],
+}
+
+
 def pick_related(slug, slugs, count):
     """Best-scoring related posts, rotating within each tied score band.
 
@@ -149,6 +162,42 @@ def balance(plan, slugs):
     return plan
 
 
+def apply_overrides(plan, slugs, count):
+    """Pin hand-curated pairings, linking both ways.
+
+    The source gets its curated list outright. Each target gets the source
+    swapped in for its least-relevant pick - never a pick that is some other
+    post's only related-block link, so the fix cannot strand anything.
+    """
+    live = set(slugs)
+    inbound = collections.Counter(p for picks in plan.values() for p in picks)
+    for src, targets in RELATED_OVERRIDES.items():
+        if src not in live:
+            continue
+        targets = [t for t in targets if t in live and t != src]
+        for old in plan.get(src, []):
+            inbound[old] -= 1
+        plan[src] = targets[:count]
+        for t in plan[src]:
+            inbound[t] += 1
+        for t in targets:
+            picks = plan.get(t) or []
+            if src in picks:
+                continue
+            if len(picks) < count:
+                picks.append(src)
+            else:
+                droppable = [p for p in picks if inbound[p] > 1]
+                if not droppable:
+                    continue
+                weakest = min(droppable, key=lambda p: score(t, p))
+                picks[picks.index(weakest)] = src
+                inbound[weakest] -= 1
+            inbound[src] += 1
+            plan[t] = picks
+    return plan
+
+
 def title_of(path):
     h = io.open(path, encoding="utf-8").read()
     m = re.search(r'<h2 class="article-title">(.*?)</h2>', h, re.S)
@@ -170,6 +219,7 @@ def main():
 
     plan = {s: pick_related(s, slugs, args.count) for s in slugs}
     plan = balance(plan, slugs)
+    plan = apply_overrides(plan, slugs, args.count)
 
     changed = skipped = noblock = 0
     for slug in slugs:
