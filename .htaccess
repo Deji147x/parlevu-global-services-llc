@@ -83,3 +83,6 @@ RedirectMatch 404 "^/(tools|upload-queue|research|_BACKUP|logs)(/|$)"
 
 # --- Block directory listing ---
 Options -Indexes
+
+# --- Retired post (removed 2026-09-12) ---
+RedirectMatch 301 "^/blog-what\-is\-the\-hardest\-month\-to\-s\-complete\-guide\.html$" "/blog-fsbo-maryland-complete-guide.html"
