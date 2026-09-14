@@ -7450,9 +7450,10 @@
       "youtube_embed": null,
       "external_links": [],
       "cta_variant": "call",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-09-13",
-      "cluster": "dmv"
+      "cluster": "dmv",
+      "published_on": "2026-09-14"
     },
     {
       "slug": "sell-fast-dmv",
