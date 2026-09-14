@@ -3296,9 +3296,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "handshake at a front door, documentary style, authentic feel, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-09-14",
-      "published_on": null
+      "published_on": "2026-09-14"
     },
     {
       "slug": "fsbo-fixer-upper",
