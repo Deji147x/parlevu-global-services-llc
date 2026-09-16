@@ -3334,9 +3334,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "yard sign on a green lawn, editorial photography, shallow depth of field, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-09-16",
-      "published_on": null
+      "published_on": "2026-09-16"
     },
     {
       "slug": "fsbo-fire-water-damage",
