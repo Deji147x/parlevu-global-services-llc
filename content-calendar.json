@@ -3353,9 +3353,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "aerial view of a suburban neighborhood, bright airy real-estate photography, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-09-17",
-      "published_on": null
+      "published_on": "2026-09-17"
     },
     {
       "slug": "fsbo-code-violations",
