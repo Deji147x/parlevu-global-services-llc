@@ -3623,9 +3623,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "aerial view of a suburban neighborhood, photorealistic, warm natural light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-10-01",
-      "published_on": null
+      "published_on": "2026-10-01"
     },
     {
       "slug": "fsbo-yard-sign-tips",
