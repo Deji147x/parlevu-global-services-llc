@@ -3642,9 +3642,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "cozy living room with staging touches, editorial photography, shallow depth of field, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-10-02",
-      "published_on": null
+      "published_on": "2026-10-02"
     },
     {
       "slug": "fsbo-open-house",
