@@ -3699,9 +3699,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "home office desk with laptop showing a listing, photorealistic, warm natural light, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-10-05",
-      "published_on": null
+      "published_on": "2026-10-06"
     },
     {
       "slug": "fsbo-curb-appeal-budget",
