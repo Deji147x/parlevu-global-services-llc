@@ -3737,9 +3737,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "kitchen table with paperwork and coffee, bright airy real-estate photography, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-10-07",
-      "published_on": null
+      "published_on": "2026-10-08"
     },
     {
       "slug": "fsbo-marketing-not-working",
