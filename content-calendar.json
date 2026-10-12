@@ -3834,9 +3834,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "home office desk with laptop showing a listing, documentary style, authentic feel, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-10-12",
-      "published_on": null
+      "published_on": "2026-10-12"
     },
     {
       "slug": "fsbo-lowball-offers",
