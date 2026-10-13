@@ -3853,9 +3853,9 @@
       "hub": "fsbo-support-maryland-virginia-dc.html",
       "image_prompt": "sunlit front porch of a brick rowhome, photorealistic, warm natural light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
+      "status": "published",
       "publish_date": "2026-10-13",
-      "published_on": null
+      "published_on": "2026-10-13"
     },
     {
       "slug": "fsbo-deal-fell-through",
