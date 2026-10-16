@@ -69,17 +69,34 @@ def check_logs(days):
     missing = [d.isoformat() for d in window
                if not (LOGS / ("publish-%s.log" % d.isoformat())).exists()]
     text = ""
+    last_push_fail = None
     for d in window:
         f = LOGS / ("publish-%s.log" % d.isoformat())
-        if f.exists():
-            text += io.open(f, encoding="utf-8", errors="replace").read()
+        if not f.exists():
+            continue
+        body = io.open(f, encoding="utf-8", errors="replace").read()
+        text += body
+        if "git push failed" in body:
+            if last_push_fail is None or d > last_push_fail:
+                last_push_fail = d
     push_fail = text.count("git push failed")
     fallback = len(re.findall(r"fallback engine", text))
     ollama = len(re.findall(r"ollama engine", text))
     img = text.count("IMAGE FALLBACK")
+
+    # A count alone cries wolf: failures already fixed keep reporting until they
+    # age out of the window. What matters is whether one happened recently.
+    if not push_fail:
+        push_row = (OK, "push failures", "none in last %d days" % days)
+    else:
+        age = (today - last_push_fail).days
+        detail = "%d in last %d days, most recent %s (%s)" % (
+            push_fail, days, last_push_fail.isoformat(),
+            "today" if age == 0 else "%d days ago" % age)
+        push_row = (BAD if age <= 2 else WARN, "push failures", detail)
+
     rows = [
-        (BAD if push_fail else OK, "push failures",
-         "%d in last %d days" % (push_fail, days)),
+        push_row,
         (WARN if missing else OK, "days with no run",
          ", ".join(missing) if missing else "none"),
         (WARN if fallback else OK, "template-written posts",
