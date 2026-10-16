@@ -1,0 +1,7 @@
+Backfill generated heroes for three stock-photo posts
+
+Pollinations 502d during their original runs, so facebook-marketplace,
+seller-concessions and video-walkthrough shipped with stock images.
+Regenerated now that the service responds; post and index card updated.
+
+Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
