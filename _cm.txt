@@ -1,3 +1,0 @@
-Sync upload-queue copy after image backfill
-
-Co-Authored-By: Claude Opus 5 <noreply@anthropic.com>
