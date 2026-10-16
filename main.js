@@ -67,8 +67,77 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  /* ── Lead attribution ───────────────────────────────────────
+     Which channel produced a lead matters more than which page it
+     fired on. First touch is kept for the life of the browser so a
+     visitor who reads a post today and converts next week is still
+     credited to the original source; last touch is per visit. */
+  function readParams() {
+    var q = {};
+    try {
+      new URLSearchParams(location.search).forEach(function (v, k) { q[k.toLowerCase()] = v; });
+    } catch (e) { /* older browser - fall through to referrer only */ }
+    return q;
+  }
+
+  function classify(q, ref) {
+    if (q.utm_source) {
+      return { source: q.utm_source, medium: q.utm_medium || 'unknown', campaign: q.utm_campaign || '' };
+    }
+    if (q.gclid) return { source: 'google', medium: 'cpc', campaign: '' };
+    if (!ref) return { source: 'direct', medium: 'none', campaign: '' };
+    var host = '';
+    try { host = new URL(ref).hostname.replace(/^www\./, ''); } catch (e) { host = ref; }
+    if (host === location.hostname.replace(/^www\./, '')) return null;   // internal click
+    var search = /google\.|bing\.|duckduckgo\.|yahoo\./.test(host);
+    var social = /facebook\.|instagram\.|linkedin\.|t\.co|x\.com|pinterest\./.test(host);
+    return {
+      source: host,
+      medium: search ? 'organic' : (social ? 'social' : 'referral'),
+      campaign: ''
+    };
+  }
+
+  function attribution() {
+    var q = readParams();
+    var touch = classify(q, document.referrer);
+    var now = new Date().toISOString().slice(0, 10);
+    var first = null;
+    try {
+      if (touch) {
+        sessionStorage.setItem('parlevu_last_touch', JSON.stringify(touch));
+        if (!localStorage.getItem('parlevu_first_touch')) {
+          localStorage.setItem('parlevu_first_touch',
+            JSON.stringify({ source: touch.source, medium: touch.medium, campaign: touch.campaign, date: now }));
+          localStorage.setItem('parlevu_landing', location.pathname.split('/').pop() || 'index.html');
+        }
+      }
+      first = JSON.parse(localStorage.getItem('parlevu_first_touch') || 'null');
+      if (!touch) touch = JSON.parse(sessionStorage.getItem('parlevu_last_touch') || 'null');
+    } catch (e) { /* private mode - attribution degrades, lead still sends */ }
+    touch = touch || { source: 'direct', medium: 'none', campaign: '' };
+    first = first || { source: touch.source, medium: touch.medium, campaign: touch.campaign, date: now };
+    var landing = 'index.html';
+    try { landing = localStorage.getItem('parlevu_landing') || landing; } catch (e) {}
+    return {
+      lead_source: touch.source,
+      lead_medium: touch.medium,
+      lead_campaign: touch.campaign,
+      first_source: first.source,
+      first_medium: first.medium,
+      first_seen: first.date,
+      landing_page: landing
+    };
+  }
+
+  // record the touch on every page view, not only on conversion
+  attribution();
+
   function submitLead(data, formId) {
-    track('generate_lead', { form_id: formId, page: location.pathname.split('/').pop() || 'index.html' });
+    var attr = attribution();
+    var params = { form_id: formId, page: location.pathname.split('/').pop() || 'index.html' };
+    for (var k in attr) { if (Object.prototype.hasOwnProperty.call(attr, k)) params[k] = attr[k]; }
+    track('generate_lead', params);
     const ticket = stashLead(data);
     pushToHubSpot(data);
     whenHubSpotReady(function (delivered) {
