@@ -13,6 +13,13 @@ RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)/$ /$1 [L,R=301]
 
+# --- Legacy WordPress URLs -> current pages (added 2026-10) ---
+# Matched before the extension rule below, which would otherwise 404 them.
+RewriteRule ^about-us/?$ /about.html [R=301,L]
+RewriteRule ^services-page/?$ /services.html [R=301,L]
+RewriteRule ^we-buy-houses-maryland/?$ /sell-house-fast-maryland.html [R=301,L]
+RewriteRule ^we-buy-houses-virginia/?$ /sell-house-fast-virginia.html [R=301,L]
+RewriteRule ^we-buy-houses-washington-dc/?$ /sell-house-fast-washington-dc.html [R=301,L]
 # --- Remove .html extension from URLs ---
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
