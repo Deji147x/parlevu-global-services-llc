@@ -45,14 +45,45 @@ def published(cal, since=None, limit=None):
     return out[:limit] if limit else out
 
 
+# The Business Profile is a Baltimore listing. A post's own city/state field
+# describes who the article is for, not where the profile is, so using it put
+# "in VA" and "in DC" on a Baltimore profile. Local relevance is the whole point
+# of this channel, so the copy always speaks from Baltimore.
+HOME = "Baltimore"
+WIDER = "Baltimore and the DMV"
+
+# Rotated so a month of weekly posts does not read as one template. Index is
+# derived from the slug, so a given post always renders the same way.
+OPENERS = [
+    "{title}",
+    "{title} Here is the short version for {home} homeowners.",
+    "A question we get from {home} sellers: {title}",
+]
+
+CLOSERS = [
+    "We buy houses in {wider} as-is, with no repairs, no agent commissions and "
+    "a closing date you choose.",
+    "If selling as-is would suit you better than listing, we buy throughout "
+    "{wider} with no commissions and no repair bill.",
+    "We buy as-is across {wider}. No realtor, no fees, and you pick the "
+    "timeline.",
+]
+
+
 def summarize(brief):
-    kw = brief.get("primary_keyword", "")
-    city = brief.get("city") or brief.get("state") or "Maryland"
-    body = (f"{brief['title']} "
-            f"If you're weighing {kw} in {city}, here's what actually matters: "
-            "what it costs, how long it takes, and how to sell as-is for cash "
-            "with no repairs, no agent commissions, and no listing fees.")
-    return textwrap.shorten(body, width=SUMMARY_LIMIT, placeholder=" ...")
+    """One self-contained paragraph, complete sentences, never truncated."""
+    title = brief["title"].strip()
+    if not title.endswith((".", "?", "!")):
+        title += "."
+    i = sum(ord(c) for c in brief["slug"]) % len(OPENERS)
+    opener = OPENERS[i].format(title=title, home=HOME)
+    closer = CLOSERS[i % len(CLOSERS)].format(wider=WIDER)
+    body = opener + " " + closer
+    if len(body) <= SUMMARY_LIMIT:
+        return body
+    # Drop the opener's extra sentence rather than cut a word in half.
+    short = title + " " + closer
+    return short if len(short) <= SUMMARY_LIMIT else title
 
 
 def payload(brief):
