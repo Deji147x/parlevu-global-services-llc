@@ -26,3 +26,9 @@ __pycache__/
 
 # publish run logs
 logs/
+
+# .env backups and variants. set_buffer_token.py writes .env.bak, a full
+# copy of the previous .env including live credentials; the bare ".env"
+# rule above does not cover it. .env.example stays tracked on purpose.
+.env.*
+!.env.example

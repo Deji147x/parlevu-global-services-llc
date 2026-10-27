@@ -12,6 +12,7 @@ Each post includes:
 """
 import csv
 import json
+import re
 import sys
 from pathlib import Path
 from datetime import datetime, timedelta
@@ -25,14 +26,29 @@ REPO = Path(__file__).resolve().parent.parent
 CSV = REPO / ".." / "Downloads" / "questionfinder-for-sale-by-owner-real-estate.csv"
 CAL = REPO / "content-calendar.json"
 
-# YouTube sources (curated real estate educational channels)
-YOUTUBE_SOURCES = [
-    {"url": "https://www.youtube.com/watch?v=zestimate", "source": "Zillow Zestimate Explainer"},
-    {"url": "https://www.youtube.com/watch?v=realtor-guide", "source": "Realtor.com Seller Guide"},
-    {"url": "https://www.youtube.com/watch?v=remax-fsbo", "source": "RE/MAX FSBO Tips"},
-    {"url": "https://www.youtube.com/watch?v=nar-pricing", "source": "NAR Pricing Strategy"},
-    {"url": "https://www.youtube.com/watch?v=zillow-marketing", "source": "Zillow Marketing For Sellers"},
-]
+# YouTube sources -- EMPTY ON PURPOSE.
+#
+# This list used to hold five invented video IDs (zestimate, realtor-guide,
+# remax-fsbo, nar-pricing, zillow-marketing). Real YouTube IDs are 11
+# characters; those were slugs that never existed, so every post built from
+# this file shipped an iframe that rendered as an unavailable-video player.
+# 31 of them reached production before being stripped on 2026-10-27.
+#
+# Leave this empty unless you have REAL 11-character video IDs you own or
+# have permission to embed. validate_youtube() below rejects anything else,
+# so a bad ID fails the build instead of reaching a live page.
+YOUTUBE_SOURCES = []
+
+
+def validate_youtube(entry):
+    """Reject anything that is not a real 11-character YouTube ID."""
+    m = re.search(r'[?&]v=([A-Za-z0-9_-]+)', entry.get('url', ''))
+    if not m or len(m.group(1)) != 11:
+        raise SystemExit(
+            'Refusing to build: %r is not a valid YouTube ID. Real IDs are 11 '
+            'characters. See the note on YOUTUBE_SOURCES.' % entry.get('url')
+        )
+    return entry
 
 # External authority sources for backlinks (2-3 per post)
 AUTHORITY_LINKS = {
@@ -184,7 +200,8 @@ def main():
                 "kind": "question",
                 "hub": "fsbo-support-maryland-virginia-dc.html",
                 "image_prompt": f"{question} — {variant['image_style']}, professional real estate photography, Maryland/Virginia/DC context, no text, no watermark",
-                "youtube_embed": YOUTUBE_SOURCES[post_count % len(YOUTUBE_SOURCES)],
+                "youtube_embed": (validate_youtube(YOUTUBE_SOURCES[post_count % len(YOUTUBE_SOURCES)])
+                                  if YOUTUBE_SOURCES else None),
                 "external_links": get_authority_links(question),
                 "angle": variant["angle"],
                 "cta_variant": CTAS[cta_idx % len(CTAS)],
