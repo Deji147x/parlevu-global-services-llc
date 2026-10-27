@@ -52,6 +52,10 @@ API = "https://api.buffer.com"
 # social-calendar.json channel key -> Buffer service identifier.
 SERVICE = {"facebook": "facebook", "instagram": "instagram", "gbp": "googlebusiness"}
 
+# Google Business Profile rejects posts containing a phone number; the CTA
+# button carries it instead. Confirmed live on 2026-10-27.
+PHONE_RX = re.compile(r"\(?\d{3}\)?[ .-]?\d{3}[ .-]?\d{4}")
+
 
 def load_token():
     if not os.path.exists(ENV):
@@ -273,6 +277,17 @@ def main():
             body = e["channels"][key]
             text, link = body["copy"], body.get("link")
             due = to_utc(e["scheduled_for"])
+
+            # Google rejects any post containing a phone number ("Google
+            # Business posts cannot contain phone numbers. Use the CTA button
+            # instead."). Catch it here rather than spending a round trip and
+            # a scheduled slot discovering it.
+            if service == "googlebusiness" and PHONE_RX.search(text):
+                print("  SKIP  %-34s %-12s contains a phone number; Google rejects"
+                      " these. Rebuild with tools/build_social_calendar.py"
+                      % (e["blog_slug"][:34], key))
+                skipped += 1
+                continue
 
             if not args.publish:
                 print("  QUEUE %-34s %-12s %4d chars -> %s"

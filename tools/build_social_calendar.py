@@ -101,6 +101,17 @@ CTA = {
               "cash offer, typically within 24-48 hours."),
 }
 
+# Google Business Profile rejects any post containing a phone number -- Buffer
+# returns "Google Business posts cannot contain phone numbers. Use the CTA
+# button instead." (confirmed on a live attempt, 2026-10-27). The profile
+# already carries a native Call button and our posts carry a Learn more
+# button, so the number is redundant there anyway.
+CTA_GBP = dict(CTA)
+CTA_GBP["call"] = ("Questions? Use the call button on our profile and ask. "
+                   "No pitch, no obligation.")
+
+PHONE_RX = re.compile(r"\(?\d{3}\)?[ .-]?\d{3}[ .-]?\d{4}")
+
 OPENERS = [
     "{q}",
     "A question we hear a lot from {place} homeowners: {q}",
@@ -178,7 +189,8 @@ def caption(post, channel, i):
     q = title if title.endswith(("?", ".", "!")) else title + "."
     opener = OPENERS[i % len(OPENERS)].format(q=q, place=place)
     body = body_for(post, place)
-    cta = CTA.get(post.get("cta_variant"), CTA["offer"])
+    table = CTA_GBP if channel == "gbp" else CTA
+    cta = table.get(post.get("cta_variant"), table["offer"])
     ref_text, ref_url = REFERENCE.get(post.get("category"), DEFAULT_REF)
     hub_file, hub_txt = hub_for(post)
 
@@ -248,6 +260,13 @@ def main():
             lengths.append(len(text))
             if not (TARGET_LO <= len(text) <= TARGET_HI):
                 outside.append((p["slug"], ch, len(text)))
+            # Fail the build rather than ship a GBP caption Google will
+            # reject. A phone number there is a hard rejection, and finding
+            # out at publish time wastes a scheduled slot.
+            if ch == "gbp" and PHONE_RX.search(text):
+                raise SystemExit(
+                    "GBP caption for %s contains a phone number, which Google "
+                    "rejects. Fix CTA_GBP." % p["slug"])
         entries.append({
             "blog_slug": p["slug"],
             "blog_publish_date": p["publish_date"],
