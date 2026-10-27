@@ -1499,8 +1499,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Sell My House Fast in Newport News, Newport News, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-10-27"
+      "status": "published",
+      "publish_date": "2026-10-27",
+      "published_on": "2026-10-27"
     },
     {
       "slug": "sell-my-house-fast-woodridge",
