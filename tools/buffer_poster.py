@@ -299,7 +299,7 @@ def main():
 
             try:
                 post = create_post(token, ch["id"], service, text, due, link)
-                state[state_key] = {"at": datetime.utcnow().isoformat() + "Z",
+                state[state_key] = {"at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                                     "bufferPostId": post["id"],
                                     "dueAt": post.get("dueAt"),
                                     "service": service, "link": link}
