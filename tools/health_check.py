@@ -85,14 +85,28 @@ def check_logs(days):
     img = text.count("IMAGE FALLBACK")
 
     # A count alone cries wolf: failures already fixed keep reporting until they
-    # age out of the window. What matters is whether one happened recently.
+    # age out of the window. Recency narrowed that, but not enough -- a push
+    # that failed on a transient network drop and rode up with the next push is
+    # still reported FAIL for two days, which is how real failures get ignored.
+    #
+    # The decisive question is not "did a push fail" but "is anything still
+    # unpushed". publish_next.py commits first and pushes second, so a failed
+    # push leaves the work committed locally and a later push carries it. If
+    # nothing is outstanding, every past failure has already recovered.
+    unpushed = git("rev-list", "--count", "github/main..HEAD") or "0"
+    recovered = unpushed == "0"
+
     if not push_fail:
         push_row = (OK, "push failures", "none in last %d days" % days)
+    elif recovered:
+        push_row = (OK, "push failures",
+                    "%d in last %d days, all recovered (nothing unpushed)"
+                    % (push_fail, days))
     else:
         age = (today - last_push_fail).days
-        detail = "%d in last %d days, most recent %s (%s)" % (
+        detail = "%d in last %d days, most recent %s (%s), %s commit(s) still unpushed" % (
             push_fail, days, last_push_fail.isoformat(),
-            "today" if age == 0 else "%d days ago" % age)
+            "today" if age == 0 else "%d days ago" % age, unpushed)
         push_row = (BAD if age <= 2 else WARN, "push failures", detail)
 
     rows = [

@@ -1,0 +1,904 @@
+{
+ "campaign": "faq30-2026-11",
+ "built": "2026-10-27",
+ "window": {
+  "start": "2026-10-28",
+  "end": "2026-11-26",
+  "days": 30
+ },
+ "channels": [
+  "gbp",
+  "facebook",
+  "instagram"
+ ],
+ "source": "The 30-FAQ review of parlevugloballlc.com. One FAQ per day: publish the answer on its matching page, post the caption to the three channels.",
+ "relationship_to_blog": "Additive. content-calendar.json already holds 79 queued posts through 2026-12-12 and is untouched. These FAQs go ON existing pages, which is what the review recommends -- answers belong where the visitor's intent already is, not in 30 more blog posts.",
+ "guardrails": [
+  "FAQ 05: the 'covering standard closing costs' claim was removed. The written offer and settlement statement govern.",
+  "FAQ 04: 'as little as seven days' is attributed as our advertised timeline, not promised as an outcome.",
+  "FAQ 15: keeps the warning that a cash offer does not automatically stop a foreclosure.",
+  "GBP captions contain no phone number - Google rejects those posts. The profile's call button carries it.",
+  "No percentages, no invented clients, metrics or competitor pricing."
+ ],
+ "pages_to_create": {
+  "faq.html": "Dedicated FAQ page carrying all 30, grouped by category.",
+  "fsbo-consultation.html": "The review's highest-priority page: FAQs 7-12 belong here. Until it exists they route to services.html."
+ },
+ "tracking": {
+  "utm_campaign": "faq30-2026-11",
+  "utm_content": "faq-01 .. faq-30, so a lead traces to the exact FAQ",
+  "ga4": "G-FCL3Y130B5"
+ },
+ "entries": [
+  {
+   "day": 1,
+   "date": "2026-10-28",
+   "scheduled_for": "2026-10-28T10:00",
+   "faq_number": 1,
+   "category": "A",
+   "category_name": "Selling a house for cash in Baltimore",
+   "question": "How can I sell my house fast in Baltimore, Maryland?",
+   "answer": "Contact Parlevu Global Services LLC by phone, through our online cash-offer form, or by booking a free virtual consultation. Share your property address, condition, and preferred timeline. We review the information and typically provide a no-obligation cash offer within 24-48 hours.",
+   "publish_on_page": "pillar-sell-my-house-fast.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "How can I sell my house fast in Baltimore, Maryland?\n\nContact Parlevu Global Services LLC by phone, through our online cash-offer form, or by booking a free virtual consultation. Share your property address, condition, and preferred timeline. We review the information and typically provide a no-obligation cash offer within 24-48 hours.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-sell-my-house-fast.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-01\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1197,
+     "link": "https://parlevugloballlc.com/pillar-sell-my-house-fast.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-01"
+    },
+    "facebook": {
+     "copy": "How can I sell my house fast in Baltimore, Maryland?\n\nContact Parlevu Global Services LLC by phone, through our online cash-offer form, or by booking a free virtual consultation. Share your property address, condition, and preferred timeline. We review the information and typically provide a no-obligation cash offer within 24-48 hours.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-sell-my-house-fast.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-01\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1065,
+     "link": "https://parlevugloballlc.com/pillar-sell-my-house-fast.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-01"
+    },
+    "instagram": {
+     "copy": "How can I sell my house fast in Baltimore, Maryland?\n\nContact Parlevu Global Services LLC by phone, through our online cash-offer form, or by booking a free virtual consultation. Share your property address, condition, and preferred timeline. We review the information and typically provide a no-obligation cash offer within 24-48 hours.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1123,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 2,
+   "date": "2026-10-29",
+   "scheduled_for": "2026-10-29T10:00",
+   "faq_number": 2,
+   "category": "A",
+   "category_name": "Selling a house for cash in Baltimore",
+   "question": "Do you buy houses for cash in Baltimore and the DMV?",
+   "answer": "Yes. Parlevu Global Services focuses on Baltimore City, Baltimore County, and the greater DMV area. We consider properties in different conditions and situations. Contact us with your property address to confirm whether we can make an offer in your location.",
+   "publish_on_page": "index.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Do you buy houses for cash in Baltimore and the DMV?\n\nYes. Parlevu Global Services focuses on Baltimore City, Baltimore County, and the greater DMV area. We consider properties in different conditions and situations. Contact us with your property address to confirm whether we can make an offer in your location.\n\nFull answer and related questions: https://parlevugloballlc.com/index.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-02\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1152,
+     "link": "https://parlevugloballlc.com/index.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-02"
+    },
+    "facebook": {
+     "copy": "Do you buy houses for cash in Baltimore and the DMV?\n\nYes. Parlevu Global Services focuses on Baltimore City, Baltimore County, and the greater DMV area. We consider properties in different conditions and situations. Contact us with your property address to confirm whether we can make an offer in your location.\n\nFull answer and related questions: https://parlevugloballlc.com/index.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-02\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1200,
+     "link": "https://parlevugloballlc.com/index.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-02"
+    },
+    "instagram": {
+     "copy": "Do you buy houses for cash in Baltimore and the DMV?\n\nYes. Parlevu Global Services focuses on Baltimore City, Baltimore County, and the greater DMV area. We consider properties in different conditions and situations. Contact us with your property address to confirm whether we can make an offer in your location.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1085,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 3,
+   "date": "2026-10-30",
+   "scheduled_for": "2026-10-30T10:00",
+   "faq_number": 3,
+   "category": "A",
+   "category_name": "Selling a house for cash in Baltimore",
+   "question": "Can I sell my house as-is without making repairs?",
+   "answer": "Yes. We consider properties with outdated kitchens, damaged roofs, water damage, structural concerns, and other repair needs. You do not need to renovate or stage your property before requesting an offer. Applicable property disclosures and legal requirements still apply.",
+   "publish_on_page": "pillar-we-buy-houses-as-is.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can I sell my house as-is without making repairs?\n\nYes. We consider properties with outdated kitchens, damaged roofs, water damage, structural concerns, and other repair needs. You do not need to renovate or stage your property before requesting an offer. Applicable property disclosures and legal requirements still apply.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-03\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1184,
+     "link": "https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-03"
+    },
+    "facebook": {
+     "copy": "Can I sell my house as-is without making repairs?\n\nYes. We consider properties with outdated kitchens, damaged roofs, water damage, structural concerns, and other repair needs. You do not need to renovate or stage your property before requesting an offer. Applicable property disclosures and legal requirements still apply.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-03\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1235,
+     "link": "https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-03"
+    },
+    "instagram": {
+     "copy": "Can I sell my house as-is without making repairs?\n\nYes. We consider properties with outdated kitchens, damaged roofs, water damage, structural concerns, and other repair needs. You do not need to renovate or stage your property before requesting an offer. Applicable property disclosures and legal requirements still apply.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1099,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 4,
+   "date": "2026-10-31",
+   "scheduled_for": "2026-10-31T10:00",
+   "faq_number": 4,
+   "category": "A",
+   "category_name": "Selling a house for cash in Baltimore",
+   "question": "How quickly can Parlevu Global close on my house?",
+   "answer": "Our advertised closing timeline is as little as seven days, depending on title clearance, the property, and transaction requirements. We can also discuss a later closing date if you need additional time to move or make arrangements.",
+   "publish_on_page": "pillar-sell-my-house-fast.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "How quickly can Parlevu Global close on my house?\n\nOur advertised closing timeline is as little as seven days, depending on title clearance, the property, and transaction requirements. We can also discuss a later closing date if you need additional time to move or make arrangements.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-sell-my-house-fast.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-04\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1143,
+     "link": "https://parlevugloballlc.com/pillar-sell-my-house-fast.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-04"
+    },
+    "facebook": {
+     "copy": "How quickly can Parlevu Global close on my house?\n\nOur advertised closing timeline is as little as seven days, depending on title clearance, the property, and transaction requirements. We can also discuss a later closing date if you need additional time to move or make arrangements.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-sell-my-house-fast.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-04\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1204,
+     "link": "https://parlevugloballlc.com/pillar-sell-my-house-fast.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-04"
+    },
+    "instagram": {
+     "copy": "How quickly can Parlevu Global close on my house?\n\nOur advertised closing timeline is as little as seven days, depending on title clearance, the property, and transaction requirements. We can also discuss a later closing date if you need additional time to move or make arrangements.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1069,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 5,
+   "date": "2026-11-01",
+   "scheduled_for": "2026-11-01T10:00",
+   "faq_number": 5,
+   "category": "A",
+   "category_name": "Selling a house for cash in Baltimore",
+   "question": "Do I have to pay real estate agent commissions when selling directly to Parlevu?",
+   "answer": "Our direct cash-purchase model does not charge the seller a real estate agent commission. Review the written offer and settlement statement to confirm the exact terms, including which costs each party carries and any applicable exceptions.",
+   "publish_on_page": "index.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Do I have to pay real estate agent commissions when selling directly to Parlevu?\n\nOur direct cash-purchase model does not charge the seller a real estate agent commission. Review the written offer and settlement statement to confirm the exact terms, including which costs each party carries and any applicable exceptions.\n\nFull answer and related questions: https://parlevugloballlc.com/index.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-05\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1161,
+     "link": "https://parlevugloballlc.com/index.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-05"
+    },
+    "facebook": {
+     "copy": "Do I have to pay real estate agent commissions when selling directly to Parlevu?\n\nOur direct cash-purchase model does not charge the seller a real estate agent commission. Review the written offer and settlement statement to confirm the exact terms, including which costs each party carries and any applicable exceptions.\n\nFull answer and related questions: https://parlevugloballlc.com/index.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-05\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1209,
+     "link": "https://parlevugloballlc.com/index.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-05"
+    },
+    "instagram": {
+     "copy": "Do I have to pay real estate agent commissions when selling directly to Parlevu?\n\nOur direct cash-purchase model does not charge the seller a real estate agent commission. Review the written offer and settlement statement to confirm the exact terms, including which costs each party carries and any applicable exceptions.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1094,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 6,
+   "date": "2026-11-02",
+   "scheduled_for": "2026-11-02T10:00",
+   "faq_number": 6,
+   "category": "A",
+   "category_name": "Selling a house for cash in Baltimore",
+   "question": "How much will Parlevu Global offer for my house?",
+   "answer": "Every property is different. We consider location, recent comparable sales, property condition, estimated repairs, market demand, and other transaction costs. Submit your property address and basic details to request an individualized cash offer. You can review the offer before deciding whether to accept.",
+   "publish_on_page": "index.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "How much will Parlevu Global offer for my house?\n\nEvery property is different. We consider location, recent comparable sales, property condition, estimated repairs, market demand, and other transaction costs. Submit your property address and basic details to request an individualized cash offer. You can review the offer before deciding whether to accept.\n\nFull answer and related questions: https://parlevugloballlc.com/index.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-06\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1196,
+     "link": "https://parlevugloballlc.com/index.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-06"
+    },
+    "facebook": {
+     "copy": "How much will Parlevu Global offer for my house?\n\nEvery property is different. We consider location, recent comparable sales, property condition, estimated repairs, market demand, and other transaction costs. Submit your property address and basic details to request an individualized cash offer. You can review the offer before deciding whether to accept.\n\nFull answer and related questions: https://parlevugloballlc.com/index.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-06\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1054,
+     "link": "https://parlevugloballlc.com/index.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-06"
+    },
+    "instagram": {
+     "copy": "How much will Parlevu Global offer for my house?\n\nEvery property is different. We consider location, recent comparable sales, property condition, estimated repairs, market demand, and other transaction costs. Submit your property address and basic details to request an individualized cash offer. You can review the offer before deciding whether to accept.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1132,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 7,
+   "date": "2026-11-03",
+   "scheduled_for": "2026-11-03T10:00",
+   "faq_number": 7,
+   "category": "B",
+   "category_name": "FSBO (For Sale By Owner)",
+   "question": "What does FSBO mean in real estate?",
+   "answer": "FSBO stands for For Sale By Owner. It means the property owner sells directly to a buyer without hiring a listing agent to represent the seller. The owner takes responsibility for important tasks such as pricing, marketing, buyer communication, negotiation, and coordinating the closing.",
+   "publish_on_page": "services.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "What does FSBO mean in real estate?\n\nFSBO stands for For Sale By Owner. It means the property owner sells directly to a buyer without hiring a listing agent to represent the seller. The owner takes responsibility for important tasks such as pricing, marketing, buyer communication, negotiation, and coordinating the closing.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-07\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1167,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-07"
+    },
+    "facebook": {
+     "copy": "What does FSBO mean in real estate?\n\nFSBO stands for For Sale By Owner. It means the property owner sells directly to a buyer without hiring a listing agent to represent the seller. The owner takes responsibility for important tasks such as pricing, marketing, buyer communication, negotiation, and coordinating the closing.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-07\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1228,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-07"
+    },
+    "instagram": {
+     "copy": "What does FSBO mean in real estate?\n\nFSBO stands for For Sale By Owner. It means the property owner sells directly to a buyer without hiring a listing agent to represent the seller. The owner takes responsibility for important tasks such as pricing, marketing, buyer communication, negotiation, and coordinating the closing.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1110,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 8,
+   "date": "2026-11-04",
+   "scheduled_for": "2026-11-04T10:00",
+   "faq_number": 8,
+   "category": "B",
+   "category_name": "FSBO (For Sale By Owner)",
+   "question": "Can I sell my house myself without a real estate agent in Maryland?",
+   "answer": "Yes. Homeowners can generally sell their property without hiring a listing agent. However, you still need to manage the sale correctly, including applicable disclosures, contracts, title matters, and settlement requirements. Parlevu offers FSBO consultation to help you understand the process.",
+   "publish_on_page": "services.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can I sell my house myself without a real estate agent in Maryland?\n\nYes. Homeowners can generally sell their property without hiring a listing agent. However, you still need to manage the sale correctly, including applicable disclosures, contracts, title matters, and settlement requirements. Parlevu offers FSBO consultation to help you understand the process.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-08\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1205,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-08"
+    },
+    "facebook": {
+     "copy": "Can I sell my house myself without a real estate agent in Maryland?\n\nYes. Homeowners can generally sell their property without hiring a listing agent. However, you still need to manage the sale correctly, including applicable disclosures, contracts, title matters, and settlement requirements. Parlevu offers FSBO consultation to help you understand the process.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-08\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1060,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-08"
+    },
+    "instagram": {
+     "copy": "Can I sell my house myself without a real estate agent in Maryland?\n\nYes. Homeowners can generally sell their property without hiring a listing agent. However, you still need to manage the sale correctly, including applicable disclosures, contracts, title matters, and settlement requirements. Parlevu offers FSBO consultation to help you understand the process.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1135,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 9,
+   "date": "2026-11-05",
+   "scheduled_for": "2026-11-05T10:00",
+   "faq_number": 9,
+   "category": "B",
+   "category_name": "FSBO (For Sale By Owner)",
+   "question": "Is selling FSBO better than selling to a cash home buyer?",
+   "answer": "It depends on your goals. FSBO can give you more direct control over pricing and negotiations, but you must handle marketing and buyer coordination. A cash sale may offer greater convenience and a faster timeline, especially when the property needs repairs. Compare the likely net proceeds, costs, effort, and certainty of each option.",
+   "publish_on_page": "services.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Is selling FSBO better than selling to a cash home buyer?\n\nIt depends on your goals. FSBO can give you more direct control over pricing and negotiations, but you must handle marketing and buyer coordination. A cash sale may offer greater convenience and a faster timeline, especially when the property needs repairs. Compare the likely net proceeds, costs, effort, and certainty of each option.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-09\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1237,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-09"
+    },
+    "facebook": {
+     "copy": "Is selling FSBO better than selling to a cash home buyer?\n\nIt depends on your goals. FSBO can give you more direct control over pricing and negotiations, but you must handle marketing and buyer coordination. A cash sale may offer greater convenience and a faster timeline, especially when the property needs repairs. Compare the likely net proceeds, costs, effort, and certainty of each option.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-09\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1095,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-09"
+    },
+    "instagram": {
+     "copy": "Is selling FSBO better than selling to a cash home buyer?\n\nIt depends on your goals. FSBO can give you more direct control over pricing and negotiations, but you must handle marketing and buyer coordination. A cash sale may offer greater convenience and a faster timeline, especially when the property needs repairs. Compare the likely net proceeds, costs, effort, and certainty of each option.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1170,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 10,
+   "date": "2026-11-06",
+   "scheduled_for": "2026-11-06T10:00",
+   "faq_number": 10,
+   "category": "B",
+   "category_name": "FSBO (For Sale By Owner)",
+   "question": "How do I price my home correctly when selling it myself?",
+   "answer": "Start by reviewing recently sold comparable properties in your neighborhood. Consider square footage, condition, property type, upgrades, and current competition. An online estimate alone may not reflect your home's actual market value. Parlevu's FSBO consultation can help you evaluate pricing considerations for the Baltimore and DMV markets.",
+   "publish_on_page": "services.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "How do I price my home correctly when selling it myself?\n\nStart by reviewing recently sold comparable properties in your neighborhood. Consider square footage, condition, property type, upgrades, and current competition. An online estimate alone may not reflect your home's actual market value. Parlevu's FSBO consultation can help you evaluate pricing considerations for the Baltimore and DMV markets.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-10\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.",
+     "chars": 1052,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-10"
+    },
+    "facebook": {
+     "copy": "How do I price my home correctly when selling it myself?\n\nStart by reviewing recently sold comparable properties in your neighborhood. Consider square footage, condition, property type, upgrades, and current competition. An online estimate alone may not reflect your home's actual market value. Parlevu's FSBO consultation can help you evaluate pricing considerations for the Baltimore and DMV markets.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-10\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1113,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-10"
+    },
+    "instagram": {
+     "copy": "How do I price my home correctly when selling it myself?\n\nStart by reviewing recently sold comparable properties in your neighborhood. Consider square footage, condition, property type, upgrades, and current competition. An online estimate alone may not reflect your home's actual market value. Parlevu's FSBO consultation can help you evaluate pricing considerations for the Baltimore and DMV markets.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1188,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 11,
+   "date": "2026-11-07",
+   "scheduled_for": "2026-11-07T10:00",
+   "faq_number": 11,
+   "category": "B",
+   "category_name": "FSBO (For Sale By Owner)",
+   "question": "Can Parlevu help me sell my home without listing it on the MLS?",
+   "answer": "Yes. You can explore a direct cash-purchase option without going through a traditional MLS listing process. If you prefer to sell independently, our FSBO consultation can help you consider pricing, marketing, and negotiation. MLS access and any associated services depend on the arrangement you choose.",
+   "publish_on_page": "services.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can Parlevu help me sell my home without listing it on the MLS?\n\nYes. You can explore a direct cash-purchase option without going through a traditional MLS listing process. If you prefer to sell independently, our FSBO consultation can help you consider pricing, marketing, and negotiation. MLS access and any associated services depend on the arrangement you choose.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-11\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1210,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-11"
+    },
+    "facebook": {
+     "copy": "Can Parlevu help me sell my home without listing it on the MLS?\n\nYes. You can explore a direct cash-purchase option without going through a traditional MLS listing process. If you prefer to sell independently, our FSBO consultation can help you consider pricing, marketing, and negotiation. MLS access and any associated services depend on the arrangement you choose.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-11\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1065,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-11"
+    },
+    "instagram": {
+     "copy": "Can Parlevu help me sell my home without listing it on the MLS?\n\nYes. You can explore a direct cash-purchase option without going through a traditional MLS listing process. If you prefer to sell independently, our FSBO consultation can help you consider pricing, marketing, and negotiation. MLS access and any associated services depend on the arrangement you choose.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1140,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 12,
+   "date": "2026-11-08",
+   "scheduled_for": "2026-11-08T10:00",
+   "faq_number": 12,
+   "category": "B",
+   "category_name": "FSBO (For Sale By Owner)",
+   "question": "Can I get FSBO guidance and still accept a cash offer later?",
+   "answer": "Yes. You can begin with an FSBO consultation, discuss your goals, review your selling options, and decide which route suits your circumstances. A consultation does not obligate you to accept a purchase offer.",
+   "publish_on_page": "services.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can I get FSBO guidance and still accept a cash offer later?\n\nYes. You can begin with an FSBO consultation, discuss your goals, review your selling options, and decide which route suits your circumstances. A consultation does not obligate you to accept a purchase offer.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-12\n\nBook a free virtual consult: https://calendar.app.google/hfm91n5jiLxXJHiu6\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1116,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-12"
+    },
+    "facebook": {
+     "copy": "Can I get FSBO guidance and still accept a cash offer later?\n\nYes. You can begin with an FSBO consultation, discuss your goals, review your selling options, and decide which route suits your circumstances. A consultation does not obligate you to accept a purchase offer.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-12\n\nBook a free virtual consult: https://calendar.app.google/hfm91n5jiLxXJHiu6\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1174,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-12"
+    },
+    "instagram": {
+     "copy": "Can I get FSBO guidance and still accept a cash offer later?\n\nYes. You can begin with an FSBO consultation, discuss your goals, review your selling options, and decide which route suits your circumstances. A consultation does not obligate you to accept a purchase offer.\n\nMore answers on the site - link in our bio.\n\nBook a free virtual consult: https://calendar.app.google/hfm91n5jiLxXJHiu6\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1056,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 13,
+   "date": "2026-11-09",
+   "scheduled_for": "2026-11-09T10:00",
+   "faq_number": 13,
+   "category": "C",
+   "category_name": "Difficult property and personal situations",
+   "question": "Can I sell a house that needs major repairs or has code violations?",
+   "answer": "We consider properties with significant repair needs and certain code violations. Tell us what you know about the property, including outstanding notices or safety concerns. We will review the circumstances and determine whether the property fits our purchasing criteria.",
+   "publish_on_page": "pillar-we-buy-houses-as-is.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can I sell a house that needs major repairs or has code violations?\n\nWe consider properties with significant repair needs and certain code violations. Tell us what you know about the property, including outstanding notices or safety concerns. We will review the circumstances and determine whether the property fits our purchasing criteria.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-13\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1201,
+     "link": "https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-13"
+    },
+    "facebook": {
+     "copy": "Can I sell a house that needs major repairs or has code violations?\n\nWe consider properties with significant repair needs and certain code violations. Tell us what you know about the property, including outstanding notices or safety concerns. We will review the circumstances and determine whether the property fits our purchasing criteria.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-13\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1069,
+     "link": "https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-13"
+    },
+    "instagram": {
+     "copy": "Can I sell a house that needs major repairs or has code violations?\n\nWe consider properties with significant repair needs and certain code violations. Tell us what you know about the property, including outstanding notices or safety concerns. We will review the circumstances and determine whether the property fits our purchasing criteria.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1126,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 14,
+   "date": "2026-11-10",
+   "scheduled_for": "2026-11-10T10:00",
+   "faq_number": 14,
+   "category": "C",
+   "category_name": "Difficult property and personal situations",
+   "question": "Can I sell an inherited house in Baltimore?",
+   "answer": "Yes, we consider inherited and estate-related properties. Before a sale can proceed, the person signing the contract must have the necessary legal authority, and any required probate or estate steps must be addressed. We can discuss the property's condition, your timeline, and the next steps for a potential offer.",
+   "publish_on_page": "pillar-foreclosure-property-help.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can I sell an inherited house in Baltimore?\n\nYes, we consider inherited and estate-related properties. Before a sale can proceed, the person signing the contract must have the necessary legal authority, and any required probate or estate steps must be addressed. We can discuss the property's condition, your timeline, and the next steps for a potential offer.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-14\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1227,
+     "link": "https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-14"
+    },
+    "facebook": {
+     "copy": "Can I sell an inherited house in Baltimore?\n\nYes, we consider inherited and estate-related properties. Before a sale can proceed, the person signing the contract must have the necessary legal authority, and any required probate or estate steps must be addressed. We can discuss the property's condition, your timeline, and the next steps for a potential offer.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-14\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1082,
+     "link": "https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-14"
+    },
+    "instagram": {
+     "copy": "Can I sell an inherited house in Baltimore?\n\nYes, we consider inherited and estate-related properties. Before a sale can proceed, the person signing the contract must have the necessary legal authority, and any required probate or estate steps must be addressed. We can discuss the property's condition, your timeline, and the next steps for a potential offer.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1133,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 15,
+   "date": "2026-11-11",
+   "scheduled_for": "2026-11-11T10:00",
+   "faq_number": 15,
+   "category": "C",
+   "category_name": "Difficult property and personal situations",
+   "question": "Can you buy my house if I am behind on mortgage payments?",
+   "answer": "We consider properties involving mortgage arrears and pre-foreclosure. The available options depend on your equity, mortgage balance, deadlines, and the lender's requirements. Contact us promptly so we can discuss the property and timing. A cash offer does not automatically stop a foreclosure; obtain appropriate legal advice about deadlines and your rights.",
+   "publish_on_page": "pillar-foreclosure-property-help.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can you buy my house if I am behind on mortgage payments?\n\nWe consider properties involving mortgage arrears and pre-foreclosure. The available options depend on your equity, mortgage balance, deadlines, and the lender's requirements. Contact us promptly so we can discuss the property and timing. A cash offer does not automatically stop a foreclosure; obtain appropriate legal advice about deadlines and your rights.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-15\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.",
+     "chars": 1092,
+     "link": "https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-15"
+    },
+    "facebook": {
+     "copy": "Can you buy my house if I am behind on mortgage payments?\n\nWe consider properties involving mortgage arrears and pre-foreclosure. The available options depend on your equity, mortgage balance, deadlines, and the lender's requirements. Contact us promptly so we can discuss the property and timing. A cash offer does not automatically stop a foreclosure; obtain appropriate legal advice about deadlines and your rights.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-15\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1143,
+     "link": "https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-15"
+    },
+    "instagram": {
+     "copy": "Can you buy my house if I am behind on mortgage payments?\n\nWe consider properties involving mortgage arrears and pre-foreclosure. The available options depend on your equity, mortgage balance, deadlines, and the lender's requirements. Contact us promptly so we can discuss the property and timing. A cash offer does not automatically stop a foreclosure; obtain appropriate legal advice about deadlines and your rights.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1194,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 16,
+   "date": "2026-11-12",
+   "scheduled_for": "2026-11-12T10:00",
+   "faq_number": 16,
+   "category": "C",
+   "category_name": "Difficult property and personal situations",
+   "question": "Can I sell my house during a divorce?",
+   "answer": "A property sale may be possible during a divorce, but ownership rights, court orders, and any required consent must be considered. We can review the property's basic details and discuss a potential offer. Consult your attorney about the proper way to handle the sale and divide any proceeds.",
+   "publish_on_page": "pillar-foreclosure-property-help.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can I sell my house during a divorce?\n\nA property sale may be possible during a divorce, but ownership rights, court orders, and any required consent must be considered. We can review the property's basic details and discuss a potential offer. Consult your attorney about the proper way to handle the sale and divide any proceeds.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-16\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1197,
+     "link": "https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-16"
+    },
+    "facebook": {
+     "copy": "Can I sell my house during a divorce?\n\nA property sale may be possible during a divorce, but ownership rights, court orders, and any required consent must be considered. We can review the property's basic details and discuss a potential offer. Consult your attorney about the proper way to handle the sale and divide any proceeds.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-16\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1065,
+     "link": "https://parlevugloballlc.com/pillar-foreclosure-property-help.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-16"
+    },
+    "instagram": {
+     "copy": "Can I sell my house during a divorce?\n\nA property sale may be possible during a divorce, but ownership rights, court orders, and any required consent must be considered. We can review the property's basic details and discuss a potential offer. Consult your attorney about the proper way to handle the sale and divide any proceeds.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1116,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 17,
+   "date": "2026-11-13",
+   "scheduled_for": "2026-11-13T10:00",
+   "faq_number": 17,
+   "category": "C",
+   "category_name": "Difficult property and personal situations",
+   "question": "Do you buy vacant houses and properties left by tenants?",
+   "answer": "We consider vacant homes and certain tenant-occupied properties. Let us know whether the property is empty, occupied, subject to a lease, or in need of a clean-out. Existing tenant rights and legal requirements must be respected during any sale.",
+   "publish_on_page": "what-we-buy.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Do you buy vacant houses and properties left by tenants?\n\nWe consider vacant homes and certain tenant-occupied properties. Let us know whether the property is empty, occupied, subject to a lease, or in need of a clean-out. Existing tenant rights and legal requirements must be respected during any sale.\n\nFull answer and related questions: https://parlevugloballlc.com/what-we-buy.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-17\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1149,
+     "link": "https://parlevugloballlc.com/what-we-buy.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-17"
+    },
+    "facebook": {
+     "copy": "Do you buy vacant houses and properties left by tenants?\n\nWe consider vacant homes and certain tenant-occupied properties. Let us know whether the property is empty, occupied, subject to a lease, or in need of a clean-out. Existing tenant rights and legal requirements must be respected during any sale.\n\nFull answer and related questions: https://parlevugloballlc.com/what-we-buy.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-17\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1197,
+     "link": "https://parlevugloballlc.com/what-we-buy.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-17"
+    },
+    "instagram": {
+     "copy": "Do you buy vacant houses and properties left by tenants?\n\nWe consider vacant homes and certain tenant-occupied properties. Let us know whether the property is empty, occupied, subject to a lease, or in need of a clean-out. Existing tenant rights and legal requirements must be respected during any sale.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1076,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 18,
+   "date": "2026-11-14",
+   "scheduled_for": "2026-11-14T10:00",
+   "faq_number": 18,
+   "category": "C",
+   "category_name": "Difficult property and personal situations",
+   "question": "Can I sell my Baltimore property if I live in another state?",
+   "answer": "Yes. Our virtual consultation process allows out-of-state owners to discuss their Baltimore-area property remotely. We can review property details, discuss an offer, and coordinate next steps. Closing documents and identity verification will be handled according to the requirements of the transaction and settlement provider.",
+   "publish_on_page": "contact.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can I sell my Baltimore property if I live in another state?\n\nYes. Our virtual consultation process allows out-of-state owners to discuss their Baltimore-area property remotely. We can review property details, discuss an offer, and coordinate next steps. Closing documents and identity verification will be handled according to the requirements of the transaction and settlement provider.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-18\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1230,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-18"
+    },
+    "facebook": {
+     "copy": "Can I sell my Baltimore property if I live in another state?\n\nYes. Our virtual consultation process allows out-of-state owners to discuss their Baltimore-area property remotely. We can review property details, discuss an offer, and coordinate next steps. Closing documents and identity verification will be handled according to the requirements of the transaction and settlement provider.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-18\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1088,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-18"
+    },
+    "instagram": {
+     "copy": "Can I sell my Baltimore property if I live in another state?\n\nYes. Our virtual consultation process allows out-of-state owners to discuss their Baltimore-area property remotely. We can review property details, discuss an offer, and coordinate next steps. Closing documents and identity verification will be handled according to the requirements of the transaction and settlement provider.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1164,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 19,
+   "date": "2026-11-15",
+   "scheduled_for": "2026-11-15T10:00",
+   "faq_number": 19,
+   "category": "D",
+   "category_name": "Cash offers, fees, paperwork and closing",
+   "question": "Is a cash offer from Parlevu Global free?",
+   "answer": "Yes. We offer free consultations and no-obligation cash offers. You can review the proposed terms and decline if they do not meet your needs. Always read any document before signing, particularly if it includes an exclusivity clause, an assignment provision, or other contractual obligations.",
+   "publish_on_page": "contact.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Is a cash offer from Parlevu Global free?\n\nYes. We offer free consultations and no-obligation cash offers. You can review the proposed terms and decline if they do not meet your needs. Always read any document before signing, particularly if it includes an exclusivity clause, an assignment provision, or other contractual obligations.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-19\n\nBook a free virtual consult: https://calendar.app.google/hfm91n5jiLxXJHiu6\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1180,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-19"
+    },
+    "facebook": {
+     "copy": "Is a cash offer from Parlevu Global free?\n\nYes. We offer free consultations and no-obligation cash offers. You can review the proposed terms and decline if they do not meet your needs. Always read any document before signing, particularly if it includes an exclusivity clause, an assignment provision, or other contractual obligations.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-19\n\nBook a free virtual consult: https://calendar.app.google/hfm91n5jiLxXJHiu6\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1055,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-19"
+    },
+    "instagram": {
+     "copy": "Is a cash offer from Parlevu Global free?\n\nYes. We offer free consultations and no-obligation cash offers. You can review the proposed terms and decline if they do not meet your needs. Always read any document before signing, particularly if it includes an exclusivity clause, an assignment provision, or other contractual obligations.\n\nMore answers on the site - link in our bio.\n\nBook a free virtual consult: https://calendar.app.google/hfm91n5jiLxXJHiu6\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1131,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 20,
+   "date": "2026-11-16",
+   "scheduled_for": "2026-11-16T10:00",
+   "faq_number": 20,
+   "category": "D",
+   "category_name": "Cash offers, fees, paperwork and closing",
+   "question": "What information do I need to request a cash offer?",
+   "answer": "Start with the property address, your contact details, the property type, its general condition, and your preferred selling timeline. Information about mortgage balances, liens, occupancy, and known repairs may help during the review. You generally do not need to gather every document before making the initial inquiry.",
+   "publish_on_page": "contact.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "What information do I need to request a cash offer?\n\nStart with the property address, your contact details, the property type, its general condition, and your preferred selling timeline. Information about mortgage balances, liens, occupancy, and known repairs may help during the review. You generally do not need to gather every document before making the initial inquiry.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-20\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1215,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-20"
+    },
+    "facebook": {
+     "copy": "What information do I need to request a cash offer?\n\nStart with the property address, your contact details, the property type, its general condition, and your preferred selling timeline. Information about mortgage balances, liens, occupancy, and known repairs may help during the review. You generally do not need to gather every document before making the initial inquiry.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-20\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1070,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-20"
+    },
+    "instagram": {
+     "copy": "What information do I need to request a cash offer?\n\nStart with the property address, your contact details, the property type, its general condition, and your preferred selling timeline. Information about mortgage balances, liens, occupancy, and known repairs may help during the review. You generally do not need to gather every document before making the initial inquiry.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1146,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 21,
+   "date": "2026-11-17",
+   "scheduled_for": "2026-11-17T10:00",
+   "faq_number": 21,
+   "category": "D",
+   "category_name": "Cash offers, fees, paperwork and closing",
+   "question": "What happens after I submit my property details?",
+   "answer": "We review the information you provide and may contact you with follow-up questions. Depending on the property, we may request photographs, comparable property information, or an in-person or virtual walkthrough. If the property meets our criteria, we present an offer for you to review.",
+   "publish_on_page": "contact.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "What happens after I submit my property details?\n\nWe review the information you provide and may contact you with follow-up questions. Depending on the property, we may request photographs, comparable property information, or an in-person or virtual walkthrough. If the property meets our criteria, we present an offer for you to review.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-21\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1178,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-21"
+    },
+    "facebook": {
+     "copy": "What happens after I submit my property details?\n\nWe review the information you provide and may contact you with follow-up questions. Depending on the property, we may request photographs, comparable property information, or an in-person or virtual walkthrough. If the property meets our criteria, we present an offer for you to review.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-21\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1229,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-21"
+    },
+    "instagram": {
+     "copy": "What happens after I submit my property details?\n\nWe review the information you provide and may contact you with follow-up questions. Depending on the property, we may request photographs, comparable property information, or an in-person or virtual walkthrough. If the property meets our criteria, we present an offer for you to review.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1112,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 22,
+   "date": "2026-11-18",
+   "scheduled_for": "2026-11-18T10:00",
+   "faq_number": 22,
+   "category": "D",
+   "category_name": "Cash offers, fees, paperwork and closing",
+   "question": "Do I need to clean out the house before selling it?",
+   "answer": "Not necessarily. Our as-is purchasing service considers properties that need cleaning or substantial clean-outs. Tell us whether furniture, personal belongings, or unwanted items remain. The purchase agreement should clarify which items will stay and which, if any, must be removed before closing.",
+   "publish_on_page": "pillar-we-buy-houses-as-is.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Do I need to clean out the house before selling it?\n\nNot necessarily. Our as-is purchasing service considers properties that need cleaning or substantial clean-outs. Tell us whether furniture, personal belongings, or unwanted items remain. The purchase agreement should clarify which items will stay and which, if any, must be removed before closing.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-22\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1211,
+     "link": "https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-22"
+    },
+    "facebook": {
+     "copy": "Do I need to clean out the house before selling it?\n\nNot necessarily. Our as-is purchasing service considers properties that need cleaning or substantial clean-outs. Tell us whether furniture, personal belongings, or unwanted items remain. The purchase agreement should clarify which items will stay and which, if any, must be removed before closing.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-22\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1079,
+     "link": "https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-22"
+    },
+    "instagram": {
+     "copy": "Do I need to clean out the house before selling it?\n\nNot necessarily. Our as-is purchasing service considers properties that need cleaning or substantial clean-outs. Tell us whether furniture, personal belongings, or unwanted items remain. The purchase agreement should clarify which items will stay and which, if any, must be removed before closing.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1136,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 23,
+   "date": "2026-11-19",
+   "scheduled_for": "2026-11-19T10:00",
+   "faq_number": 23,
+   "category": "D",
+   "category_name": "Cash offers, fees, paperwork and closing",
+   "question": "What happens if my property has liens or title issues?",
+   "answer": "A property with liens or title complications may still be eligible for review. The settlement provider will need to identify relevant claims, ownership issues, and the steps required to transfer clear title. Whether the sale can close, and how much you receive, depends on the specific circumstances and amounts owed.",
+   "publish_on_page": "pillar-we-buy-houses-as-is.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "What happens if my property has liens or title issues?\n\nA property with liens or title complications may still be eligible for review. The settlement provider will need to identify relevant claims, ownership issues, and the steps required to transfer clear title. Whether the sale can close, and how much you receive, depends on the specific circumstances and amounts owed.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-23\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1234,
+     "link": "https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-23"
+    },
+    "facebook": {
+     "copy": "What happens if my property has liens or title issues?\n\nA property with liens or title complications may still be eligible for review. The settlement provider will need to identify relevant claims, ownership issues, and the steps required to transfer clear title. Whether the sale can close, and how much you receive, depends on the specific circumstances and amounts owed.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-23\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1089,
+     "link": "https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-23"
+    },
+    "instagram": {
+     "copy": "What happens if my property has liens or title issues?\n\nA property with liens or title complications may still be eligible for review. The settlement provider will need to identify relevant claims, ownership issues, and the steps required to transfer clear title. Whether the sale can close, and how much you receive, depends on the specific circumstances and amounts owed.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1146,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 24,
+   "date": "2026-11-20",
+   "scheduled_for": "2026-11-20T10:00",
+   "faq_number": 24,
+   "category": "D",
+   "category_name": "Cash offers, fees, paperwork and closing",
+   "question": "Do I still have to disclose property defects when selling as-is in Maryland?",
+   "answer": "Yes, applicable disclosure obligations still matter. Maryland law generally requires covered residential sellers to provide the prescribed disclosure or disclaimer statement, and known latent defects that pose a direct threat to health or safety must be disclosed under the applicable rules. Exceptions exist, so verify which requirements apply to your transaction.",
+   "publish_on_page": "pillar-we-buy-houses-as-is.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Do I still have to disclose property defects when selling as-is in Maryland?\n\nYes, applicable disclosure obligations still matter. Maryland law generally requires covered residential sellers to provide the prescribed disclosure or disclaimer statement, and known latent defects that pose a direct threat to health or safety must be disclosed under the applicable rules. Exceptions exist, so verify which requirements apply to your transaction.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-24\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.",
+     "chars": 1111,
+     "link": "https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-24"
+    },
+    "facebook": {
+     "copy": "Do I still have to disclose property defects when selling as-is in Maryland?\n\nYes, applicable disclosure obligations still matter. Maryland law generally requires covered residential sellers to provide the prescribed disclosure or disclaimer statement, and known latent defects that pose a direct threat to health or safety must be disclosed under the applicable rules. Exceptions exist, so verify which requirements apply to your transaction.\n\nFull answer and related questions: https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-24\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1162,
+     "link": "https://parlevugloballlc.com/pillar-we-buy-houses-as-is.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-24"
+    },
+    "instagram": {
+     "copy": "Do I still have to disclose property defects when selling as-is in Maryland?\n\nYes, applicable disclosure obligations still matter. Maryland law generally requires covered residential sellers to provide the prescribed disclosure or disclaimer statement, and known latent defects that pose a direct threat to health or safety must be disclosed under the applicable rules. Exceptions exist, so verify which requirements apply to your transaction.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1219,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 25,
+   "date": "2026-11-21",
+   "scheduled_for": "2026-11-21T10:00",
+   "faq_number": 25,
+   "category": "E",
+   "category_name": "Real estate investment",
+   "question": "Does Parlevu Global Services help people invest in Baltimore real estate?",
+   "answer": "Yes. Our investment-related services include market insights, property sourcing, fix-and-flip opportunities, and buy-and-hold rental strategies. The appropriate approach depends on your available capital, risk tolerance, investment timeline, and property objectives.",
+   "publish_on_page": "services.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Does Parlevu Global Services help people invest in Baltimore real estate?\n\nYes. Our investment-related services include market insights, property sourcing, fix-and-flip opportunities, and buy-and-hold rental strategies. The appropriate approach depends on your available capital, risk tolerance, investment timeline, and property objectives.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-25\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1184,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-25"
+    },
+    "facebook": {
+     "copy": "Does Parlevu Global Services help people invest in Baltimore real estate?\n\nYes. Our investment-related services include market insights, property sourcing, fix-and-flip opportunities, and buy-and-hold rental strategies. The appropriate approach depends on your available capital, risk tolerance, investment timeline, and property objectives.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-25\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1052,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-25"
+    },
+    "instagram": {
+     "copy": "Does Parlevu Global Services help people invest in Baltimore real estate?\n\nYes. Our investment-related services include market insights, property sourcing, fix-and-flip opportunities, and buy-and-hold rental strategies. The appropriate approach depends on your available capital, risk tolerance, investment timeline, and property objectives.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1127,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 26,
+   "date": "2026-11-22",
+   "scheduled_for": "2026-11-22T10:00",
+   "faq_number": 26,
+   "category": "E",
+   "category_name": "Real estate investment",
+   "question": "How can I find off-market investment properties in Baltimore?",
+   "answer": "Off-market opportunities may come through direct owner outreach, investor relationships, referrals, and property-specific research. Parlevu offers investment sourcing and market guidance. Availability varies, and any prospective property should undergo independent due diligence before you commit funds.",
+   "publish_on_page": "services.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "How can I find off-market investment properties in Baltimore?\n\nOff-market opportunities may come through direct owner outreach, investor relationships, referrals, and property-specific research. Parlevu offers investment sourcing and market guidance. Availability varies, and any prospective property should undergo independent due diligence before you commit funds.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-26\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1209,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-26"
+    },
+    "facebook": {
+     "copy": "How can I find off-market investment properties in Baltimore?\n\nOff-market opportunities may come through direct owner outreach, investor relationships, referrals, and property-specific research. Parlevu offers investment sourcing and market guidance. Availability varies, and any prospective property should undergo independent due diligence before you commit funds.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-26\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1064,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-26"
+    },
+    "instagram": {
+     "copy": "How can I find off-market investment properties in Baltimore?\n\nOff-market opportunities may come through direct owner outreach, investor relationships, referrals, and property-specific research. Parlevu offers investment sourcing and market guidance. Availability varies, and any prospective property should undergo independent due diligence before you commit funds.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1139,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 27,
+   "date": "2026-11-23",
+   "scheduled_for": "2026-11-23T10:00",
+   "faq_number": 27,
+   "category": "E",
+   "category_name": "Real estate investment",
+   "question": "Can Parlevu help me evaluate a fix-and-flip property?",
+   "answer": "We include fix-and-flip opportunities and market analysis among our investment services. A sound evaluation considers the purchase price, renovation budget, contingency reserve, holding costs, financing, resale costs, and realistic after-repair value. Investment returns are not guaranteed, and all estimates should be verified before purchasing.",
+   "publish_on_page": "services.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can Parlevu help me evaluate a fix-and-flip property?\n\nWe include fix-and-flip opportunities and market analysis among our investment services. A sound evaluation considers the purchase price, renovation budget, contingency reserve, holding costs, financing, resale costs, and realistic after-repair value. Investment returns are not guaranteed, and all estimates should be verified before purchasing.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-27\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.",
+     "chars": 1051,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-27"
+    },
+    "facebook": {
+     "copy": "Can Parlevu help me evaluate a fix-and-flip property?\n\nWe include fix-and-flip opportunities and market analysis among our investment services. A sound evaluation considers the purchase price, renovation budget, contingency reserve, holding costs, financing, resale costs, and realistic after-repair value. Investment returns are not guaranteed, and all estimates should be verified before purchasing.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-27\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1102,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-27"
+    },
+    "instagram": {
+     "copy": "Can Parlevu help me evaluate a fix-and-flip property?\n\nWe include fix-and-flip opportunities and market analysis among our investment services. A sound evaluation considers the purchase price, renovation budget, contingency reserve, holding costs, financing, resale costs, and realistic after-repair value. Investment returns are not guaranteed, and all estimates should be verified before purchasing.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1177,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 28,
+   "date": "2026-11-24",
+   "scheduled_for": "2026-11-24T10:00",
+   "faq_number": 28,
+   "category": "E",
+   "category_name": "Real estate investment",
+   "question": "Can I invest in Baltimore rental properties for long-term income?",
+   "answer": "We offer investment guidance related to buy-and-hold rental opportunities. Important considerations include neighborhood demand, realistic rent, vacancy, property taxes, insurance, maintenance, financing, and landlord obligations. We can discuss your objectives and potential sourcing options, subject to available inventory and the terms of any engagement.",
+   "publish_on_page": "services.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Can I invest in Baltimore rental properties for long-term income?\n\nWe offer investment guidance related to buy-and-hold rental opportunities. Important considerations include neighborhood demand, realistic rent, vacancy, property taxes, insurance, maintenance, financing, and landlord obligations. We can discuss your objectives and potential sourcing options, subject to available inventory and the terms of any engagement.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-28\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.",
+     "chars": 1074,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-28"
+    },
+    "facebook": {
+     "copy": "Can I invest in Baltimore rental properties for long-term income?\n\nWe offer investment guidance related to buy-and-hold rental opportunities. Important considerations include neighborhood demand, realistic rent, vacancy, property taxes, insurance, maintenance, financing, and landlord obligations. We can discuss your objectives and potential sourcing options, subject to available inventory and the terms of any engagement.\n\nFull answer and related questions: https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-28\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1135,
+     "link": "https://parlevugloballlc.com/services.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-28"
+    },
+    "instagram": {
+     "copy": "Can I invest in Baltimore rental properties for long-term income?\n\nWe offer investment guidance related to buy-and-hold rental opportunities. Important considerations include neighborhood demand, realistic rent, vacancy, property taxes, insurance, maintenance, financing, and landlord obligations. We can discuss your objectives and potential sourcing options, subject to available inventory and the terms of any engagement.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#Baltimore #MarylandRealEstate #SellMyHouseFast #CashHomeBuyer",
+     "chars": 1210,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 29,
+   "date": "2026-11-25",
+   "scheduled_for": "2026-11-25T10:00",
+   "faq_number": 29,
+   "category": "E",
+   "category_name": "Real estate investment",
+   "question": "Does Parlevu offer real estate wholesaling or joint venture opportunities?",
+   "answer": "Our services include wholesale deals and joint ventures as potential investment offerings. Availability depends on the specific opportunity and agreed terms. Before entering an arrangement, clarify each party's role, compensation, capital contribution, responsibilities, exit strategy, and applicable legal requirements.",
+   "publish_on_page": "contact.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "Does Parlevu offer real estate wholesaling or joint venture opportunities?\n\nOur services include wholesale deals and joint ventures as potential investment offerings. Availability depends on the specific opportunity and agreed terms. Before entering an arrangement, clarify each party's role, compensation, capital contribution, responsibilities, exit strategy, and applicable legal requirements.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-29\n\nQuestions? Use the call button on our profile. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1238,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-29"
+    },
+    "facebook": {
+     "copy": "Does Parlevu offer real estate wholesaling or joint venture opportunities?\n\nOur services include wholesale deals and joint ventures as potential investment offerings. Availability depends on the specific opportunity and agreed terms. Before entering an arrangement, clarify each party's role, compensation, capital contribution, responsibilities, exit strategy, and applicable legal requirements.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-29\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1093,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-29"
+    },
+    "instagram": {
+     "copy": "Does Parlevu offer real estate wholesaling or joint venture opportunities?\n\nOur services include wholesale deals and joint ventures as potential investment offerings. Availability depends on the specific opportunity and agreed terms. Before entering an arrangement, clarify each party's role, compensation, capital contribution, responsibilities, exit strategy, and applicable legal requirements.\n\nMore answers on the site - link in our bio.\n\nQuestions? Call (667) 646-8306 and ask. No pitch, no obligation.\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#SellYourHouse #Maryland #DMVRealEstate #AsIsSale",
+     "chars": 1169,
+     "link": null
+    }
+   }
+  },
+  {
+   "day": 30,
+   "date": "2026-11-26",
+   "scheduled_for": "2026-11-26T10:00",
+   "faq_number": 30,
+   "category": "D",
+   "category_name": "Cash offers, fees, paperwork and closing",
+   "question": "How do I schedule a consultation with Parlevu Global Services LLC?",
+   "answer": "You can call us, submit the cash-offer form on our website, or book a virtual consultation online. We can discuss a potential cash sale, FSBO guidance, or real estate investment objectives. Initial consultations are free and carry no obligation to accept an offer.",
+   "publish_on_page": "contact.html",
+   "status": "pending_approval",
+   "channels": {
+    "gbp": {
+     "copy": "How do I schedule a consultation with Parlevu Global Services LLC?\n\nYou can call us, submit the cash-offer form on our website, or book a virtual consultation online. We can discuss a potential cash sale, FSBO guidance, or real estate investment objectives. Initial consultations are free and carry no obligation to accept an offer.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-30\n\nBook a free virtual consult: https://calendar.app.google/hfm91n5jiLxXJHiu6\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.",
+     "chars": 1177,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=gbp&utm_medium=organic&utm_campaign=faq30-2026-11&utm_content=faq-30"
+    },
+    "facebook": {
+     "copy": "How do I schedule a consultation with Parlevu Global Services LLC?\n\nYou can call us, submit the cash-offer form on our website, or book a virtual consultation online. We can discuss a potential cash sale, FSBO guidance, or real estate investment objectives. Initial consultations are free and carry no obligation to accept an offer.\n\nFull answer and related questions: https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-30\n\nBook a free virtual consult: https://calendar.app.google/hfm91n5jiLxXJHiu6\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1235,
+     "link": "https://parlevugloballlc.com/contact.html?utm_source=facebook&utm_medium=social&utm_campaign=faq30-2026-11&utm_content=faq-30"
+    },
+    "instagram": {
+     "copy": "How do I schedule a consultation with Parlevu Global Services LLC?\n\nYou can call us, submit the cash-offer form on our website, or book a virtual consultation online. We can discuss a potential cash sale, FSBO guidance, or real estate investment objectives. Initial consultations are free and carry no obligation to accept an offer.\n\nMore answers on the site - link in our bio.\n\nBook a free virtual consult: https://calendar.app.google/hfm91n5jiLxXJHiu6\n\nIf you are weighing this in Baltimore, the useful first step is a real number on your own property rather than an online estimate. An estimate cannot see a roof, a tenant, or a lien on the title.\n\nWorth having ready before any call: roughly what is owed on the property, whether anyone else is on the deed, and whether it is occupied. Those three answers shape the timeline more than anything about the house itself.\n\nWhat we do not do: charge you to look, pressure you on the first call, or ask you to fix anything first. If a direct sale is the wrong fit, it is better for everyone that you hear that early.\n\n#BaltimoreHomes #FSBO #RealEstateMaryland #CashOffer",
+     "chars": 1118,
+     "link": null
+    }
+   }
+  }
+ ]
+}
