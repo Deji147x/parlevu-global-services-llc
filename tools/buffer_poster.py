@@ -102,13 +102,21 @@ def channels(token):
     return out
 
 
-def create_post(token, channel_id, service, text, due_at, link=None):
+def create_post(token, channel_id, service, text, due_at, link=None, image=None):
     """Queue one post. Google Business Profile has its own vocabulary.
 
     The metadata key for GBP is `google`, NOT `googlebusiness`; the type enum
     is event|offer|whats_new; and a whats_new post carries its own link and
     button. Instagram and Facebook both reject a post with no declared type.
+
+    Instagram additionally rejects a post with no media at all, so an entry
+    without an image cannot publish there. Buffer fetches the image by URL,
+    which is why the calendar stores live URLs rather than local paths.
     """
+    if service == "instagram" and not image:
+        raise RuntimeError(
+            "Instagram requires media and this entry has no image. "
+            "Run tools/attach_faq_images.py --apply.")
     if service == "instagram":
         metadata = {"instagram": {"type": "post", "shouldShareToFeed": True}}
     elif service == "facebook":
@@ -122,6 +130,8 @@ def create_post(token, channel_id, service, text, due_at, link=None):
 
     inp = {"text": text, "channelId": channel_id, "schedulingType": "automatic",
            "mode": "customScheduled" if due_at else "addToQueue"}
+    if image:
+        inp["assets"] = [{"image": {"url": image}}]
     if due_at:
         inp["dueAt"] = due_at
     if metadata:
@@ -316,15 +326,17 @@ def main():
                 continue
 
             if not args.publish:
-                print("  QUEUE %-34s %-12s %4d chars -> %s"
-                      % (e["blog_slug"][:34], key, body["chars"], ch["name"][:24]))
+                print("  QUEUE %-34s %-12s %4d chars  img=%s -> %s"
+                      % (e["blog_slug"][:34], key, body["chars"],
+                         "yes" if body.get("image") else "NO", ch["name"][:20]))
                 if link:
                     print("        link: %s" % link[:96])
                 queued += 1
                 continue
 
             try:
-                post = create_post(token, ch["id"], service, text, due, link)
+                post = create_post(token, ch["id"], service, text, due, link,
+                                   body.get("image"))
                 state[state_key] = {"at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                                     "bufferPostId": post["id"],
                                     "dueAt": post.get("dueAt"),
