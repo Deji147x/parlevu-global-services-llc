@@ -45,6 +45,7 @@ from datetime import date, datetime, time as dtime, timedelta, timezone
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CAL = os.path.join(REPO, "social-calendar.json")
+FAQ_CAL = os.path.join(REPO, "faq-calendar.json")
 STATE = os.path.join(REPO, "buffer_posted.json")
 ENV = os.path.join(REPO, ".env")
 API = "https://api.buffer.com"
@@ -211,6 +212,14 @@ def main():
                     help="which calendar entries to use (default primary)")
     ap.add_argument("--publish", action="store_true",
                     help="actually send. Without this nothing leaves the machine.")
+    ap.add_argument("--calendar", default="social",
+                    choices=["social", "faq"],
+                    help="which calendar to post from (default social)")
+    ap.add_argument("--from", dest="date_from",
+                    help="schedule every entry on/after this date")
+    ap.add_argument("--limit", type=int,
+                    help="stop after N successful sends (Buffer's free plan caps "
+                         "how many posts a channel may hold)")
     args = ap.parse_args()
 
     token = load_token()
@@ -226,10 +235,23 @@ def main():
             print("  then re-run. GBP needs no Google API allowlist via Buffer.")
         return
 
-    if not (args.date or args.slug):
-        sys.exit("give --date YYYY-MM-DD or --slug, or --channels to list")
+    if not (args.date or args.slug or args.date_from):
+        sys.exit("give --date, --from YYYY-MM-DD or --slug, or --channels to list")
 
-    cal = json.loads(io.open(CAL, encoding="utf-8").read())
+    # The two calendars have different shapes. Normalise to the social one:
+    # a list under "posts" with blog_slug / blog_publish_date / role.
+    if args.calendar == "faq":
+        raw = json.loads(io.open(FAQ_CAL, encoding="utf-8").read())
+        cal = {"posts": [{
+            "blog_slug": "faq-%02d" % e["faq_number"],
+            "blog_publish_date": e["date"],
+            "scheduled_for": e["scheduled_for"],
+            "role": "primary",
+            "channels": e["channels"],
+        } for e in raw["entries"]]}
+    else:
+        cal = json.loads(io.open(CAL, encoding="utf-8").read())
+
     wanted = [s.strip() for s in args.services.split(",") if s.strip()]
     for w in wanted:
         if w not in SERVICE:
@@ -237,6 +259,7 @@ def main():
 
     entries = [e for e in cal["posts"]
                if (args.date is None or e["blog_publish_date"] == args.date)
+               and (args.date_from is None or e["blog_publish_date"] >= args.date_from)
                and (args.slug is None or e["blog_slug"] == args.slug)
                and (args.role == "any" or e["role"] == args.role)]
     if not entries:
@@ -251,7 +274,10 @@ def main():
     print("%s - %d entry(s), services: %s\n" % (mode, len(entries), ",".join(wanted)))
 
     queued = skipped = failed = 0
+    done = False
     for e in entries:
+        if done:
+            break
         for key in wanted:
             service = SERVICE[key]
             found = by_service.get(service) or []
@@ -307,6 +333,10 @@ def main():
                 print("  SENT  %-34s %-12s buffer id=%s"
                       % (e["blog_slug"][:34], key, post["id"]))
                 queued += 1
+                if args.limit and queued >= args.limit:
+                    print("  -- stopping at --limit %d" % args.limit)
+                    done = True
+                    break
             except Exception as exc:
                 print("  FAIL  %-34s %-12s %s" % (e["blog_slug"][:34], key, exc))
                 failed += 1

@@ -50,6 +50,13 @@ BOOKING = "https://calendar.app.google/hfm91n5jiLxXJHiu6"
 CAMPAIGN = "faq30-2026-11"
 START = date(2026, 10, 28)
 CHANNELS = ("gbp", "facebook", "instagram")
+
+# Posting slots supplied by the owner from their own audience data, rotated
+# across the run. These are safe for FAQ posts in a way the blog captions were
+# not: every FAQ links to a page that is ALREADY live, so there is no
+# dependency on the 09:07 publish task and a morning slot cannot fire before
+# its target exists.
+BEST_TIMES = ("08:29", "09:45", "18:44")
 TARGET_LO, TARGET_HI = 1050, 1350
 PHONE_RX = re.compile(r"\(?\d{3}\)?[ .-]?\d{3}[ .-]?\d{4}")
 
@@ -200,6 +207,7 @@ def main():
     for i, faq in enumerate(FAQS):
         n, cat, q, a, pagekey = faq
         day = START + timedelta(days=i)
+        slot = BEST_TIMES[i % len(BEST_TIMES)]
         chans = {}
         for ch in CHANNELS:
             t = caption(faq, ch, i)
@@ -214,7 +222,7 @@ def main():
         entries.append({
             "day": i + 1,
             "date": day.isoformat(),
-            "scheduled_for": day.isoformat() + "T10:00",
+            "scheduled_for": day.isoformat() + "T" + slot,
             "faq_number": n,
             "category": cat,
             "category_name": CATEGORY_NAME[cat],
