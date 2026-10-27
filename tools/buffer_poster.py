@@ -41,7 +41,7 @@ import re
 import sys
 import urllib.error
 import urllib.request
-from datetime import datetime
+from datetime import date, datetime, time as dtime, timedelta, timezone
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CAL = os.path.join(REPO, "social-calendar.json")
@@ -136,6 +136,51 @@ def create_post(token, channel_id, service, text, due_at, link=None):
                        % (res.get("message") or json.dumps(res)[:160]))
 
 
+def to_utc(scheduled_for):
+    """Convert a calendar 'YYYY-MM-DDTHH:MM' wall-clock time to a UTC instant.
+
+    The calendar's times are Baltimore local. An earlier version simply
+    appended "Z", which told Buffer the time was already UTC: a 10:00 slot
+    would have fired at 06:00 local (05:00 once EST starts on 2026-11-01).
+    That is BEFORE the 09:07 daily publish task, so the post would have gone
+    out pointing at a page that did not exist yet.
+
+    DST matters across this campaign specifically: the window runs 28 Oct to
+    26 Nov and clocks change on 1 Nov, so a fixed offset would be wrong for
+    most of it. ZoneInfo handles the transition.
+    """
+    if not scheduled_for or len(scheduled_for) != 16:
+        return None
+    naive = datetime.strptime(scheduled_for, "%Y-%m-%dT%H:%M")
+    try:
+        from zoneinfo import ZoneInfo
+        local = naive.replace(tzinfo=ZoneInfo("America/New_York"))
+        return local.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    except Exception:
+        # Bare Windows Python ships no tz database and `pip install tzdata`
+        # is not always available. The US Eastern rule is simple and fixed in
+        # law, so compute it rather than add a dependency or guess:
+        # DST runs from the 2nd Sunday in March to the 1st Sunday in November,
+        # both at 02:00 local.
+        offset = 4 if _is_eastern_dst(naive) else 5
+        return (naive + timedelta(hours=offset)).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def _nth_sunday(year, month, n):
+    """Date of the nth Sunday in a month."""
+    d = date(year, month, 1)
+    d += timedelta(days=(6 - d.weekday()) % 7)   # first Sunday
+    return d + timedelta(weeks=n - 1)
+
+
+def _is_eastern_dst(naive):
+    """US Eastern DST: 2nd Sunday in March 02:00 to 1st Sunday in Nov 02:00."""
+    y = naive.year
+    start = datetime.combine(_nth_sunday(y, 3, 2), dtime(2, 0))
+    end = datetime.combine(_nth_sunday(y, 11, 1), dtime(2, 0))
+    return start <= naive < end
+
+
 def load_state():
     if os.path.exists(STATE):
         try:
@@ -227,7 +272,7 @@ def main():
 
             body = e["channels"][key]
             text, link = body["copy"], body.get("link")
-            due = e["scheduled_for"] + ":00Z" if len(e["scheduled_for"]) == 16 else None
+            due = to_utc(e["scheduled_for"])
 
             if not args.publish:
                 print("  QUEUE %-34s %-12s %4d chars -> %s"
