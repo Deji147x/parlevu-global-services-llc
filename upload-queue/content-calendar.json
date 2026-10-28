@@ -1519,8 +1519,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Sell My House Fast in Woodridge, Woodridge, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-10-28"
+      "status": "published",
+      "publish_date": "2026-10-28",
+      "published_on": "2026-10-28"
     },
     {
       "slug": "how-cash-buyers-work-md",
