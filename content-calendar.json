@@ -1539,8 +1539,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "How Cash Home Buyers Work in Maryland, Maryland, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-10-29"
+      "status": "published",
+      "publish_date": "2026-10-29",
+      "published_on": "2026-10-29"
     },
     {
       "slug": "how-cash-buyers-work-va",
