@@ -47,6 +47,7 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CAL = os.path.join(REPO, "social-calendar.json")
 FAQ_CAL = os.path.join(REPO, "faq-calendar.json")
 STATE = os.path.join(REPO, "buffer_posted.json")
+_HEAD_CACHE = {}
 ENV = os.path.join(REPO, ".env")
 API = "https://api.buffer.com"
 
@@ -196,6 +197,24 @@ def _is_eastern_dst(naive):
     return start <= naive < end
 
 
+def head_status(url):
+    """HTTP status for a HEAD request, or 0 if unreachable. Cached per run."""
+    if url in _HEAD_CACHE:
+        return _HEAD_CACHE[url]
+    try:
+        r = urllib.request.urlopen(
+            urllib.request.Request(url, method="HEAD",
+                                   headers={"User-Agent": "parlevu-link-check"}),
+            timeout=20)
+        code = r.status
+    except urllib.error.HTTPError as exc:
+        code = exc.code
+    except Exception:
+        code = 0
+    _HEAD_CACHE[url] = code
+    return code
+
+
 def load_state():
     if os.path.exists(STATE):
         try:
@@ -227,6 +246,8 @@ def main():
                     help="which calendar to post from (default social)")
     ap.add_argument("--from", dest="date_from",
                     help="schedule every entry on/after this date")
+    ap.add_argument("--skip-link-check", action="store_true",
+                    help="do not verify each target URL returns 200 first")
     ap.add_argument("--limit", type=int,
                     help="stop after N successful sends (Buffer's free plan caps "
                          "how many posts a channel may hold)")
@@ -313,6 +334,26 @@ def main():
             body = e["channels"][key]
             text, link = body["copy"], body.get("link")
             due = to_utc(e["scheduled_for"])
+
+            # Never promote a page that does not exist. On 2026-10-28 a GBP
+            # post went live pointing at blog-fast-cash-offer-home.html, which
+            # was still queued: the calendar assumed a post's publish_date
+            # predicted WHICH post would publish that day, but publish_next.py
+            # takes the first queued entry in calendar order, and that post was
+            # fourth in line. The link 404'd on the channel with the highest
+            # local intent.
+            #
+            # A link check costs one HEAD request per post and makes that
+            # failure impossible for any calendar, not just the one that
+            # caused it.
+            if link and not args.skip_link_check:
+                code = head_status(link)
+                if code != 200:
+                    print("  SKIP  %-34s %-12s target returns %s, refusing to"
+                          " promote a dead link: %s"
+                          % (e["blog_slug"][:34], key, code, link.split("?")[0]))
+                    skipped += 1
+                    continue
 
             # Google rejects any post containing a phone number ("Google
             # Business posts cannot contain phone numbers. Use the CTA button
