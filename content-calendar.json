@@ -1599,8 +1599,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "How Cash Offers Are Calculated on Maryland Homes (Real Numbers), Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-01"
+      "status": "published",
+      "publish_date": "2026-11-01",
+      "published_on": "2026-11-01"
     },
     {
       "slug": "how-offers-calculated-va",
