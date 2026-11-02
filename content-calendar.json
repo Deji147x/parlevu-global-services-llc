@@ -1619,8 +1619,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "How Cash Offers Are Calculated on Virginia Homes (Real Numbers), Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-02"
+      "status": "published",
+      "publish_date": "2026-11-02",
+      "published_on": "2026-11-02"
     },
     {
       "slug": "how-offers-calculated-dc",
