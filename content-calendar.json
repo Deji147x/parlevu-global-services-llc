@@ -1639,8 +1639,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "How Cash Offers Are Calculated on Washington DC Homes (Real Numbers), Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-11-03"
+      "status": "published",
+      "publish_date": "2026-11-03",
+      "published_on": "2026-11-03"
     },
     {
       "slug": "closing-costs-md",
