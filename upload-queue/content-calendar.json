@@ -1699,8 +1699,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Who Pays Closing Costs When Selling a House in Washington DC?, Washington DC, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-11-06"
+      "status": "published",
+      "publish_date": "2026-11-06",
+      "published_on": "2026-11-06"
     },
     {
       "slug": "paperwork-checklist-md",
