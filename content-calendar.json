@@ -1719,8 +1719,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Paperwork You Need to Sell Your House in Maryland, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-11-07"
+      "status": "published",
+      "publish_date": "2026-11-07",
+      "published_on": "2026-11-07"
     },
     {
       "slug": "paperwork-checklist-va",
