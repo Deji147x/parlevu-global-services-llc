@@ -189,7 +189,7 @@ def render_pain_point_post(brief) -> tuple:
   <link rel="stylesheet" href="styles.css"/>
   <link rel="icon" type="image/png" href="logo.png"/>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCL3Y130B5"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-FCL3Y130B5');</script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-FCL3Y130B5');gtag('config','AW-10997092437');</script>
   <script type="application/ld+json">{article_jsonld}</script>
 </head>
 <body>
