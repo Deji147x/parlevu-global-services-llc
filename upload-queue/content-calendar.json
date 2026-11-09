@@ -1759,8 +1759,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "Paperwork You Need to Sell Your House in Washington DC, Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-09"
+      "status": "published",
+      "publish_date": "2026-11-09",
+      "published_on": "2026-11-09"
     },
     {
       "slug": "sell-without-realtor-md",
