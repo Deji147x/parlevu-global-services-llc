@@ -1779,8 +1779,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "How to Sell Your House Without a Realtor in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-10"
+      "status": "published",
+      "publish_date": "2026-11-10",
+      "published_on": "2026-11-10"
     },
     {
       "slug": "sell-without-realtor-va",
