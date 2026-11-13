@@ -1839,8 +1839,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Maryland?, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-13"
+      "status": "published",
+      "publish_date": "2026-11-13",
+      "published_on": "2026-11-13"
     },
     {
       "slug": "as-is-cost-va",
