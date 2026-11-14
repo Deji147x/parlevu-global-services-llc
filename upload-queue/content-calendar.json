@@ -1859,8 +1859,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Virginia?, Virginia, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-14"
+      "status": "published",
+      "publish_date": "2026-11-14",
+      "published_on": "2026-11-14"
     },
     {
       "slug": "as-is-cost-dc",
