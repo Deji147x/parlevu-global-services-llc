@@ -3,6 +3,18 @@
    HubSpot CRM Portal ID: 246316495
    ============================================================ */
 
+/* ── Meta pixel ──────────────────────────────────────────────
+   Parlevu-Global-Investors-Pixel. Loaded here because every page
+   includes main.js, so one copy covers the whole site and blog.
+   One PageView per page; leads/calls/bookings are sent by track(). */
+(function (f, b, e, v, n, t, s) {
+  if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments); };
+  if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = [];
+  t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s);
+})(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '924112438587196');
+fbq('track', 'PageView');
+
 document.addEventListener('DOMContentLoaded', function () {
 
   /* ── HubSpot CRM Integration ────────────────────────────── */
@@ -328,6 +340,13 @@ document.addEventListener('DOMContentLoaded', function () {
   function track(name, params) {
     try {
       if (typeof gtag === 'function') gtag('event', name, params || {});
+    } catch (e) { /* never let analytics break the page */ }
+    // Same three actions to Meta, as standard events. No personal data is sent.
+    var META = { generate_lead: 'Lead', phone_click: 'Contact', schedule_click: 'Schedule' };
+    try {
+      if (META[name] && typeof fbq === 'function') {
+        fbq('track', META[name], { content_name: (params && (params.form_id || params.page)) || '' });
+      }
     } catch (e) { /* never let analytics break the page */ }
   }
   window.parlevuTrack = track;
