@@ -139,11 +139,34 @@ document.addEventListener('DOMContentLoaded', function () {
     for (var k in attr) { if (Object.prototype.hasOwnProperty.call(attr, k)) params[k] = attr[k]; }
     track('generate_lead', params);
     const ticket = stashLead(data);
+    pushToSheet(data, params);
     pushToHubSpot(data);
     whenHubSpotReady(function (delivered) {
       if (delivered) clearLead(ticket);
       window.location.href = 'thank-you.html';
     });
+  }
+
+  // Google Apps Script web app -> "Parlevu Leads" sheet + email alert.
+  // text/plain keeps this a "simple" CORS request (Apps Script can't answer a
+  // preflight); keepalive lets it finish while the page moves to thank-you.html.
+  var LEAD_SHEET_URL = 'https://script.google.com/macros/s/AKfycbwbb3aXQhrppEjJiVdPleQ_LakFX8X1-eYJK7UvhEr7Zj_XETG8P1v44cUpdghixVdv/exec';
+
+  function pushToSheet(data, params) {
+    if (!LEAD_SHEET_URL || !window.fetch) return;
+    try {
+      var body = {};
+      var k;
+      for (k in data) { if (Object.prototype.hasOwnProperty.call(data, k)) body[k] = data[k]; }
+      for (k in params) { if (Object.prototype.hasOwnProperty.call(params, k)) body[k] = params[k]; }
+      fetch(LEAD_SHEET_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        keepalive: true,
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(body)
+      }).catch(function () { /* backup only - never block the form */ });
+    } catch (e) { /* backup only - never block the form */ }
   }
 
   function pushToHubSpot(data) {
