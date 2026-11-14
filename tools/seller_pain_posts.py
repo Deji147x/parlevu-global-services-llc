@@ -251,7 +251,7 @@ def render_pain_point_post(brief) -> tuple:
   </div>
 </footer>
 
-<script src="main.js" defer></script>
+<script src="main.js?v=20261114" defer></script>
 </body>
 </html>'''
 
