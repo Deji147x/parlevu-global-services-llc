@@ -20,11 +20,11 @@ We buy Maryland & DMV homes AS-IS—any condition, any situation.
 Fair cash offer in 24 hours. Close in 7-14 days. Zero obligation.
 
 Get your free cash offer → Link in bio
-#CashBuyer #AsIsSale #RealEstate #Maryland #NoRepairs #BlackOwned
+#CashBuyer #AsIsSale #RealEstate #Maryland #NoRepairs
 ```
 
 **Posting Time:** Monday 8 AM
-**Hashtags:** #CashBuyer #RealEstate #Maryland #HomeSale #FastSale #AsIs #NoRepairs #BlackOwned #Baltimore #DMV
+**Hashtags:** #CashBuyer #RealEstate #Maryland #HomeSale #FastSale #AsIs #NoRepairs #Baltimore #DMV
 
 ---
 
@@ -68,7 +68,7 @@ Here's what you get:
 
 Ready to explore your options? Schedule your FREE consultation → [Link]
 
-#CashBuyer #RealEstate #Maryland #NoRepairs #BlackOwned
+#CashBuyer #RealEstate #Maryland #NoRepairs
 ```
 
 **Posting Time:** Wednesday 10 AM

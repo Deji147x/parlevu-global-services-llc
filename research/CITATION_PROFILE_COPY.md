@@ -7,7 +7,7 @@ Use these exact descriptions for each platform.
 ## YELP
 **Business Description (150 chars):**
 ```
-Parlevu Global Services LLC — Black-owned cash home buyer serving Maryland, Virginia & DC. 
+Parlevu Global Services LLC — cash home buyer serving Maryland, Virginia & DC. 
 We buy houses as-is, any condition, any situation. Fair offers in 24 hours. Close in 7-14 days. 
 No repairs needed, no fees, no obligation.
 ```
@@ -27,7 +27,7 @@ Sat-Sun: By Appointment
 ## ALIGNABLE
 **Company Summary (200 chars):**
 ```
-We buy houses for cash in Maryland, Virginia & DC. Black-owned real estate investment firm. 
+We buy houses for cash in Maryland, Virginia & DC. Real estate investment firm. 
 Any condition, any situation. Foreclosure? Inherited property? Fire damage? We buy as-is. 
 Fair cash offer in 24 hours. Close in 7-14 days. No repairs required.
 ```
@@ -93,7 +93,7 @@ Comment "DAMAGED" for a no-obligation consultation.
 ## ZILLOW INVESTOR PROFILE
 **Company Bio (200 chars):**
 ```
-Parlevu Global Services LLC is a Baltimore-based, Black-owned real estate investment firm 
+Parlevu Global Services LLC is a Baltimore-based real estate investment firm 
 specializing in cash home purchases across Maryland, Virginia & DC. 
 
 We buy:
@@ -116,7 +116,7 @@ Service Areas: Maryland, Virginia, Washington DC
 ## BBB PROFILE (Once Verified)
 **Company Description (250 chars):**
 ```
-Parlevu Global Services LLC is a Black-owned real estate investment firm 
+Parlevu Global Services LLC is a real estate investment firm 
 headquartered in Baltimore, Maryland. We specialize in purchasing residential 
 properties for cash across Maryland, Virginia & Washington DC.
 
@@ -141,7 +141,7 @@ Contact: (667) 646-8306
 **About Section:**
 ```
 We buy houses for cash in Maryland, Virginia & DC. 
-Black-owned, Baltimore-based real estate investment firm.
+Baltimore-based real estate investment firm.
 Any condition, any situation. Fair offers in 24 hours. Close in 7-14 days.
 ```
 

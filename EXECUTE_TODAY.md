@@ -102,7 +102,7 @@
 - [ ] Click "Create" → "Reels"
 - [ ] Upload video file
 - [ ] Copy caption from `research/SOCIAL_VIDEO_POSTS.md` → INSTAGRAM REELS → Post 1
-- [ ] Add hashtags: #CashBuyer #RealEstate #Maryland #HomeSale #FastSale #AsIs #NoRepairs #BlackOwned #Baltimore #DMV
+- [ ] Add hashtags: #CashBuyer #RealEstate #Maryland #HomeSale #FastSale #AsIs #NoRepairs #Baltimore #DMV
 - [ ] Schedule for **Monday 8 AM** (click "Schedule")
 - [ ] **POST**
 
@@ -128,7 +128,7 @@
 - [ ] Click "Create" → "Post"
 - [ ] Upload video file
 - [ ] Copy caption from `research/SOCIAL_VIDEO_POSTS.md` → FACEBOOK → Post 1
-- [ ] Add hashtags: #CashBuyer #RealEstate #Maryland #NoRepairs #BlackOwned
+- [ ] Add hashtags: #CashBuyer #RealEstate #Maryland #NoRepairs
 - [ ] Schedule for **Wednesday 10 AM**
 - [ ] **POST**
 

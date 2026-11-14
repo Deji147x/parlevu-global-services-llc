@@ -19,11 +19,11 @@ https://www.parlevugloballlc.com
 
 ## Short description (under 250 chars â€” Yelp, Angi, Nextdoor)
 
-> Parlevu Global Services buys houses for cash across Maryland, Virginia & DC â€” any condition, no repairs, no commissions. Fair written offers in 24-48 hours, closing in 7-14 days. Baltimore-based, Black-owned.
+> Parlevu Global Services buys houses for cash across Maryland, Virginia & DC â€” any condition, no repairs, no commissions. Fair written offers in 24-48 hours, closing in 7-14 days. Baltimore-based.
 
 ## Long description (BBB, Alignable, chambers)
 
-> Parlevu Global Services LLC is a Baltimore-based real estate investment firm serving homeowners across Maryland, Virginia, and Washington DC. We buy houses in any condition for cash â€” including inherited properties, homes facing foreclosure, fire or water damage, code violations, and tenant-occupied properties. Sellers get a fair written offer within 24-48 hours and can close in as little as 7-14 days, with no repairs, commissions, or fees. We also publish free FSBO resources at parlevugloballlc.com/fsbo-support-maryland-virginia-dc.html to help by-owner sellers succeed. Black-owned; proudly serving the DMV.
+> Parlevu Global Services LLC is a Baltimore-based real estate investment firm serving homeowners across Maryland, Virginia, and Washington DC. We buy houses in any condition for cash â€” including inherited properties, homes facing foreclosure, fire or water damage, code violations, and tenant-occupied properties. Sellers get a fair written offer within 24-48 hours and can close in as little as 7-14 days, with no repairs, commissions, or fees. We also publish free FSBO resources at parlevugloballlc.com/fsbo-support-maryland-virginia-dc.html to help by-owner sellers succeed. Proudly serving the DMV.
 
 ## Where to submit (in priority order)
 

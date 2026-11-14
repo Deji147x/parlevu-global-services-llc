@@ -98,7 +98,7 @@ def enhance_author_signals(html_content, platform):
     # Find body and add author byline after H1 + quick answer
     author_byline = """
   <div class="author-byline" style="color: #666; font-size: 0.95rem; margin: 15px 0; padding-bottom: 15px; border-bottom: 1px solid #ddd;">
-    <strong>By Parlevu Global Services LLC</strong> — Black-owned Baltimore real estate investment firm specializing in cash sales, foreclosure prevention, and FSBO guidance. Founded 2022.
+    <strong>By Parlevu Global Services LLC</strong> — Baltimore real estate investment firm specializing in cash sales, foreclosure prevention, and FSBO guidance. Founded 2022.
   </div>
 """
 

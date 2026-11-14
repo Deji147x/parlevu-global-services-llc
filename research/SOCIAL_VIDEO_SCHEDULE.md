@@ -24,7 +24,7 @@ Close in 7-14 days. Zero obligation.
 → COMMENT "OFFER" or DM us to start today! 💬
 
 #CashBuyer #RealEstate #Maryland #FastSale 
-#AsIs #NoRepairs #BlackOwned #Baltimore #DMV
+#AsIs #NoRepairs #Baltimore #DMV
 #HomeSale #FastCash #InvestorLife
 ```
 **Hashtags:** 13 | **CTA:** COMMENT "OFFER" or DM
@@ -72,7 +72,7 @@ Parlevu Global Services — Buying homes
 across Maryland & the DMV.
 
 #CashBuyer #RealEstate #Maryland #FastSale 
-#BlackOwned #Baltimore #DMV #HomeSale
+ #Baltimore #DMV #HomeSale
 ```
 **Hashtags:** 8 | **CTA:** Comment + Call + Schedule
 
@@ -128,7 +128,7 @@ No inspections. No appraisals. No contingencies.
 Ready to sell? → COMMENT "PROCESS" or DM us 💬
 
 #RealEstate #CashBuyer #HomeSale #Maryland 
-#FastSale #RealEstateInvesting #BlackOwned
+#FastSale #RealEstateInvesting
 ```
 **Hashtags:** 8 | **CTA:** COMMENT "PROCESS"
 
@@ -187,7 +187,7 @@ Parlevu Global Services — Buying homes
 across Maryland & the DMV.
 
 #CashBuyer #RealEstate #HomeSale #FastSale 
-#Maryland #DMV #BlackOwned #RealEstateInvesting
+#Maryland #DMV #RealEstateInvesting
 ```
 **Hashtags:** 8 | **CTA:** Call + Comment + Schedule
 
@@ -245,7 +245,7 @@ We're here to give you control back.
 Ready for yours? COMMENT "STORY" or DM us 💬
 
 #CashBuyer #RealEstate #SuccessStory #Maryland 
-#HomeSale #BlackOwned #RealEstateInvesting
+#HomeSale #RealEstateInvesting
 ```
 **Hashtags:** 7 | **CTA:** COMMENT "STORY"
 
@@ -313,10 +313,10 @@ You have options. We can help.
 Parlevu Global Services — Buying homes across 
 Maryland, Virginia & Washington DC.
 
-Black-owned. Fair. Fast.
+Fair. Fast.
 
 #CashBuyer #SuccessStory #RealEstate #HomeSale 
-#Maryland #DMV #BlackOwned #RealEstateInvesting 
+#Maryland #DMV #RealEstateInvesting 
 #ForeClosureHelp
 ```
 **Hashtags:** 8 | **CTA:** Call + Comment + Schedule
@@ -376,7 +376,7 @@ Zero obligation.
 → COMMENT "FAIR OFFER" or DM us to get started 💬
 
 #CashBuyer #RealEstate #Maryland #HomeSale 
-#NoRepairs #AsIs #BlackOwned #FastSale #DMV
+#NoRepairs #AsIs #FastSale #DMV
 ```
 **Hashtags:** 10 | **CTA:** COMMENT "FAIR OFFER"
 
@@ -427,7 +427,7 @@ Parlevu Global Services — Buying homes across
 Maryland, Virginia & Washington DC.
 
 #CashBuyer #RealEstate #NoRepairs #HomeSale 
-#Maryland #DMV #BlackOwned #FastSale
+#Maryland #DMV #FastSale
 ```
 **Hashtags:** 8 | **CTA:** Call + Comment + Schedule
 

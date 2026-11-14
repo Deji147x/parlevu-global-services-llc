@@ -78,7 +78,7 @@ That's your window to act. Learn your options → [link]
 "Just closed another cash sale in Baltimore. Another family protected their equity.
 Here's what's possible when you have options.
 → Schedule your free consultation [link]
-#CashBuyer #Baltimore #BlackOwned"
+#CashBuyer #Baltimore"
 ```
 
 ---

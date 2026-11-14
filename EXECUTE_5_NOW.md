@@ -81,7 +81,7 @@ Video 1 (Hook): https://pub-11baa119dc6d4858b96992ee07e7b235.r2.dev/399895b0-a95
    
    → COMMENT "OFFER" or DM us to start today! 💬
    
-   #CashBuyer #RealEstate #Maryland #FastSale #AsIs #NoRepairs #BlackOwned #Baltimore #DMV #HomeSale #FastCash #InvestorLife
+   #CashBuyer #RealEstate #Maryland #FastSale #AsIs #NoRepairs #Baltimore #DMV #HomeSale #FastCash #InvestorLife
    ```
 6. Paste caption in caption field
 7. Click "Schedule" (or "Post" if you want immediate)
@@ -142,7 +142,7 @@ Video 1 (Hook): https://pub-11baa119dc6d4858b96992ee07e7b235.r2.dev/399895b0-a95
    
    Parlevu Global Services — Buying homes across Maryland & the DMV.
    
-   #CashBuyer #RealEstate #Maryland #FastSale #BlackOwned #Baltimore #DMV #HomeSale
+   #CashBuyer #RealEstate #Maryland #FastSale #Baltimore #DMV #HomeSale
    ```
 6. Paste caption
 7. Click "Schedule" (or Post if immediate)
@@ -229,7 +229,7 @@ We buy houses for cash across Maryland & the DMV. Any condition. No repairs, no 
 
 **Company Summary (200 chars):**
 ```
-Black-owned real estate investment firm buying homes across Maryland, Virginia, and Washington DC. We specialize in cash purchases, foreclosure prevention, and fast closings. Any condition, no repairs required.
+Real estate investment firm buying homes across Maryland, Virginia, and Washington DC. We specialize in cash purchases, foreclosure prevention, and fast closings. Any condition, no repairs required.
 ```
 
 **Services:** Add:
