@@ -201,13 +201,17 @@
 
   function mountValuation(root) {
     var magnet = "valuation";
+    // Landing pages pass their situation (e.g. data-situation="inherited") so the lead is scored and briefed with it.
+    var situation = root.getAttribute("data-situation") || null;
+    var title = root.getAttribute("data-title") || "Request a free home valuation";
     root.innerHTML = "";
-    var box = el('<div class="pvm"><h3>Request a free home valuation</h3>' +
+    var box = el('<div class="pvm"><h3></h3>' +
       '<p class="sub">A local specialist reviews your property and calls you with a value. No obligation.</p>' +
       '<form novalidate><label>Property address</label><input name="address" autocomplete="street-address" maxlength="200" required>' +
       '<div class="row"><div><label>ZIP code</label><input name="zip" inputmode="numeric" maxlength="5"></div>' +
       '<div><label>Best time to call</label><select name="best_time"><option>Morning</option><option>Afternoon</option><option>Evening</option></select></div></div>' +
       contactFields() + '<button type="submit">Request my valuation</button><div class="err"></div></form></div>');
+    box.querySelector("h3").textContent = title;
     root.appendChild(box);
     var form = box.querySelector("form"), err = box.querySelector(".err"), ms = attachStart(form, magnet), btn = form.querySelector("button");
     watchView(box, magnet);
@@ -216,7 +220,8 @@
       var f = new FormData(form);
       if (!f.get("address")) { err.textContent = "Please add the property address."; return; }
       btn.disabled = true;
-      submitLead(form, magnet, { address: f.get("address").trim(), zip: f.get("zip") || null, best_time: f.get("best_time") }, ms)
+      submitLead(form, magnet, { address: f.get("address").trim(), zip: f.get("zip") || null, best_time: f.get("best_time"),
+                                 situation: situation }, ms)
         .then(function () { box.innerHTML = '<h3>Request received.</h3><p class="sub">We\'ll call you at your preferred time, usually within one business day.</p>'; })
         .catch(function (x) { err.textContent = x.message; btn.disabled = false; });
     });

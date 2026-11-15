@@ -66,6 +66,11 @@ Parlevu buys homes for cash in any condition:
 
 Each pillar: ~1,200 words, deep expertise, FAQPage + LocalBusiness schema, internal links to related support posts.
 
+### Situation Pages
+- **Sell an Inherited House:** https://www.parlevugloballlc.com/sell-inherited-house.html
+- **Sell a Rental House With Tenants:** https://www.parlevugloballlc.com/sell-house-with-tenants.html
+- **Selling a House During Divorce:** https://www.parlevugloballlc.com/sell-house-divorce.html
+
 ### Location Landing Pages
 - **Maryland:** https://www.parlevugloballlc.com/sell-house-fast-maryland.html
 - **Virginia:** https://www.parlevugloballlc.com/sell-house-fast-virginia.html
