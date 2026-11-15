@@ -1,5 +1,6 @@
-/* Parlevu lead magnets: home-value estimator + free valuation request.
- * Mount:  <div data-parlevu-magnet="estimator"></div>   or   data-parlevu-magnet="valuation"
+/* Parlevu lead magnets: home-value estimator, free valuation request, seller guide + exit-intent offer.
+ * Mount:  <div data-parlevu-magnet="estimator"></div>   or "valuation" or "guide"
+ * The exit-intent guide offer arms on every page that loads this script (data-exit="off" disables it).
  *         <script src="/parlevu-estimator.js?v=1" defer data-api="https://api.parlevugloballlc.com"></script>
  * Every step sends one event_id to the browser (gtag + fbq) and the Lead API (server copy), so Meta dedupes.
  */
@@ -122,8 +123,11 @@
       form_ms: formMs(), ctx: ctx()
     }, extra);
     if (!body.email && !body.phone) return Promise.reject(new Error("Please add an email or phone number."));
-    return post("/v1/lead", body).then(function (r) {
+    return post("/v1/lead", body).catch(function () {
+      throw new Error("We couldn't send that. Please try again, or call (667) 646-8306.");
+    }).then(function (r) {
       if (!r.ok) throw new Error((r.detail && r.detail[0] && r.detail[0].msg) || "Something went wrong. Please call us.");
+      store("pv_lead_done", "1");                       // no exit offer for someone who already converted
       // Browser copy of the same Lead, same event_id → Meta keeps one.
       if (window.gtag) gtag("event", "generate_lead", { event_id: eventId, magnet: magnet });
       if (window.fbq) fbq("track", "Lead", { content_name: magnet }, { eventID: eventId });
@@ -218,12 +222,137 @@
     });
   }
 
+  /* ---- Seller guide (email-gated PDF) + exit-intent offer ---- */
+  var GUIDE_URL = (script && script.getAttribute("data-guide-url")) || "/guides/parlevu-maryland-as-is-seller-guide.pdf";
+  var GUIDE_TITLE = "Selling Your Maryland House As-Is";
+  var EXIT_DAYS = 14;
+
+  function store(k, v) {
+    try { if (v === undefined) return localStorage.getItem(k); localStorage.setItem(k, v); } catch (e) { return null; }
+  }
+
+  function mountGuide(root, placement, onDone) {
+    var magnet = "guide";
+    root.innerHTML = "";
+    var box = el('<div class="pvm"><h3>Free guide: ' + GUIDE_TITLE + '</h3>' +
+      '<p class="sub">What "as-is" really means, the disclosures you can\'t skip, and a worksheet to compare a cash offer with listing on what you actually take home. 6 pages, free.</p>' +
+      '<form novalidate><label>Your name</label><input name="name" autocomplete="name" required maxlength="120">' +
+      '<label>Email</label><input name="email" type="email" autocomplete="email" required maxlength="120">' +
+      '<div class="row"><div><label>Property ZIP (optional)</label><input name="zip" inputmode="numeric" maxlength="5"></div>' +
+      '<div><label>When might you sell?</label><select name="timeline"><option value="just exploring">Just researching</option>' +
+      '<option value="asap">As soon as possible</option><option value="30-60">30–60 days</option>' +
+      '<option value="3-6 months">3–6 months</option></select></div></div>' +
+      '<div class="hp" aria-hidden="true"><input name="website" tabindex="-1" autocomplete="off"></div>' +
+      '<button type="submit">Get the free guide</button><div class="err" role="alert"></div>' +
+      '<p class="fine">We never sell your information. We may email you about selling your house; unsubscribe any time.</p></form></div>');
+    root.appendChild(box);
+    var form = box.querySelector("form"), err = box.querySelector(".err"), ms = attachStart(form, magnet), btn = form.querySelector("button");
+    if (placement === "inline") watchView(box, magnet);
+    form.addEventListener("submit", function (e) {
+      e.preventDefault(); err.textContent = "";
+      var f = new FormData(form), zip = (f.get("zip") || "").trim();
+      if (!(f.get("name") || "").trim()) { err.textContent = "Please add your name."; return; }
+      if (!/^\S+@\S+\.\S+$/.test((f.get("email") || "").trim())) { err.textContent = "Please add a valid email."; return; }
+      if (zip && !/^\d{5}$/.test(zip)) { err.textContent = "ZIP should be 5 digits, or leave it blank."; return; }
+      btn.disabled = true;
+      submitLead(form, magnet, { zip: zip || null, timeline: f.get("timeline"), message: "Requested guide: " + GUIDE_TITLE }, ms)
+        .then(function () {
+          // GA4 only: Meta already got one Lead for this submit.
+          if (window.gtag) gtag("event", "guide_request", { magnet: magnet, placement: placement });
+          box.innerHTML = '<h3>Your guide is ready</h3><p class="sub">Thanks! Download it below. Questions about your house? ' +
+            'Call <a href="tel:+16676468306" style="color:#d4a843">(667) 646-8306</a>.</p>' +
+            '<a class="pvm-dl" href="' + GUIDE_URL + '" target="_blank" rel="noopener" download>Download the PDF</a>' +
+            '<p class="fine">Want a number for your own house? Try the free home value check on our homepage.</p>';
+          if (onDone) onDone();
+        })
+        .catch(function (x) { err.textContent = x.message; btn.disabled = false; });
+    });
+    return box;
+  }
+
+  var EXIT_CSS = ".pvx-bg{position:fixed;inset:0;background:rgba(5,12,24,.62);z-index:2147483000;display:flex;align-items:center;" +
+    "justify-content:center;padding:16px}.pvx-dlg .pvm h3{padding-right:30px}.pvx-dlg{position:relative;width:100%;max-width:520px;max-height:calc(100vh - 32px);overflow:auto}" +
+    ".pvx-x{position:absolute;top:8px;right:10px;width:36px;height:36px;border:0;border-radius:50%;background:transparent;color:#c9d3e0;" +
+    "font-size:24px;line-height:1;cursor:pointer;z-index:1;margin:0;padding:0}.pvx-x:focus-visible{outline:2px solid #d4a843}" +
+    ".pvm a.pvm-dl{display:block;text-align:center;margin-top:16px;padding:13px;border-radius:8px;background:#d4a843;color:#0b1a2e;" +
+    "font-weight:700;text-decoration:none}.pvx-bar{position:fixed;left:12px;right:12px;bottom:12px;z-index:2147482999;display:flex;" +
+    "align-items:center;gap:10px;background:#0b1a2e;color:#fff;border-radius:12px;padding:10px 12px;box-shadow:0 8px 24px rgba(0,0,0,.3);" +
+    "font-size:.9rem}.pvx-bar button{border:0;cursor:pointer;font:inherit}.pvx-bar .go{flex:1;text-align:left;background:none;color:#fff;" +
+    "padding:4px 0}.pvx-bar .go b{color:#d4a843}.pvx-bar .no{background:none;color:#9fb0c5;font-size:20px;padding:4px 8px}";
+
+  function exitAllowed() {
+    if (script && script.getAttribute("data-exit") === "off") return false;
+    if (/thank-you|privacy|\/guides\//.test(location.pathname)) return false;
+    if (store("pv_lead_done")) return false;
+    var seen = +store("pv_exit_seen") || 0;
+    return Date.now() - seen > EXIT_DAYS * 86400000;
+  }
+
+  var exitOpen = false;
+  function openExit(placement) {
+    if (exitOpen) return;
+    exitOpen = true; store("pv_exit_seen", String(Date.now()));
+    var last = document.activeElement;
+    var bg = el('<div class="pvx-bg"><div class="pvx-dlg" role="dialog" aria-modal="true" aria-label="Free seller guide">' +
+      '<button type="button" class="pvx-x" aria-label="Close">×</button><div></div></div></div>');
+    document.body.appendChild(bg);
+    var mount = bg.querySelector(".pvx-dlg > div");
+    mountGuide(mount, placement);
+    track("magnet_view", { magnet: "guide", placement: placement }, "ViewContent");
+    function close() {
+      document.removeEventListener("keydown", onKey); bg.remove(); exitOpen = false;
+      if (last && last.focus) last.focus();
+    }
+    function onKey(e) {
+      if (e.key === "Escape") return close();
+      if (e.key !== "Tab") return;
+      var f = bg.querySelectorAll("button,input,select,a[href]"), first = f[0], lastF = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); lastF.focus(); }
+      else if (!e.shiftKey && document.activeElement === lastF) { e.preventDefault(); first.focus(); }
+    }
+    bg.querySelector(".pvx-x").addEventListener("click", close);
+    bg.addEventListener("mousedown", function (e) { if (e.target === bg) close(); });
+    document.addEventListener("keydown", onKey);
+    var first = mount.querySelector("input"); if (first) first.focus();
+  }
+
+  function armExit() {
+    if (!exitAllowed()) return;
+    var s = document.createElement("style"); s.textContent = EXIT_CSS; document.head.appendChild(s);
+    var t0 = Date.now(), fine = window.matchMedia && matchMedia("(hover:hover) and (pointer:fine)").matches;
+    if (fine) {
+      // Desktop: pointer leaves through the top of the window (toward tabs / back button), after 8 s on the page.
+      document.addEventListener("mouseout", function h(e) {
+        if (e.relatedTarget || e.clientY > 0 || Date.now() - t0 < 8000) return;
+        document.removeEventListener("mouseout", h); openExit("exit");
+      });
+      return;
+    }
+    // Touch: no pop-over. A small dismissible bar after 20 s and half the page read; tapping it opens the form.
+    var shown = false;
+    function maybeBar() {
+      if (shown || Date.now() - t0 < 20000) return;
+      var depth = (window.scrollY + window.innerHeight) / Math.max(document.documentElement.scrollHeight, 1);
+      if (depth < 0.5) return;
+      shown = true; window.removeEventListener("scroll", maybeBar);
+      var bar = el('<div class="pvx-bar" role="complementary" aria-label="Free seller guide"><button type="button" class="go">' +
+        '<b>Free guide:</b> ' + GUIDE_TITLE + ' →</button><button type="button" class="no" aria-label="Dismiss">×</button></div>');
+      document.body.appendChild(bar);
+      store("pv_exit_seen", String(Date.now()));
+      bar.querySelector(".go").addEventListener("click", function () { bar.remove(); openExit("bar"); });
+      bar.querySelector(".no").addEventListener("click", function () { bar.remove(); });
+    }
+    window.addEventListener("scroll", maybeBar, { passive: true });
+  }
+
   function init() {
     injectCss(); utm();
     document.querySelectorAll("[data-parlevu-magnet]").forEach(function (n) {
       var kind = n.getAttribute("data-parlevu-magnet");
       if (kind === "estimator") mountEstimator(n); else if (kind === "valuation") mountValuation(n);
+      else if (kind === "guide") mountGuide(n, "inline");
     });
+    armExit();
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();
 })();
