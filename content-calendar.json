@@ -1879,8 +1879,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "How Much Do You Really Lose Selling a House As-Is in Washington DC?, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "call",
-      "status": "queued",
-      "publish_date": "2026-11-15"
+      "status": "published",
+      "publish_date": "2026-11-15",
+      "published_on": "2026-11-15"
     },
     {
       "slug": "timeline-md",
