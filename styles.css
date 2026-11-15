@@ -139,12 +139,18 @@ img{ max-width:100%; height:auto; }
   color:var(--gold); display:flex; align-items:center; gap:6px;
 }
 .navbar-cta .btn { padding:9px 18px; font-size:.76rem; }
-
+.navbar-phone, .navbar-cta .btn { white-space:nowrap; }
 .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; padding:8px; background:none; border:none; }
 .hamburger span { width:24px; height:2px; background:var(--white); transition:var(--transition); display:block; }
 .hamburger.active span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
 .hamburger.active span:nth-child(2) { opacity:0; }
 .hamburger.active span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
+/* The full menu needs ~950px; below that, use the compact (hamburger) menu instead of overflowing sideways.
+   Must come after the base .hamburger rule above, or that rule wins. */
+@media (max-width:960px) {
+  .navbar-nav, .navbar-cta { display:none; }
+  .hamburger { display:flex; }
+}
 
 .mobile-nav { display:none; background:var(--navy-mid); border-top:1px solid rgba(255,255,255,.1); }
 .mobile-nav.open { display:block; }

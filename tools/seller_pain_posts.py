@@ -186,7 +186,7 @@ def render_pain_point_post(brief) -> tuple:
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{brief["title"]} | Parlevu Global</title>
   <meta name="description" content="{brief["intro"][:158]}"/>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css?v=20261115"/>
   <link rel="icon" type="image/png" href="logo.png"/>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FCL3Y130B5"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-FCL3Y130B5');gtag('config','AW-10997092437');</script>

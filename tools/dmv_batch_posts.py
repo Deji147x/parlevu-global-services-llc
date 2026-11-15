@@ -102,7 +102,7 @@ def gen_dmv_post_content(brief) -> dict:
         {
             "heading": f"Why {place} Homeowners Choose Direct Cash Sales",
             "paragraphs": [
-                f"We've closed over 100 deals across Maryland, Virginia, and DC. {place} is our backyard. We know the market — what homes sell for, what repair costs actually are, and how to close fast without the agent middleman taking 5-6%.",
+                f"We buy houses across Maryland, Virginia, and DC. {place} is our backyard. We know the market — what homes sell for, what repair costs actually are, and how to close fast without the agent middleman taking 5-6%.",
                 f"Most sellers we talk to have already listed for 30-60 days with zero offers. Or they're dealing with a situation that won't wait: foreclosure breathing down their neck, inherited property sitting vacant, or a property that needs $30K in repairs just to pass inspection.",
                 "Here's the thing: traditional buyers using bank financing can't touch distressed properties. Appraisers kill the deal. That's why our buyer pool is almost entirely investors and cash buyers — people who can close on anything.",
             ]
@@ -128,7 +128,7 @@ def gen_dmv_post_content(brief) -> dict:
     faqs = [
         {
             "q": f"How much less will I get selling for cash vs. listing in {place}?",
-            "a": f"Cash buyers typically offer 70–85% of a home's after-repair value (ARV) to account for repair costs, carrying costs, and our margin. But you save 5-6% in agent commissions and avoid paying for repairs, staging, and a 2-3 month carrying cost. Net difference is often smaller than you'd think.",
+            "a": f"Cash offers start from the home's after-repair value (ARV), minus repair costs, carrying costs, and our margin. But you save 5-6% in agent commissions and avoid paying for repairs, staging, and a 2-3 month carrying cost. Net difference is often smaller than you'd think.",
         },
         {
             "q": "Do you really buy any condition?",

@@ -15,24 +15,10 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 BLOG_DIR = REPO / "blog"
 
-# Sample testimonials for Review schema (user can expand)
-TESTIMONIALS = [
-    {
-        "text": "Sold my Baltimore home in 10 days without repairs. Fair offer, professional team.",
-        "author": "Sarah M., Baltimore",
-        "rating": 5
-    },
-    {
-        "text": "They understood my foreclosure situation and closed before the auction. Saved my equity.",
-        "author": "James T., Baltimore County",
-        "rating": 5
-    },
-    {
-        "text": "Virtual consultation was convenient. No pressure, just honest advice.",
-        "author": "Rachel D., Washington DC",
-        "rating": 5
-    }
-]
+# Review schema is OFF. The old entries here were sample placeholders, not real customers, and were
+# published as 5-star reviews (removed 2026-11-15). Only add REAL reviews, quoted exactly as written
+# (e.g. from the Google Business Profile), and only ones that are also shown on the page itself.
+TESTIMONIALS = []
 
 
 def load_calendar():
@@ -176,7 +162,7 @@ def enhance_html_schema(file_path, calendar_data, dry_run=False):
     article_schema = build_article_schema(slug, metadata, file_path, h1_text)
     faq_items = extract_faq_from_html(content)
     faq_schema = build_faq_schema(faq_items) if faq_items else None
-    review_schema = build_review_schema() if 'pillar' in slug or 'we-buy' in slug else None
+    review_schema = build_review_schema() if TESTIMONIALS and ('pillar' in slug or 'we-buy' in slug) else None
 
     # Find </head> and inject schemas before it
     schema_scripts = []

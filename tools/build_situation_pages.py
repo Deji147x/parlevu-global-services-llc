@@ -150,9 +150,14 @@ PAGES = [
        "Statement; DC: Seller's Property Condition Disclosure; Virginia: Residential Property Disclosure Statement), "
        "plus the federal lead-paint disclosure for homes built before 1978</li></ul>"),
       ("Before you sign anything",
-       "<p>Rules for tenant-occupied sales differ between Maryland, DC and Virginia. In DC in particular, tenants can "
-       "have purchase rights in some sales. Have a local real estate attorney confirm what applies to your property "
-       "and lease before you sign a contract with anyone.</p>"),
+       "<p>Rules for tenant-occupied sales differ between Maryland, DC and Virginia, and DC has the strictest. Under "
+       "DC's Tenant Opportunity to Purchase Act (TOPA), tenants generally must get written notice and a chance to "
+       "buy before a rental is sold. Since 2018, most single-family rentals are exempt from the purchase right, but "
+       "elderly and disabled tenants can still have it, and the owner still has to send tenants the required notice. "
+       "In buildings with two or more units, tenants' full TOPA rights apply, which can add months to a sale.</p>"
+       "<p>Leases generally stay in force when a rental is sold, so a buyer takes over the existing tenancy. Have a "
+       "local real estate attorney confirm what applies to your property and lease before you sign a contract with "
+       "anyone. This is general information, not legal advice.</p>"),
     ],
     "faq": [
       ("Will my tenants have to move out when you buy the house?",
@@ -161,6 +166,11 @@ PAGES = [
       ("Do I need to fix things the tenants damaged?",
        "No. We buy as-is and price the repairs into the offer. You still need to disclose known material defects on "
        "the state disclosure form."),
+      ("Do my DC tenants have a right to buy the house first?",
+       "Sometimes. DC's Tenant Opportunity to Purchase Act (TOPA) gives tenants notice and purchase rights in many "
+       "sales. Most single-family rentals have been exempt since 2018, except for elderly and disabled tenants, and "
+       "notice is still required. Buildings with two or more units carry full TOPA rights. Confirm your case with a "
+       "DC real estate attorney."),
       ("Are there tax issues when selling a rental?",
        "There can be, especially with depreciation and capital gains on investment property. Talk to a tax "
        "professional before you sell."),
@@ -300,7 +310,7 @@ def render(p):
   <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css?v=20261115"/>
   <style>{CSS}</style>
   {ld}
 </head>

@@ -78,7 +78,6 @@ def add_by_the_numbers(html_content, platform):
     <h3 style="color: #003366; margin-top: 0;">📊 By the Numbers</h3>
     <ul style="line-height: 1.8;">
       <li><strong>90-120 days:</strong> Typical Maryland foreclosure timeline from notice to auction</li>
-      <li><strong>50%+ of homeowners:</strong> Don't know they have options after default notice</li>
       <li><strong>7-14 days:</strong> Cash sale closing vs. 30-90 days traditional sale</li>
       <li><strong>$0 commission:</strong> Cash buyer = no agent commission on your proceeds</li>
     </ul>
