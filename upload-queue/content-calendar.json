@@ -1899,8 +1899,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "How Fast Can You Really Sell a House for Cash in Maryland? The Honest Timeline, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-16"
+      "status": "published",
+      "publish_date": "2026-11-16",
+      "published_on": "2026-11-16"
     },
     {
       "slug": "timeline-va",
