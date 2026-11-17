@@ -235,20 +235,34 @@ def caption(post, channel, i):
 
 def main():
     cal = json.loads(CAL.read_text(encoding="utf-8"))
-    window_end = START + timedelta(days=DAYS - 1)
+    # Source from PUBLISHED posts, not queued ones.
+    #
+    # This builder used to select posts queued for a date window, on the
+    # assumption that a post dated 28 Oct would be live on 28 Oct. It is not:
+    # publish_next.py takes the first queued entry in calendar order, and the
+    # backlog is now 12 posts deep, so a dated brief can be days or weeks from
+    # publishing. On 2026-10-28 that put a Google Business Profile post in
+    # front of customers pointing at a page that did not exist.
+    #
+    # A caption can only ever promote something already live, so selection is
+    # now: published, html on disk, and a hero image present (every caption
+    # carries an image -- Instagram rejects text-only posts outright).
+    # Newest first, because a recent post is the one worth promoting.
+    import os as _os
     queued = [p for p in cal["posts"]
-              if p.get("status") == "queued"
-              and p.get("publish_date")
-              and START.isoformat() <= p["publish_date"] <= window_end.isoformat()]
-    queued.sort(key=lambda x: (x["publish_date"], x["slug"]))
+              if p.get("status") in ("published", "generated")
+              and _os.path.exists(str(REPO / ("blog-%s.html" % p["slug"])))
+              and _os.path.exists(str(REPO / "images" / "blog" / ("%s.jpg" % p["slug"])))]
+    queued.sort(key=lambda x: (x.get("published_on") or "", x["slug"]), reverse=True)
+    queued = queued[:DAYS * 2]
 
     by_day = defaultdict(list)
     for p in queued:
-        by_day[p["publish_date"]].append(p)
+        by_day[p.get("published_on") or p["slug"]].append(p)
 
     entries, lengths, outside = [], [], []
     for i, p in enumerate(queued):
-        primary = by_day[p["publish_date"]][0]["slug"] == p["slug"]
+        primary = by_day[p.get("published_on") or p["slug"]][0]["slug"] == p["slug"]
         chans = {}
         for ch in CHANNELS:
             text = caption(p, ch, i)
@@ -256,6 +270,9 @@ def main():
                 "copy": text,
                 "chars": len(text),
                 "link": None if ch == "instagram" else post_url(p["slug"], ch),
+                # The post's own hero. Instagram rejects a text-only post, so
+                # a caption without an image simply cannot publish there.
+                "image": "%s/images/blog/%s.jpg" % (SITE, p["slug"]),
             }
             lengths.append(len(text))
             if not (TARGET_LO <= len(text) <= TARGET_HI):
@@ -269,7 +286,7 @@ def main():
                     "rejects. Fix CTA_GBP." % p["slug"])
         entries.append({
             "blog_slug": p["slug"],
-            "blog_publish_date": p["publish_date"],
+            "blog_publish_date": p.get("published_on") or "",
             "scheduled_for": p["publish_date"] + "T10:00",
             "role": "primary" if primary else "alternate",
             "status": "pending_approval",
@@ -281,7 +298,9 @@ def main():
     out = {
         "campaign": CAMPAIGN,
         "built": date.today().isoformat(),
-        "window": {"start": START.isoformat(), "end": window_end.isoformat(), "days": DAYS},
+        "source": ("Published posts only, newest first. Selection requires the "
+                   "html and a hero image to exist, so every caption promotes a "
+                   "live page and carries media Instagram will accept."),
         "channels": list(CHANNELS),
         "cadence": "one 'primary' per channel per day; 'alternate' entries are backfill",
         "buffer_channels": {

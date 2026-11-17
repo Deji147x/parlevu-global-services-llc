@@ -39,6 +39,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import date, datetime, time as dtime, timedelta, timezone
@@ -48,6 +49,9 @@ CAL = os.path.join(REPO, "social-calendar.json")
 FAQ_CAL = os.path.join(REPO, "faq-calendar.json")
 STATE = os.path.join(REPO, "buffer_posted.json")
 _HEAD_CACHE = {}
+# Buffer rate-limits bulk creation (HTTP 429 after roughly 60 calls in quick
+# succession). Pace every mutation rather than burst and retry.
+RATE_SLEEP = 1.2
 ENV = os.path.join(REPO, ".env")
 API = "https://api.buffer.com"
 
@@ -70,7 +74,7 @@ def load_token():
     return tok
 
 
-def gql(token, query, variables=None):
+def gql(token, query, variables=None, _retry=0):
     body = {"query": query}
     if variables:
         body["variables"] = variables
@@ -82,6 +86,16 @@ def gql(token, query, variables=None):
     try:
         raw = urllib.request.urlopen(req, timeout=45).read().decode("utf-8", "replace")
     except urllib.error.HTTPError as e:
+        # 429 is a rolling-window quota, not a per-request spacing problem:
+        # pacing alone does not clear it once the window is spent. Back off and
+        # retry rather than aborting -- a bulk run that dies on the first 429
+        # leaves the operator to work out by hand where it stopped.
+        if e.code == 429 and _retry < 3:
+            wait = 60 * (_retry + 1)
+            print("  .. Buffer rate limit, waiting %ds (retry %d/3)"
+                  % (wait, _retry + 1))
+            time.sleep(wait)
+            return gql(token, query, variables, _retry + 1)
         sys.exit("Buffer HTTP %s: %s" % (e.code, e.read().decode("utf-8", "replace")[:200]))
     d = json.loads(raw)
     if d.get("errors"):
@@ -103,7 +117,8 @@ def channels(token):
     return out
 
 
-def create_post(token, channel_id, service, text, due_at, link=None, image=None):
+def create_post(token, channel_id, service, text, due_at, link=None, image=None,
+                draft=False):
     """Queue one post. Google Business Profile has its own vocabulary.
 
     The metadata key for GBP is `google`, NOT `googlebusiness`; the type enum
@@ -129,11 +144,24 @@ def create_post(token, channel_id, service, text, due_at, link=None, image=None)
     else:
         metadata = None
 
-    inp = {"text": text, "channelId": channel_id, "schedulingType": "automatic",
-           "mode": "customScheduled" if due_at else "addToQueue"}
+    # A draft sits in Buffer's Drafts tab and is never sent by Buffer: the
+    # operator publishes it by hand. That is the point of --draft, so a draft
+    # deliberately carries no dueAt -- a send time on something nobody
+    # scheduled is just a trap waiting to fire.
+    if draft:
+        # mode and schedulingType are required by the schema even for a
+        # draft; omitting them is rejected outright. addToQueue keeps the
+        # post off the calendar while saveToDraft is what actually parks it
+        # in the Drafts tab.
+        inp = {"text": text, "channelId": channel_id, "saveToDraft": True,
+               "mode": "addToQueue", "schedulingType": "automatic"}
+    else:
+        inp = {"text": text, "channelId": channel_id,
+               "schedulingType": "automatic",
+               "mode": "customScheduled" if due_at else "addToQueue"}
     if image:
         inp["assets"] = [{"image": {"url": image}}]
-    if due_at:
+    if due_at and not draft:
         inp["dueAt"] = due_at
     if metadata:
         inp["metadata"] = metadata
@@ -246,6 +274,9 @@ def main():
                     help="which calendar to post from (default social)")
     ap.add_argument("--from", dest="date_from",
                     help="schedule every entry on/after this date")
+    ap.add_argument("--draft", action="store_true",
+                    help="create Buffer DRAFTS instead of scheduled posts; "
+                         "Buffer never sends a draft, you publish it yourself")
     ap.add_argument("--skip-link-check", action="store_true",
                     help="do not verify each target URL returns 200 first")
     ap.add_argument("--limit", type=int,
@@ -301,7 +332,7 @@ def main():
         by_service.setdefault(ch["service"], []).append(ch)
 
     state = load_state()
-    mode = "PUBLISH" if args.publish else "DRY RUN"
+    mode = ("DRAFT" if args.draft else "PUBLISH") if args.publish else "DRY RUN"
     print("%s - %d entry(s), services: %s\n" % (mode, len(entries), ",".join(wanted)))
 
     queued = skipped = failed = 0
@@ -377,7 +408,8 @@ def main():
 
             try:
                 post = create_post(token, ch["id"], service, text, due, link,
-                                   body.get("image"))
+                                   body.get("image"), draft=args.draft)
+                time.sleep(RATE_SLEEP)
                 state[state_key] = {"at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                                     "bufferPostId": post["id"],
                                     "dueAt": post.get("dueAt"),
