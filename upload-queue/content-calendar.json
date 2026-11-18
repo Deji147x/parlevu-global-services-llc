@@ -1939,8 +1939,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "How Fast Can You Really Sell a House for Cash in Washington DC? The Honest Timeline, Washington DC, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-18"
+      "status": "published",
+      "publish_date": "2026-11-18",
+      "published_on": "2026-11-18"
     },
     {
       "slug": "avoid-scams-md",
