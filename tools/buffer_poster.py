@@ -74,6 +74,38 @@ def load_token():
     return tok
 
 
+# Buffer's rate limit is a monthly call quota (3000 on the free plan), and it
+# covers reads as well as writes: once spent, even a status query is refused.
+# Only wait inline for a genuinely short Retry-After.
+MAX_WAIT = 120
+_QUOTA_WARNED = [False]
+
+
+def _int_header(resp, name):
+    try:
+        v = resp.headers.get(name)
+        return int(v) if v is not None else None
+    except (TypeError, ValueError):
+        return None
+
+
+def _warn_if_quota_low(headers):
+    """Say something while there is still quota left to act on."""
+    try:
+        remaining = headers.get("X-RateLimit-Remaining")
+        limit = headers.get("X-RateLimit-Limit")
+        if remaining is None:
+            return
+        remaining = int(remaining)
+    except (TypeError, ValueError):
+        return
+    if remaining <= 200 and not _QUOTA_WARNED[0]:
+        _QUOTA_WARNED[0] = True
+        print("  !! Buffer quota low: %s of %s calls left. A full bulk run "
+              "costs roughly one call per post; consider --limit."
+              % (remaining, limit or "?"))
+
+
 def gql(token, query, variables=None, _retry=0):
     body = {"query": query}
     if variables:
@@ -84,19 +116,40 @@ def gql(token, query, variables=None, _retry=0):
                  "Content-Type": "application/json",
                  "User-Agent": "parlevu-buffer-poster"})
     try:
-        raw = urllib.request.urlopen(req, timeout=45).read().decode("utf-8", "replace")
+        resp = urllib.request.urlopen(req, timeout=45)
+        raw = resp.read().decode("utf-8", "replace")
+        _warn_if_quota_low(resp.headers)
     except urllib.error.HTTPError as e:
-        # 429 is a rolling-window quota, not a per-request spacing problem:
-        # pacing alone does not clear it once the window is spent. Back off and
-        # retry rather than aborting -- a bulk run that dies on the first 429
-        # leaves the operator to work out by hand where it stopped.
-        if e.code == 429 and _retry < 3:
-            wait = 60 * (_retry + 1)
-            print("  .. Buffer rate limit, waiting %ds (retry %d/3)"
-                  % (wait, _retry + 1))
-            time.sleep(wait)
-            return gql(token, query, variables, _retry + 1)
+        # Buffer's limit is a MONTHLY quota (3000 calls on the free plan), not
+        # a short rolling window. An earlier version retried 429 with 60/120/
+        # 180s backoff, which was useless: it burned six more minutes and more
+        # quota against a limit that resets weeks away.
+        #
+        # Retry-After says exactly how long. Trust it: a short wait is worth
+        # sitting out, a long one means stop and tell the operator when the
+        # quota returns rather than pretending progress is possible.
+        if e.code == 429:
+            retry_after = _int_header(e, "Retry-After")
+            reset_at = _int_header(e, "X-RateLimit-Reset")
+            limit = e.headers.get("X-RateLimit-Limit") or "?"
+            if retry_after is not None and retry_after <= MAX_WAIT and _retry < 2:
+                print("  .. rate limited, Retry-After %ds (retry %d/2)"
+                      % (retry_after, _retry + 1))
+                time.sleep(retry_after + 1)
+                return gql(token, query, variables, _retry + 1)
+            when = ""
+            if reset_at:
+                when = time.strftime(" (resets %Y-%m-%d %H:%M UTC)",
+                                     time.gmtime(reset_at))
+            hrs = " in about %.1f hours" % (retry_after / 3600.0) if retry_after else ""
+            sys.exit(
+                "Buffer quota exhausted: limit %s calls%s.\n"
+                "Not retrying -- the quota returns%s, so retrying now only\n"
+                "spends more of it. Nothing was lost: buffer_posted.json\n"
+                "records what already exists, so re-running later resumes\n"
+                "exactly where this stopped." % (limit, when, hrs))
         sys.exit("Buffer HTTP %s: %s" % (e.code, e.read().decode("utf-8", "replace")[:200]))
+
     d = json.loads(raw)
     if d.get("errors"):
         sys.exit("Buffer API error: %s"
