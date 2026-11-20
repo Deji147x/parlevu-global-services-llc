@@ -36,6 +36,24 @@ FALLBACK_POOL = [
 BACKOFF = (30, 90, 180)
 
 
+def strip_watermark(path: Path, cut: int = 36) -> None:
+    """Pollinations stamps a "pollinations.ai" badge in the bottom-right corner
+    even with nologo=true (seen 2026-11-20). Crop the bottom strip that holds it,
+    trim the sides to keep the aspect ratio, and scale back to the original size."""
+    try:
+        from PIL import Image
+    except ImportError:
+        return
+    with Image.open(path) as src:
+        im = src.convert("RGB")
+    w, h = im.size
+    nh = h - cut
+    nw = round(nh * w / h)
+    x0 = (w - nw) // 2
+    im.crop((x0, 0, x0 + nw, nh)).resize((w, h), Image.LANCZOS).save(
+        path, "JPEG", quality=88, optimize=True, progressive=True)
+
+
 def generate(slug: str, prompt: str, retries: int = 3) -> str:
     """Return a relative path (downloaded) or absolute URL (fallback)."""
     IMG_DIR.mkdir(parents=True, exist_ok=True)
@@ -58,6 +76,7 @@ def generate(slug: str, prompt: str, retries: int = 3) -> str:
                 data = r.read()
             if len(data) > 10_000:  # sanity: not an error page
                 out.write_bytes(data)
+                strip_watermark(out)
                 return f"images/blog/{slug}.jpg"
         except Exception as e:
             print(f"  pollinations attempt {attempt + 1} failed: {e}")
