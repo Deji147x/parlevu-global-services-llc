@@ -8,14 +8,9 @@ REPO = Path(__file__).resolve().parent.parent
 TODAY = date.today().isoformat()
 
 def fix_duplicate_h1(path):
-    """Demote <h1 class="article-title"> to <h2> — page-header H1 stays the single H1.
-    CSS targets .article-title by class, so visuals are unchanged."""
-    html = path.read_text(encoding='utf-8')
-    new = html.replace('<h1 class="article-title">', '<h2 class="article-title">')
-    new = re.sub(r'(<h2 class="article-title">[^<]*)</h1>', r'\1</h2>', new)
-    if new != html:
-        path.write_text(new, encoding='utf-8')
-        return True
+    """Superseded 2026-11-20: the headline (h1.article-title) is now the page's single
+    H1 and the header category label is a <p>. tools/fix_onpage_seo.py enforces that,
+    so this no longer demotes anything."""
     return False
 
 def fix_canonical(path, filename):

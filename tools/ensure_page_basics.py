@@ -4,6 +4,7 @@ For each root page (and its upload-queue copy) this adds whatever is missing:
   - share tags: og:type/title/description/url/image + twitter:card
   - a hero image on blog posts and pillar pages (images/blog/<slug>.jpg must exist)
   - the lead script (parlevu-estimator.js), which feeds the Hermes lead API
+  - a first-screen "Get my free cash offer" button under the headline (jumps to #offer)
   - an on-page offer form (data-parlevu-magnet="valuation") on blog posts,
     pillar pages and what-we-buy, tagged with the seller's situation when the
     page is about one (foreclosure, divorce, inherited, landlord)
@@ -33,6 +34,9 @@ SITUATIONS = [  # (filename pattern, data-situation, form heading)
     (r"fsbo|by-owner|without-realtor|zillow", None, "Selling by owner? Get a free backup cash offer to compare"),
 ]
 DEFAULT_FORM_TITLE = "Get a free, no-obligation cash offer on your house"
+TOP_CTA = ('<p class="article-cta-top" style="display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:0 0 28px">'
+           '<a href="#offer" class="btn btn-primary">Get my free cash offer</a>'
+           '<a href="tel:+16676468306" style="font-weight:600">or call (667) 646-8306</a></p>')
 
 
 def img_size(rel):
@@ -55,8 +59,9 @@ def fix(name, t, report):
     canon_m = re.search(r'<link rel="canonical" href="([^"]+)"/?>', t)
     if not canon_m:
         report.append("NO CANONICAL - skipped share tags")
-    h2t = re.search(r'<h2 class="article-title">(.*?)</h2>', t, re.S)
-    page_title = re.sub(r"<[^>]+>", "", (h2t or title_m).group(1)).strip() if (h2t or title_m) else name
+    h2t = re.search(r'<h([12]) class="article-title">(.*?)</h\1>', t, re.S)
+    head = h2t.group(2) if h2t else (title_m.group(1) if title_m else name)
+    page_title = re.sub(r"<[^>]+>", "", head).strip()
     slug = name[:-5]
     hero_rel = None
     for cand in (f"images/blog/{slug[5:] if slug.startswith('blog-') else slug}.jpg", f"images/blog/{slug}.jpg"):
@@ -126,7 +131,19 @@ def fix(name, t, report):
         else:
             report.append("NO ANCHOR for offer form")
 
-    # 4. lead script
+    # 4. first-screen offer button that jumps to the on-page form
+    if "data-parlevu-magnet" in t and 'id="offer"' not in t:
+        t = t.replace("<div data-parlevu-magnet=", '<div id="offer" data-parlevu-magnet=', 1)
+    h1a = re.search(r'<h1 class="article-title">.*?</h1>', t, re.S)
+    if h1a and 'id="offer"' in t and "article-cta-top" not in t and "pillar-cta" not in t:
+        end = h1a.end()
+        img = re.match(r'\s*<div[^>]*>\s*<img[^>]*>\s*</div>', t[end:])
+        if img:
+            end += img.end()
+        t = t[:end] + nl + "    " + TOP_CTA + t[end:]
+        report.append("top offer button")
+
+    # 5. lead script
     if "parlevu-estimator.js" not in t and "</body>" in t:
         t = t.replace("</body>", SCRIPT_TAG + nl + "</body>", 1)
         report.append("lead script")

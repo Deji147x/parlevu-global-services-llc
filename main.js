@@ -145,12 +145,87 @@ document.addEventListener('DOMContentLoaded', function () {
   // record the touch on every page view, not only on conversion
   attribution();
 
+  /* ── Hermes lead API (record of truth) ─────────────────────
+     Same endpoint the on-page offer forms use. The event_id is shared
+     with the browser Lead event so Meta keeps one copy. Sheet and
+     HubSpot stay as backups. */
+  var LEAD_API = 'https://api.parlevugloballlc.com/v1/lead';
+
+  function newEventId() {
+    if (window.crypto && crypto.randomUUID) return crypto.randomUUID().replace(/-/g, '');
+    return Date.now().toString(36) + Math.random().toString(36).slice(2, 12);
+  }
+
+  function cookieVal(n) {
+    var m = document.cookie.match(new RegExp('(?:^|; )' + n + '=([^;]*)'));
+    return m ? decodeURIComponent(m[1]) : null;
+  }
+
+  function pushToHermes(data, formId, eventId, formMs, attr) {
+    if (!window.fetch) return;
+    try {
+      var ga = cookieVal('_ga');
+      var utm = {};
+      if (attr.lead_medium !== 'none') {
+        utm = { utm_source: attr.lead_source, utm_medium: attr.lead_medium, utm_campaign: attr.lead_campaign };
+      }
+      var notes = [];
+      if (data.message) notes.push(data.message);
+      notes.push('Form: ' + formId);
+      fetch(LEAD_API, {
+        method: 'POST',
+        keepalive: true,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          tenant: 'parlevu', magnet: formId, event_id: eventId,
+          name: (data.name || '').trim(),
+          email: (data.email || '').trim() || null,
+          phone: (data.phone || '').trim() || null,
+          address: (data.address || '').trim() || null,
+          situation: data.situation || null,
+          best_time: data.besttime || null,
+          message: notes.join('\n').slice(0, 2000),
+          hp: data.website || null,
+          form_ms: formMs,
+          ctx: {
+            page: location.href.split('?')[0], landing_page: attr.landing_page,
+            referrer: document.referrer || null, utm: utm,
+            client_id: ga ? ga.split('.').slice(-2).join('.') : null,
+            fbp: cookieVal('_fbp'), fbc: cookieVal('_fbc')
+          }
+        })
+      }).catch(function () { /* Sheet + HubSpot still have it */ });
+    } catch (e) { /* never block the form */ }
+  }
+
+  // Name plus a way to reach them; address helps but is not required.
+  function leadProblem(data) {
+    if (!(data.name || '').trim()) return 'Please add your name.';
+    var email = (data.email || '').trim();
+    var digits = (data.phone || '').replace(/\D/g, '');
+    if (!email && !digits) return 'Please add a phone number or an email so we can send your offer.';
+    if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) return 'That email address looks incomplete.';
+    if (digits && digits.length < 10) return 'Please enter a 10-digit phone number.';
+    return null;
+  }
+
+  // Time from first keystroke to submit: the API ignores instant (bot) submits.
+  var formStarted = {};
+  document.addEventListener('input', function (e) {
+    var f = e.target && e.target.form;
+    if (f && f.id && !formStarted[f.id]) formStarted[f.id] = Date.now();
+  }, true);
+
   function submitLead(data, formId) {
     var attr = attribution();
-    var params = { form_id: formId, page: location.pathname.split('/').pop() || 'index.html' };
+    var eventId = newEventId();
+    var formMs = formStarted[formId] ? Date.now() - formStarted[formId] : 0;
+    var params = { form_id: formId, page: location.pathname.split('/').pop() || 'index.html', event_id: eventId };
     for (var k in attr) { if (Object.prototype.hasOwnProperty.call(attr, k)) params[k] = attr[k]; }
     track('generate_lead', params);
+    try { localStorage.setItem('pv_lead_done', '1'); } catch (e) { /* no exit offer after converting */ }
     const ticket = stashLead(data);
+    pushToHermes(data, formId, eventId, formMs, attr);
     pushToSheet(data, params);
     pushToHubSpot(data);
     whenHubSpotReady(function (delivered) {
@@ -301,11 +376,11 @@ document.addEventListener('DOMContentLoaded', function () {
   if (heroForm) {
     heroForm.addEventListener('submit', function (e) {
       e.preventDefault();
+      const data = Object.fromEntries(new FormData(this).entries());
+      if (showFormProblem(this, leadProblem(data))) return;
       const btn = this.querySelector('button[type="submit"]');
       btn.textContent = 'Submitting…';
       btn.disabled = true;
-
-      const data = Object.fromEntries(new FormData(this).entries());
       submitLead(data, 'heroForm');
     });
   }
@@ -315,13 +390,30 @@ document.addEventListener('DOMContentLoaded', function () {
   if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
+      const data = Object.fromEntries(new FormData(this).entries());
+      if (showFormProblem(this, leadProblem(data))) return;
       const btn = this.querySelector('button[type="submit"]');
       btn.textContent = 'Sending…';
       btn.disabled = true;
-
-      const data = Object.fromEntries(new FormData(this).entries());
       submitLead(data, 'contactForm');
     });
+  }
+
+  // Inline message above the submit button; returns true when there is a problem.
+  function showFormProblem(form, msg) {
+    var box = form.querySelector('.form-problem');
+    if (!msg) { if (box) box.remove(); return false; }
+    if (!box) {
+      box = document.createElement('p');
+      box.className = 'form-problem';
+      box.setAttribute('role', 'alert');
+      box.style.cssText = 'color:#b42318;font-weight:600;margin:4px 0 10px;font-size:.95rem';
+      var btn = form.querySelector('button[type="submit"]');
+      form.insertBefore(box, btn);
+    }
+    box.textContent = msg;
+    track('form_error', { form_id: form.id, reason: msg.slice(0, 60) });
+    return true;
   }
 
   /* ── Smooth Scroll for in-page anchors ──────────────────── */
@@ -345,7 +437,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var META = { generate_lead: 'Lead', phone_click: 'Contact', schedule_click: 'Schedule' };
     try {
       if (META[name] && typeof fbq === 'function') {
-        fbq('track', META[name], { content_name: (params && (params.form_id || params.page)) || '' });
+        var opts = params && params.event_id ? { eventID: params.event_id } : undefined;
+        fbq('track', META[name], { content_name: (params && (params.form_id || params.page)) || '' }, opts);
       }
     } catch (e) { /* never let analytics break the page */ }
   }

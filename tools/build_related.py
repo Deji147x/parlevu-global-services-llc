@@ -200,9 +200,9 @@ def apply_overrides(plan, slugs, count):
 
 def title_of(path):
     h = io.open(path, encoding="utf-8").read()
-    m = re.search(r'<h2 class="article-title">(.*?)</h2>', h, re.S)
+    m = re.search(r'<h([12]) class="article-title">(.*?)</h\1>', h, re.S)
     if m:
-        return re.sub(r"<[^>]+>", "", m.group(1)).strip()
+        return re.sub(r"<[^>]+>", "", m.group(2)).strip()
     m = re.search(r"<title>(.*?)</title>", h, re.S)
     return re.sub(r"\s*\|.*$", "", m.group(1)).strip() if m else path
 
