@@ -184,7 +184,7 @@ def render_dmv_post(brief) -> str:
     social_html = '''      <div style="display:flex;gap:12px;justify-content:center;margin-bottom:24px">
         <a href="https://www.facebook.com/ParlevuGlobalServices/" target="_blank" rel="noopener" aria-label="Facebook" title="Follow Parlevu on Facebook"><i class="fab fa-facebook-f" style="font-size:1.2rem;color:var(--navy)"></i></a>
         <a href="https://www.instagram.com/ParlevuGlobalServices/" target="_blank" rel="noopener" aria-label="Instagram" title="Follow Parlevu on Instagram"><i class="fab fa-instagram" style="font-size:1.2rem;color:var(--navy)"></i></a>
-        <a href="https://www.linkedin.com/in/parlevu-global-services-llc-508b2024b/" target="_blank" rel="noopener" aria-label="LinkedIn" title="Connect on LinkedIn"><i class="fab fa-linkedin-in" style="font-size:1.2rem;color:var(--navy)"></i></a>
+        <a href="https://www.linkedin.com/in/deji-parlevu-508b2024b/" target="_blank" rel="noopener" aria-label="LinkedIn" title="Connect on LinkedIn"><i class="fab fa-linkedin-in" style="font-size:1.2rem;color:var(--navy)"></i></a>
         <a href="https://x.com/ParlevuGlobal/" target="_blank" rel="noopener" aria-label="X" title="Follow Parlevu on X"><i class="fab fa-x-twitter" style="font-size:1.2rem;color:var(--navy)"></i></a>
         <a href="https://www.pinterest.com/ParlevuGlobal/" target="_blank" rel="noopener" aria-label="Pinterest" title="Follow Parlevu on Pinterest"><i class="fab fa-pinterest-p" style="font-size:1.2rem;color:var(--navy)"></i></a>
       </div>'''

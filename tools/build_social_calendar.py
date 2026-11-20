@@ -322,7 +322,7 @@ def main():
                      "are deliverable once a poster speaks Buffer's current GraphQL API -- "
                      "post_to_buffer.py still targets the legacy v1 REST API that returns 401 "
                      "and retires 2026-02-01, so it needs porting first; "
-                     "voltixio-site/social_automation/buffer_poster.js is a working reference. "
+                     " is a working reference. "
                      "GBP is NOT a Buffer channel here and its own API needs Google allowlist "
                      "approval (0 QPM until granted), so gbp captions stay MANUAL paste-ready. "
                      "Stale in .env: BUFFER_PROFILE_ID is still the placeholder "
