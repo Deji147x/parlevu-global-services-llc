@@ -59,7 +59,7 @@
 ### Seller Pain Points — $30-60+ per click value
 
 #### Foreclosure-Related
-- stop foreclosure maryland
+- foreclosure help maryland
 - foreclosure prevention maryland
 - facing foreclosure maryland
 - foreclosure help baltimore
@@ -116,7 +116,7 @@
 #### How-To & Guides
 - how to sell house fast maryland
 - how to sell inherited property
-- how to stop foreclosure
+- options when facing foreclosure
 - how to sell as-is
 - selling house tips maryland
 - FSBO selling guide

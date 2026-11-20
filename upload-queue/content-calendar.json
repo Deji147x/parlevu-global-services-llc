@@ -26,7 +26,7 @@
     {
       "slug": "foreclosure-md",
       "title": "Facing Foreclosure in Maryland? Your Options to Sell Fast and Protect Your Credit",
-      "primary_keyword": "stop foreclosure maryland",
+      "primary_keyword": "foreclosure help maryland",
       "secondary_keywords": [
         "we buy houses maryland",
         "cash home buyers maryland",
@@ -46,7 +46,7 @@
     {
       "slug": "foreclosure-va",
       "title": "Facing Foreclosure in Virginia? Your Options to Sell Fast and Protect Your Credit",
-      "primary_keyword": "stop foreclosure virginia",
+      "primary_keyword": "foreclosure help virginia",
       "secondary_keywords": [
         "we buy houses virginia",
         "cash home buyers virginia",
@@ -66,7 +66,7 @@
     {
       "slug": "foreclosure-dc",
       "title": "Facing Foreclosure in Washington DC? Your Options to Sell Fast and Protect Your Credit",
-      "primary_keyword": "stop foreclosure washington dc",
+      "primary_keyword": "foreclosure help washington dc",
       "secondary_keywords": [
         "we buy houses washington dc",
         "cash home buyers washington dc",
@@ -4098,7 +4098,7 @@
       "title": "Coordinating Your Move With an Uncertain Closing Date",
       "primary_keyword": "moving before closing",
       "secondary_keywords": [
-        "rent back agreement",
+        "flexible closing date",
         "possession after closing"
       ],
       "state": "MD",
@@ -7218,20 +7218,20 @@
       "cluster": "divorce"
     },
     {
-      "slug": "stop-foreclosure",
-      "title": "Stop Foreclosure in Maryland Before Auction",
-      "primary_keyword": "stop foreclosure maryland",
+      "slug": "sell-before-foreclosure-auction",
+      "title": "Facing Foreclosure in Maryland? Selling Before the Auction",
+      "primary_keyword": "sell house before foreclosure auction maryland",
       "secondary_keywords": [
-        "stop cash",
-        "stop foreclosure maryland fast",
-        "stop foreclosure maryland no repairs"
+        "foreclosure help maryland",
+        "sell house in pre-foreclosure maryland",
+        "behind on mortgage payments maryland"
       ],
       "state": "MD",
       "city": null,
       "category": "Service",
       "kind": "question",
       "hub": "index.html",
-      "image_prompt": "Stop Foreclosure in Maryland Before Auction \u2014 professional real estate photography, foreclosure context, Maryland/DMV, clean minimal design, no text, no watermark",
+      "image_prompt": "Facing Foreclosure in Maryland? Selling Before the Auction \u2014 professional real estate photography, foreclosure context, Maryland/DMV, clean minimal design, no text, no watermark",
       "youtube_embed": null,
       "external_links": [],
       "cta_variant": "offer",
@@ -7262,20 +7262,20 @@
       "cluster": "foreclosure"
     },
     {
-      "slug": "short-sale-vs-cash",
-      "title": "Short Sale vs Cash Sale \u2014 Which Is Better in Maryland?",
-      "primary_keyword": "short sale vs cash sale",
+      "slug": "foreclosure-help-resources-maryland",
+      "title": "Free Foreclosure Help in Maryland: Counselors, Mediation and Your Options",
+      "primary_keyword": "free foreclosure help maryland",
       "secondary_keywords": [
-        "short cash",
-        "short sale vs cash sale fast",
-        "short sale vs cash sale no repairs"
+        "housing counselor maryland",
+        "foreclosure mediation maryland",
+        "behind on mortgage options maryland"
       ],
       "state": "MD",
       "city": null,
       "category": "Service",
       "kind": "question",
       "hub": "index.html",
-      "image_prompt": "Short Sale vs Cash Sale \u2014 Which Is Better in Maryland? \u2014 professional real estate photography, foreclosure context, Maryland/DMV, clean minimal design, no text, no watermark",
+      "image_prompt": "Free Foreclosure Help in Maryland: Counselors, Mediation and Your Options \u2014 professional real estate photography, foreclosure context, Maryland/DMV, clean minimal design, no text, no watermark",
       "youtube_embed": null,
       "external_links": [],
       "cta_variant": "call",

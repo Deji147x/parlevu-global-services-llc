@@ -142,7 +142,7 @@ CLUSTERS = [
       ("fsbo-under-contract-to-close", "Under Contract to Closing: The 30-45 Days Nobody Explains", "under contract to closing timeline", ["escrow period steps", "closing timeline"]),
       ("fsbo-sell-in-7-days", "Need to Sell in 7 Days? What's Actually Possible", "sell house in 7 days", ["one week home sale", "emergency home sale"]),
       ("fsbo-sell-in-30-days", "The 30-Day Sale: A Realistic Sprint Plan", "sell house in 30 days", ["fast home sale plan", "30 day sale checklist"]),
-      ("fsbo-moving-coordination", "Coordinating Your Move With an Uncertain Closing Date", "moving before closing", ["rent back agreement", "possession after closing"]),
+      ("fsbo-moving-coordination", "Coordinating Your Move With an Uncertain Closing Date", "moving before closing", ["flexible closing date", "possession after closing"]),
       ("fsbo-relocation-deadline", "Selling By Owner on a Relocation Deadline", "sell house fast relocation", ["job relocation home sale", "moving deadline sale"]),
      ]),
 ]

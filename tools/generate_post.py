@@ -101,6 +101,12 @@ percentages, survey results, or third-party research, and never cite a study:
   - A cash offer is presented within two business days
   - The current year is 2026
 
+FORECLOSURE WORDING RULES (legal; never break these):
+  - Never say Parlevu can stop, save, prevent or postpone a foreclosure.
+  - Never offer short sales, lender or loan negotiation, rent-backs, leasebacks or buybacks.
+  - Never use the phrases "stop foreclosure", "short sale" or "negotiate with your lender".
+  - Describe a cash sale only as selling before the auction and paying off the loan from the sale.
+
 WRITING REQUIREMENTS (these drive how AI search engines quote the page):
   - Each section must contain at least one figure from the verified list above,
     and at least one of those figures across the post must be a percentage and

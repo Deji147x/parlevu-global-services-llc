@@ -32,10 +32,10 @@
       {"url": "https://www.youtube.com/watch?v=settlement-options", "source": "Nolo: Property Settlement Guide"}
     ],
     "foreclosure": [
-      {"url": "https://www.youtube.com/watch?v=stop-foreclosure", "source": "HUD: Foreclosure Prevention"},
+      {"url": "https://www.youtube.com/watch?v=foreclosure-help", "source": "HUD: Foreclosure Prevention"},
       {"url": "https://www.youtube.com/watch?v=foreclosure-timeline", "source": "NAR: Foreclosure Process"},
-      {"url": "https://www.youtube.com/watch?v=short-sale-vs-cash", "source": "Realtor.com: Your Options"},
-      {"url": "https://www.youtube.com/watch?v=protect-equity", "source": "NFCC: Stopping Foreclosure"}
+      {"url": "https://www.youtube.com/watch?v=foreclosure-options", "source": "Realtor.com: Your Options"},
+      {"url": "https://www.youtube.com/watch?v=protect-equity", "source": "NFCC: Foreclosure Counseling"}
     ],
     "offmarket": [
       {"url": "https://www.youtube.com/watch?v=private-sale", "source": "Realtor.com: Off-Market Selling"},

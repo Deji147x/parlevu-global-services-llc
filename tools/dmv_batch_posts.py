@@ -136,7 +136,7 @@ def gen_dmv_post_content(brief) -> dict:
         },
         {
             "q": f"What if I owe more than my {place} house is worth?",
-            "a": "We can work with that. Short sale situations are common. We handle the lender negotiations; you walk away debt-free. No deficiency on your credit.",
+            "a": "Tell us what you owe and we'll tell you honestly whether a cash sale can pay it off. If you owe more than the house is worth, a sale needs your lender's approval, and we don't deal with your lender for you. A HUD-approved housing counselor can walk you through your options for free.",
         },
     ]
 

@@ -25,7 +25,7 @@ claims as needing verification against written policy:
   FAQ 04  "as little as seven days" kept but attributed, not promised.
 
 The foreclosure answer (FAQ 15) keeps its warning that a cash offer does
-not automatically stop a foreclosure. Nothing invents clients, metrics or
+not by itself end a foreclosure case. Nothing invents clients, metrics or
 competitor pricing, and no percentages appear anywhere.
 
 Google rejects Business Profile posts containing a phone number, so GBP
@@ -104,7 +104,7 @@ FAQS = [
     (14, "C", "Can I sell an inherited house in Baltimore?",
      "Yes, we consider inherited and estate-related properties. Before a sale can proceed, the person signing the contract must have the necessary legal authority, and any required probate or estate steps must be addressed. We can discuss the property's condition, your timeline, and the next steps for a potential offer.", "foreclosure"),
     (15, "C", "Can you buy my house if I am behind on mortgage payments?",
-     "We consider properties involving mortgage arrears and pre-foreclosure. The available options depend on your equity, mortgage balance, deadlines, and the lender's requirements. Contact us promptly so we can discuss the property and timing. A cash offer does not automatically stop a foreclosure; obtain appropriate legal advice about deadlines and your rights.", "foreclosure"),
+     "We consider properties involving mortgage arrears and pre-foreclosure. The available options depend on your equity, mortgage balance, deadlines, and the lender's requirements. Contact us promptly so we can discuss the property and timing. A cash offer does not by itself end a foreclosure case; obtain appropriate legal advice about deadlines and your rights.", "foreclosure"),
     (16, "C", "Can I sell my house during a divorce?",
      "A property sale may be possible during a divorce, but ownership rights, court orders, and any required consent must be considered. We can review the property's basic details and discuss a potential offer. Consult your attorney about the proper way to handle the sale and divide any proceeds.", "foreclosure"),
     (17, "C", "Do you buy vacant houses and properties left by tenants?",

@@ -118,7 +118,7 @@ Here's what's possible when you have options.
 **Long-tail (Lower volume, high intent):**
 - sell house fast Newport News Virginia
 - cash buyers Woodridge DC
-- stop foreclosure Baltimore Maryland
+- foreclosure help Baltimore Maryland
 - sell fire damaged house Maryland
 - how to sell house as-is Maryland
 - quick cash offer for inherited property

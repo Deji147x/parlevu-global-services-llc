@@ -26,7 +26,7 @@ STATES = {
 
 # 13 seller situations x 3 states = 39 long-tail posts (highest intent)
 SITUATIONS = [
-    ("foreclosure", "Facing Foreclosure in {st}? Your Options to Sell Fast and Protect Your Credit", "stop foreclosure {stl}", "Foreclosure Help"),
+    ("foreclosure", "Facing Foreclosure in {st}? Your Options to Sell Fast and Protect Your Credit", "foreclosure help {stl}", "Foreclosure Help"),
     ("inherited-probate", "Selling an Inherited House in {st}: Probate Rules, Taxes, and Your Fastest Options", "sell inherited house {stl}", "Inherited Properties"),
     ("divorce", "Selling a House During Divorce in {st}: A Clear Path Forward", "selling house during divorce {stl}", "Life Transitions"),
     ("liens-violations", "Can You Sell a House With Liens or Code Violations in {st}? Yes — Here's How", "sell house with lien {stl}", "Legal Issues"),

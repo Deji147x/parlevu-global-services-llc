@@ -51,9 +51,9 @@ SERVICE_POSTS = [
     ("divorce", "sell-during-divorce", "Sell Your House During Divorce — Fast Cash Sale", "sell house during divorce", "call"),
 
     # Cluster 7: Foreclosure (4 posts)
-    ("foreclosure", "stop-foreclosure", "Stop Foreclosure in Maryland Before Auction", "stop foreclosure maryland", "offer"),
+    ("foreclosure", "sell-before-foreclosure-auction", "Facing Foreclosure in Maryland? Selling Before the Auction", "sell house before foreclosure auction maryland", "offer"),
     ("foreclosure", "foreclosure-alternatives", "Foreclosure Alternatives in Maryland — Sell for Cash", "foreclosure alternatives", "consult"),
-    ("foreclosure", "short-sale-vs-cash", "Short Sale vs Cash Sale — Which Is Better in Maryland?", "short sale vs cash sale", "call"),
+    ("foreclosure", "foreclosure-help-resources-maryland", "Free Foreclosure Help in Maryland: Counselors, Mediation and Your Options", "free foreclosure help maryland", "call"),
     ("foreclosure", "foreclosure-timeline", "Maryland Foreclosure Timeline — How Fast Can You Sell?", "foreclosure timeline maryland", "offer"),
 
     # Cluster 8: Off-Market (2 posts)

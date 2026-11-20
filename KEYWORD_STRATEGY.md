@@ -148,14 +148,14 @@
 
 ## CLUSTER 7: Foreclosure Prevention
 **Pillar Keyword:** "Foreclosure Property Help"
-**Intent:** Urgent, empathetic messaging on stopping foreclosure & protecting equity
+**Intent:** Urgent, empathetic messaging on selling before the auction & protecting equity (never promise to stop or save a foreclosure; no short sales, lender negotiation or rent-backs)
 **Monthly Volume:** 390+ | **Competition:** Medium-High
 
 ### Pillar Page
 - **URL:** `/foreclosure-property-help.html`
-- **Title:** "Foreclosure Property Help in Maryland — Stop Foreclosure Fast" (61)
-- **Meta:** "Facing foreclosure? Sell your home for cash before auction and stop the foreclosure process. Protect your equity and credit." (136)
-- **H1:** "Stop Foreclosure — Sell Your Home Fast for Cash"
+- **Title:** "Foreclosure Property Help in Maryland — Sell Before the Auction" (63)
+- **Meta:** "Facing foreclosure? Sell your home for cash before the auction date and keep any remaining equity. Plain-English options for Maryland homeowners." (136)
+- **H1:** "Facing Foreclosure in Maryland? Sell Before the Auction"
 - **CTA Hook:** "Speak With a Foreclosure Specialist (Urgent Consultation)"
 - **Internal Links:** Sell fast → Distressed buyers → Probate/divorce (similar urgency)
 - **Schema:** FAQPage (5 Q&As on foreclosure options) + LocalBusiness
@@ -163,10 +163,10 @@
 ### Support Posts (4)
 | Keyword | URL | Title | Meta | Intent |
 |---------|-----|-------|------|--------|
-| Stop foreclosure Maryland | `/stop-foreclosure.html` | "Stop Foreclosure in Maryland Before Auction" (42) | "Behind on payments? Sell for cash before foreclosure auction. Protect your equity and credit score." (104) | Urgency/legal angle |
-| Foreclosure alternatives | `/foreclosure-alternatives.html` | "Foreclosure Alternatives in Maryland — Sell for Cash" (51) | "Facing foreclosure? Cash sale is faster than short sale, bankruptcy, or deed-in-lieu. Protect your equity." (110) | Comparison/options angle |
-| Short sale vs cash sale | `/short-sale-vs-cash.html` | "Short Sale vs Cash Sale — Which Is Better in Maryland?" (53) | "Comparing short sale vs cash sale? Cash is faster, protects credit better, and avoids bank delays." (103) | Educational/comparison |
-| Foreclosure timeline Maryland | `/foreclosure-timeline.html` | "Maryland Foreclosure Timeline — How Fast Can You Sell?" (53) | "Maryland foreclosure timeline is 90-120 days. Sell for cash NOW to stop it and keep your equity." (106) | Urgency/education |
+| Sell before foreclosure auction Maryland | `/sell-before-foreclosure-auction.html` | "Facing Foreclosure in Maryland? Selling Before the Auction" (57) | "Behind on payments? Sell for cash before foreclosure auction. Protect your equity and credit score." (104) | Urgency/legal angle |
+| Foreclosure alternatives | `/foreclosure-alternatives.html` | "Foreclosure Alternatives in Maryland — Sell for Cash" (51) | "Facing foreclosure? Compare a cash sale with a loan modification, bankruptcy, or deed-in-lieu. Protect your equity." (110) | Comparison/options angle |
+| Free foreclosure help Maryland | `/foreclosure-help-resources-maryland.html` | "Free Foreclosure Help in Maryland: Counselors, Mediation and Your Options" (72) | "Behind on your mortgage in Maryland? Free housing counselors, foreclosure mediation, and how a cash sale compares." (113) | Educational/trust |
+| Foreclosure timeline Maryland | `/foreclosure-timeline.html` | "Maryland Foreclosure Timeline — How Fast Can You Sell?" (53) | "Maryland foreclosure timeline is 90-120 days. Selling for cash before the auction can let you keep your equity." (106) | Urgency/education |
 
 ---
 
@@ -284,7 +284,7 @@
 **Hub:** Index → Sell-house-fast hub → Service pages
 **Silos:**
 - `/we-buy-houses-as-is.html` → Buy for cash → As-is sales → Sell without repairs
-- `/foreclosure-property-help.html` → Stop foreclosure → Foreclosure alternatives → Timeline
+- `/foreclosure-property-help.html` → Sell before auction → Foreclosure alternatives → Timeline
 - `/divorce-home-sale-help.html` → Divorce sale → Marital home → Privacy angle
 - Geographic: `/we-buy-houses-maryland.html` → County pages (Baltimore) → City/neighborhood
 

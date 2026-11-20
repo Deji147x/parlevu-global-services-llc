@@ -37,7 +37,7 @@ Taken from your own FAQ review, and deliberately not softened back:
 |---|---|
 | No "guaranteed offer" | Offer timing is always "typically within 24–48 hours" |
 | No "no closing costs" | Not claimed anywhere; the written offer governs |
-| Foreclosure caution | Never implies a cash offer stops foreclosure |
+| Foreclosure caution | Never implies a cash offer ends a foreclosure case |
 | Disclosure accuracy | Points to Maryland's own statute, not our paraphrase |
 | Verified assets only | (667) 646-8306 · calendar.app.google/hfm91n5jiLxXJHiu6 |
 
