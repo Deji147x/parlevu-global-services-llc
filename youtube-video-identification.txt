@@ -1,0 +1,25 @@
+distinct description groups: 5
+
+--- group 1 (1 video) ---
+    2025-12-16  Ipjg_QuTgjk  https://i.ytimg.com/vi/Ipjg_QuTgjk/hqdefault.jpg
+    text: What Are Maryland Disclosure and Disclaimer Requirements for As-Is Home Sales? Quick Answer In Maryland, sellers must either disclose known material defects or legally choose a disclaimer option when selling a house as-is, but they cannot hide known 
+
+--- group 2 (4 videos) ---
+    2025-12-11  Ohq3hyEqMDk  https://i.ytimg.com/vi/Ohq3hyEqMDk/hqdefault.jpg
+    2025-12-10  qBdpC1ujv28  https://i.ytimg.com/vi/qBdpC1ujv28/hqdefault.jpg
+    2025-11-29  fUUBffy3frc  https://i.ytimg.com/vi/fUUBffy3frc/hqdefault.jpg
+    2025-11-05  BmcZmIBq6nM  https://i.ytimg.com/vi/BmcZmIBq6nM/hqdefault.jpg
+    text: Welcome to Parlevu Global Services LLC, your trusted **Maryland real estate investment company specializing in buying houses As-Is for cash no repairs, no commissions, no stress. We help homeowners just like you sell their property fast whether you a
+
+--- group 3 (1 video) ---
+    2025-11-08  judAq6axY5g  https://i.ytimg.com/vi/judAq6axY5g/hqdefault.jpg
+    text: Welcome to Parlevu Global Services LLC, your trusted Maryland real estate investment company specializing in buying houses As-Is for cash no repairs, no commissions, no stress. We help homeowners just like you buy their property fast whether you are 
+
+--- group 4 (2 videos) ---
+    2025-11-08  63xmy4Bzrj4  https://i.ytimg.com/vi/63xmy4Bzrj4/hqdefault.jpg
+    2025-11-05  YM64KQPOMhY  https://i.ytimg.com/vi/YM64KQPOMhY/hqdefault.jpg
+    text: Welcome to Parlevu Global Services LLC, your trusted Maryland real estate investment company specializing in buying houses As-Is for cash no repairs, no commissions, no stress. We help homeowners just like you sell their property fast whether you are
+
+--- group 5 (1 video) ---
+    2025-11-05  -r1HgCavprs  https://i.ytimg.com/vi/-r1HgCavprs/hqdefault.jpg
+    text: Welcome to **Parlevu Global Services LLC, your trusted Maryland real estate investment company specializing in buying houses As-Is for cash no repairs, no commissions, no stress. We help homeowners just like you sell their property fast whether you a
