@@ -1999,8 +1999,9 @@
       "hub": "sell-house-fast-washington-dc.html",
       "image_prompt": "How to Spot a Legitimate Cash Home Buyer in Washington DC (and Avoid Scams), Washington DC, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-21"
+      "status": "published",
+      "publish_date": "2026-11-21",
+      "published_on": "2026-11-21"
     },
     {
       "slug": "cash-vs-listing-md",
