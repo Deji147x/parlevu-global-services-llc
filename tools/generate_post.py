@@ -150,7 +150,13 @@ def normalize(raw, brief):
     """Coerce a loosely-shaped model response into the expected structure,
     filling any gaps from the fallback writer. Returns None if unsalvageable."""
     fb = fallback_generate(brief)
+    # Both rejection paths below used to return None silently, so a run that
+    # fell back for this reason logged "(fallback engine)" with no cause.
+    # That happened on 2026-11-08 and left nothing to diagnose: Ollama had
+    # answered 200, its JSON was simply unusable. Say so.
     if not isinstance(raw, dict):
+        print("  ollama returned %s, not a JSON object; using built-in writer"
+              % type(raw).__name__)
         return None
     post = {
         "meta_desc": str(raw.get("meta_desc") or fb["meta_desc"])[:158],
@@ -176,7 +182,10 @@ def normalize(raw, brief):
         if q and a:
             post["faqs"].append({"q": str(q), "a": str(a)})
     if not post["sections"]:
-        return None  # nothing usable — use fallback entirely
+        print("  ollama JSON had no usable sections (keys: %s); "
+              "using built-in writer"
+              % ", ".join(sorted(raw.keys()))[:90])
+        return None
     # fit_length() tops up short posts with fallback sections afterwards
     while len(post["faqs"]) < 3:
         post["faqs"].append(fb["faqs"][len(post["faqs"]) % len(fb["faqs"])])
