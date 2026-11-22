@@ -55,7 +55,15 @@ def batch_generate(start_date_str, num_posts, dry_run=False):
         print(f"\nGenerated {len(generated_files)} posts.")
 
         # Commit
-        subprocess.run(["git", "-C", str(REPO), "add", "-A"], check=True)
+        # Stage only what this run wrote. `add -A` swept unrelated edits into
+        # the commit and pushed them live (see publish_next.commit_only).
+        mine = [Path(f) for f in generated_files] + [REPO / "content-calendar.json"]
+        for f in generated_files:
+            img = REPO / "images" / "blog" / f"{Path(f).stem.removeprefix('blog-')}.jpg"
+            if img.exists():
+                mine.append(img)
+        mine = sorted({str(Path(p).resolve().relative_to(REPO.resolve())).replace("\\", "/") for p in mine})
+        subprocess.run(["git", "-C", str(REPO), "add", "--", *mine], check=True)
         msg = f"""Batch generate all {len(posts_to_gen)} posts across 30 days
 
 Generated {len(generated_files)} blog posts with dates from {start_date_str} to {(start + timedelta(days=len(posts_to_gen)-1)).isoformat()}.
@@ -71,7 +79,7 @@ All posts include:
 Ready for daily cron publishing via publish_next.py
 
 Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>"""
-        subprocess.run(["git", "-C", str(REPO), "commit", "-m", msg], check=True)
+        subprocess.run(["git", "-C", str(REPO), "commit", "--only", "-m", msg, "--", *mine], check=True)
 
         # Push
         r = subprocess.run(["git", "-C", str(REPO), "push", "origin", "main"],

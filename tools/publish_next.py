@@ -127,6 +127,25 @@ def git(*args, check=True):
                           capture_output=True, text=True, check=check)
 
 
+def commit_only(paths, msg):
+    """Stage and commit exactly `paths`, nothing else.
+
+    This used to be `git add -A`, which swept every unrelated edit in the
+    working tree into the publish commit and pushed it live. On 2026-11-22 an
+    unreviewed privacy-policy draft (with a [CONFIRM] placeholder) went live
+    that way. `commit --only` also leaves anything else already staged alone.
+    """
+    rel = sorted({str(Path(p).resolve().relative_to(REPO.resolve())).replace("\\", "/")
+                  for p in paths})
+    git("add", "--", *rel)
+    git("commit", "--only", "-m", msg, "--", *rel)
+    other = git("status", "--porcelain", check=False).stdout.strip()
+    if other:
+        print("  left uncommitted (not part of this publish):\n    "
+              + other.replace("\n", "\n    "))
+    return rel
+
+
 class _Tee:
     """Write to the console and the log file at once."""
 
@@ -253,14 +272,16 @@ def do_publish(cal, brief, args):
 
     # mirror for manual-upload hosting
     UPLOAD_QUEUE.mkdir(exist_ok=True)
-    for f in [out, BLOG, REPO / "sitemap.xml", CAL]:
+    written = [out, BLOG, REPO / "sitemap.xml", CAL]
+    for f in list(written):
         shutil.copy2(f, UPLOAD_QUEUE / f.name)
+        written.append(UPLOAD_QUEUE / f.name)
     if not hero.startswith("http"):
         (UPLOAD_QUEUE / "images" / "blog").mkdir(parents=True, exist_ok=True)
         shutil.copy2(REPO / hero, UPLOAD_QUEUE / hero)
+        written += [REPO / hero, UPLOAD_QUEUE / hero]
 
-    git("add", "-A")
-    git("commit", "-m", f"Publish blog post: {brief['title']}")
+    commit_only(written, f"Publish blog post: {brief['title']}")
     if not args.no_push:
         r = git("push", check=False)
         if r.returncode != 0:
