@@ -2019,8 +2019,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "Selling for Cash vs. Listing With an Agent in Maryland, Maryland, residential house exterior, clean architectural photography, bright daylight, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-11-22"
+      "status": "published",
+      "publish_date": "2026-11-22",
+      "published_on": "2026-11-22"
     },
     {
       "slug": "cash-vs-listing-va",
@@ -6772,7 +6773,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-28",
+      "publish_date": "2026-12-13",
       "cluster": "as-is"
     },
     {
@@ -6840,7 +6841,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-29",
+      "publish_date": "2026-12-14",
       "cluster": "speed"
     },
     {
@@ -6862,7 +6863,7 @@
       "external_links": [],
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-10-30",
+      "publish_date": "2026-12-15",
       "cluster": "speed"
     },
     {
@@ -6884,7 +6885,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-30",
+      "publish_date": "2026-12-16",
       "cluster": "speed"
     },
     {
@@ -6906,7 +6907,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-10-31",
+      "publish_date": "2026-12-17",
       "cluster": "cash"
     },
     {
@@ -6928,7 +6929,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-10-31",
+      "publish_date": "2026-12-18",
       "cluster": "cash"
     },
     {
@@ -6950,7 +6951,7 @@
       "external_links": [],
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-01",
+      "publish_date": "2026-12-19",
       "cluster": "cash"
     },
     {
@@ -6972,7 +6973,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-11-01",
+      "publish_date": "2026-12-20",
       "cluster": "cash"
     },
     {
@@ -7017,7 +7018,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-02",
+      "publish_date": "2026-12-21",
       "cluster": "distressed"
     },
     {
@@ -7039,7 +7040,7 @@
       "external_links": [],
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-03",
+      "publish_date": "2026-12-22",
       "cluster": "distressed"
     },
     {
@@ -7061,7 +7062,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-11-03",
+      "publish_date": "2026-12-23",
       "cluster": "distressed"
     },
     {
@@ -7083,7 +7084,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-04",
+      "publish_date": "2026-12-24",
       "cluster": "distressed"
     },
     {
@@ -7105,7 +7106,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-11-04",
+      "publish_date": "2026-12-25",
       "cluster": "probate"
     },
     {
@@ -7127,7 +7128,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-04",
+      "publish_date": "2026-12-26",
       "cluster": "probate"
     },
     {
@@ -7149,7 +7150,7 @@
       "external_links": [],
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-05",
+      "publish_date": "2026-12-27",
       "cluster": "probate"
     },
     {
@@ -7171,7 +7172,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-11-05",
+      "publish_date": "2026-12-28",
       "cluster": "divorce"
     },
     {
@@ -7193,7 +7194,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-05",
+      "publish_date": "2026-12-29",
       "cluster": "divorce"
     },
     {
@@ -7215,7 +7216,7 @@
       "external_links": [],
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-06",
+      "publish_date": "2026-12-30",
       "cluster": "divorce"
     },
     {
@@ -7237,7 +7238,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-11-06",
+      "publish_date": "2026-12-31",
       "cluster": "foreclosure"
     },
     {
@@ -7259,7 +7260,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-06",
+      "publish_date": "2027-01-01",
       "cluster": "foreclosure"
     },
     {
@@ -7281,7 +7282,7 @@
       "external_links": [],
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-07",
+      "publish_date": "2027-01-02",
       "cluster": "foreclosure"
     },
     {
@@ -7303,7 +7304,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-11-07",
+      "publish_date": "2027-01-03",
       "cluster": "foreclosure"
     },
     {
@@ -7325,7 +7326,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-08",
+      "publish_date": "2027-01-04",
       "cluster": "offmarket"
     },
     {
@@ -7347,7 +7348,7 @@
       "external_links": [],
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-08",
+      "publish_date": "2027-01-05",
       "cluster": "offmarket"
     },
     {
@@ -7369,7 +7370,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-11-09",
+      "publish_date": "2027-01-06",
       "cluster": "baltimore"
     },
     {
@@ -7391,7 +7392,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-09",
+      "publish_date": "2027-01-07",
       "cluster": "baltimore"
     },
     {
@@ -7413,7 +7414,7 @@
       "external_links": [],
       "cta_variant": "call",
       "status": "queued",
-      "publish_date": "2026-11-10",
+      "publish_date": "2027-01-08",
       "cluster": "maryland"
     },
     {
@@ -7435,7 +7436,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-11-10",
+      "publish_date": "2027-01-09",
       "cluster": "maryland"
     },
     {
@@ -7457,7 +7458,7 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-11",
+      "publish_date": "2027-01-10",
       "cluster": "maryland"
     },
     {
@@ -7502,7 +7503,7 @@
       "external_links": [],
       "cta_variant": "offer",
       "status": "queued",
-      "publish_date": "2026-11-11",
+      "publish_date": "2027-01-11",
       "cluster": "dmv"
     },
     {
@@ -7524,9 +7525,9 @@
       "external_links": [],
       "cta_variant": "consult",
       "status": "queued",
-      "publish_date": "2026-11-12",
+      "publish_date": "2027-01-12",
       "cluster": "dmv"
     }
   ],
-  "updated": "2026-08-16"
+  "updated": "2026-11-21"
 }

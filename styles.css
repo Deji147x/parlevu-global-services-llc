@@ -209,6 +209,8 @@ img{ max-width:100%; height:auto; }
 .hero-form-alt { margin-top:14px; text-align:center; font-size:.82rem; color:rgba(255,255,255,.5); }
 .hero-form-alt a { color:var(--gold); font-weight:600; }
 .hero-form-alt a:hover { color:var(--gold-light); }
+.hero-form-consent { margin:10px 0 0; font-size:.72rem; line-height:1.45; color:rgba(255,255,255,.55); text-align:left; }
+.hero-form-consent a { color:var(--gold); text-decoration:underline; }
 
 /* ── Trust Bar ───────────────────────────────────────────── */
 .trust-bar { background:var(--gold); padding:14px 0; }
