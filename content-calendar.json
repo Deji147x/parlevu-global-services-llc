@@ -2039,8 +2039,9 @@
       "hub": "sell-house-fast-virginia.html",
       "image_prompt": "Selling for Cash vs. Listing With an Agent in Virginia, Virginia, residential house exterior, documentary photo style, soft morning light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-23"
+      "status": "published",
+      "publish_date": "2026-11-23",
+      "published_on": "2026-11-23"
     },
     {
       "slug": "cash-vs-listing-dc",
