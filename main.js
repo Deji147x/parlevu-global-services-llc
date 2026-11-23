@@ -471,3 +471,54 @@ window.addEventListener('load', retryPendingLeads);
   });
 
 });
+
+
+/* Real-visitor Core Web Vitals -> the site's existing GA4 tag. No new tracker, no cookies of its own.
+   Sends one event per metric when the page is hidden: cwv_lcp, cwv_inp, cwv_cls, cwv_fcp, cwv_ttfb.
+   value = milliseconds (CLS x1000). metric_rating = good / needs-improvement / poor (Google thresholds).
+   The command center reads these with the GA4 Data API (eventValue / eventCount = average). */
+(function () {
+  if (!('PerformanceObserver' in window) || window.__cwv) return;
+  window.__cwv = 1;
+  var m = {}, sent = {}, inter = {};
+  function obs(type, cb, opts) {
+    try {
+      var o = { type: type, buffered: true };
+      for (var k in (opts || {})) o[k] = opts[k];
+      new PerformanceObserver(function (l) { l.getEntries().forEach(cb); }).observe(o);
+      return true;
+    } catch (e) { return false; }
+  }
+  var nav = performance.getEntriesByType && performance.getEntriesByType('navigation')[0];
+  if (nav && nav.responseStart > 0) m.ttfb = nav.responseStart;
+  obs('paint', function (e) { if (e.name === 'first-contentful-paint') m.fcp = e.startTime; });
+  obs('largest-contentful-paint', function (e) { m.lcp = e.startTime; });
+  var cls = 0, sv = 0, sf = 0, sl = 0;
+  if (obs('layout-shift', function (e) {
+    if (e.hadRecentInput) return;
+    if (sv && e.startTime - sl < 1000 && e.startTime - sf < 5000) sv += e.value; else { sv = e.value; sf = e.startTime; }
+    sl = e.startTime;
+    if (sv > cls) { cls = sv; m.cls = cls; }
+  })) m.cls = 0;
+  function keep(e) { var id = e.interactionId || 'first'; if (!inter[id] || e.duration > inter[id]) inter[id] = e.duration; }
+  obs('event', function (e) { if (e.interactionId) keep(e); }, { durationThreshold: 40 });
+  obs('first-input', keep);
+  var LIM = { lcp: [2500, 4000], inp: [200, 500], cls: [100, 250], fcp: [1800, 3000], ttfb: [800, 1800] };
+  function send() {
+    var d = Object.keys(inter).map(function (k) { return inter[k]; }).sort(function (a, b) { return b - a; });
+    if (d.length) m.inp = d[Math.min(d.length - 1, Math.floor(d.length / 50))];
+    if (typeof window.gtag !== 'function') return;
+    Object.keys(m).forEach(function (k) {
+      if (sent[k]) return;
+      var v = Math.round(k === 'cls' ? m[k] * 1000 : m[k]);
+      if (!(v >= 0)) return;
+      sent[k] = 1;
+      window.gtag('event', 'cwv_' + k, {
+        value: v, metric_rating: v <= LIM[k][0] ? 'good' : v <= LIM[k][1] ? 'needs-improvement' : 'poor',
+        page_path: location.pathname, non_interaction: true, transport_type: 'beacon'
+      });
+    });
+  }
+  addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') send(); });
+  addEventListener('pagehide', send);
+})();
