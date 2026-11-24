@@ -522,3 +522,11 @@ window.addEventListener('load', retryPendingLeads);
   addEventListener('visibilitychange', function () { if (document.visibilityState === 'hidden') send(); });
   addEventListener('pagehide', send);
 })();
+
+/* Microsoft Clarity (heatmaps + session replay; masking set to Strict in the project). Project zieecv4rb4. */
+(function (c, l, a, r, i, t, y) {
+  if (c[a]) return;
+  c[a] = function () { (c[a].q = c[a].q || []).push(arguments); };
+  t = l.createElement(r); t.async = 1; t.src = 'https://www.clarity.ms/tag/' + i;
+  y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+})(window, document, 'clarity', 'script', 'zieecv4rb4');

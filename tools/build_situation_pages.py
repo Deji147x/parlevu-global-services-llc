@@ -335,7 +335,7 @@ def render(p):
   and follow fair housing laws. Prefer to talk it through? <a href="{BOOK}" target="_blank" rel="noopener">Book a free call</a>.</p>
 </main>
 {FOOTER}
-<script src="main.js?v=20261123" defer></script>
+<script src="main.js?v=20261124" defer></script>
 <script src="/parlevu-estimator.js?v={SCRIPT_V}" defer data-api="https://api.parlevugloballlc.com"></script>
 </body>
 </html>
