@@ -2079,8 +2079,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "iBuyers vs. Local Cash Buyers in Maryland, Maryland, residential house exterior, editorial photo style, golden hour lighting, no text, no watermark",
       "cta_variant": "consult",
-      "status": "queued",
-      "publish_date": "2026-11-25"
+      "status": "published",
+      "publish_date": "2026-11-25",
+      "published_on": "2026-11-25"
     },
     {
       "slug": "ibuyer-vs-local-va",
