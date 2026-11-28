@@ -2139,8 +2139,9 @@
       "hub": "sell-house-fast-maryland.html",
       "image_prompt": "FSBO vs. Cash Sale in Maryland, Maryland, residential house exterior, professional real estate photography, warm natural light, no text, no watermark",
       "cta_variant": "offer",
-      "status": "queued",
-      "publish_date": "2026-11-28"
+      "status": "published",
+      "publish_date": "2026-11-28",
+      "published_on": "2026-11-28"
     },
     {
       "slug": "fsbo-vs-cash-va",
