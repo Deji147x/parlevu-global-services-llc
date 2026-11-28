@@ -53,9 +53,105 @@
     params = params || {};
     if (window.gtag) gtag("event", name, Object.assign({ event_id: id }, params));
     if (window.fbq && metaName) fbq("track", metaName, params, { eventID: id });
-    post("/v1/event", { tenant: TENANT, name: name, event_id: id, params: params, ctx: ctx() }).catch(function () {});
+    return server(name, params, id);
+  }
+  // Lead API only (main.js already sends the GA copy of clicks like phone_click and hero_click).
+  function server(name, params, id) {
+    id = id || uid();
+    var who = leadIds();
+    post("/v1/event", { tenant: TENANT, name: name, event_id: id, params: params || {}, ctx: ctx(),
+                        lead_id: who.lead_id, lead_token: who.lead_token }).then(onEventReply).catch(function () {});
     return id;
   }
+
+  /* ---- Known leads: identity, return visits, real-time next step ---- */
+  var LID = "pv_lid", LTOK = "pv_lt";
+  function leadIds() { return { lead_id: store(LID) || null, lead_token: store(LTOK) || null }; }
+  function forget(k) { try { localStorage.removeItem(k); } catch (e) {} }
+  function onEventReply(r) {
+    if (!r || !r.ok) return;
+    if (r.known === false && (store(LID) || store(LTOK))) { forget(LID); forget(LTOK); }   // stale id
+    if (r.next_action) showNudge(r.next_action);
+  }
+  // Follow-up emails link to  https://site/#pv=<token>&s=<step>. The token sits in the #fragment so it never
+  // reaches server logs or analytics; we keep it and clean the address bar.
+  function readEmailLink() {
+    var m = /(?:^#|&)pv=([A-Za-z0-9_-]{8,40})/.exec(location.hash || "");
+    if (!m) return false;
+    var s = /(?:&)s=([A-Za-z0-9_-]{1,40})/.exec(location.hash);
+    store(LTOK, m[1]);
+    try { history.replaceState(null, "", location.pathname + location.search); } catch (e) {}
+    server("followup_click", { step: s ? s[1] : null });
+    return true;
+  }
+  function noteVisit(fromEmail) {
+    var last = +store("pv_last") || 0, now = Date.now();
+    store("pv_last", String(now));
+    // A return visit = back after 30+ minutes. Anonymous ones count too once the visitor fills in a form.
+    if (!fromEmail && last && now - last > 30 * 60000) server("return_visit", {});
+  }
+  function watchClicks() {
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest("a[href], [data-hero-cta]");
+      if (!a || a.closest(".pvn")) return;
+      var href = a.getAttribute("href") || "";
+      if (href.indexOf("tel:") === 0) server("phone_click", {});
+      else if (href.indexOf("calendar.app.google") !== -1) server("book_click", { from: "link" });
+      else if (a.hasAttribute("data-hero-cta")) server("hero_click", {});
+    }, true);
+  }
+
+  var NUDGE_CSS = ".pvn{position:fixed;right:16px;bottom:16px;z-index:2147482998;width:min(360px,calc(100vw - 32px));" +
+    "box-sizing:border-box;background:#0b1a2e;color:#fff;border-radius:14px;padding:18px 18px 16px;" +
+    "box-shadow:0 12px 32px rgba(0,0,0,.32);font-family:inherit;border-top:4px solid #d4a843;animation:pvn-in .25s ease-out}" +
+    "@keyframes pvn-in{from{transform:translateY(16px);opacity:0}to{transform:none;opacity:1}}" +
+    "@media(prefers-reduced-motion:reduce){.pvn{animation:none}}" +
+    ".pvn h4{margin:0 34px 6px 0;font-size:1.1rem;color:#fff !important;line-height:1.3}" +
+    ".pvn p{margin:0 0 14px;color:#c9d3e0;font-size:.92rem;line-height:1.45}" +
+    ".pvn .go{display:block;text-align:center;padding:12px;border-radius:8px;background:#d4a843;color:#0b1a2e;" +
+    "font-weight:700;text-decoration:none}.pvn .alt{display:block;text-align:center;margin-top:10px;color:#d4a843;" +
+    "font-size:.9rem;text-decoration:none}.pvn .x{position:absolute;top:8px;right:8px;width:36px;height:36px;border:0;" +
+    "border-radius:50%;background:transparent;color:#9fb0c5;font-size:22px;line-height:1;cursor:pointer;margin:0;padding:0}" +
+    ".pvn .go:focus-visible,.pvn .alt:focus-visible,.pvn .x:focus-visible{outline:2px solid #fff;outline-offset:2px}" +
+    "@media(max-width:480px){.pvn{right:12px;left:12px;bottom:12px;width:auto}}";
+  var nudgeShown = false;
+  function showNudge(na) {
+    if (nudgeShown || exitOpen || !na || !na.cta || document.querySelector(".pvn")) return;
+    var key = "pv_nudge_" + na.kind, until = +store(key) || 0;
+    if (Date.now() < until) return;                                  // dismissed or shown recently
+    try { if (sessionStorage.getItem("pv_nudged")) return; sessionStorage.setItem("pv_nudged", "1"); } catch (e) {}
+    nudgeShown = true;
+    store(key, String(Date.now() + 86400000));                       // at most once a day per kind
+    if (!document.getElementById("pvn-css")) {
+      var s = document.createElement("style"); s.id = "pvn-css"; s.textContent = NUDGE_CSS; document.head.appendChild(s);
+    }
+    var box = el('<div class="pvn" role="region" aria-live="polite" aria-label="Next step">' +
+      '<button type="button" class="x" aria-label="Dismiss">×</button><h4></h4><p></p><a class="go"></a></div>');
+    box.querySelector("h4").textContent = na.title || "";
+    box.querySelector("p").textContent = na.body || "";
+    var go = box.querySelector(".go");
+    go.textContent = na.cta.label; go.href = safeUrl(na.cta.url);
+    if (/^https?:/.test(go.href) && go.host !== location.host) { go.target = "_blank"; go.rel = "noopener"; }
+    if (na.alt && na.alt.url) {
+      var alt = document.createElement("a"); alt.className = "alt";
+      alt.textContent = na.alt.label; alt.href = safeUrl(na.alt.url); box.appendChild(alt);
+      alt.addEventListener("click", function () { server(/^tel:/.test(alt.href) ? "phone_click" : "nudge_accept", { kind: na.kind }); });
+    }
+    function close() { box.remove(); }
+    go.addEventListener("click", function () {
+      server("nudge_accept", { kind: na.kind });
+      if (window.gtag) gtag("event", "nudge_accept", { kind: na.kind });
+      if (go.getAttribute("href").charAt(0) === "/" || go.getAttribute("href").charAt(0) === "#") setTimeout(close, 50);
+    });
+    box.querySelector(".x").addEventListener("click", function () {
+      store(key, String(Date.now() + 7 * 86400000));                 // dismissed: quiet for a week
+      server("nudge_dismiss", { kind: na.kind }); close();
+    });
+    document.body.appendChild(box);
+    server("nudge_view", { kind: na.kind });
+    if (window.gtag) gtag("event", "nudge_view", { kind: na.kind });
+  }
+  function safeUrl(u) { return /^(https:\/\/|tel:|\/|#)/.test(u || "") ? u : "#"; }
   function money(n) { return "$" + Math.round(n).toLocaleString("en-US"); }
   function el(html) { var d = document.createElement("div"); d.innerHTML = html.trim(); return d.firstChild; }
 
@@ -128,6 +224,7 @@
     }).then(function (r) {
       if (!r.ok) throw new Error((r.detail && r.detail[0] && r.detail[0].msg) || "Something went wrong. Please call us.");
       store("pv_lead_done", "1");                       // no exit offer for someone who already converted
+      if (r.lead_id) store(LID, r.lead_id);             // later visits and clicks count toward this lead's score
       // Browser copy of the same Lead, same event_id → Meta keeps one.
       if (window.gtag) gtag("event", "generate_lead", { event_id: eventId, magnet: magnet });
       if (window.fbq) fbq("track", "Lead", { content_name: magnet }, { eventID: eventId });
@@ -193,7 +290,7 @@
         '<button type="button" data-book>Book a free walkthrough</button><p class="fine">' + r.disclaimer + '</p>';
       box.innerHTML = html;
       box.querySelector("[data-book]").addEventListener("click", function () {
-        if (window.gtag) gtag("event", "book_click", { magnet: magnet });
+        track("book_click", { magnet: magnet });
         window.open(BOOK_URL, "_blank", "noopener");
       });
     }
@@ -288,7 +385,7 @@
   function exitAllowed() {
     if (script && script.getAttribute("data-exit") === "off") return false;
     if (/thank-you|privacy|\/guides\//.test(location.pathname)) return false;
-    if (store("pv_lead_done")) return false;
+    if (store("pv_lead_done") || store(LTOK)) return false;   // already a lead (form here, or our email link)
     var seen = +store("pv_exit_seen") || 0;
     return Date.now() - seen > EXIT_DAYS * 86400000;
   }
@@ -358,6 +455,8 @@
       else if (kind === "guide") mountGuide(n, "inline");
     });
     armExit();
+    watchClicks();
+    noteVisit(readEmailLink());
   }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init); else init();
 })();
