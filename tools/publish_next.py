@@ -111,14 +111,28 @@ def regen_sitemap():
     def loc(u):
         return f"{SITE}/" if u == "index.html" else f"{SITE}/{u}"
 
+    # Image sitemap: each blog post's hero (its og:image) is listed under its URL so Google
+    # Images can find and attribute it. Taken from the page itself, so it never goes stale.
+    og_re = re.compile(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', re.I)
+
+    def image(u):
+        if not u.startswith("blog-"):
+            return ""
+        m = og_re.search((REPO / u).read_text(encoding="utf-8", errors="replace"))
+        if not m:
+            return ""
+        src = m.group(1) if m.group(1).startswith("http") else f"{SITE}/{m.group(1).lstrip('/')}"
+        return f"<image:image><image:loc>{src}</image:loc></image:image>"
+
     entries = "\n".join(
         f"  <url><loc>{loc(u)}</loc><lastmod>{today}</lastmod>"
         f"<changefreq>{'daily' if u == 'blog.html' else 'monthly'}</changefreq>"
-        f"<priority>{'1.0' if u == 'index.html' else '0.7'}</priority></url>"
+        f"<priority>{'1.0' if u == 'index.html' else '0.7'}</priority>{image(u)}</url>"
         for u in urls)
     (REPO / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
+        'xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n'
         f"{entries}\n</urlset>\n", encoding="utf-8")
 
 

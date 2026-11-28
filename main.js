@@ -457,6 +457,10 @@ document.addEventListener('DOMContentLoaded', function () {
       track('email_click', { link_url: href, link_text: label, page: where });
     } else if (href.indexOf('calendar.app.google') !== -1) {
       track('schedule_click', { link_url: href, link_text: label, page: where });
+    } else if (a.hasAttribute('data-hero-cta')) {
+      // Blog hero image -> offer box. Shows which posts' images pull readers toward the offer.
+      var img = a.querySelector('img');
+      track('hero_click', { link_url: href, page: where, image: img ? img.getAttribute('src') : '' });
     }
   }, true);
 
